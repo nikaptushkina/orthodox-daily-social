@@ -11,7 +11,7 @@ cd orthodox-daily-social
 ```
 
 - `D` = today's date in America/Los_Angeles, as `YYYY-MM-DD`. The weekday is D's weekday.
-- If a branch or pull request named `posts/D` already exists, stop: today is already drafted.
+- If a branch named `posts/D` already exists (`git ls-remote origin posts/D` prints a line), stop: today is already drafted.
 - Read `config.json` (calendar, tradition, translations) and `days/D.json` (today's calendar data, saved overnight by the "Fetch calendar days" workflow). Also read the following days in `days/` when the weekday needs them.
 - If `days/D.json` is missing, stop and report: "Calendar data for D is missing. Run the Fetch calendar days workflow in the Actions tab."
 
@@ -99,7 +99,13 @@ git commit -m "Posts for <Weekday>, <Month> <day>"
 git push -u origin posts/D
 ```
 
-Open a pull request into `main` titled "Posts for <Weekday>, <Month> <day>", with this body:
+Open a pull request into `main` titled "Posts for <Weekday>, <Month> <day>" with GitHub's REST API (GraphQL, and so `gh pr create`, may not be available):
+
+```
+gh api repos/nikaptushkina/orthodox-daily-social/pulls -f base=main -f head=posts/D -f title="Posts for ..." -f body="$(cat body.md)"
+```
+
+Use this body:
 
 - `![preview](https://raw.githubusercontent.com/nikaptushkina/orthodox-daily-social/posts/D/posts/D/preview.jpg)`
 - What is in it (Story, carousel or Reel) and today's commemoration in one line.

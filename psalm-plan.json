@@ -1,21 +1,21 @@
 {
-  "_how": "Wednesday Psalm Reels. Add a date with the psalm and verses you want; dates not listed take the next psalm in 'rotation'. Psalm names and numbering follow assets/psalms.json (the site's Septuagint text).",
-  "dates": {
-    "2026-10-28": {"name": "Psalm 102", "from": 1, "to": 5}
-  },
-  "rotation": [
-    {"name": "Psalm 102", "from": 1, "to": 5},
-    {"name": "Psalm 62", "from": 1, "to": 6},
-    {"name": "Psalm 3", "from": 1, "to": 8},
-    {"name": "Psalm 140", "from": 1, "to": 5},
-    {"name": "Psalm 89", "from": 1, "to": 6},
-    {"name": "Psalm 142", "from": 1, "to": 6},
-    {"name": "Psalm 5", "from": 1, "to": 8},
-    {"name": "Psalm 129", "from": 1, "to": 8},
-    {"name": "Psalm 16", "from": 1, "to": 6},
-    {"name": "Psalm 100", "from": 1, "to": 8},
-    {"name": "Psalm 69", "from": 1, "to": 5},
-    {"name": "Psalm 50", "from": 1, "to": 6},
-    {"name": "Psalm 130", "from": 1, "to": 3}
-  ]
+  "_how": "Wednesday Psalm Reels rotate through every psalm in assets/psalms.json, in 'order', one per week starting on 'start'. Long psalms are split into parts of about 'max_chars_per_reel' characters (roughly a one-minute Reel), so nothing repeats until the whole set has been read. See the rotation with: python3 -m social.psalm_plan --list. To pick a psalm for one particular Wednesday, add it under 'dates', e.g. \"2026-12-23\": {\"name\": \"Psalm 50\", \"from\": 1, \"to\": 6}.",
+  "start": "2026-10-28",
+  "max_chars_per_reel": 900,
+  "order": [
+    "Psalm 3",
+    "Psalm 5",
+    "Psalm 16",
+    "Psalm 50",
+    "Psalm 62",
+    "Psalm 69",
+    "Psalm 89",
+    "Psalm 100",
+    "Psalm 102",
+    "Psalm 129",
+    "Psalm 130",
+    "Psalm 140",
+    "Psalm 142"
+  ],
+  "dates": {}
 }

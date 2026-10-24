@@ -76,7 +76,7 @@ Without it, repeat Step 5.5 and Step 6 every 60 days.
 
 | What | Where |
 | --- | --- |
-| Which psalm on Wednesdays | `psalm-plan.json`: add a date, or reorder the rotation |
+| Which psalm on Wednesdays | `psalm-plan.json`: the rotation goes through every psalm in order, one each Wednesday, splitting long ones into parts. Reorder `order`, or pin a psalm to a date under `dates` |
 | What each weekday posts, tone, caption rules | `AUTOMATION.md` |
 | Calendar, tradition, translation | `config.json` |
 | Fonts | `fonts/` (Crimson Text and Geist, SIL Open Font License) |

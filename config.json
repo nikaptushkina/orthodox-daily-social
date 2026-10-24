@@ -1,0 +1,13 @@
+{
+  "calendar": "gregorian",
+  "calendar_label": "New Calendar",
+  "tradition": "slavic",
+  "translation": "lxx2012-web",
+  "translation_label_nt": "World English Bible",
+  "translation_label_ot": "Septuagint",
+  "timezone": "America/Los_Angeles",
+  "days_ahead": 8,
+  "pages_base_url": "https://nikaptushkina.github.io/orthodox-daily-social",
+  "graph_api_version": "v26.0",
+  "site_url": "orthodoxdaily.net"
+}

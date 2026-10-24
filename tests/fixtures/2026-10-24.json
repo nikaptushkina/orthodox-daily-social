@@ -1,0 +1,124 @@
+{
+ "_note": "TEST FIXTURE ONLY: shaped like an Orthocal day, filled from the details on orthodoxdaily.net for 2026-10-24. Not real API output.",
+ "year": 2026,
+ "month": 10,
+ "day": 24,
+ "weekday": 6,
+ "titles": [
+  "Memorial (Demetrius) Saturday",
+  "Saturday of the 21st week after Pentecost"
+ ],
+ "summary_title": "Memorial (Demetrius) Saturday",
+ "feasts": [],
+ "fast_level_desc": "No Fast",
+ "fast_exception_desc": "",
+ "saints": [
+  "Martyr Arethas and Companions"
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "2 Corinthians",
+   "description": "",
+   "display": "2 Corinthians 3.12-18",
+   "short_display": "2 Cor 3.12-18",
+   "passage": []
+  },
+  {
+   "source": "Epistle",
+   "book": "1 Thessalonians",
+   "description": "Departed",
+   "display": "1 Thessalonians 4.13-17",
+   "short_display": "1 Thess 4.13-17",
+   "passage": []
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 7.1-10",
+   "short_display": "Lk 7.1-10",
+   "passage": [
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 1,
+     "content": "After he had finished speaking in the hearing of the people, he entered into Capernaum.",
+     "paragraph_start": true
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 2,
+     "content": "A certain centurion’s servant, who was dear to him, was sick and at the point of death.",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 3,
+     "content": "When he heard about Jesus, he sent to him elders of the Jews, asking him to come and save his servant.",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 4,
+     "content": "When they came to Jesus, they begged him earnestly, saying, “He is worthy for you to do this for him,",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 5,
+     "content": "for he loves our nation, and he built our synagogue for us.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 6,
+     "content": "Jesus went with them. When he was now not far from the house, the centurion sent friends to him, saying to him, “Lord, don’t trouble yourself, for I am not worthy for you to come under my roof.",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 7,
+     "content": "Therefore I didn’t even think myself worthy to come to you; but say the word, and my servant will be healed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 8,
+     "content": "For I also am a man placed under authority, having under myself soldiers. I tell this one, ‘Go!’ and he goes; and to another, ‘Come!’ and he comes; and to my servant, ‘Do this,’ and he does it.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 9,
+     "content": "When Jesus heard these things, he marveled at him, and turned and said to the multitude who followed him, “I tell you, I have not found such great faith, no, not in Israel.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "Luke",
+     "chapter": 7,
+     "verse": 10,
+     "content": "Those who were sent, returning to the house, found that the servant who had been sick was well.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "John",
+   "description": "Departed",
+   "display": "John 5.24-30",
+   "short_display": "Jn 5.24-30",
+   "passage": []
+  }
+ ],
+ "stories": []
+}

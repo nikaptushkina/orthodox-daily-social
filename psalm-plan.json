@@ -1,0 +1,6 @@
+{
+  "_how": "Wednesday Psalm Reels go through the whole Psalter (Septuagint numbering, public-domain LXX2012 text), Psalm 1 to 151, one each week from 'start'. Long psalms are split into parts of about 'max_chars_per_reel' characters (roughly a one-minute Reel), so nothing repeats until the whole Psalter has been read. See the rotation with: python3 -m social.psalm_plan --list. To choose the psalm for one particular Wednesday, add it under 'dates', e.g. \"2026-12-23\": {\"name\": \"Psalm 50\", \"from\": 1, \"to\": 10}. To change the order, add an 'order' list of psalm names.",
+  "start": "2026-10-28",
+  "max_chars_per_reel": 900,
+  "dates": {}
+}

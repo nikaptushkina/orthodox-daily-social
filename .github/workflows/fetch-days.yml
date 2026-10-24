@@ -1,0 +1,42 @@
+name: Fetch calendar days
+
+# Every night, save the next 8 days of calendar data (New Calendar, Slavic,
+# Septuagint + World English Bible) so the morning task can build posts.
+on:
+  schedule:
+    - cron: "17 9 * * *"   # 09:17 UTC = 1:17 or 2:17 am Pacific
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-days
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch days
+        run: python3 scripts/fetch_days.py
+      - name: Build the Psalter (first run only)
+        continue-on-error: true
+        run: |
+          if [ ! -f assets/psalter-lxx2012.json ]; then python3 scripts/fetch_psalter.py; fi
+      - name: Commit new data
+        run: |
+          git config user.name "orthodox-daily-bot"
+          git config user.email "orthodox-daily-bot@users.noreply.github.com"
+          git add days
+          git add assets/psalter-lxx2012.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Calendar data for the coming days"
+            git push
+          fi

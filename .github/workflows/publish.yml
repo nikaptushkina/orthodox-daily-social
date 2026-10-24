@@ -1,0 +1,97 @@
+name: Publish approved posts
+
+# Runs when a day's posts are merged into main (that merge is the approval).
+# 1. Puts the images and videos online with GitHub Pages, so Instagram can fetch them.
+# 2. Publishes them to Instagram, only if the PUBLISH_ENABLED repository variable is "true"
+#    and the IG_USER_ID / IG_ACCESS_TOKEN secrets are set.
+on:
+  push:
+    branches: [main]
+    paths: ["posts/**"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date folder to publish (YYYY-MM-DD)"
+        required: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect media
+        run: |
+          mkdir -p _site
+          cp -r posts _site/posts
+          echo "<!doctype html><title>Orthodox Daily media</title><p>Media for @orthodoxdaily posts.</p>" > _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  publish:
+    needs: pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Find the merged days
+        id: dates
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            dates="${{ github.event.inputs.date }}"
+          else
+            dates=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- posts \
+              | cut -d/ -f2 | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort -u | tr '\n' ' ')
+          fi
+          echo "dates=$dates" >> "$GITHUB_OUTPUT"
+          echo "Days to publish: $dates"
+      - name: Publish
+        if: ${{ vars.PUBLISH_ENABLED == 'true' }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          status=0
+          for d in ${{ steps.dates.outputs.dates }}; do
+            if [ -f "posts/$d/post.json" ]; then
+              python3 scripts/publish.py "$d" || status=1
+            fi
+          done
+          exit $status
+      - name: Publishing is switched off
+        if: ${{ vars.PUBLISH_ENABLED != 'true' }}
+        run: |
+          echo "PUBLISH_ENABLED is not 'true', so nothing was posted. Dry run:"
+          for d in ${{ steps.dates.outputs.dates }}; do
+            [ -f "posts/$d/post.json" ] && python3 scripts/publish.py "$d" --dry-run || true
+          done
+      - name: Record what was published
+        if: ${{ always() && vars.PUBLISH_ENABLED == 'true' }}
+        run: |
+          git config user.name "orthodox-daily-bot"
+          git config user.email "orthodox-daily-bot@users.noreply.github.com"
+          git add posts/*/published.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Record published posts [skip ci]"
+            git pull --rebase
+            git push
+          fi

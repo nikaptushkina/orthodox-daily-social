@@ -57,10 +57,15 @@ def psalm_verses(name, first=None, last=None):
 
 def chunk(verses, budget):
     """Split verses into groups of roughly `budget` characters, never splitting a verse."""
+    def ends_sentence(v):
+        return re.search(r"[.?!;:][”’\"')]*\s*$", v["t"]) is not None
+
     groups, cur, size = [], [], 0
     for v in verses:
         n = len(v["t"])
-        if cur and size + n > budget:
+        # Break before this verse when the group is full and ends a sentence;
+        # if it ends mid-sentence, allow up to 60% extra before forcing a break.
+        if cur and size + n > budget and (ends_sentence(cur[-1]) or size + n > budget * 1.6):
             groups.append(cur)
             cur, size = [], 0
         cur.append(v)

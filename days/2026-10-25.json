@@ -1,0 +1,294 @@
+{
+ "pascha_distance": 196,
+ "julian_day_number": 2461339,
+ "year": 2026,
+ "month": 10,
+ "day": 25,
+ "weekday": 0,
+ "tone": 4,
+ "titles": [
+  "21st Sunday after Pentecost"
+ ],
+ "summary_title": "21st Sunday after Pentecost",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [],
+ "saints": [
+  "Martyrs Marcian and Martyrius the Notaries",
+  "St Tabitha of Joppa"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  1,
+  2
+ ],
+ "readings": [
+  {
+   "source": "10th Matins Gospel",
+   "book": "John",
+   "description": "",
+   "display": "John 21.1-14",
+   "short_display": "John 21.1-14",
+   "passage": [
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 1,
+     "content": "After these things, Jesus revealed himself again to the disciples at the sea of Tiberias. He revealed himself this way.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 2,
+     "content": "Simon Peter, Thomas called Didymus, Nathanael of Cana in Galilee, and the sons of Zebedee, and two others of his disciples were together.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 3,
+     "content": "Simon Peter said to them, “I’m going fishing.” They told him, “We are also coming with you.” They immediately went out and entered into the boat. That night, they caught nothing.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 4,
+     "content": "But when day had already come, Jesus stood on the beach; yet the disciples didn’t know that it was Jesus.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 5,
+     "content": "Jesus therefore said to them, “Children, have you anything to eat?” They answered him, “No.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 6,
+     "content": "He said to them, “Cast the net on the right side of the boat, and you will find some.” They cast it therefore, and now they weren’t able to draw it in for the multitude of fish.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 7,
+     "content": "That disciple therefore whom Jesus loved said to Peter, “It’s the Lord!” So when Simon Peter heard that it was the Lord, he wrapped his coat around himself (for he was naked), and threw himself into the sea.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 8,
+     "content": "But the other disciples came in the little boat (for they were not far from the land, but about two hundred cubits away), dragging the net full of fish.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 9,
+     "content": "So when they got out on the land, they saw a fire of coals there, with fish and bread laid on it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 10,
+     "content": "Jesus said to them, “Bring some of the fish which you have just caught.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 11,
+     "content": "Simon Peter went up, and drew the net to land, full of one hundred fifty-three great fish. Even though there were so many, the net wasn’t torn.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 12,
+     "content": "Jesus said to them, “Come and eat breakfast!” None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 13,
+     "content": "Then Jesus came and took the bread, gave it to them, and the fish likewise.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 14,
+     "content": "This is now the third time that Jesus was revealed to his disciples after he had risen from the dead.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Galatians 2.16-20",
+   "short_display": "Gal 2.16-20",
+   "passage": [
+    {
+     "book": "GAL",
+     "chapter": 2,
+     "verse": 16,
+     "content": "yet knowing that a man is not justified by the works of the law but through faith in Jesus Christ, even we believed in Christ Jesus, that we might be justified by faith in Christ and not by the works of the law, because no flesh will be justified by the works of the law.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 2,
+     "verse": 17,
+     "content": "But if while we sought to be justified in Christ, we ourselves also were found sinners, is Christ a servant of sin? Certainly not!",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 2,
+     "verse": 18,
+     "content": "For if I build up again those things which I destroyed, I prove myself a law-breaker.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 2,
+     "verse": 19,
+     "content": "For I through the law died to the law, that I might live to God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 2,
+     "verse": 20,
+     "content": "I have been crucified with Christ, and it is no longer I who live, but Christ lives in me. That life which I now live in the flesh, I live by faith in the Son of God, who loved me and gave himself up for me.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 16.19-31",
+   "short_display": "Luke 16.19-31",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 19,
+     "content": "“Now there was a certain rich man, and he was clothed in purple and fine linen, living in luxury every day.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 20,
+     "content": "A certain beggar, named Lazarus, was taken to his gate, full of sores,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 21,
+     "content": "and desiring to be fed with the crumbs that fell from the rich man’s table. Yes, even the dogs came and licked his sores.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 22,
+     "content": "The beggar died, and he was carried away by the angels to Abraham’s bosom. The rich man also died and was buried.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 23,
+     "content": "In Hades, he lifted up his eyes, being in torment, and saw Abraham far off, and Lazarus at his bosom.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 24,
+     "content": "He cried and said, ‘Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water and cool my tongue! For I am in anguish in this flame.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 25,
+     "content": "“But Abraham said, ‘Son, remember that you, in your lifetime, received your good things, and Lazarus, in the same way, bad things. But here he is now comforted and you are in anguish.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 26,
+     "content": "Besides all this, between us and you there is a great gulf fixed, that those who want to pass from here to you are not able, and that no one may cross over from there to us.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 27,
+     "content": "“He said, ‘I ask you therefore, father, that you would send him to my father’s house—",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 28,
+     "content": "for I have five brothers—that he may testify to them, so they won’t also come into this place of torment.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 29,
+     "content": "“But Abraham said to him, ‘They have Moses and the prophets. Let them listen to them.’",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 30,
+     "content": "“He said, ‘No, father Abraham, but if one goes to them from the dead, they will repent.’",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 31,
+     "content": "“He said to him, ‘If they don’t listen to Moses and the prophets, neither will they be persuaded if one rises from the dead.’”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyrs Marcian and Martyrius the Notaries",
+   "story": "<p>Both lived in Constantinople and were disciples of the Patriarch St Paul the Confessor (November 6), who was murdered in exile by the Arians. During the reign of the Arian Emperor Constantius, they fearlessly confessed that the Son of God is of one essence with the Father and is truly God. For their confession they were beheaded by the Arians and buried outside the city. Soon afterward, miracles began to be wrought at their tomb, and St John Chrysostom later built a church over it.</p>"
+  },
+  {
+   "title": "St Tabitha of Joppa",
+   "story": "<p>She was restored to life by the Apostle Peter (Acts 9:39-40), and afterwards died in peace.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/10/25/?translation=lxx2012-web"
+}

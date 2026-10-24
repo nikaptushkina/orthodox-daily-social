@@ -1,0 +1,674 @@
+{
+ "pascha_distance": 197,
+ "julian_day_number": 2461340,
+ "year": 2026,
+ "month": 10,
+ "day": 26,
+ "weekday": 1,
+ "tone": 4,
+ "titles": [
+  "Monday of the 22nd week after Pentecost"
+ ],
+ "summary_title": "Greatmartyr Demetrius",
+ "feast_level": 4,
+ "feast_level_description": "Red cross (polyeleos typikon symbol)",
+ "feasts": [
+  "Greatmartyr Demetrius"
+ ],
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [],
+ "saints": null,
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  5,
+  8
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Composite 16 - Isaiah 63.15-64.5, 8-9",
+   "short_display": "Isa 63.15-64.5, 8-9",
+   "passage": [
+    {
+     "book": "",
+     "chapter": 1,
+     "verse": 1,
+     "content": "Look down from heaven, Lord, and see from your holy house and your glory. Where is the multitude of your mercy and your pity, that you keep back from us, O Lord? For you are our Father, though Abraham did not know us, though Israel did not ackno­wledge us; but you are our Father, deliver us. From the beginning your name is upon us. Why have you made us wander from your way, Lord? Why have you hardened our hearts not to fear you? Turn back for the sake of your servants, for the tribes of your inheritance, that we may inherit a small part of your holy mountain. Our enemies have trampled down your sanctuary. We have become as at the beginning, when you did not know us, when your name had not been invoked upon us. If you open the heaven, trembling will take hold upon mountains from you, and they will melt as wax melts before the fire; and fire will burn up your enemies, and your name will be manifest to your enemies; before your face nations will be troubled. When you do glorious things trembling from you will seize mountains. From eternity we have not heard, nor have we seen a God save you; and your works are true, and you do mercy to those who wait on you. For mercy will meet those who act justly, and they will be mind­ful of your ways. And now, Lord, your are our Father, while we are your clay and you are our Fashioner; we are all the works of your hands; do not be very angry with us, Lord, and do not remember our sins in season. And now look upon, Lord, for we are all your people.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Jeremiah 2.2-12",
+   "short_display": "Jer 2.2-12",
+   "passage": [
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 2,
+     "content": "I remember the kindness of your youth, and the love of your espousals,",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 3,
+     "content": "in following the Holy One of Israel, says the Lord, Israel was the holy people to the Lord, and the first fruits of his increase: all that devoured him shall offend; evils shall come upon them, says the Lord.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 4,
+     "content": "Hear the word of the Lord, O house of Jacob, and every family of the house of Israel.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 5,
+     "content": "Thus says the Lord, What trespass have your fathers found in me, that they have revolted far from me, and gone after vanities, and become vain?",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 6,
+     "content": "And they said not, Where is the Lord, who brought us up out of the land of Egypt, who guided us in the wilderness, in an untried and trackless land, in a land which no man at all went through, and no man lived there?",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 7,
+     "content": "And I brought you to Carmel, that you⌃ should eat the fruits thereof, and the good thereof; and you⌃ went in, and defiled my land, and made my heritage an abomination.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 8,
+     "content": "The priests said not, Where is the Lord? and they that held by the law knew me not: the shepherds also sinned against me, and the prophets prophesied by Baal, and went after that which profited not.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 9,
+     "content": "Therefore I will yet plead with you, and will plead with your children's children.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 10,
+     "content": "For go to the isles of the Chettians, and see; and send to Kedar, and observe accurately, and see if such things have been done;",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 11,
+     "content": "if the nations will change their gods, though they are not gods: but my people have changed their glory, for that from which they shall not be profited.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JER",
+     "chapter": 2,
+     "verse": 12,
+     "content": "The heaven is amazed at this, and is very exceedingly horror-struck, says the Lord.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Wisdom of Solomon 4.7-15",
+   "short_display": "Wis 4.7-15",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 7,
+     "content": "But though the righteous be prevented with death, yet shall he be in rest.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 8,
+     "content": "For honorable age is not that which stands in length of time, nor that is measured by number of years.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 9,
+     "content": "But wisdom is the gray hair to men, and an unspotted life is old age.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 10,
+     "content": "He pleased God, and was beloved of him: so that living among sinners he was translated.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 11,
+     "content": "Yes speedily was he taken away, lest that wickedness should alter his understanding, or deceit decieve his soul.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 12,
+     "content": "For the bewitching of naughtiness does obscure things that are honest; and the wandering of concupiscence does undermine the simple mind.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 13,
+     "content": "He, being made perfect in a short time, fulfilled a long time:",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 14,
+     "content": "For his soul pleased the Lord: therefore hasted he to take him away from among the wicked.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 15,
+     "content": "This the people saw, and understood it not, neither laid they up this in their minds, That his grace and mercy is with his saints, and that he has respect to his chosen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Matins Gospel",
+   "book": "Matthew",
+   "description": "",
+   "display": "Matthew 10.16-22",
+   "short_display": "Matt 10.16-22",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 16,
+     "content": "“Behold, I send you out as sheep among wolves. Therefore be wise as serpents and harmless as doves.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 17,
+     "content": "But beware of men, for they will deliver you up to councils, and in their synagogues they will scourge you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 18,
+     "content": "Yes, and you will be brought before governors and kings for my sake, for a testimony to them and to the nations.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 19,
+     "content": "But when they deliver you up, don’t be anxious how or what you will say, for it will be given you in that hour what you will say.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 20,
+     "content": "For it is not you who speak, but the Spirit of your Father who speaks in you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 21,
+     "content": "“Brother will deliver up brother to death, and the father his child. Children will rise up against parents and cause them to be put to death.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 22,
+     "content": "You will be hated by all men for my name’s sake, but he who endures to the end will be saved.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Colossians 2.13-20",
+   "short_display": "Col 2.13-20",
+   "passage": [
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 13,
+     "content": "You were dead through your trespasses and the uncircumcision of your flesh. He made you alive together with him, having forgiven us all our trespasses,",
+     "paragraph_start": false
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 14,
+     "content": "wiping out the handwriting in ordinances which was against us. He has taken it out of the way, nailing it to the cross.",
+     "paragraph_start": false
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 15,
+     "content": "Having stripped the principalities and the powers, he made a show of them openly, triumphing over them in it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 16,
+     "content": "Let no one therefore judge you in eating or drinking, or with respect to a feast day or a new moon or a Sabbath day,",
+     "paragraph_start": true
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 17,
+     "content": "which are a shadow of the things to come; but the body is Christ’s.",
+     "paragraph_start": false
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 18,
+     "content": "Let no one rob you of your prize by self-abasement and worshiping of the angels, dwelling in the things which he has not seen, vainly puffed up by his fleshly mind,",
+     "paragraph_start": false
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 19,
+     "content": "and not holding firmly to the Head, from whom all the body, being supplied and knit together through the joints and ligaments, grows with God’s growth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "COL",
+     "chapter": 2,
+     "verse": 20,
+     "content": "If you died with Christ from the elemental spirits of the world, why, as though living in the world, do you subject yourselves to ordinances,",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Earthquake",
+   "display": "Hebrews 12.6-13, 25-27",
+   "short_display": "Heb 12.6-13, 25-27",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 6,
+     "content": "for whom the Lord loves, he disciplines, and chastises every son whom he receives.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 7,
+     "content": "It is for discipline that you endure. God deals with you as with children, for what son is there whom his father doesn’t discipline?",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 8,
+     "content": "But if you are without discipline, of which all have been made partakers, then you are illegitimate, and not children.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 9,
+     "content": "Furthermore, we had the fathers of our flesh to chasten us, and we paid them respect. Shall we not much rather be in subjection to the Father of spirits and live?",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 10,
+     "content": "For they indeed for a few days disciplined us as seemed good to them, but he for our profit, that we may be partakers of his holiness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 11,
+     "content": "All chastening seems for the present to be not joyous but grievous; yet afterward it yields the peaceful fruit of righteousness to those who have been trained by it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 12,
+     "content": "Therefore lift up the hands that hang down and the feeble knees,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 13,
+     "content": "and make straight paths for your feet, so what is lame may not be dislocated, but rather be healed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 25,
+     "content": "See that you don’t refuse him who speaks. For if they didn’t escape when they refused him who warned on the earth, how much more will we not escape who turn away from him who warns from heaven,",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 26,
+     "content": "whose voice shook the earth then, but now he has promised, saying, “Yet once more I will shake not only the earth, but also the heavens.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 12,
+     "verse": 27,
+     "content": "This phrase, “Yet once more” signifies the removing of those things that are shaken, as of things that have been made, that those things which are not shaken may remain.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Demetrius",
+   "display": "2 Timothy 2.1-10",
+   "short_display": "2 Tim 2.1-10",
+   "passage": [
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 1,
+     "content": "You therefore, my child, be strengthened in the grace that is in Christ Jesus.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 2,
+     "content": "The things which you have heard from me among many witnesses, commit the same things to faithful men who will be able to teach others also.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 3,
+     "content": "You therefore must endure hardship as a good soldier of Christ Jesus.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 4,
+     "content": "No soldier on duty entangles himself in the affairs of life, that he may please him who enrolled him as a soldier.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 5,
+     "content": "Also, if anyone competes in athletics, he isn’t crowned unless he has competed by the rules.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 6,
+     "content": "The farmer who labors must be the first to get a share of the crops.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 7,
+     "content": "Consider what I say, and may the Lord give you understanding in all things.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 8,
+     "content": "Remember Jesus Christ, risen from the dead, of the offspring of David, according to my Good News,",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 9,
+     "content": "in which I suffer hardship to the point of chains as a criminal. But God’s word isn’t chained.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 10,
+     "content": "Therefore I endure all things for the chosen ones’ sake, that they also may obtain the salvation which is in Christ Jesus with eternal glory.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 10.22-24",
+   "short_display": "Luke 10.22-24",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 22,
+     "content": "Turning to the disciples, he said, “All things have been delivered to me by my Father. No one knows who the Son is, except the Father, and who the Father is, except the Son, and he to whomever the Son desires to reveal him.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 23,
+     "content": "Turning to the disciples, he said privately, “Blessed are the eyes which see the things that you see,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 24,
+     "content": "for I tell you that many prophets and kings desired to see the things which you see, and didn’t see them, and to hear the things which you hear, and didn’t hear them.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Matthew",
+   "description": "Earthquake",
+   "display": "Matthew 8.23-27",
+   "short_display": "Matt 8.23-27",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 8,
+     "verse": 23,
+     "content": "When he got into a boat, his disciples followed him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 8,
+     "verse": 24,
+     "content": "Behold, a violent storm came up on the sea, so much that the boat was covered with the waves; but he was asleep.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 8,
+     "verse": 25,
+     "content": "The disciples came to him and woke him up, saying, “Save us, Lord! We are dying!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 8,
+     "verse": 26,
+     "content": "He said to them, “Why are you fearful, O you of little faith?” Then he got up, rebuked the wind and the sea, and there was a great calm.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 8,
+     "verse": 27,
+     "content": "The men marveled, saying, “What kind of man is this, that even the wind and the sea obey him?”",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "John",
+   "description": "St Demetrius",
+   "display": "John 15.17-16.2",
+   "short_display": "John 15.17-16.2",
+   "passage": [
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 17,
+     "content": "“I command these things to you, that you may love one another.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 18,
+     "content": "If the world hates you, you know that it has hated me before it hated you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 19,
+     "content": "If you were of the world, the world would love its own. But because you are not of the world, since I chose you out of the world, therefore the world hates you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 20,
+     "content": "Remember the word that I said to you: ‘A servant is not greater than his lord.’ If they persecuted me, they will also persecute you. If they kept my word, they will also keep yours.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 21,
+     "content": "But they will do all these things to you for my name’s sake, because they don’t know him who sent me.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 22,
+     "content": "If I had not come and spoken to them, they would not have had sin; but now they have no excuse for their sin.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 23,
+     "content": "He who hates me, hates my Father also.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 24,
+     "content": "If I hadn’t done among them the works which no one else did, they wouldn’t have had sin. But now they have seen and also hated both me and my Father.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 25,
+     "content": "But this happened so that the word may be fulfilled which was written in their law, ‘They hated me without a cause.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 26,
+     "content": "“When the Counselor has come, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will testify about me.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 15,
+     "verse": 27,
+     "content": "You will also testify, because you have been with me from the beginning.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 16,
+     "verse": 1,
+     "content": "“I have said these things to you so that you wouldn’t be caused to stumble.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 16,
+     "verse": 2,
+     "content": "They will put you out of the synagogues. Yes, the time is coming that whoever kills you will think that he offers service to God.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Holy, Glorious and Great Martyr Demetrius the Outpourer of Myrrh (306)",
+   "story": "<p>He was a native of Thessalonica, born of noble parents. His wisdom and distinction in battle earned him rapid advancement in the service of the Empire: in time he was appointed commander of all the Roman forces in Thessaly, and Proconsul of Hellas. Despite these worldly honors, Demetrius put his Christian faith before all, and by his words and example brought many pagans to faith in Christ.</p>\n<p>When the Emperor Maximian, a persecutor of Christians, came to Thessalonica he appointed games and public sacrifices to celebrate his recent victory over the Scythians. Some jealous pagans used the visit to denounce Demetrius to the Emperor. Maximian had Demetrius cast into a fetid cell in the basement of some nearby baths. Maximian had brought with him a huge barbarian of tremendous strength named Lyaios, who fought many men in the arena and defeated them all, to the entertainment of the Emperor and the crowds. A young Christian named Nestor determined to show the people that the only true strength is in Christ: he visited Demetrius in his cell and asked for his blessing to challenge Lyaios to combat. The Martyr made the sign of the Cross over Nestor and sent him to the arena with his blessing. Nestor, a young boy, cried out before the Emperor ‘God of Demetrius, help me!’ and quickly killed the mighty Lyaios, to the astonishment of the crowd. The infuriated Emperor had Nestor slain with his own sword, and sent soldiers to Demetrius’ cell, where they killed him with their spears. Demetrius’ servant, a believer named Lupus, retrieved the body of Demetrius and buried it with honor. He kept the Saint’s ring and blood-stained tunic, and through them worked several miracles and healings. When the Emperor heard of this, he had Lupus, too, beheaded.</p>\n<p>As a sign of the grace that rested on the holy Demetrius, a fragrant myrrh flowed copiously from the Martyr’s body after his death, healing many of the sick. For many centuries, St Demetrius has been a patron Saint of Thessalonica.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/10/26/?translation=lxx2012-web"
+}

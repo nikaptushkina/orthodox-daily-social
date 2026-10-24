@@ -1,0 +1,279 @@
+{
+ "pascha_distance": 195,
+ "julian_day_number": 2461338,
+ "year": 2026,
+ "month": 10,
+ "day": 24,
+ "weekday": 6,
+ "tone": 3,
+ "titles": [
+  "Saturday of the 21st week after Pentecost"
+ ],
+ "summary_title": "Memorial (Demetrius) Saturday",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": [
+  "Memorial (Demetrius) Saturday"
+ ],
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [],
+ "saints": [
+  "Martyr Arethas and Companions"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  1,
+  3
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Corinthians 3.12-18",
+   "short_display": "2 Cor 3.12-18",
+   "passage": [
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 12,
+     "content": "Having therefore such a hope, we use great boldness of speech,",
+     "paragraph_start": true
+    },
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 13,
+     "content": "and not as Moses, who put a veil on his face so that the children of Israel wouldn’t look steadfastly on the end of that which was passing away.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 14,
+     "content": "But their minds were hardened, for until this very day at the reading of the old covenant the same veil remains, because in Christ it passes away.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 15,
+     "content": "But to this day, when Moses is read, a veil lies on their heart.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 16,
+     "content": "But whenever someone turns to the Lord, the veil is taken away.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 17,
+     "content": "Now the Lord is the Spirit; and where the Spirit of the Lord is, there is liberty.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2CO",
+     "chapter": 3,
+     "verse": 18,
+     "content": "But we all, with unveiled face seeing the glory of the Lord as in a mirror, are transformed into the same image from glory to glory, even as from the Lord, the Spirit.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Departed",
+   "display": "1 Thessalonians 4.13-17",
+   "short_display": "1 Thess 4.13-17",
+   "passage": [
+    {
+     "book": "1TH",
+     "chapter": 4,
+     "verse": 13,
+     "content": "But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TH",
+     "chapter": 4,
+     "verse": 14,
+     "content": "For if we believe that Jesus died and rose again, even so God will bring with him those who have fallen asleep in Jesus.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 4,
+     "verse": 15,
+     "content": "For this we tell you by the word of the Lord, that we who are alive, who are left until the coming of the Lord, will in no way precede those who have fallen asleep.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 4,
+     "verse": 16,
+     "content": "For the Lord himself will descend from heaven with a shout, with the voice of the archangel and with God’s trumpet. The dead in Christ will rise first,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 4,
+     "verse": 17,
+     "content": "then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air. So we will be with the Lord forever.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 7.1-10",
+   "short_display": "Luke 7.1-10",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 1,
+     "content": "After he had finished speaking in the hearing of the people, he entered into Capernaum.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 2,
+     "content": "A certain centurion’s servant, who was dear to him, was sick and at the point of death.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 3,
+     "content": "When he heard about Jesus, he sent to him elders of the Jews, asking him to come and save his servant.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 4,
+     "content": "When they came to Jesus, they begged him earnestly, saying, “He is worthy for you to do this for him,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 5,
+     "content": "for he loves our nation, and he built our synagogue for us.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 6,
+     "content": "Jesus went with them. When he was now not far from the house, the centurion sent friends to him, saying to him, “Lord, don’t trouble yourself, for I am not worthy for you to come under my roof.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 7,
+     "content": "Therefore I didn’t even think myself worthy to come to you; but say the word, and my servant will be healed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 8,
+     "content": "For I also am a man placed under authority, having under myself soldiers. I tell this one, ‘Go!’ and he goes; and to another, ‘Come!’ and he comes; and to my servant, ‘Do this,’ and he does it.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 9,
+     "content": "When Jesus heard these things, he marveled at him, and turned and said to the multitude who followed him, “I tell you, I have not found such great faith, no, not in Israel.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 7,
+     "verse": 10,
+     "content": "Those who were sent, returning to the house, found that the servant who had been sick was well.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "John",
+   "description": "Departed",
+   "display": "John 5.24-30",
+   "short_display": "John 5.24-30",
+   "passage": [
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 24,
+     "content": "“Most certainly I tell you, he who hears my word and believes him who sent me has eternal life, and doesn’t come into judgment, but has passed out of death into life.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 25,
+     "content": "Most certainly I tell you, the hour comes, and now is, when the dead will hear the Son of God’s voice; and those who hear will live.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 26,
+     "content": "For as the Father has life in himself, even so he gave to the Son also to have life in himself.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 27,
+     "content": "He also gave him authority to execute judgment, because he is a son of man.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 28,
+     "content": "Don’t marvel at this, for the hour comes in which all who are in the tombs will hear his voice",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 29,
+     "content": "and will come out; those who have done good, to the resurrection of life; and those who have done evil, to the resurrection of judgment.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 5,
+     "verse": 30,
+     "content": "I can of myself do nothing. As I hear, I judge; and my judgment is righteous, because I don’t seek my own will, but the will of my Father who sent me.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyr Arethas and Companions",
+   "story": "<p>‘These Martyrs contested for piety’s sake in the year 524 in Najran, a city of Arabia Felix (present-day Yemen). When Dhu Nuwas, ruler of the Himyarite tribe in south Arabia, and a Judaizer, took power, he sought to blot out Christianity, especially at Najran, a Christian city. Against the counsels of Arethas, chief man of Najran, the city surrendered to Dhu Nuwas, who immediately broke the word he had given and sought to compel the city to renounce Christ. Led by Saint Arethas, hundreds of martyrs, including women, children, and babes, valiantly withstood his threats, and were beheaded and burned. After the men had been slain, all the free-born Christian women of Najran were brought before the tyrant and commanded to abjure Christ or die; yet they rebuked the persecutor with such boldness that he said even the men had not insulted him so contemptuously. So great was their faith that not one woman was found to deny Christ in all Najran, although some of them suffered torments more bitter than most of the men. In alliance with Byzantium, the Ethiopian King Elesbaan liberated Najran from Dhu Nuwas soon after and raised up churches in honour of the Martyrs. Najran became a place of pilgrimage until the rise of Islam a century later. At the end of his life King Elesbaan, who was also called Caleb, retired into solitude as a hermit; he sent his crown to Jerusalem as an offering to the Church of the Holy Sepulchre. He also is commemorated on this day as a saint. Saint Arethas’ name in Arabic, <i>Harith</i>, means “plowman, tiller,” much the same as “George” in Greek.’ <i>(Great Horologion)</i></p>\n<p><i>Ethiopia is still a Christian nation, surrounded by Islamic states. The late Emperor Haile Selasse’s name means, in Ethiopian, “Power of the Trinity.”</i></p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/10/24/?translation=lxx2012-web"
+}

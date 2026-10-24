@@ -31,8 +31,23 @@ def download(url):
 
 
 def tidy(text):
+    text = re.sub(r"^\s*\(\d+\)\s*", "", text)   # Hebrew psalm number, e.g. "(51) "
+    text = text.replace("[", "").replace("]", "")  # words supplied by the translator
+    text = text.replace("⌃", "")                    # plural "you" marker
     text = re.sub(r"\s+", " ", text).strip()
     return text.replace(" ,", ",").replace(" .", ".").replace(" ;", ";").replace(" :", ":")
+
+
+def clean_existing():
+    """Re-tidy an already downloaded Psalter in place (no download)."""
+    with open(OUT, encoding="utf-8") as f:
+        data = json.load(f)
+    for name, verses in data["psalms"].items():
+        for v in verses:
+            verses[v] = tidy(verses[v])
+    with open(OUT, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+    print("Cleaned", OUT)
 
 
 def parse_vpl(data):
@@ -128,4 +143,7 @@ def main():
 
 
 if __name__ == "__main__":
+    if sys.argv[1:] == ["--clean"]:
+        clean_existing()
+        sys.exit(0)
     sys.exit(main())

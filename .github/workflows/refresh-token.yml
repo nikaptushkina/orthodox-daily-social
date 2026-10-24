@@ -1,0 +1,31 @@
+name: Refresh Instagram token
+
+# Instagram access tokens last 60 days. This refreshes it on the 1st of every
+# month and saves the new one as the IG_ACCESS_TOKEN secret. Saving a secret
+# needs a GitHub token with permission to write secrets: store a fine-grained
+# personal access token (this repository only, "Secrets: Read and write") as
+# the SECRETS_ADMIN_TOKEN secret. Without it, refresh by hand every 60 days.
+on:
+  schedule:
+    - cron: "41 16 1 * *"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh and store
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.SECRETS_ADMIN_TOKEN }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then echo "No IG_ACCESS_TOKEN secret yet."; exit 0; fi
+          new=$(curl -fsS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$IG_ACCESS_TOKEN" \
+            | python3 -c "import json,sys; print(json.load(sys.stdin)['access_token'])")
+          echo "::add-mask::$new"
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Token refreshed on Instagram's side, but SECRETS_ADMIN_TOKEN is not set, so the secret was not updated."
+            exit 0
+          fi
+          gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" --body "$new"
+          echo "IG_ACCESS_TOKEN updated."

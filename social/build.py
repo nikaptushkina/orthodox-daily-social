@@ -6,7 +6,7 @@
 Writes JPEGs, the Reel MP4 and cover, post.json (what to publish) and
 preview.jpg (a contact sheet for the pull request) into posts/<date>/.
 Scripture is always taken word for word from the day's data or from
-assets/psalms.json; content.json only says which reading to use.
+assets/psalter-lxx2012.json; content.json only says which reading to use.
 """
 import argparse
 import html as htmllib
@@ -44,9 +44,10 @@ def reading_verses(day, index):
 
 
 def psalm_verses(name, first=None, last=None):
-    psalms = load_json(os.path.join(ROOT, "assets", "psalms.json"))
+    from .psalm_plan import psalter
+    psalms = psalter()
     if name not in psalms:
-        raise SystemExit(f"{name} is not in assets/psalms.json (have: {', '.join(psalms)})")
+        raise SystemExit(f"{name} is not in assets/psalter-lxx2012.json")
     out = []
     for k, t in psalms[name].items():
         n = int(k)
@@ -82,7 +83,7 @@ def ref_label(book, verses):
     """'Luke 7:1–5' or 'Luke 7:36–8:3' for a group of verses."""
     a, b = verses[0], verses[-1]
     span = f"{a['n']}" if a["n"] == b["n"] else f"{a['n']}–{b['n']}"
-    if not a.get("c"):  # psalms from assets/psalms.json: "Psalm 102:1–3"
+    if not a.get("c"):  # psalms from the Psalter: "Psalm 102:1–3"
         return f"{book}:{span}"
     if a.get("c") == b.get("c"):
         return f"{book} {a['c']}:{span}"

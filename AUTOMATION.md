@@ -24,7 +24,7 @@ Every day: the **Story**. Plus, by weekday:
 | Sunday | `week_ahead`: today to Saturday | none |
 | Monday | `saint`: today's principal saint | none |
 | Tuesday | `word`: today's Gospel (the Epistle if there is no Gospel) | none |
-| Wednesday | none | The psalm printed by `python3 -m social.psalm_plan D` (the weekly rotation through every psalm in `assets/psalms.json`; never pick one yourself) |
+| Wednesday | none | The psalm printed by `python3 -m social.psalm_plan D` (the weekly rotation through the whole Psalter; never pick one yourself) |
 | Thursday | `saint`: today's principal saint | none |
 | Friday | `feast`: the most significant feast in the coming 8 days (Great Feasts first, then feasts of the Theotokos, the Cross, apostles and great saints); if none, today's principal commemoration | none |
 | Saturday | none | Vespers readings if `days/D.json` has readings whose `source` is `Vespers`; otherwise today's Gospel |
@@ -33,7 +33,7 @@ On a Great Feast (or Pascha), make the feed post a `feast` explainer for that fe
 
 ## 2. Write `posts/D/content.json`
 
-Write only text here. Scripture is never typed: `reading.index` points into `days/D.json` `readings`, and psalms come from `assets/psalms.json`, word for word.
+Write only text here. Scripture is never typed: `reading.index` points into `days/D.json` `readings`, and psalms come from `assets/psalter-lxx2012.json`, word for word.
 
 ```json
 {
@@ -68,7 +68,7 @@ Write only text here. Scripture is never typed: `reading.index` points into `day
 - `feast`: `kicker` ("Great Feast", "Feast"), `name`, `subtitle`, `dates`, `meaning` (exactly three sentences of 20–30 words), `kept` (three rows labelled `Fasting`, `Services`, `Hymns`, one sentence each).
 
 **Reel**:
-- Psalm (Wednesday): copy `name`, `from` and `to` exactly from `python3 -m social.psalm_plan D`: `{"kind":"psalm","mood":"dawn","psalm":{"name":"Psalm 102","from":1,"to":11},"title":{"kicker":"A psalm to pray · Wednesday","title":"Psalm 102","subtitle":"Bless the Lord, O my soul"},"end":{"quote":"a short line from these verses, word for word"},"footer":"orthodoxdaily.net · Septuagint"}`. When the plan prints a `part` ("1 of 2"), make the kicker "A psalm to pray · Part 1 of 2", and say in the caption that the psalm continues (or concludes) next Wednesday.
+- Psalm (Wednesday): copy `name`, `from` and `to` exactly from `python3 -m social.psalm_plan D`: `{"kind":"psalm","mood":"dawn","psalm":{"name":"Psalm 102","from":1,"to":11},"title":{"kicker":"A psalm to pray · Wednesday","title":"Psalm 102","subtitle":"Bless the Lord, O my soul"},"end":{"quote":"a short line from these verses, word for word"},"footer":"orthodoxdaily.net · Septuagint (LXX2012)"}`. If the plan says the Psalter is missing, stop and report it. When the plan prints a `part` ("1 of 2"), make the kicker "A psalm to pray · Part 1 of 2", and say in the caption that the psalm continues (or concludes) next Wednesday.
 - Gospel or Vespers (Saturday): `{"kind":"gospel","mood":"dawn","reading":{"index":N},"title":{"kicker":"The Gospel · Saturday, October 24","title":"Luke 7:1–10","subtitle":"a short theme"},"end":{"quote":"one line from the reading, word for word"},"footer":"orthodoxdaily.net · World English Bible"}`. For Vespers readings use `"mood":"vespers"`, the kicker "Vespers · Saturday evening", and the Septuagint footer for Old Testament readings. When there are several Vespers readings, use the first.
 - `title.title` must fit on one line: shorten long titles ("Wisdom 3:1–9"). Add `"size": 140` to `title` for titles over 12 characters.
 

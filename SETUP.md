@@ -4,7 +4,7 @@ This is a one-time setup, about 30–45 minutes. After it, your only daily job i
 
 ## How it works
 
-1. **Every night**, the *Fetch calendar days* workflow (GitHub Actions) saves the next 8 days of calendar data from Orthocal, the same source and settings as orthodoxdaily.net (New Calendar, Slavic, Septuagint and World English Bible), into `days/`.
+1. **Every night**, the *Fetch calendar days* workflow (GitHub Actions) saves the next 8 days of calendar data from Orthocal, the same source and settings as orthodoxdaily.net (New Calendar, Slavic, Septuagint and World English Bible), into `days/`. On its first run it also downloads the public-domain LXX2012 Psalter (all 151 psalms) for the Wednesday Reels.
 2. **Every morning just before 9 am Pacific**, a scheduled task in Claude follows [AUTOMATION.md](AUTOMATION.md): it writes the day's texts, renders the Story, carousel and Reel in your fonts and colours, and opens a pull request named "Posts for …" with a preview.
 3. **You review it** in the GitHub app or website. Merge it to publish. Close it to skip the day.
 4. **Merging publishes**: the *Publish approved posts* workflow puts the images and video online with GitHub Pages (Instagram needs a public address to fetch them from), then posts them through Instagram's official API.
@@ -21,7 +21,7 @@ Repository **Settings → Pages → Build and deployment → Source: GitHub Acti
 
 ## Step 3: Fetch the calendar data once
 
-**Actions → Fetch calendar days → Run workflow**. After a minute, a `days/` folder appears with the next 8 days. From now on it runs every night by itself.
+**Actions → Fetch calendar days → Run workflow**. After a minute, a `days/` folder appears with the next 8 days, and `assets/psalter-lxx2012.json` with the Psalter. From now on it runs every night by itself.
 
 ## Step 4: Make your Instagram a professional account
 
@@ -76,7 +76,7 @@ Without it, repeat Step 5.5 and Step 6 every 60 days.
 
 | What | Where |
 | --- | --- |
-| Which psalm on Wednesdays | `psalm-plan.json`: the rotation goes through every psalm in order, one each Wednesday, splitting long ones into parts. Reorder `order`, or pin a psalm to a date under `dates` |
+| Which psalm on Wednesdays | `psalm-plan.json`: the rotation goes through the whole Psalter, Psalm 1 to 151, one each Wednesday, splitting long psalms into parts. Pin a psalm to a date under `dates` |
 | What each weekday posts, tone, caption rules | `AUTOMATION.md` |
 | Calendar, tradition, translation | `config.json` |
 | Fonts | `fonts/` (Crimson Text and Geist, SIL Open Font License) |

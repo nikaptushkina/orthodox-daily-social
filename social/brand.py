@@ -84,20 +84,6 @@ body{margin:0}
 # Shrinks the font size of every [data-fit] box until its content fits.
 # Children size their text in em, so one number scales the whole block.
 FIT_JS = """
-// Small capitals, drawn as real capitals at 70%: the fonts have no true small caps, and the
-// browser's fake ones come out with faint round letters (O) on GitHub's Linux machines.
-function realCaps(){
-  document.querySelectorAll('.caps').forEach(function(el){
-    if (el.dataset.realcaps) return;
-    el.dataset.realcaps = '1';
-    var s = document.createElement('span');
-    s.style.cssText = 'font-size:0.7em;text-transform:uppercase';
-    while (el.firstChild) s.appendChild(el.firstChild);
-    el.appendChild(s);
-    el.style.fontVariantCaps = 'normal';
-  });
-}
-document.addEventListener('DOMContentLoaded', realCaps);
 function overflows(box){
   var r=box.getBoundingClientRect(), top=Infinity, bottom=-Infinity, wide=false;
   for(var i=0;i<box.children.length;i++){

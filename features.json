@@ -544,12 +544,7 @@
        {
         "pause": 600
        }
-      ],
-      "clip_around": {
-       "sel": "text=meat fast only >> visible=true",
-       "above": 560,
-       "below": 110
-      }
+      ]
      }
     }
    ],

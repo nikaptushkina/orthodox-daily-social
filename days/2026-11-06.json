@@ -1,0 +1,188 @@
+{
+ "pascha_distance": 208,
+ "julian_day_number": 2461351,
+ "year": 2026,
+ "month": 11,
+ "day": 6,
+ "weekday": 5,
+ "tone": 5,
+ "titles": [
+  "Friday of the 23rd week after Pentecost"
+ ],
+ "summary_title": "St Paul the Confessor of Constantinople; Rep. St Herman, Archbishop of Kazan; Ven. Luke of Sicily (Taormina)",
+ "feast_level": 2,
+ "feast_level_description": "Black squigg (6-stich typikon symbol)",
+ "feasts": null,
+ "fast_level": 1,
+ "fast_level_desc": "Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs",
+  "wine",
+  "oil"
+ ],
+ "saints": [
+  "St Paul the Confessor of Constantinople",
+  "Ven. Luke of Sicily (Taormina)",
+  "Rep. St Herman, Archbishop of Kazan"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Thessalonians 2.14-19",
+   "short_display": "1 Thess 2.14-19",
+   "passage": [
+    {
+     "book": "1TH",
+     "chapter": 2,
+     "verse": 14,
+     "content": "For you, brothers, became imitators of the assemblies of God which are in Judea in Christ Jesus; for you also suffered the same things from your own countrymen, even as they did from the Jews",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 2,
+     "verse": 15,
+     "content": "who killed both the Lord Jesus and their own prophets, and drove us out, and don’t please God, and are contrary to all men,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 2,
+     "verse": 16,
+     "content": "forbidding us to speak to the Gentiles that they may be saved, to fill up their sins always. But wrath has come on them to the uttermost.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 2,
+     "verse": 17,
+     "content": "But we, brothers, being bereaved of you for a short season in presence, not in heart, tried even harder to see your face with great desire,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TH",
+     "chapter": 2,
+     "verse": 18,
+     "content": "because we wanted to come to you—indeed, I, Paul, once and again—but Satan hindered us.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 2,
+     "verse": 19,
+     "content": "For what is our hope, or joy, or crown of rejoicing? Isn’t it even you, before our Lord Jesus at his coming?",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 12.2-12",
+   "short_display": "Luke 12.2-12",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 2,
+     "content": "But there is nothing covered up that will not be revealed, nor hidden that will not be known.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 3,
+     "content": "Therefore whatever you have said in the darkness will be heard in the light. What you have spoken in the ear in the inner rooms will be proclaimed on the housetops.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 4,
+     "content": "“I tell you, my friends, don’t be afraid of those who kill the body, and after that have no more that they can do.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 5,
+     "content": "But I will warn you whom you should fear. Fear him who after he has killed, has power to cast into Gehenna. Yes, I tell you, fear him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 6,
+     "content": "“Aren’t five sparrows sold for two assaria coins? Not one of them is forgotten by God.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 7,
+     "content": "But the very hairs of your head are all counted. Therefore don’t be afraid. You are of more value than many sparrows.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 8,
+     "content": "“I tell you, everyone who confesses me before men, the Son of Man will also confess before the angels of God;",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 9,
+     "content": "but he who denies me in the presence of men will be denied in the presence of God’s angels.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 10,
+     "content": "Everyone who speaks a word against the Son of Man will be forgiven, but those who blaspheme against the Holy Spirit will not be forgiven.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 11,
+     "content": "When they bring you before the synagogues, the rulers, and the authorities, don’t be anxious how or what you will answer or what you will say;",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 12,
+     "content": "for the Holy Spirit will teach you in that same hour what you must say.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "St Paul the Confessor of Constantinople",
+   "story": "<p>A native of Thessalonica, he rose from secretary to Alexander, Patriarch of Constantinople (commemorated August 30), to deacon, then succeeded St Alexander as Patriarch around 337. For his virtue and his zeal for Orthodoxy he was hated by the Arians, who were still powerful in the Empire. The Arian Emperor Constantius, learning of Paul’s election, exiled him and made the Arian Eusebius Patriarch in his place. St Paul went to Rome, where he joined St Athanasius the Great in exile. Furnished with letters from Pope Julius, he was able to ascend the Patriarchal throne once again upon the death of Eusebius. But once again the Arians were able to put one of their party on the Patriarchal throne: Macedonius, who even went beyond the Arian heresy and denied the divinity of the Holy Spirit. Once again the legitimate, Orthodox Patriarch found himself in exile in Rome. In succeeding years St Paul stood firm for Orthodoxy while complex political and military intrigues swirled around him, with the Orthodox Constans, Emperor of the West (and Constantius’ brother) supporting him while Constantius continued to oppose him. For a time Constans was able to enforce Paul’s place on the Patriarchal throne, but when he died, Constantius banished St Paul to Cucusus on the Black Sea. There, while he was celebrating the Divine Liturgy in the house where he was kept prisoner, the Arians strangled him with his own omophorion. His relics were brought back to Constantinople by the Emperor Theodosius the Great.</p>"
+  },
+  {
+   "title": "Rep. St Herman, Archbishop of Kazan",
+   "story": "<p>He was born in Tver to a princely family. Drawn to a life of holiness from his earliest childhood, he became a monk at the age of twenty-five, at the Monastery of St Joseph of Volokolamsk. In time he became Archimandrite of the Monastery of the Dormition at Staritsk; but after a few years he returned to Volokolamsk to live in solitude. When his teacher St Gurias (October 4), first Archbishop of Kazan, reposed, Germanus succeeded him as Archbishop, but continued to live as ascetically as when he was a hermit. He was offered the office of Metropolitan of Moscow, but refused. As a faithful shepherd of his church, he fearlessly confronted Tsar Ivan the Terrible for his many and various cruelties; for this he was killed in 1568 by the Tsar’s assassins.</p>\n<p><i>Note: Recently, a bizarre movement has arisen among some nationalist sectarians in Russia to canonize Ivan the Terrible. Among the many obvious reasons against such an action (which has been firmly rejected by the Patriarch of Moscow), we could list the Tsar’s murder of some of the Church’s own Saints, Germanus among them.</i></p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/6/?translation=lxx2012-web"
+}

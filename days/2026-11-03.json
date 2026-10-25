@@ -1,0 +1,152 @@
+{
+ "pascha_distance": 205,
+ "julian_day_number": 2461348,
+ "year": 2026,
+ "month": 11,
+ "day": 3,
+ "weekday": 2,
+ "tone": 5,
+ "titles": [
+  "Tuesday of the 23rd week after Pentecost"
+ ],
+ "summary_title": "Martyrs Acepsimus, Joseph, Aithalas; Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [],
+ "saints": [
+  "Martyrs Acepsimus, Joseph, Aithalas",
+  "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Thessalonians 1.6-10",
+   "short_display": "1 Thess 1.6-10",
+   "passage": [
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 6,
+     "content": "You became imitators of us and of the Lord, having received the word in much affliction, with joy of the Holy Spirit,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 7,
+     "content": "so that you became an example to all who believe in Macedonia and in Achaia.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 8,
+     "content": "For from you the word of the Lord has been declared, not only in Macedonia and Achaia, but also in every place your faith toward God has gone out, so that we need not say anything.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 9,
+     "content": "For they themselves report concerning us what kind of a reception we had from you, and how you turned to God from idols to serve a living and true God,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 10,
+     "content": "and to wait for his Son from heaven, whom he raised from the dead: Jesus, who delivers us from the wrath to come.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 11.34-41",
+   "short_display": "Luke 11.34-41",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 34,
+     "content": "The lamp of the body is the eye. Therefore when your eye is good, your whole body is also full of light; but when it is evil, your body also is full of darkness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 35,
+     "content": "Therefore see whether the light that is in you isn’t darkness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 36,
+     "content": "If therefore your whole body is full of light, having no part dark, it will be wholly full of light, as when the lamp with its bright shining gives you light.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 37,
+     "content": "Now as he spoke, a certain Pharisee asked him to dine with him. He went in and sat at the table.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 38,
+     "content": "When the Pharisee saw it, he marveled that he had not first washed himself before dinner.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 39,
+     "content": "The Lord said to him, “Now you Pharisees cleanse the outside of the cup and of the platter, but your inward part is full of extortion and wickedness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 40,
+     "content": "You foolish ones, didn’t he who made the outside make the inside also?",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 41,
+     "content": "But give for gifts to the needy those things which are within, and behold, all things will be clean to you.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyrs Acepsimus, Joseph, Aithalas",
+   "story": "<p>King Shapur II of Persia conducted a fierce persecution of Christians in his realm for thirty-seven years. In the final years of this persecution he gave his magi authority to torture and kill any Christians who would not renounce their faith. Acepsimas, the aged and holy Bishop of Paka, was arrested along with Joseph the priest and Aithalas the deacon. All not only refused to deny Christ, but boldly preached Him before the magi and the king. The enraged king had them viciously tortured, then, as a final indignity, made prisoners of all the local Christians and forced them to stone their own shepherds to death. With their martyrdom the great persecution in Persia came to an end.</p>"
+  },
+  {
+   "title": "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)",
+   "story": "<p>“Saint Winefride (in Welsh, Gwenfrewi) was a maiden of noble birth who lived in North wales in the seventh century. The niece and spiritual daughter of Saint Beuno (21 April), she entered the Monastery of Gwytherin after his death, where she lived under the spiritual direction of Saint Eleril. The son of a neighbouring chieftan, Caradoc by name, seized by an unchaste passion, pursued her and struck off her head with a sword. The spot where her head fell became known as Treffynnon or Holywell, because of the appearing of a healing spring for those who would take its waters with faith. Holywell remains a great place of pilgrimage in Britain to this day.” (<i>Synaxarion</i>)</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/3/?translation=lxx2012-web"
+}

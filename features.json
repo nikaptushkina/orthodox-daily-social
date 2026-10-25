@@ -1,0 +1,550 @@
+{
+ "_how": "Friday 'From the website' posts (when no feast is coming) go down this list in order and don't repeat a feature until all have been shown. Each shot is a real screenshot of orthodoxdaily.net taken nightly on GitHub by scripts/site_shots.py following its recipe; if a recipe can't be followed (e.g. no livestream today) the last good screenshot is kept. 'about' is the fact sheet the caption is written from. Edit, add or reorder freely.",
+ "features": [
+  {
+   "id": "readings-text-size",
+   "title": "Today’s readings, your way",
+   "line": "Every reading of the day, with text you can make larger for comfort.",
+   "about": "On the Home page, the Scripture card lists the day's readings. Tapping one opens the full passage in a window with − and + buttons that make the text smaller or larger (90% to 150%).",
+   "shots": [
+    {
+     "file": "readings-text-size.png",
+     "heading": "Make the text larger",
+     "text": "Open any reading and use the − and + buttons for a comfortable size.",
+     "recipe": {
+      "path": "/",
+      "actions": [
+       {
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "click": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "wait": ".htc-modal-content"
+       },
+       {
+        "click": "[aria-label=\"Increase popup text size\"]"
+       },
+       {
+        "click": "[aria-label=\"Increase popup text size\"]"
+       }
+      ],
+      "element": "[role=dialog]"
+     }
+    }
+   ],
+   "steps": [
+    "Open orthodoxdaily.net",
+    "In the Scripture card, tap a reading",
+    "Use − and + to change the text size"
+   ]
+  },
+  {
+   "id": "readings-ai-guide",
+   "title": "A short guide to the readings",
+   "line": "An AI reading guide that explains the day’s Scripture from an Orthodox perspective.",
+   "about": "In a reading's window, the sparkles button opens the 'Orthodox AI reading guide': a short explanation of the passage written by AI from an Orthodox perspective. It is a help for understanding, not a teaching of the Church.",
+   "shots": [
+    {
+     "file": "readings-ai-guide.png",
+     "heading": "Tap the sparkles",
+     "text": "A short, plain explanation of the passage, written by AI from an Orthodox perspective.",
+     "recipe": {
+      "path": "/",
+      "actions": [
+       {
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "click": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "wait": ".htc-modal-content"
+       },
+       {
+        "click": "button[aria-label^=\"Explain \"]"
+       },
+       {
+        "wait": "text=Orthodox AI reading guide"
+       },
+       {
+        "pause": 2000
+       }
+      ],
+      "element": "[role=dialog]",
+      "settle": 6000
+     }
+    }
+   ],
+   "steps": [
+    "Open a reading from the Scripture card",
+    "Tap the sparkles button at the top",
+    "Read the short guide under the passage"
+   ]
+  },
+  {
+   "id": "prayers-with-readings",
+   "title": "The readings, inside your prayers",
+   "line": "Morning and Evening Prayers bring the day’s readings to you, right where you pray.",
+   "about": "The Morning Prayers page includes the day's Epistle and Gospel; the Evening Prayers page includes the Vespers readings, with a reminder of the Epistle and Gospel if you missed them.",
+   "shots": [
+    {
+     "file": "prayers-with-readings.png",
+     "heading": "Read them as you pray",
+     "text": "Morning has the Epistle and Gospel; Evening has the Vespers readings.",
+     "recipe": {
+      "path": "/morning",
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "eval": "document.querySelectorAll('section').forEach(s=>s.style.contentVisibility='visible')"
+       },
+       {
+        "wait": "section:has(h2:has-text(\"The Gospel and Epistle\")) button"
+       },
+       {
+        "scroll": "section:has(h2:has-text(\"The Gospel and Epistle\"))"
+       }
+      ],
+      "element": "section:has(h2:has-text(\"The Gospel and Epistle\"))"
+     }
+    }
+   ],
+   "steps": [
+    "Open Morning or Evening in the menu",
+    "Scroll to the readings section",
+    "Tap a reading to open it"
+   ]
+  },
+  {
+   "id": "prayers-listen",
+   "title": "Pray along out loud",
+   "line": "Listen to the prayers and the psalm of the day while you pray.",
+   "about": "On the Morning and Evening Prayers pages, the headphones button opens an audio player for the prayers, and the 'Play Psalm' button plays the psalm of the day.",
+   "shots": [
+    {
+     "file": "prayers-listen.png",
+     "heading": "Tap the headphones",
+     "text": "An audio player for the prayers, and a button to hear the psalm of the day.",
+     "recipe": {
+      "path": "/morning",
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "click": "role=button[name='Show prayer audio player']"
+       },
+       {
+        "pause": 4000
+       }
+      ],
+      "settle": 2000
+     }
+    }
+   ],
+   "steps": [
+    "Open Morning or Evening in the menu",
+    "Tap the headphones next to the title",
+    "Or tap Play Psalm to hear the psalm"
+   ]
+  },
+  {
+   "id": "prayers-icons",
+   "title": "Pray before the icons",
+   "line": "Open the icons of Christ and the Mother of God beside your prayers.",
+   "about": "On the Morning and Evening Prayers pages, the Icons button shows the icons of the Mother of God and of Christ side by side, to pray before.",
+   "shots": [
+    {
+     "file": "prayers-icons.png",
+     "heading": "Tap Icons",
+     "text": "The Mother of God and Christ, side by side, above your prayers.",
+     "recipe": {
+      "path": "/morning",
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "click": "role=button[name='Show icons']"
+       },
+       {
+        "wait": "#prayer-icons img"
+       },
+       {
+        "pause": 1500
+       }
+      ],
+      "element": "#prayer-icons"
+     }
+    }
+   ],
+   "steps": [
+    "Open Morning or Evening in the menu",
+    "Tap Icons near the top",
+    "Tap it again to hide them"
+   ]
+  },
+  {
+   "id": "psalm-of-the-day",
+   "title": "A psalm for each day",
+   "line": "Every morning and evening, the prayers include the psalm appointed for that day of the week.",
+   "about": "The Morning and Evening Prayers each include a 'Psalm of the Day' that changes with the day of the week (for example, Sunday morning Psalm 5, Sunday evening Psalm 69).",
+   "shots": [
+    {
+     "file": "psalm-of-the-day.png",
+     "heading": "Psalm of the Day",
+     "text": "A different psalm for each day of the week, morning and evening.",
+     "recipe": {
+      "path": "/morning",
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "eval": "document.querySelectorAll('section').forEach(s=>s.style.contentVisibility='visible')"
+       },
+       {
+        "scroll": "section:has(h2:has-text(\"Psalm of the Day\"))"
+       }
+      ],
+      "element": "section:has(h2:has-text(\"Psalm of the Day\"))"
+     }
+    }
+   ],
+   "steps": [
+    "Open Morning or Evening in the menu",
+    "Scroll to Psalm of the Day",
+    "Come back tomorrow for the next one"
+   ]
+  },
+  {
+   "id": "calendar-year",
+   "title": "The Church year at a glance",
+   "line": "Browse month by month, with feast days highlighted in blue.",
+   "about": "The Calendar page shows a month at a time; the arrows move through the year. Feast days are shaded light blue, and tapping any day shows its feast, saints, fasting and readings.",
+   "shots": [
+    {
+     "file": "calendar-year.png",
+     "heading": "Month by month",
+     "text": "Feast days are shaded blue. Tap any day for its saints, fasting and readings.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": ".grid-cols-7 button"
+       },
+       {
+        "pause": 3000
+       }
+      ],
+      "settle": 2000
+     }
+    }
+   ],
+   "steps": [
+    "Tap Calendar in the menu",
+    "Use the arrows to change month",
+    "Tap a day to see everything about it"
+   ]
+  },
+  {
+   "id": "calendar-fasting",
+   "title": "Know the fast for every day",
+   "line": "Coloured dots on the calendar show the fasting rule for each day.",
+   "about": "On the Calendar page each fasting day has a coloured dot. The Calendar Legend explains them: blue for fish, wine and oil allowed; purple for wine and oil allowed; amber for meat fast only; grey for a strict or other fast. Feast days are shaded light blue.",
+   "shots": [
+    {
+     "file": "calendar-fasting.png",
+     "heading": "Read the dots",
+     "text": "Open the legend to see what each colour means.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": ".grid-cols-7 button"
+       },
+       {
+        "pause": 3000
+       },
+       {
+        "click": "role=button[name='View legend'] >> visible=true"
+       },
+       {
+        "pause": 1000
+       }
+      ],
+      "settle": 1500
+     }
+    }
+   ],
+   "steps": [
+    "Tap Calendar in the menu",
+    "Tap View legend",
+    "Tap a day for its fasting rule"
+   ]
+  },
+  {
+   "id": "saints-lives",
+   "title": "Meet the day’s saints",
+   "line": "Read the life of each saint of the day, often with their icon.",
+   "about": "Each saint commemorated on a day has an 'About' button (on the Calendar) or link (on Home) that opens their life. When a matching, freely licensed icon is found, it is shown beside the life and can be opened full screen.",
+   "shots": [
+    {
+     "file": "saints-lives.png",
+     "heading": "Tap About",
+     "text": "The saint’s life, and their icon when one is available.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": "role=button[name='About']"
+       },
+       {
+        "click": "role=button[name='About']"
+       },
+       {
+        "wait": ".htc-modal-content"
+       },
+       {
+        "pause": 5000
+       }
+      ],
+      "element": "[role=dialog]"
+     }
+    }
+   ],
+   "steps": [
+    "Tap Calendar in the menu",
+    "Under Commemorations, tap About",
+    "Tap the icon to see it full screen"
+   ]
+  },
+  {
+   "id": "feast-insight",
+   "title": "Understand the feast",
+   "line": "On feast days, a short AI reflection explains what the Church celebrates.",
+   "about": "On feast days, the Feast card has a sparkles button that opens a short 'Feast day AI insight' written for newcomers. It is a help for understanding, not a teaching of the Church.",
+   "shots": [
+    {
+     "file": "feast-insight.png",
+     "heading": "Tap the sparkles on a feast",
+     "text": "A short reflection on the feast, written by AI for newcomers.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": ".grid-cols-7 button.bg-sky-50"
+       },
+       {
+        "click": ".grid-cols-7 button.bg-sky-50"
+       },
+       {
+        "click": "button[aria-label^=\"Learn about\"]"
+       },
+       {
+        "wait": "text=Feast day AI insight"
+       },
+       {
+        "pause": 1000
+       }
+      ],
+      "settle": 7000
+     }
+    }
+   ],
+   "steps": [
+    "Tap Calendar in the menu",
+    "Tap a blue (feast) day",
+    "Tap the sparkles on the Feast card"
+   ]
+  },
+  {
+   "id": "confession-prepare",
+   "title": "Prepare for Confession, gently",
+   "line": "A guided examination of conscience, woven into the prayers before Confession.",
+   "about": "The Confession page has four steps: an opening prayer, an examination (tap the items that apply from three lists), prayers that include what you selected, and a confession draft to read before the priest, with a short guide on how to confess.",
+   "shots": [
+    {
+     "file": "confession-prepare.png",
+     "heading": "Tap what applies",
+     "text": "Three short lists help you examine your conscience.",
+     "recipe": {
+      "path": "/confession",
+      "actions": [
+       {
+        "click": "role=button[name='2. Examination']"
+       },
+       {
+        "pause": 800
+       }
+      ],
+      "settle": 1500
+     }
+    }
+   ],
+   "steps": [
+    "Tap Confession in the menu",
+    "Go through the four steps",
+    "Read the draft before the priest"
+   ]
+  },
+  {
+   "id": "confession-private",
+   "title": "Your confession stays yours",
+   "line": "What you select is woven into the prayers and a draft to read before the priest, and never leaves your phone.",
+   "about": "On the Confession page, the items you tap are inserted into the prayers ('I confess that I have:') and into a final draft to read before the priest. They exist only on the open page: nothing is saved or sent anywhere, and everything is gone when you leave the page.",
+   "shots": [
+    {
+     "file": "confession-private.png",
+     "heading": "A draft for Confession",
+     "text": "Only on your screen: nothing is saved or sent, and it’s gone when you leave.",
+     "recipe": {
+      "path": "/confession",
+      "actions": [
+       {
+        "click": "role=button[name='2. Examination']"
+       },
+       {
+        "click": "role=button[name=/wander during prayer/]"
+       },
+       {
+        "click": "role=button[name='4. Confession Draft']"
+       },
+       {
+        "wait": "text=Your Confession Draft"
+       },
+       {
+        "pause": 800
+       }
+      ],
+      "settle": 1500
+     }
+    }
+   ],
+   "steps": [
+    "Tap Confession in the menu",
+    "Tap what applies in the Examination",
+    "Open the Confession Draft"
+   ]
+  },
+  {
+   "id": "settings",
+   "title": "Your calendar, your tradition",
+   "line": "Choose New or Old Calendar, Slavic or Greek, and your Bible translation.",
+   "about": "The Settings (gear) button lets you choose New or Old Calendar, Slavic or Greek tradition, and the Scripture translation (LXX2012 & WEB, or King James). Your choices are saved on your device.",
+   "shots": [
+    {
+     "file": "settings.png",
+     "heading": "Tap the gear",
+     "text": "Your choices are saved on this device.",
+     "recipe": {
+      "path": "/",
+      "actions": [
+       {
+        "click": "role=button[name='Settings']"
+       },
+       {
+        "wait": "#settings-menu"
+       },
+       {
+        "pause": 800
+       }
+      ],
+      "settle": 1200
+     }
+    }
+   ],
+   "steps": [
+    "Tap the gear at the top",
+    "Pick your calendar, tradition and translation",
+    "They’re remembered next time"
+   ]
+  },
+  {
+   "id": "dark-mode",
+   "title": "Easy on the eyes at night",
+   "line": "Dark mode for evening prayers, and seasonal touches through the year.",
+   "about": "The moon button switches the site to dark mode (and the sun back to light). The leaf button turns on gentle seasonal effects: snow in winter, rose petals in spring, sun rays in summer and falling leaves in autumn.",
+   "shots": [
+    {
+     "file": "dark-mode.png",
+     "heading": "Tap the moon",
+     "text": "A dark version of every page, for evening prayer.",
+     "recipe": {
+      "path": "/evening",
+      "dark": true,
+      "local_storage": {
+       "theme": "dark"
+      },
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       }
+      ],
+      "settle": 1500
+     }
+    },
+    {
+     "file": "seasonal.png",
+     "heading": "Tap the leaf",
+     "text": "Snow, rose petals, sun rays or falling leaves, depending on the season.",
+     "recipe": {
+      "path": "/",
+      "local_storage": {
+       "isEffectsEnabled": "true"
+      },
+      "actions": [
+       {
+        "wait": "text=Scripture"
+       },
+       {
+        "pause": 3500
+       }
+      ],
+      "settle": 500
+     }
+    }
+   ],
+   "steps": [
+    "Tap the moon at the top for dark mode",
+    "Tap the leaf for seasonal effects",
+    "Both are remembered next time"
+   ]
+  },
+  {
+   "id": "live-liturgy",
+   "title": "Sunday Liturgy, live",
+   "line": "On Sundays and feast days, watch the Divine Liturgy live from Orthodox parishes.",
+   "about": "On Sundays and feast days, a livestream card on Home shows the Divine Liturgy from one of four parishes (Pittsburgh, St. Mary's Minneapolis, St. Anne, Hawaii), live, upcoming or as today's recording. You can switch parish, and it plays right on the page.",
+   "shots": [
+    {
+     "file": "live-liturgy.png",
+     "heading": "Watch from home",
+     "text": "Choose a parish and press play, right on the page.",
+     "recipe": {
+      "path": "/?livestream=1",
+      "timezone": "America/New_York",
+      "actions": [
+       {
+        "wait": "section[aria-label=\"Livestream\"]"
+       },
+       {
+        "pause": 6000
+       }
+      ],
+      "element": "section[aria-label=\"Livestream\"]"
+     }
+    }
+   ],
+   "steps": [
+    "Open orthodoxdaily.net on a Sunday or feast day",
+    "Find the livestream card on Home",
+    "Pick a parish and press play"
+   ]
+  }
+ ]
+}

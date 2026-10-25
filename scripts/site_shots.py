@@ -30,12 +30,19 @@ def run_recipe(browser, shot, path):
     r = shot["recipe"]
     vw, vh = r.get("viewport", [390, 844])
     ctx = browser.new_context(viewport={"width": vw, "height": vh}, device_scale_factor=r.get("scale", 3),
-                              is_mobile=True, has_touch=True, locale="en-US", timezone_id=CONFIG["timezone"],
+                              is_mobile=True, has_touch=True, locale="en-US",
+                              timezone_id=r.get("timezone", CONFIG["timezone"]),
                               color_scheme="dark" if r.get("dark") else "light")
-    storage = dict(CONFIG.get("site_shots_storage", {}), **r.get("local_storage", {}))
-    if storage:
-        ctx.add_init_script("(() => { const s = %s; for (const k in s) localStorage.setItem(k, s[k]); })();"
-                            % json.dumps(storage))
+    # Quiet first-visit extras (dark-mode tip, intro animation, seasonal particles) unless a recipe wants them.
+    storage = {"darkModeTipSeen": "true", "isEffectsEnabled": "false", "theme": "light"}
+    storage.update(r.get("local_storage", {}))
+    ctx.add_init_script(
+        "(() => { const s = %s; for (const k in s) localStorage.setItem(k, s[k]);"
+        " sessionStorage.setItem('homeInitialAnimationPlayed', 'true');"
+        " const css = document.createElement('style');"
+        " css.textContent = '[aria-label=\"Scroll to top\"]{display:none!important}';"
+        " document.addEventListener('DOMContentLoaded', () => document.head.appendChild(css)); })();"
+        % json.dumps(storage))
     pg = ctx.new_page()
     try:
         pg.goto(BASE + r.get("path", "/"), wait_until="domcontentloaded", timeout=60000)

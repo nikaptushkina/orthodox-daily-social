@@ -124,13 +124,13 @@ def week_ahead(c, site):
 
 # ---------------------------------------------------------------- Saint of the day
 
-def _arch(a, icon=None, credit=None):
+def _arch(a, icon=None, credit=None, inner="linear-gradient(180deg,#E0F2FE 0%,#F1F5F9 52%,#FFE4E6 100%)"):
     """The arched frame: the saint's icon when we have one, otherwise the cross."""
     inside = (f"<img src='{icon}' alt='' style='width:100%;height:100%;object-fit:cover;object-position:50% 20%'>" if icon
               else f"<img src='{LOGO}' alt='' style='width:150px;height:150px;opacity:0.9'>")
     frame = (f"<div style='width:340px;height:430px;flex-shrink:0;border-radius:170px 170px 24px 24px;background:#FFFFFF;"
              f"border:2px solid {a};padding:16px;box-sizing:border-box'><div style='width:100%;height:100%;border-radius:154px 154px 12px 12px;overflow:hidden;"
-             f"background:linear-gradient(180deg,#E0F2FE 0%,#F1F5F9 52%,#FFE4E6 100%);display:flex;align-items:center;justify-content:center'>"
+             f"background:{inner};display:flex;align-items:center;justify-content:center'>"
              f"{inside}</div></div>")
     return frame  # no credit on the slide; when the licence needs one, it goes in the caption
 
@@ -233,7 +233,7 @@ def word(c, pages_verses, site):
 # ---------------------------------------------------------------- Feast explainer
 
 def feast(c, site):
-    key = c.get("accent", "feast")
+    key = "feast"  # the Friday feast explainer is always gold, like the Sunday end card
     a = accent(key)
     star = (f"<svg width='30' height='30' viewBox='0 0 24 24' fill='none' stroke='{a}' stroke-width='1.5' stroke-linecap='round' "
             f"stroke-linejoin='round'><path d='M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z'/></svg>")
@@ -244,7 +244,7 @@ def feast(c, site):
     <div class="sans" style="font-size:24px;color:{MUTED}">1 / 3</div>
   </div>
   <div style="display:flex;flex-direction:column;gap:44px;flex:1;min-height:0">
-    {_arch(a)}
+    {_arch(a, inner='linear-gradient(180deg,#FFFFFF 0%,#FBF5EA 50%,#F3E3C3 100%)')}
     <div data-fit class="fit" style="flex:1;font-size:40px;display:flex;flex-direction:column;justify-content:flex-end;gap:0.6em">
       {rule(a)}
       <h1 class="serif" style="margin:0;font-size:2.5em;font-weight:700;line-height:0.98;letter-spacing:-2px">{esc(c['name'])}</h1>

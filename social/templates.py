@@ -309,6 +309,14 @@ MOODS = {
 
 FADE = 0.6
 
+# The dark Vespers Reel from the design board (VespersTitle / VespersText).
+VESPERS = dict(sky="linear-gradient(180deg,#0E1526 0%,#11141D 52%,#1A1321 100%)", glow="rgba(217,168,91,0.20)",
+               spark="#E6C694", ink="#F3EEE4", quiet="#B4BAC6", label="#D9A85B", gold="#E6C694",
+               note="#A3AABA", accent="#D9A85B")
+LAMP = ("<svg width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#D9A85B' stroke-width='1.2' "
+        "stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'>"
+        "<path d='M12 3c2 3 3 4.5 3 6.5a3 3 0 0 1-6 0C9 7.5 10 6 12 3z'/><rect x='9' y='13' width='6' height='8' rx='1'/></svg>")
+
 
 def reel_timing(c):
     """Seconds per screen: title, verse screens (by text length), end."""
@@ -323,7 +331,8 @@ def reel_timing(c):
 def reel(c, site, durs=None):
     """durs: seconds per screen (title, verse screens, end). Defaults to reading-speed
     timing; social.voice passes the narration's own lengths instead."""
-    m = MOODS.get(c.get("mood", "dawn"), MOODS["dawn"])
+    vespers = c.get("style") == "vespers"
+    m = MOODS.get(c.get("mood", "vespers" if vespers else "dawn"), MOODS["dawn"])
     durs = list(durs) if durs else reel_timing(c)
     if len(durs) != len(c["screens"]) + 2:
         raise ValueError(f"need {len(c['screens']) + 2} screen lengths, got {len(durs)}")
@@ -359,6 +368,8 @@ def reel(c, site, durs=None):
                                    (600, 8, 16, -9), (720, 5, 20, -3), (840, 9, 18, -13), (980, 6, 22, -7)]:
         sparks += (f"<div style='position:absolute;left:{left}px;top:1900px;width:{size}px;height:{size}px;border-radius:50%;"
                    f"background:{m['spark']};box-shadow:0 0 12px {m['spark']};animation:rise {dur}s linear infinite;animation-delay:{delay}s'></div>")
+    if vespers:
+        return _vespers_reel(c, site, T, len(windows), "\n".join(frames_css))
     ti = c["title"]
     screens = (f"<div class='screen' style='gap:32px;animation:sc0 {T}s linear infinite'>"
                f"<img src='{LOGO}' alt='' style='width:80px;height:80px'>"
@@ -387,6 +398,54 @@ def reel(c, site, durs=None):
   <div style="position:absolute;left:0;right:0;bottom:380px;display:flex;flex-direction:column;align-items:center;gap:20px">
     <div style="width:240px;height:3px;border-radius:2px;background:{m['track']};overflow:hidden"><div style="width:100%;height:100%;background:{m['accent']};transform-origin:left center;animation:progress {T}s linear infinite"></div></div>
     <div class="serif caps" style="font-size:28px;font-weight:600;letter-spacing:4px;color:{m['label']}">{esc(c.get('footer', site))}</div>
+  </div>
+</div>"""
+    return {"html": page(STORY_W, STORY_H, body, css), "duration": T, "width": STORY_W, "height": STORY_H,
+            "cover_time": 2.5}
+
+
+def _vespers_reel(c, site, T, n_windows, frames_css):
+    """Saturday evening Reel for Vespers readings: dark sky, a slow gold glow, rising gold sparks."""
+    v = VESPERS
+    css = """
+@keyframes glow{0%,100%{opacity:.45}50%{opacity:.85}}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.8}85%{opacity:.8}100%{transform:translateY(-1600px);opacity:0}}
+.screen{position:absolute;left:96px;right:96px;top:250px;bottom:420px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+""" + frames_css
+    sparks = ""
+    for left, size, dur, delay in [(120, 6, 20, -4), (340, 8, 24, -14), (610, 5, 18, -9), (820, 7, 22, -17), (960, 5, 26, -2)]:
+        sparks += (f"<div style='position:absolute;left:{left}px;top:1900px;width:{size}px;height:{size}px;border-radius:50%;"
+                   f"background:{v['spark']};box-shadow:0 0 12px {v['spark']};animation:rise {dur}s linear infinite;animation-delay:{delay}s'></div>")
+    ti = c["title"]
+    ref = ti.get("ref") or c.get("ref", "")
+    screens = (f"<div class='screen' style='top:200px;bottom:300px;justify-content:space-between;animation:sc0 {T}s linear infinite'>"
+               f"<div style='display:flex;flex-direction:column;align-items:center;gap:20px'>{LAMP}"
+               f"<div class='serif caps' style='font-size:34px;font-weight:600;letter-spacing:10px;color:{v['label']}'>{esc(ti.get('kicker', 'Saturday evening'))}</div></div>"
+               f"<div style='display:flex;flex-direction:column;align-items:center;gap:36px'>"
+               f"<h1 class='serif' style='margin:0;font-size:{ti.get('size', 180)}px;font-weight:700;line-height:0.9;letter-spacing:-3px;color:{v['ink']}'>{esc(ti.get('title', 'Vespers'))}</h1>"
+               f"<div class='serif' style='font-style:italic;font-size:52px;color:{v['quiet']}'>{esc(ti.get('subtitle', ''))}</div>"
+               f"{rule(v['accent'], height=3)}"
+               f"<div class='serif' style='font-size:72px;font-weight:600;color:{v['gold']}'>{esc(ref)}</div>"
+               f"<div class='sans' style='font-size:28px;color:{v['note']}'>{esc(ti.get('translation', ''))}</div></div>"
+               f"<div style='height:1px'></div></div>")
+    for i, s in enumerate(c["screens"]):
+        screens += (f"<div class='screen' style='gap:56px;opacity:0;animation:sc{i + 1} {T}s linear infinite'>"
+                    f"<div class='serif caps' style='font-size:36px;font-weight:600;letter-spacing:10px;color:{v['label']};flex-shrink:0'>{esc(s.get('label', ''))}</div>"
+                    f"<div data-fit class='fit' style='width:100%;max-height:1050px;font-size:66px;display:flex;align-items:center;justify-content:center'>"
+                    f"<p class='serif' style='margin:0;font-size:1em;font-weight:600;line-height:1.25;color:{v['ink']}'>{verse_html(s['verses'], num_color=v['label'])}</p></div></div>")
+    en = c.get("end", {})
+    screens += (f"<div class='screen' style='gap:36px;opacity:0;animation:sc{n_windows - 1} {T}s linear infinite'>"
+                f"{LAMP}"
+                f"<p class='serif' style='margin:0;font-size:84px;font-weight:700;line-height:1.05;letter-spacing:-1px;color:{v['ink']}'>{esc(en.get('quote', ''))}</p>"
+                f"{rule(v['accent'], height=3)}"
+                f"<div class='serif caps' style='font-size:34px;font-weight:600;letter-spacing:4px;color:{v['gold']}'>{esc(en.get('line', 'Today’s readings · link in bio'))}</div></div>")
+    body = f"""
+<div style="width:1080px;height:1920px;position:relative;overflow:hidden;background:{v['sky']}">
+  <div style="position:absolute;left:-100px;top:300px;width:1280px;height:1280px;border-radius:50%;background:radial-gradient(circle,{v['glow']} 0%,rgba(217,168,91,0) 65%);animation:glow 9s ease-in-out infinite"></div>
+  <div style="position:absolute;inset:0">{sparks}</div>
+  {screens}
+  <div style="position:absolute;left:0;right:0;bottom:300px;display:flex;justify-content:center">
+    <div class="serif caps" style="font-size:30px;font-weight:600;letter-spacing:4px;color:{v['gold']}">{esc(c.get('footer', site))}</div>
   </div>
 </div>"""
     return {"html": page(STORY_W, STORY_H, body, css), "duration": T, "width": STORY_W, "height": STORY_H,

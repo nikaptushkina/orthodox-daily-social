@@ -30,7 +30,7 @@ def load_json(path):
 
 
 def clean(text):
-    text = re.sub(r"<[^>]+>", "", text or "")
+    text = re.sub(r"<[^>]+>", "", text or "").replace("\u00ad", "")  # soft hyphens inside words
     return re.sub(r"\s+", " ", htmllib.unescape(text)).strip()
 
 
@@ -93,6 +93,30 @@ def ref_label(book, verses):
     return f"{book} {a['c']}:{a['n']}–{b['c']}:{b['n']}"
 
 
+def reading_book(r):
+    """The book's name for labels. Orthocal gives "OT" for Old Testament (Vespers) readings
+    and "Apostol" for Epistles, so take the name from the display text instead."""
+    book = r.get("book") or ""
+    if book in ("OT", "Apostol", "") or not re.match(r"^[0-9]?\s?[A-Za-z]", book):
+        display = (r.get("display") or "").split(" - ")[-1]
+        m = re.match(r"^(.+?)\s+\d+[.:]", display)
+        book = m.group(1) if m else display
+    return book
+
+
+def reading_ref(r):
+    """'Isaiah 63:15–64:5, 8–9' from Orthocal's 'Composite 16 - Isaiah 63.15-64.5, 8-9'."""
+    display = (r.get("display") or "").split(" - ")[-1]
+    return display.replace(".", ":").replace("-", "–")
+
+
+def is_composite(r):
+    """Orthocal's 'Composite N - ...' readings come as one unnumbered block."""
+    passage = r.get("passage") or []
+    return (r.get("display") or "").startswith("Composite") or (
+        len(passage) == 1 and not passage[0].get("book") and len(passage[0].get("content") or "") > 400)
+
+
 def reel_spec(content, day):
     """The Reel's screens: Scripture word for word, grouped into screens."""
     reel = content.get("reel")
@@ -107,10 +131,19 @@ def reel_spec(content, day):
             spec["screens"] = [{"label": ref_label(p["name"], g), "verses": g} for g in groups]
         else:
             r, verses = reading_verses(day, spec["reading"]["index"])
-            spec["_reading"] = {"book": r.get("book"), "display": r.get("display"), "source": r.get("source")}
-            book = spec.get("ref_book") or r.get("book")
-            groups = chunk(verses, spec.get("screen_chars", 230))
-            spec["screens"] = [{"label": ref_label(book, g), "verses": g} for g in groups]
+            book = spec.get("ref_book") or reading_book(r)
+            spec["_reading"] = {"book": book, "display": r.get("display"), "source": r.get("source")}
+            spec.setdefault("ref", reading_ref(r))
+            if is_composite(r):
+                # One block of text stitched from several places, with no real verse numbers:
+                # split it by sentence and label every screen with the whole reference.
+                text = " ".join(v["t"] for v in verses)
+                sentences = [{"n": "", "t": t} for t in re.split(r"(?<=[.?!;])\s+(?=[A-Z“\"‘'])", text) if t.strip()]
+                groups = chunk(sentences, spec.get("screen_chars", 230))
+                spec["screens"] = [{"label": spec["ref"], "verses": g} for g in groups]
+            else:
+                groups = chunk(verses, spec.get("screen_chars", 230))
+                spec["screens"] = [{"label": ref_label(book, g), "verses": g} for g in groups]
     return spec
 
 
@@ -172,7 +205,7 @@ def main():
             slides = T.feast(feed, site)
         elif kind == "word":
             r, verses = reading_verses(day, feed["reading"]["index"])
-            book = feed.get("ref_book") or r.get("book") or feed["book_title"]
+            book = feed.get("ref_book") or reading_book(r) or feed["book_title"]
             pages = [{"ref": ref_label(book, g), "verses": g} for g in chunk(verses, feed.get("page_chars", 560))]
             slides = T.word(feed, pages, site)
         else:

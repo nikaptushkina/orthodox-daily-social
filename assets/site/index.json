@@ -1,1 +1,106 @@
-{}
+{
+ "calendar-fasting-1.png": {
+  "taken": "2026-10-25",
+  "feature": "calendar-fasting"
+ },
+ "calendar-fasting-2.png": {
+  "taken": "2026-10-25",
+  "feature": "calendar-fasting"
+ },
+ "calendar-year-1.png": {
+  "taken": "2026-10-25",
+  "feature": "calendar-year"
+ },
+ "calendar-year-2.png": {
+  "taken": "2026-10-25",
+  "feature": "calendar-year"
+ },
+ "confession-prepare-1.png": {
+  "taken": "2026-10-25",
+  "feature": "confession-prepare"
+ },
+ "confession-prepare-2.png": {
+  "taken": "2026-10-25",
+  "feature": "confession-prepare"
+ },
+ "confession-private.png": {
+  "taken": "2026-10-25",
+  "feature": "confession-private"
+ },
+ "dark-mode-1.png": {
+  "taken": "2026-10-25",
+  "feature": "dark-mode"
+ },
+ "dark-mode-2.png": {
+  "taken": "2026-10-25",
+  "feature": "dark-mode"
+ },
+ "dark-mode-3.png": {
+  "taken": "2026-10-25",
+  "feature": "dark-mode"
+ },
+ "feast-insight-1.png": {
+  "taken": "2026-10-25",
+  "feature": "feast-insight"
+ },
+ "feast-insight-2.png": {
+  "taken": "2026-10-25",
+  "feature": "feast-insight"
+ },
+ "live-liturgy.png": {
+  "taken": "2026-10-25",
+  "feature": "live-liturgy"
+ },
+ "prayers-icons-1.png": {
+  "taken": "2026-10-25",
+  "feature": "prayers-icons"
+ },
+ "prayers-icons-2.png": {
+  "taken": "2026-10-25",
+  "feature": "prayers-icons"
+ },
+ "prayers-listen-1.png": {
+  "taken": "2026-10-25",
+  "feature": "prayers-listen"
+ },
+ "prayers-listen-2.png": {
+  "taken": "2026-10-25",
+  "feature": "prayers-listen"
+ },
+ "prayers-with-readings.png": {
+  "taken": "2026-10-25",
+  "feature": "prayers-with-readings"
+ },
+ "psalm-of-the-day.png": {
+  "taken": "2026-10-25",
+  "feature": "psalm-of-the-day"
+ },
+ "readings-ai-guide-1.png": {
+  "taken": "2026-10-25",
+  "feature": "readings-ai-guide"
+ },
+ "readings-ai-guide-2.png": {
+  "taken": "2026-10-25",
+  "feature": "readings-ai-guide"
+ },
+ "readings-text-size-1.png": {
+  "taken": "2026-10-25",
+  "feature": "readings-text-size"
+ },
+ "readings-text-size-2.png": {
+  "taken": "2026-10-25",
+  "feature": "readings-text-size"
+ },
+ "saints-lives-1.png": {
+  "taken": "2026-10-25",
+  "feature": "saints-lives"
+ },
+ "settings-1.png": {
+  "taken": "2026-10-25",
+  "feature": "settings"
+ },
+ "settings-2.png": {
+  "taken": "2026-10-25",
+  "feature": "settings"
+ }
+}

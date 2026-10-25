@@ -78,6 +78,8 @@ def run_recipe(browser, shot, path):
                     except Exception:
                         pg.locator(step["close"]).first.click(timeout=10000)
                         pg.wait_for_timeout(500)
+                if not found and step.get("required"):
+                    raise RuntimeError("none of them shows " + step["until"] + " today")
                 if not found:
                     buttons.first.click(timeout=15000)
                     pg.locator(step["open"]).first.wait_for(state="visible", timeout=30000)

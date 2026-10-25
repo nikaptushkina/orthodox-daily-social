@@ -211,10 +211,7 @@
         "eval": "document.querySelectorAll('section').forEach(s=>s.style.contentVisibility='visible')"
        },
        {
-        "scroll": "section:has(p:has-text(\"Psalm of the Day\")) h3"
-       },
-       {
-        "eval": "window.scrollBy(0, -140)"
+        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span')].find(e => e.children.length === 0 && e.textContent.trim() === \"Psalm of the Day\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -90); } })()"
        },
        {
         "pause": 800
@@ -286,10 +283,10 @@
         "pause": 1000
        },
        {
-        "scroll": "text=meat fast only"
+        "scroll": "text=meat fast only >> visible=true"
        },
        {
-        "eval": "window.scrollBy(0, 220)"
+        "eval": "window.scrollBy(0, 200)"
        },
        {
         "pause": 600
@@ -326,7 +323,8 @@
         "until": "figure img[alt^=\"Icon of\"]",
         "open": ".htc-modal-content",
         "close": ".modal-close-control",
-        "timeout": 7000
+        "timeout": 7000,
+        "required": true
        },
        {
         "pause": 1500
@@ -461,10 +459,7 @@
         "wait": "text=Your Confession Draft"
        },
        {
-        "scroll": "text=Your Confession Draft"
-       },
-       {
-        "eval": "window.scrollBy(0, -80)"
+        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span')].find(e => e.children.length === 0 && e.textContent.trim() === \"Your Confession Draft\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -120); } })()"
        },
        {
         "pause": 800

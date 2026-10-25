@@ -1,0 +1,23 @@
+{
+ "date": "2026-10-25",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg"
+   ],
+   "caption": "The week ahead, October 25 – 31 (New Calendar): feasts, saints and fasting at a glance.\n\nWe begin with the 21st Sunday after Pentecost. On Monday the Church keeps the feast of the Greatmartyr Demetrius.\n\nWednesday and Friday are fast days. Later in the week we remember the Martyr Nestor of Thessalonica, the Martyr Anastasia the Roman, and the Apostles Stachys, Apelles, Amplias and their companions.\n\nComing next: the Synaxis of the Holy Unmercenaries on Sunday, November 8.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #SaintOfTheDay"
+  }
+ ]
+}

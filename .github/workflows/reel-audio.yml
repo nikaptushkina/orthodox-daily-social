@@ -1,0 +1,130 @@
+name: Add voice and music to the Reel
+
+# When a morning branch (posts/YYYY-MM-DD) is pushed with a Reel in it, this:
+# 1. starts a Kokoro-FastAPI server and reads each screen aloud (voice and speed from
+#    config.json "reel_audio"),
+# 2. times every screen to its narration and renders the video,
+# 3. lays the music from the private assets repo underneath, quieter while the voice speaks,
+# 4. commits reel.mp4 to the same branch and marks the pull request ready to approve.
+# To redo a Reel: Actions > Add voice and music to the Reel > Run workflow, on that branch.
+on:
+  push:
+    branches: ["posts/**"]
+    paths: ["posts/*/content.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: reel-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HAS_ASSETS: ${{ secrets.ASSETS_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Is there a Reel?
+        id: day
+        run: |
+          d="${GITHUB_REF_NAME#posts/}"
+          if ! echo "$d" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
+            echo "::error::Run this on a posts/YYYY-MM-DD branch (this is $GITHUB_REF_NAME)."; exit 1
+          fi
+          echo "date=$d" >> "$GITHUB_OUTPUT"
+          python3 -c "
+          import json
+          c = json.load(open('posts/$d/content.json'))
+          a = json.load(open('config.json'))['reel_audio']
+          print('reel=' + ('yes' if c.get('reel') else 'no'))
+          print('image=' + a['kokoro_image'])
+          print('assets=' + a['assets_repo'])
+          print('music=' + a['music'])
+          " >> "$GITHUB_OUTPUT"
+          cat "$GITHUB_OUTPUT"
+
+      - name: Start Kokoro
+        if: steps.day.outputs.reel == 'yes'
+        run: docker run -d --name kokoro -p 8880:8880 "${{ steps.day.outputs.image }}"
+
+      - name: Get the music
+        if: steps.day.outputs.reel == 'yes' && env.HAS_ASSETS == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.day.outputs.assets }}
+          token: ${{ secrets.ASSETS_TOKEN }}
+          path: _assets
+
+      - name: No music key
+        if: steps.day.outputs.reel == 'yes' && env.HAS_ASSETS != 'true'
+        run: echo "::warning::The ASSETS_TOKEN secret is missing, so this Reel has the voice only, no music."
+
+      - uses: actions/setup-python@v5
+        if: steps.day.outputs.reel == 'yes'
+        with:
+          python-version: "3.12"
+
+      - name: Install the video tools
+        if: steps.day.outputs.reel == 'yes'
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg
+          pip install -q playwright pillow
+          python -m playwright install --with-deps chromium
+
+      - name: Wait for Kokoro
+        if: steps.day.outputs.reel == 'yes'
+        run: |
+          for i in $(seq 1 60); do
+            if curl -sf http://localhost:8880/health; then echo; echo "Kokoro is ready."; exit 0; fi
+            sleep 5
+          done
+          echo "::error::Kokoro did not start."; docker logs kokoro | tail -50; exit 1
+
+      - name: Make the Reel
+        if: steps.day.outputs.reel == 'yes'
+        run: python3 -m social.voice "${{ steps.day.outputs.date }}" --music "_assets/${{ steps.day.outputs.music }}"
+
+      - name: Add it to the pull request
+        if: steps.day.outputs.reel == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          d="${{ steps.day.outputs.date }}"
+          git config user.name "orthodox-daily-bot"
+          git config user.email "orthodox-daily-bot@users.noreply.github.com"
+          git add "posts/$d/reel.mp4" "posts/$d/reel-cover.jpg" "posts/$d/post.json" "posts/$d/voice.json"
+          git commit -m "Reel for $d with voice and music"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+          sha=$(git rev-parse HEAD)
+          secs=$(python3 -c "import json;print(round(json.load(open('posts/$d/voice.json'))['total']))")
+          what=$(python3 -c "import json;print('voice and music' if json.load(open('posts/$d/voice.json'))['music'] else 'voice, no music')")
+          pr=$(gh pr list --head "$GITHUB_REF_NAME" --state open --json number --jq '.[0].number')
+          if [ -n "$pr" ]; then
+            gh pr comment "$pr" --body "🎧 **The Reel is ready** (${secs} seconds, ${what}). Watch and listen: https://github.com/${GITHUB_REPOSITORY}/raw/${sha}/posts/${d}/reel.mp4
+
+          This pull request is now ready to approve."
+            gh pr ready "$pr" || echo "Could not mark the pull request ready; it can be merged once you mark it ready yourself."
+          else
+            echo "No open pull request for $GITHUB_REF_NAME yet."
+          fi
+
+      - name: Say what went wrong
+        if: failure() && steps.day.outputs.reel == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pr=$(gh pr list --head "$GITHUB_REF_NAME" --state open --json number --jq '.[0].number')
+          [ -z "$pr" ] && exit 0
+          gh pr comment "$pr" --body "⚠️ **The Reel's voice and music could not be added.** Details: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+
+          To try again: Actions → *Add voice and music to the Reel* → **Run workflow** → choose the branch \`${GITHUB_REF_NAME}\`. To post the day without the Reel, close this pull request and ask Claude to redo the day without it."

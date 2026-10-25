@@ -71,6 +71,7 @@ Write only text here. Scripture is never typed: `reading.index` points into `day
 - Psalm (Wednesday): copy `name`, `from` and `to` exactly from `python3 -m social.psalm_plan D`: `{"kind":"psalm","mood":"dawn","psalm":{"name":"Psalm 102","from":1,"to":11},"title":{"kicker":"A psalm to pray · Wednesday","title":"Psalm 102","subtitle":"Bless the Lord, O my soul"},"end":{"quote":"a short line from these verses, word for word"},"footer":"orthodoxdaily.net · Septuagint (LXX2012)"}`. If the plan says the Psalter is missing, stop and report it. When the plan prints a `part` ("1 of 2"), make the kicker "A psalm to pray · Part 1 of 2", and say in the caption that the psalm continues (or concludes) next Wednesday.
 - Gospel or Vespers (Saturday): `{"kind":"gospel","mood":"dawn","reading":{"index":N},"title":{"kicker":"The Gospel · Saturday, October 24","title":"Luke 7:1–10","subtitle":"a short theme"},"end":{"quote":"one line from the reading, word for word"},"footer":"orthodoxdaily.net · World English Bible"}`. For Vespers readings use `"mood":"vespers"`, the kicker "Vespers · Saturday evening", and the Septuagint footer for Old Testament readings. When there are several Vespers readings, use the first.
 - `title.title` must fit on one line: shorten long titles ("Wisdom 3:1–9"). Add `"size": 140` to `title` for titles over 12 characters.
+- Voice-over: the Reel is read aloud by Kokoro (voice and speed in `config.json` `reel_audio`), screen by screen, with an opening line and a closing line. The defaults are: psalm "Psalm 102." (or "Psalm 118, continued." for later parts) and, after the whole psalm or its last part, "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen."; Gospel "The reading from the Holy Gospel according to Saint Luke." and "Glory to Thee, O Lord, glory to Thee."; other readings "The reading from <book>." with no closing. Add `"voice": {"intro": "...", "closing": "..."}` to the Reel only when the default would sound wrong, using the Church's usual forms: "The reading from the Epistle of Saint Paul to the Colossians.", "The reading from the Prophecy of Isaiah.", "The reading from the Wisdom of Solomon." (empty `closing` means none).
 
 **Accents**: `feast` (Feasts of the Lord, Nativity, Pascha), `theotokos`, `martyr`, `lent` (Great Lent, Holy Week), `pentecost`, `ordinary` (ordinary days, memorial Saturdays). One per post.
 
@@ -86,7 +87,7 @@ Never invent facts. If a saint's life or a feast's practice is uncertain, say le
 python3 -m social.build D
 ```
 
-This renders `posts/D/` (JPEGs, `reel.mp4`, `reel-cover.jpg`, `post.json`, `preview.jpg`). A Reel takes a few minutes.
+This renders `posts/D/` (JPEGs, `reel-cover.jpg`, `post.json`, `preview.jpg`) in under a minute. It does not make the Reel video: after you push, the *Add voice and music to the Reel* workflow reads it aloud, adds the music, renders `reel.mp4` onto the same branch and marks the pull request ready. Don't wait for it.
 
 Then **look at every image** (open each JPEG, and `preview.jpg`). Fix and rebuild if text is cut off, a name is wrong, a line is awkwardly broken, or the calendar label is missing. Make sure `post.json` lists the expected items.
 
@@ -105,11 +106,14 @@ Open a pull request into `main` titled "Posts for <Weekday>, <Month> <day>" with
 gh api repos/nikaptushkina/orthodox-daily-social/pulls -f base=main -f head=posts/D -f title="Posts for ..." -f body="$(cat body.md)"
 ```
 
+On days with a Reel, add `-F draft=true`: the pull request stays a draft (it can't be merged by accident) until the workflow has added the voiced Reel, then becomes ready by itself.
+
 Use this body:
 
 - `![preview](https://raw.githubusercontent.com/nikaptushkina/orthodox-daily-social/posts/D/posts/D/preview.jpg)`
 - What is in it (Story, carousel or Reel) and today's commemoration in one line.
 - Each caption in a quote block.
+- On Reel days: "The Reel's voice and music are being added; this pull request becomes ready to approve in about 15 minutes, with a link to watch it."
 - "Merge to approve: the Story posts right away and the feed post at its posting time (POSTING TIME). To change a caption, edit `posts/D/post.json` in this pull request before merging. To skip today, close the pull request." Replace POSTING TIME with that weekday's time from `config.json` `posting_times`, written like "2 pm Pacific".
 
 Finish with one line for the person: the pull request link and what it contains.

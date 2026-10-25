@@ -320,9 +320,13 @@ def reel_timing(c):
     return durs
 
 
-def reel(c, site):
+def reel(c, site, durs=None):
+    """durs: seconds per screen (title, verse screens, end). Defaults to reading-speed
+    timing; social.voice passes the narration's own lengths instead."""
     m = MOODS.get(c.get("mood", "dawn"), MOODS["dawn"])
-    durs = reel_timing(c)
+    durs = list(durs) if durs else reel_timing(c)
+    if len(durs) != len(c["screens"]) + 2:
+        raise ValueError(f"need {len(c['screens']) + 2} screen lengths, got {len(durs)}")
     T = round(sum(durs), 3)
     frames_css, windows, t = [], [], 0.0
     for i, d in enumerate(durs):

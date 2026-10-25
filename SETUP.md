@@ -55,6 +55,18 @@ Repository **Settings → Secrets and variables → Actions**.
 2. When you're happy, change `PUBLISH_ENABLED` to `true`. From then on, merging approves: the Story posts right away and the feed post at its posting time.
 3. If a day ever fails, open the failed workflow run in Actions to see why, fix the cause, and use **Run workflow** on *Publish approved posts* with that date. That posts the day's remaining items immediately, whatever the time. Items that already went out are never posted twice.
 
+## Step 7b: Music for the Reels
+
+Reels are read aloud by Kokoro (Michael, at 0.9) with music underneath. The music is a licensed Pixabay track, so it lives in a private repo, `orthodox-daily-assets`, rather than in this public one.
+
+1. Create the private repo `orthodox-daily-assets` (no README) and put the track at `music/the-mountain-quiet-documentary.mp3`.
+2. Create a fine-grained personal access token at https://github.com/settings/personal-access-tokens/new: name `orthodox-daily music`, the longest expiration offered, **Only select repositories** → `orthodox-daily-assets`, **Contents: Read-only**.
+3. Save it in this repo as the secret `ASSETS_TOKEN`.
+
+Without it, Reels still get the voice, with no music. If the token expires, make a new one the same way and replace the secret.
+
+On Reel days (Wednesday and Saturday) the morning pull request opens as a **draft**. About 15 minutes later the *Add voice and music to the Reel* workflow adds the finished video, comments with a link to watch it, and marks the pull request ready to merge.
+
 ## Step 8 (optional): Keep the token fresh automatically
 
 Instagram tokens expire after 60 days. The *Refresh Instagram token* workflow renews it on the 1st of every month, but storing the new token needs permission:
@@ -101,4 +113,4 @@ The Story goes out as soon as you approve, so the day's calendar is up all day. 
 ## Not automated yet
 
 - **Story link stickers**: the API can't add them, so Stories say "link in bio".
-- **Voice and music on Reels**: Reels are published silent for now. The next step is adding the Kokoro voice-over and a quiet music bed to the workflow. Until then, on Reel days you can close the pull request and post that Reel yourself with music.
+- **Reel voice and music**: in `config.json` under `reel_audio`. `voice` is any Kokoro voice (`am_michael`, `bm_george`, `af_heart`, ...), `speed` 1.0 is normal, `music_lufs` sets how loud the music is (−20 is louder, −28 quieter). To change the track, add an mp3 to the private `orthodox-daily-assets` repo and point `music` at it.

@@ -20,5 +20,15 @@
     "friday": "11:00",
     "saturday": "16:00",
     "sunday": "13:00"
+  },
+  "reel_audio": {
+    "_how": "Reel voice-over and music, added by the 'Add voice and music to the Reel' workflow. voice: a Kokoro voice (am_michael, bm_george, af_heart, ...). speed: 1.0 is normal. music: path inside the private assets repo. Levels in LUFS: higher (closer to 0) is louder.",
+    "voice": "am_michael",
+    "speed": 0.9,
+    "kokoro_image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.8.2",
+    "assets_repo": "nikaptushkina/orthodox-daily-assets",
+    "music": "music/the-mountain-quiet-documentary.mp3",
+    "voice_lufs": -16,
+    "music_lufs": -24
   }
 }

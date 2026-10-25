@@ -1,10 +1,13 @@
 """Build one day's posts from posts/<date>/content.json and days/<date>.json.
 
-    python3 -m social.build 2026-10-25            # everything
-    python3 -m social.build 2026-10-25 --no-reel  # skip the (slow) video
+    python3 -m social.build 2026-10-25            # stills, Reel cover, post.json, preview
+    python3 -m social.build 2026-10-25 --video    # also a silent test video of the Reel
+    python3 -m social.build 2026-10-25 --no-reel  # leave the Reel out entirely
 
-Writes JPEGs, the Reel MP4 and cover, post.json (what to publish) and
-preview.jpg (a contact sheet for the pull request) into posts/<date>/.
+Writes JPEGs, the Reel cover, post.json (what to publish) and preview.jpg (a
+contact sheet for the pull request) into posts/<date>/. The Reel video itself,
+with Kokoro voice-over and music, is made by social.voice in the "Add voice and
+music to the Reel" workflow once the branch is pushed.
 Scripture is always taken word for word from the day's data or from
 assets/psalter-lxx2012.json; content.json only says which reading to use.
 """
@@ -16,7 +19,7 @@ import re
 import sys
 
 from . import templates as T
-from .render import render_reel, render_stills
+from .render import render_cover, render_reel, render_stills
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -90,6 +93,34 @@ def ref_label(book, verses):
     return f"{book} {a['c']}:{a['n']}–{b['c']}:{b['n']}"
 
 
+def reel_spec(content, day):
+    """The Reel's screens: Scripture word for word, grouped into screens."""
+    reel = content.get("reel")
+    if not reel:
+        return None
+    spec = dict(reel)
+    if "screens" not in spec:
+        if "psalm" in spec:
+            p = spec["psalm"]
+            verses = psalm_verses(p["name"], p.get("from"), p.get("to"))
+            groups = chunk(verses, spec.get("screen_chars", 230))
+            spec["screens"] = [{"label": ref_label(p["name"], g), "verses": g} for g in groups]
+        else:
+            r, verses = reading_verses(day, spec["reading"]["index"])
+            spec["_reading"] = {"book": r.get("book"), "display": r.get("display"), "source": r.get("source")}
+            book = spec.get("ref_book") or r.get("book")
+            groups = chunk(verses, spec.get("screen_chars", 230))
+            spec["screens"] = [{"label": ref_label(book, g), "verses": g} for g in groups]
+    return spec
+
+
+def load_day(date):
+    content = load_json(os.path.join(ROOT, "posts", date, "content.json"))
+    day_path = os.path.join(ROOT, "days", f"{date}.json")
+    day = load_json(day_path) if os.path.exists(day_path) else {}
+    return content, day
+
+
 def contact_sheet(outdir, names):
     from PIL import Image
     thumbs = []
@@ -109,15 +140,14 @@ def contact_sheet(outdir, names):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("date")
-    ap.add_argument("--no-reel", action="store_true")
+    ap.add_argument("--no-reel", action="store_true", help="leave the Reel out")
+    ap.add_argument("--video", action="store_true", help="also render a silent test video of the Reel")
     args = ap.parse_args()
 
     cfg = load_json(os.path.join(ROOT, "config.json"))
     site = cfg["site_url"]
     outdir = os.path.join(ROOT, "posts", args.date)
-    content = load_json(os.path.join(outdir, "content.json"))
-    day_path = os.path.join(ROOT, "days", f"{args.date}.json")
-    day = load_json(day_path) if os.path.exists(day_path) else {}
+    content, day = load_day(args.date)
 
     stills, items, preview = [], [], []
 
@@ -156,35 +186,28 @@ def main():
 
     written = render_stills(stills, outdir)
 
-    # Reel (Wednesday psalm, Saturday Vespers or Gospel)
+    # Reel (Wednesday psalm, Saturday Vespers or Gospel). Here only its cover; the
+    # video with voice and music is added by the workflow (social.voice).
     reel = content.get("reel")
-    if reel:
-        spec = dict(reel)
-        if "screens" not in spec:
-            if "psalm" in spec:
-                p = spec["psalm"]
-                verses = psalm_verses(p["name"], p.get("from"), p.get("to"))
-                label_book = p["name"]
-                groups = chunk(verses, spec.get("screen_chars", 230))
-                spec["screens"] = [{"label": ref_label(label_book, g), "verses": g} for g in groups]
-            else:
-                r, verses = reading_verses(day, spec["reading"]["index"])
-                book = spec.get("ref_book") or r.get("book")
-                groups = chunk(verses, spec.get("screen_chars", 230))
-                spec["screens"] = [{"label": ref_label(book, g), "verses": g} for g in groups]
-        if not args.no_reel:
-            built = T.reel(spec, site)
-            render_reel(built, os.path.join(outdir, "reel.mp4"), os.path.join(outdir, "reel-cover.jpg"))
-            items.append({"id": "reel", "type": "REEL", "media": ["reel.mp4"], "cover": "reel-cover.jpg",
-                          "caption": reel["caption"], "duration": built["duration"]})
-            preview.append("reel-cover.jpg")
+    if reel and not args.no_reel:
+        spec = reel_spec(content, day)
+        built = T.reel(spec, site)
+        cover = os.path.join(outdir, "reel-cover.jpg")
+        if args.video:
+            render_reel(built, os.path.join(outdir, "reel.mp4"), cover)
+        else:
+            render_cover(built, cover)
+        written.append("reel-cover.jpg")
+        items.append({"id": "reel", "type": "REEL", "media": ["reel.mp4"], "cover": "reel-cover.jpg",
+                      "caption": reel["caption"], "duration": built["duration"], "audio": "pending"})
+        preview.append("reel-cover.jpg")
 
     post = {"date": args.date, "calendar": cfg["calendar_label"], "tradition": cfg["tradition"], "items": items}
     with open(os.path.join(outdir, "post.json"), "w", encoding="utf-8") as f:
         json.dump(post, f, ensure_ascii=False, indent=1)
     if preview:
         contact_sheet(outdir, preview)
-    print(json.dumps({"written": written + (["reel.mp4", "reel-cover.jpg"] if reel and not args.no_reel else []),
+    print(json.dumps({"written": written,
                       "items": [i["id"] for i in items]}, indent=1))
 
 

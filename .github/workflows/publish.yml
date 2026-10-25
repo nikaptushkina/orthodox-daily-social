@@ -37,8 +37,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Collect media
         run: |
+          # Only the last two weeks: Instagram fetches media when posting, and Pages sites are capped at 1 GB.
           mkdir -p _site/posts
-          cp -r posts/. _site/posts/ 2>/dev/null || true
+          since=$(date -u -d "14 days ago" +%F)
+          for dir in posts/*/; do
+            d=$(basename "$dir")
+            if [[ "$d" > "$since" || "$d" == "$since" ]]; then cp -r "$dir" "_site/posts/$d"; fi
+          done
           echo "<!doctype html><title>Orthodox Daily media</title><p>Media for @orthodoxdaily posts.</p>" > _site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -85,7 +85,7 @@
        },
        {
         "highlight": "[aria-label=\"Increase popup text size\"]",
-        "label": "Larger"
+        "label": "larger"
        }
       ],
       "element": "[role=dialog]"
@@ -265,7 +265,7 @@
        },
        {
         "highlight": "button[aria-label^=\"Play Psalm\"] >> visible=true",
-        "label": "Psalm"
+        "label": "psalm"
        }
       ],
       "clip_around": {
@@ -373,7 +373,7 @@
        },
        {
         "highlight": "section:has(p:has-text(\"Psalm of the Day\")) h3",
-        "label": "Today’s psalm"
+        "label": "today’s psalm"
        }
       ],
       "clip_around": {
@@ -416,11 +416,14 @@
         "eval": "window.scrollBy(0, -60)"
        },
        {
+        "eval": "window.scrollBy(0, -60)"
+       },
+       {
         "pause": 500
        },
        {
         "highlight": "button:has(svg.lucide-chevron-right) >> visible=true",
-        "label": "Next month"
+        "label": "next month"
        }
       ],
       "clip_around": {
@@ -450,11 +453,14 @@
         "eval": "window.scrollBy(0, -60)"
        },
        {
+        "eval": "window.scrollBy(0, -60)"
+       },
+       {
         "pause": 500
        },
        {
         "highlight": ".grid-cols-7 button.bg-sky-50",
-        "label": "Feast day"
+        "label": "feast day"
        }
       ],
       "clip_around": {
@@ -776,7 +782,7 @@
        },
        {
         "highlight": "role=button[name=/wander during prayer/]",
-        "label": "Selected"
+        "label": "selected"
        }
       ],
       "clip_around": {
@@ -869,7 +875,7 @@
        },
        {
         "highlight": "role=button[name=\"Settings\"] >> visible=true",
-        "label": "Tap"
+        "label": "tap here"
        }
       ],
       "clip": [
@@ -935,7 +941,7 @@
        },
        {
         "highlight": "[aria-label=\"Switch to dark mode\"] >> visible=true",
-        "label": "Tap"
+        "label": "tap here"
        }
       ],
       "clip": [
@@ -985,7 +991,7 @@
        },
        {
         "highlight": "[aria-label=\"Enable Seasonal Effects\"] >> visible=true",
-        "label": "Tap"
+        "label": "tap here"
        }
       ],
       "clip": [
@@ -1033,7 +1039,7 @@
        },
        {
         "highlight": "section[aria-label=\"Livestream\"] button[aria-label=\"Watch live\"], section[aria-label=\"Livestream\"] button[aria-label=\"Open stream\"], section[aria-label=\"Livestream\"] button[aria-label=\"Watch\"]",
-        "label": "Play"
+        "label": "play"
        }
       ],
       "timezone": "America/New_York",

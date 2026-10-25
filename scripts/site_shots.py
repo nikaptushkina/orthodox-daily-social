@@ -28,35 +28,45 @@ BASE = "https://" + CONFIG["site_url"]
 
 RING_JS = """
 ([x, y, w, h, label]) => {
-  const pad = 7, small = w < 70 && h < 70;
+  // The Welcome post's sky-to-rose line as the ring, and an italic Crimson Text label.
+  const pad = 7, small = w < 70 && h < 70, radius = small ? '999px' : '16px';
+  const L = x - pad, T = y - pad, W = w + 2 * pad, H = h + 2 * pad;
+  const halo = document.createElement('div');
+  Object.assign(halo.style, {
+    position: 'fixed', left: (L - 3) + 'px', top: (T - 3) + 'px', width: (W + 6) + 'px', height: (H + 6) + 'px',
+    borderRadius: small ? '999px' : '19px', border: '3px solid rgba(255,255,255,0.9)', boxSizing: 'border-box',
+    boxShadow: '0 0 14px rgba(232,144,168,0.35)', zIndex: 2147483646, pointerEvents: 'none'
+  });
   const ring = document.createElement('div');
-  ring.className = 'od-ring';
   Object.assign(ring.style, {
-    position: 'fixed', left: (x - pad) + 'px', top: (y - pad) + 'px',
-    width: (w + 2 * pad) + 'px', height: (h + 2 * pad) + 'px',
-    border: '4px solid #0369A1', borderRadius: small ? '999px' : '16px', boxSizing: 'border-box',
-    boxShadow: '0 0 0 3px rgba(255,255,255,0.95), 0 0 0 9px rgba(3,105,161,0.28)',
+    position: 'fixed', left: L + 'px', top: T + 'px', width: W + 'px', height: H + 'px',
+    borderRadius: radius, padding: '3.5px', boxSizing: 'border-box',
+    background: 'linear-gradient(90deg, #7DB9E8, #E890A8)',
+    WebkitMask: 'linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0)',
+    WebkitMaskComposite: 'xor', maskComposite: 'exclude',
     zIndex: 2147483647, pointerEvents: 'none'
   });
+  document.body.appendChild(halo);
   document.body.appendChild(ring);
   if (label) {
     const tag = document.createElement('div');
-    tag.className = 'od-ring';
     tag.textContent = label;
-    // Small buttons: label underneath. Wide rows: label sits on the ring's top-right corner,
-    // so it never covers the next line.
-    const wide = w > 160;
-    const below = y + h + pad + 34 < window.innerHeight;
-    const left = wide ? Math.min(x + w - 70, window.innerWidth - 90) : Math.max(6, Math.min(x + w / 2 - 40, window.innerWidth - 86));
-    const top = wide ? y - pad - 16 : (below ? y + h + pad + 8 : y - pad - 34);
     Object.assign(tag.style, {
-      position: 'fixed', left: left + 'px',
-      top: top + 'px', minWidth: '80px', textAlign: 'center',
-      padding: '4px 10px', borderRadius: '999px', background: '#0369A1', color: '#FFFFFF',
-      font: '700 14px/1.3 system-ui, -apple-system, sans-serif', letterSpacing: '0.02em',
-      boxShadow: '0 4px 12px rgba(3,105,161,0.35)', zIndex: 2147483647, pointerEvents: 'none'
+      position: 'fixed', display: 'flex', alignItems: 'center', justifyContent: 'center',
+      height: '28px', padding: '0 14px', boxSizing: 'border-box', whiteSpace: 'nowrap',
+      borderRadius: '999px', background: '#FFFFFF', border: '1.5px solid #E890A8', color: '#334155',
+      font: 'italic 600 17px/1 "Crimson Text", Georgia, serif', textAlign: 'center',
+      boxShadow: '0 4px 12px rgba(15,23,42,0.12)', zIndex: 2147483647, pointerEvents: 'none', visibility: 'hidden'
     });
     document.body.appendChild(tag);
+    const tw = tag.offsetWidth;
+    // Small buttons: label centred underneath. Wide rows: on the ring's top-right corner, clear of the next line.
+    const wide = w > 160;
+    const below = y + h + pad + 36 < window.innerHeight;
+    const left = wide ? Math.min(L + W - tw - 12, window.innerWidth - tw - 6)
+                      : Math.max(6, Math.min(x + w / 2 - tw / 2, window.innerWidth - tw - 6));
+    const top = wide ? T - 14 : (below ? T + H + 6 : T - 34);
+    Object.assign(tag.style, {left: left + 'px', top: top + 'px', visibility: 'visible'});
   }
 }
 """
@@ -104,7 +114,7 @@ def run_recipe(browser, shot, path):
                 el = pg.locator(step["highlight"]).first
                 el.wait_for(state="visible", timeout=step.get("timeout", 15000))
                 box = el.bounding_box()
-                pg.evaluate(RING_JS, [box["x"], box["y"], box["width"], box["height"], step.get("label", "Tap")])
+                pg.evaluate(RING_JS, [box["x"], box["y"], box["width"], box["height"], step.get("label", "tap here")])
             elif "try_each" in step:
                 # Open each match in turn until one shows what we want (e.g. a saint with an icon);
                 # if none does, leave the first one open.

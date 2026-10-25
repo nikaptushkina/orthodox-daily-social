@@ -148,6 +148,23 @@ def reel_spec(content, day):
     return spec
 
 
+def feature_spec(feed):
+    """A 'From the website' post: the text comes from features.json (by id), the pictures from
+    the real screenshots in assets/site/ (taken nightly on GitHub). content.json may override text."""
+    feats = {f["id"]: f for f in load_json(os.path.join(ROOT, "features.json"))["features"]}
+    if feed.get("feature") not in feats:
+        raise SystemExit(f"unknown feature {feed.get('feature')!r}: see features.json")
+    spec = {**feats[feed["feature"]], **{k: v for k, v in feed.items() if k != "kind"}}
+    shots = []
+    for sh in spec.get("shots", []):
+        path = os.path.join(ROOT, "assets", "site", sh["file"])
+        if not os.path.exists(path):
+            raise SystemExit(f"screenshot missing: assets/site/{sh['file']} (taken by the nightly fetch)")
+        shots.append({**sh, "src": "file://" + path})
+    spec["shots"] = shots
+    return spec
+
+
 def load_day(date):
     content = load_json(os.path.join(ROOT, "posts", date, "content.json"))
     day_path = os.path.join(ROOT, "days", f"{date}.json")
@@ -218,6 +235,9 @@ def main():
             book = feed.get("ref_book") or reading_book(r) or feed["book_title"]
             pages = [{"ref": ref_label(book, g), "verses": g} for g in chunk(verses, feed.get("page_chars", 560))]
             slides = T.word(feed, pages, site)
+        elif kind == "feature":
+            feed = feature_spec(feed)
+            slides = T.feature(feed, site)
         else:
             raise SystemExit(f"unknown feed kind: {kind}")
         # Feed slides get a prefix so they don't collide with the Story.

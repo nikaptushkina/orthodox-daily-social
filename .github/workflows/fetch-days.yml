@@ -27,6 +27,12 @@ jobs:
       - name: Find saint icons (with the site's own lookup)
         continue-on-error: true
         run: python3 scripts/fetch_icons.py
+      - name: Screenshots of the website (for "From the website" posts)
+        continue-on-error: true
+        run: |
+          pip install -q playwright==1.63.0
+          python -m playwright install --with-deps chromium
+          python3 scripts/site_shots.py
       - name: Build the Psalter (first run only)
         continue-on-error: true
         run: |
@@ -37,6 +43,7 @@ jobs:
           git config user.email "orthodox-daily-bot@users.noreply.github.com"
           git add days
           git add assets/icons 2>/dev/null || true
+          git add assets/site 2>/dev/null || true
           git add assets/psalter-lxx2012.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes"

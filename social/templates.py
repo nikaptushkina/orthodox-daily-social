@@ -465,3 +465,76 @@ def _vespers_reel(c, site, T, n_windows, frames_css):
 </div>"""
     return {"html": page(STORY_W, STORY_H, body, css), "duration": T, "width": STORY_W, "height": STORY_H,
             "cover_time": 2.5}
+
+
+# ---------------------------------------------------------------- From the website (Friday, no feast)
+
+SKY_RULE = "linear-gradient(90deg,#7DB9E8,#E890A8)"  # the Welcome post's blue-to-pink line
+
+
+def feature(c, site):
+    """A feature of orthodoxdaily.net, in the Welcome post's style: a cover, one slide per
+    real screenshot (heading, one or two lines, the screenshot), and a 'How to find it' slide."""
+    shots = c.get("shots", [])
+    total = 2 + len(shots)
+    kicker = c.get("kicker", "From the website")
+    sky_rule = f"<div style='width:96px;height:4px;border-radius:2px;background:{SKY_RULE};flex-shrink:0'></div>"
+    slides = []
+
+    s1 = f"""
+<div style="width:1080px;height:1350px;padding:96px;position:relative;overflow:hidden;background:{HEAVEN};color:{INK};
+  display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center">
+  <div style="position:absolute;left:-200px;top:-300px;width:1480px;height:900px;background:radial-gradient(ellipse at center,rgba(255,240,190,0.5) 0%,rgba(255,240,190,0) 65%)"></div>
+  <div style="position:relative;width:100%;display:flex;justify-content:space-between;align-items:center;flex-shrink:0">
+    {label(kicker)}<div class="sans" style="font-size:24px;color:{MUTED}">1 / {total}</div>
+  </div>
+  <div data-fit class="fit" style="position:relative;flex:1;width:100%;font-size:46px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.8em">
+    <img src="{LOGO}" alt="" style="width:130px;height:130px">
+    <div class="serif" style="font-style:italic;font-size:1em;color:{TEXT_BODY}">On orthodoxdaily.net</div>
+    <h1 class="serif" style="margin:-0.4em 0 0;font-size:2.6em;font-weight:700;line-height:0.95;letter-spacing:-2px">{esc(c['title'])}</h1>
+    {sky_rule}
+    <p class="serif" style="margin:0;font-size:1em;line-height:1.3;color:{BODY};max-width:800px">{esc(c.get('line', ''))}</p>
+  </div>
+  <div style="position:relative;width:100%">{footer(site, 'Swipe ' + arrow(), logo=False)}</div>
+</div>"""
+    slides.append(("slide-1.jpg", page(POST_W, POST_H, s1), POST_W, POST_H))
+
+    for i, sh in enumerate(shots):
+        text = (f"<p class='sans' style='margin:0;font-size:0.62em;line-height:1.4;color:{TEXT_BODY}'>{esc(sh['text'])}</p>"
+                if sh.get("text") else "")
+        s = f"""
+<div style="width:1080px;height:1350px;padding:88px 96px;background:linear-gradient(180deg,#F8FAFC 0%,#F1F5F9 100%);color:{INK};
+  display:flex;flex-direction:column;gap:36px">
+  {counter_header(kicker, f'{i + 2} / {total}')}
+  <div data-fit class="fit" style="font-size:44px;display:flex;flex-direction:column;gap:0.45em;flex-shrink:0">
+    {sky_rule}
+    <h2 class="serif" style="margin:0;font-size:1.6em;font-weight:700;line-height:1.02;letter-spacing:-1px">{esc(sh['heading'])}</h2>
+    {text}
+  </div>
+  <div style="flex:1;min-height:0;display:flex;align-items:center;justify-content:center">
+    <img src="{sh['src']}" alt="" style="max-width:100%;max-height:100%;object-fit:contain;border-radius:32px;
+      border:1px solid {BORDER};box-shadow:0 30px 60px -20px rgba(15,23,42,0.25);background:#FFFFFF">
+  </div>
+  {footer(site, arrow(), logo=False)}
+</div>"""
+        slides.append((f"slide-{i + 2}.jpg", page(POST_W, POST_H, s), POST_W, POST_H))
+
+    steps = "".join(
+        f"<div style='background:#FFFFFF;border:1px solid {BORDER};border-radius:28px;padding:0.55em 0.75em;display:flex;align-items:center;gap:0.6em'>"
+        f"<div class='serif' style='width:1.5em;height:1.5em;border-radius:0.45em;background:#F0F9FF;color:#0369A1;font-weight:700;"
+        f"display:flex;align-items:center;justify-content:center;flex-shrink:0'>{n + 1}</div>"
+        f"<div class='sans' style='font-size:0.8em;line-height:1.35;color:{BODY}'>{esc(step)}</div></div>"
+        for n, step in enumerate(c.get("steps", [])))
+    last = f"""
+<div style="width:1080px;height:1350px;padding:88px 96px;background:{HEAVEN};color:{INK};display:flex;flex-direction:column;gap:40px">
+  {counter_header(kicker, f'{total} / {total}')}
+  <div data-fit class="fit" style="flex:1;font-size:40px;display:flex;flex-direction:column;justify-content:center;gap:0.7em">
+    {sky_rule}
+    <h2 class="serif" style="margin:0;font-size:2em;font-weight:700;line-height:1;letter-spacing:-1px">{esc(c.get('steps_heading', 'How to find it'))}</h2>
+    <div style="display:flex;flex-direction:column;gap:0.45em">{steps}</div>
+    <p class="serif" style="margin:0.3em 0 0;font-style:italic;font-size:0.95em;color:{TEXT_BODY}">{esc(c.get('closing', 'orthodoxdaily.net · link in bio'))}</p>
+  </div>
+  {footer(site, 'Save · Share · Link in bio')}
+</div>"""
+    slides.append((f"slide-{total}.jpg", page(POST_W, POST_H, last), POST_W, POST_H))
+    return slides

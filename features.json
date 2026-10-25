@@ -169,16 +169,19 @@
         "wait": "text=Psalm of the Day"
        },
        {
-        "click": "role=button[name='Show icons']"
+        "click": "button[aria-controls=\"prayer-icons\"]"
        },
        {
         "wait": "#prayer-icons img"
        },
        {
         "pause": 1500
+       },
+       {
+        "eval": "window.scrollTo(0, 0)"
        }
       ],
-      "element": "#prayer-icons"
+      "settle": 1200
      }
     }
    ],
@@ -208,10 +211,16 @@
         "eval": "document.querySelectorAll('section').forEach(s=>s.style.contentVisibility='visible')"
        },
        {
-        "scroll": "section:has(h2:has-text(\"Psalm of the Day\"))"
+        "scroll": "section:has(p:has-text(\"Psalm of the Day\")) h3"
+       },
+       {
+        "eval": "window.scrollBy(0, -140)"
+       },
+       {
+        "pause": 800
        }
       ],
-      "element": "section:has(h2:has-text(\"Psalm of the Day\"))"
+      "settle": 1200
      }
     }
    ],
@@ -275,6 +284,15 @@
        },
        {
         "pause": 1000
+       },
+       {
+        "scroll": "text=meat fast only"
+       },
+       {
+        "eval": "window.scrollBy(0, 220)"
+       },
+       {
+        "pause": 600
        }
       ],
       "settle": 1500
@@ -304,13 +322,14 @@
         "wait": "role=button[name='About']"
        },
        {
-        "click": "role=button[name='About']"
+        "try_each": "role=button[name='About']",
+        "until": "figure img[alt^=\"Icon of\"]",
+        "open": ".htc-modal-content",
+        "close": ".modal-close-control",
+        "timeout": 7000
        },
        {
-        "wait": ".htc-modal-content"
-       },
-       {
-        "pause": 5000
+        "pause": 1500
        }
       ],
       "element": "[role=dialog]"
@@ -379,7 +398,25 @@
         "click": "role=button[name='2. Examination']"
        },
        {
-        "pause": 800
+        "click": "role=button[name=/Sins Against God/]"
+       },
+       {
+        "pause": 600
+       },
+       {
+        "click": "role=button[name=/wander during prayer/]"
+       },
+       {
+        "pause": 400
+       },
+       {
+        "scroll": "role=button[name=/wander during prayer/]"
+       },
+       {
+        "eval": "window.scrollBy(0, -260)"
+       },
+       {
+        "pause": 600
        }
       ],
       "settle": 1500
@@ -409,6 +446,12 @@
         "click": "role=button[name='2. Examination']"
        },
        {
+        "click": "role=button[name=/Sins Against God/]"
+       },
+       {
+        "pause": 600
+       },
+       {
         "click": "role=button[name=/wander during prayer/]"
        },
        {
@@ -416,6 +459,12 @@
        },
        {
         "wait": "text=Your Confession Draft"
+       },
+       {
+        "scroll": "text=Your Confession Draft"
+       },
+       {
+        "eval": "window.scrollBy(0, -80)"
        },
        {
         "pause": 800

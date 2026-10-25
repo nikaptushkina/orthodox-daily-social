@@ -63,6 +63,24 @@ def run_recipe(browser, shot, path):
                 pg.keyboard.press(step["press"])
             elif "eval" in step:
                 pg.evaluate(step["eval"])
+            elif "try_each" in step:
+                # Open each match in turn until one shows what we want (e.g. a saint with an icon);
+                # if none does, leave the first one open.
+                buttons = pg.locator(step["try_each"])
+                found = False
+                for i in range(min(buttons.count(), 8)):
+                    buttons.nth(i).click(timeout=15000)
+                    pg.locator(step["open"]).first.wait_for(state="visible", timeout=30000)
+                    try:
+                        pg.locator(step["until"]).first.wait_for(state="visible", timeout=step.get("timeout", 7000))
+                        found = True
+                        break
+                    except Exception:
+                        pg.locator(step["close"]).first.click(timeout=10000)
+                        pg.wait_for_timeout(500)
+                if not found:
+                    buttons.first.click(timeout=15000)
+                    pg.locator(step["open"]).first.wait_for(state="visible", timeout=30000)
         pg.wait_for_timeout(r.get("settle", 1200))  # let fade-ins finish
         if r.get("element"):
             el = pg.locator(r["element"]).first

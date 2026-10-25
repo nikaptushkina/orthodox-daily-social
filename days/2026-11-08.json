@@ -1,0 +1,1003 @@
+{
+ "pascha_distance": 210,
+ "julian_day_number": 2461353,
+ "year": 2026,
+ "month": 11,
+ "day": 8,
+ "weekday": 0,
+ "tone": 6,
+ "titles": [
+  "23rd Sunday after Pentecost"
+ ],
+ "summary_title": "23rd Sunday after Pentecost",
+ "feast_level": 5,
+ "feast_level_description": "Red cross half-circle (vigil typikon symbol)",
+ "feasts": [
+  "Synaxis of the Holy Unmercenaries",
+  "Synaxis of Archangel Michael and the Bodiless Powers"
+ ],
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [],
+ "saints": null,
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  8,
+  11
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "Unmercenaries",
+   "display": "Isaiah 43.9-14",
+   "short_display": "Isa 43.9-14",
+   "passage": [
+    {
+     "book": "ISA",
+     "chapter": 43,
+     "verse": 9,
+     "content": "All the nations are gathered together, and princes shall be gathered out of them: who will declare these things? or who will declare to you things from the beginning? let them bring forth their witnesses, and be justified; and let them hear, and declare the truth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 43,
+     "verse": 10,
+     "content": "Be you⌃ my witnesses, and I too am a witness, says the Lord God, and my servant whom I have chosen: that you⌃ may know, and believe, and understand that I am he: before me there was no other God, and after me there shall be none.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 43,
+     "verse": 11,
+     "content": "I am God; and beside me there is no Saviour.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 43,
+     "verse": 12,
+     "content": "I have declared, and have saved; I have reproached, and there was no strange god among you: you⌃ are my witnesses, and I am the Lord God,",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 43,
+     "verse": 13,
+     "content": "even from the beginning; and there is none that can deliver out of my hands: I will work, and who shall turn it back?",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 43,
+     "verse": 14,
+     "content": "Thus says the Lord God that redeems you, the Holy One of Israel; for your sakes I will send to Babylon, and I will stir up all that flee, and the Chaldeans shall be bound in ships.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Joshua 5.13-15",
+   "short_display": "Josh 5.13-15",
+   "passage": [
+    {
+     "book": "JOS",
+     "chapter": 5,
+     "verse": 13,
+     "content": "And it came to pass when Joshua was in Jericho, that he looked up with his eyes and saw a man standing before him, and there was a drawn sword in his hand; and Joshua drew near and said to him, Are you for us or on the side of our enemies?",
+     "paragraph_start": false
+    },
+    {
+     "book": "JOS",
+     "chapter": 5,
+     "verse": 14,
+     "content": "And he said to him, I am now come, the chief captain of the host of the Lord.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JOS",
+     "chapter": 5,
+     "verse": 15,
+     "content": "And Joshua fell on his face upon the earth, and said to him, Lord, what command you your servant?",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "Unmercenaries",
+   "display": "Wisdom of Solomon 3.1-9",
+   "short_display": "Wis 3.1-9",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 1,
+     "content": "But the souls of the righteous are in the hand of God, and there shall no torment touch them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 2,
+     "content": "In the sight of the unwise they seemed to die: and their departure is taken for misery,",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 3,
+     "content": "And their going from us to be utter destruction: but they are in peace.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 4,
+     "content": "For though they be punished in the sight of men, yet is their hope full of immortality.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 5,
+     "content": "And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 6,
+     "content": "As gold in the furnace has he tried them, and received them as a burnt offering.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 7,
+     "content": "And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 8,
+     "content": "They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 9,
+     "content": "They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he has care for his elect.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Judges 6.2, 7, 11-24",
+   "short_display": "Judges 6.2, 7, 11-24",
+   "passage": [
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 2,
+     "content": "And the hand of Madiam prevailed against Israel: and the children of Israel made for themselves because of Madiam the caves in the mountains, and the dens, and the holes in the rocks.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 7,
+     "content": "And the children of Israel cried to the Lord because of Madiam.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 11,
+     "content": "And an angel of the Lord came, and sat down under the fir tree, which was in Ephratha in the land of Joas father of Esdri; and Gedeon his son was threshing wheat in a wine-press in order to escape from the face of Madiam.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 12,
+     "content": "And the angel of the Lord appeared to him and said to him, The Lord is with you, you mighty in strength.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 13,
+     "content": "And Gedeon said to him, Be gracious with me, my Lord: but if the Lord is with us, why have these evils found us? and where are all his miracles, which our fathers have related to us, saying, Did not the Lord bring us up out of Egypt? and now he has cast us out, and given us into the hand of Madiam.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 14,
+     "content": "And the angel of the Lord turned to him, and said, Go in this your strength, and you shall save Israel out of the hand of Madiam: behold, I have sent you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 15,
+     "content": "And Gedeon said to him, Be gracious with me, my Lord: whereby shall I save Israel? behold, my thousand is weakened in Manasse, and I am the least in my father's house.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 16,
+     "content": "And the angel of the Lord said to him, The Lord shall be with you, and you shall strike Madiam as one man.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 17,
+     "content": "And Gedeon said to him, If now I have found mercy in your eyes, and you will do this day for me all that you have spoken of with me,",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 18,
+     "content": "depart not hence until I come to you, and I will bring forth an offering and offer it before you: and he said, I will remain until you return.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 19,
+     "content": "And Gedeon went in, and prepared a kid of the goats, and an ephah of fine flour unleavened; and he put the flesh in the basket, and poured the broth into the pot, and brought them forth to him under the turpentine tree, and drew near.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 20,
+     "content": "And the angel of God said to him, Take the flesh and the unleavened cakes, and put them on that rock, and pour out the broth close by: and he did so.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 21,
+     "content": "And the angel of the Lord stretched out the end of the rod that was in his hand, and touched the flesh and the unleavened bread; and fire came up out of the rock, and consumed the flesh and the unleavened bread, and the angel of the Lord vanished from his sight.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 22,
+     "content": "And Gedeon saw that he was an angel of the Lord; and Gedeon said, Ah, ah, Lord my God! for I have seen the angel of the Lord face to face.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 23,
+     "content": "And the Lord said to him, Peace be to you, fear not, you shall not die.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JDG",
+     "chapter": 6,
+     "verse": 24,
+     "content": "And Gedeon built there an altar to the Lord, and called it The peace of the Lord, until this day, as it is still in Ephratha of the father of Esdri.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "Unmercenaries",
+   "display": "Wisdom of Solomon 5.15-6.3",
+   "short_display": "Wis 5.15-6.3",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 15,
+     "content": "But the righteous live for evermore; their reward also is with the Lord, and the care of them is with the most High.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 16,
+     "content": "Therefore shall they receive a glorious kingdom, and a beautiful crown from the Lord's hand: for with his right hand shall he cover them, and with his arm shall he protect them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 17,
+     "content": "He shall take to him his jealousy for complete armor, and make the creature his weapon for the revenge of his enemies.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 18,
+     "content": "He shall put on righteousness as a breastplate, and true judgment instead of an helmet.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 19,
+     "content": "He shall take holiness for an invincible shield.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 20,
+     "content": "His severe wrath shall he sharpen for a sword, and the world shall fight with him against the unwise.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 21,
+     "content": "Then shall the right aiming thunderbolts go abroad; and from the clouds, as from a well drawn bow, shall they fly to the mark.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 22,
+     "content": "And hailstones full of wrath shall be cast as out of a stone bow, and the water of the sea shall rage against them, and the floods shall cruelly drown them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 23,
+     "content": "Yes, a mighty wind shall stand up against them, and like a storm shall blow them away: thus iniquity shall lay waste the whole earth, and ill dealing shall overthrow the thrones of the mighty.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 6,
+     "verse": 1,
+     "content": "Hear therefore, O you⌃ kings, and understand; learn, you⌃ that be judges of the ends of the earth.",
+     "paragraph_start": true
+    },
+    {
+     "book": "WIS",
+     "chapter": 6,
+     "verse": 2,
+     "content": "Give ear, you⌃ that rule the people, and glory in the multitude of nations.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 6,
+     "verse": 3,
+     "content": "For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Isaiah 14.7-20",
+   "short_display": "Isa 14.7-20",
+   "passage": [
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 7,
+     "content": "All the earth cries aloud with joy:",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 8,
+     "content": "the trees also of Libanus rejoice against you, and the cedar of Libanus, saying, From the time that you have been laid low, no one has come up to cut us down.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 9,
+     "content": "Hell from beneath is provoked to meet you: all the great ones that have ruled over the earth have risen up together against you, they that have raised up from their thrones all the kings of the nations.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 10,
+     "content": "All shall answer and say to you, You also have been taken, even as we; and you are numbered among us.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 11,
+     "content": "Your glory has come down to Hades, and your great mirth: under you they shall spread corruption, and the worm shall be your covering.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 12,
+     "content": "How has Lucifer, that rose in the morning, fallen from heaven! He that sent orders to all the nations is crushed to the earth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 13,
+     "content": "But you said in your heart, I will go up to heaven, I will set my throne above the stars of heaven: I will sit on a lofty mount, on the lofty mountains toward the north:",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 14,
+     "content": "I will go up above the clouds: I will be like the Most High.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 15,
+     "content": "But now you shall go down to hell, even to the foundations of the earth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 16,
+     "content": "They that see you shall wonder at you, and say, This is the man that troubled the earth, that made kings to shake;",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 17,
+     "content": "that made the whole world desolate, and destroyed its cities; he loosed not those who were in captivity.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 18,
+     "content": "All the kings of the nations lie in honor, every man in his house.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 19,
+     "content": "But you shall be cast forth on the mountains, as a loathed carcass, with many dead who have been pierced with swords, going down to the grave.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 14,
+     "verse": 20,
+     "content": "As a garment defiled with blood shall not be pure, so neither shall you be pure; because you have destroyed my land, and have slain my people: you shall not endure for ever, —you an evil seed.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "1st Matins Gospel",
+   "book": "Matthew",
+   "description": "",
+   "display": "Matthew 28.16-20",
+   "short_display": "Matt 28.16-20",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 28,
+     "verse": 16,
+     "content": "But the eleven disciples went into Galilee, to the mountain where Jesus had sent them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 28,
+     "verse": 17,
+     "content": "When they saw him, they bowed down to him; but some doubted.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 28,
+     "verse": 18,
+     "content": "Jesus came to them and spoke to them, saying, “All authority has been given to me in heaven and on earth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 28,
+     "verse": 19,
+     "content": "Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 28,
+     "verse": 20,
+     "content": "teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Ephesians 2.4-10",
+   "short_display": "Eph 2.4-10",
+   "passage": [
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 4,
+     "content": "But God, being rich in mercy, for his great love with which he loved us,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 5,
+     "content": "even when we were dead through our trespasses, made us alive together with Christ—by grace you have been saved—",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 6,
+     "content": "and raised us up with him, and made us to sit with him in the heavenly places in Christ Jesus,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 7,
+     "content": "that in the ages to come he might show the exceeding riches of his grace in kindness toward us in Christ Jesus;",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 8,
+     "content": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 9,
+     "content": "not of works, that no one would boast.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 10,
+     "content": "For we are his workmanship, created in Christ Jesus for good works, which God prepared before that we would walk in them.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Unmercenaries",
+   "display": "1 Corinthians 12.27-13.8",
+   "short_display": "1 Cor 12.27-13.8",
+   "passage": [
+    {
+     "book": "1CO",
+     "chapter": 12,
+     "verse": 27,
+     "content": "Now you are the body of Christ, and members individually.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1CO",
+     "chapter": 12,
+     "verse": 28,
+     "content": "God has set some in the assembly: first apostles, second prophets, third teachers, then miracle workers, then gifts of healings, helps, governments, and various kinds of languages.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 12,
+     "verse": 29,
+     "content": "Are all apostles? Are all prophets? Are all teachers? Are all miracle workers?",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 12,
+     "verse": 30,
+     "content": "Do all have gifts of healings? Do all speak with various languages? Do all interpret?",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 12,
+     "verse": 31,
+     "content": "But earnestly desire the best gifts. Moreover, I show a most excellent way to you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 1,
+     "content": "If I speak with the languages of men and of angels, but don’t have love, I have become sounding brass or a clanging cymbal.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 2,
+     "content": "If I have the gift of prophecy, and know all mysteries and all knowledge, and if I have all faith, so as to remove mountains, but don’t have love, I am nothing.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 3,
+     "content": "If I give away all my goods to feed the poor, and if I give my body to be burned, but don’t have love, it profits me nothing.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 4,
+     "content": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 5,
+     "content": "doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 6,
+     "content": "doesn’t rejoice in unrighteousness, but rejoices with the truth;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 7,
+     "content": "bears all things, believes all things, hopes all things, and endures all things.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 13,
+     "verse": 8,
+     "content": "Love never fails. But where there are prophecies, they will be done away with. Where there are various languages, they will cease. Where there is knowledge, it will be done away with.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Angels",
+   "display": "Hebrews 2.2-10",
+   "short_display": "Heb 2.2-10",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 2,
+     "content": "For if the word spoken through angels proved steadfast, and every transgression and disobedience received a just penalty,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 3,
+     "content": "how will we escape if we neglect so great a salvation—which at the first having been spoken through the Lord, was confirmed to us by those who heard,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 4,
+     "content": "God also testifying with them, both by signs and wonders, by various works of power, and by gifts of the Holy Spirit, according to his own will?",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 5,
+     "content": "For he didn’t subject the world to come, of which we speak, to angels.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 6,
+     "content": "But one has somewhere testified, saying, “What is man, that you think of him? Or the son of man, that you care for him?",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 7,
+     "content": "You made him a little lower than the angels. You crowned him with glory and honor.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 8,
+     "content": "You have put all things in subjection under his feet.” For in that he subjected all things to him, he left nothing that is not subject to him. But now we don’t yet see all things subjected to him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 9,
+     "content": "But we see him who has been made a little lower than the angels, Jesus, because of the suffering of death crowned with glory and honor, that by the grace of God he should taste of death for everyone.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 10,
+     "content": "For it became him, for whom are all things and through whom are all things, in bringing many children to glory, to make the author of their salvation perfect through sufferings.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 8.41-56",
+   "short_display": "Luke 8.41-56",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 41,
+     "content": "Behold, a man named Jairus came. He was a ruler of the synagogue. He fell down at Jesus’ feet and begged him to come into his house,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 42,
+     "content": "for he had an only born daughter, about twelve years of age, and she was dying. But as he went, the multitudes pressed against him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 43,
+     "content": "A woman who had a flow of blood for twelve years, who had spent all her living on physicians and could not be healed by any,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 44,
+     "content": "came behind him and touched the fringe of his cloak. Immediately the flow of her blood stopped.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 45,
+     "content": "Jesus said, “Who touched me?” When all denied it, Peter and those with him said, “Master, the multitudes press and jostle you, and you say, ‘Who touched me?’”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 46,
+     "content": "But Jesus said, “Someone did touch me, for I perceived that power has gone out of me.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 47,
+     "content": "When the woman saw that she was not hidden, she came trembling; and falling down before him declared to him in the presence of all the people the reason why she had touched him, and how she was healed immediately.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 48,
+     "content": "He said to her, “Daughter, cheer up. Your faith has made you well. Go in peace.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 49,
+     "content": "While he still spoke, one from the ruler of the synagogue’s house came, saying to him, “Your daughter is dead. Don’t trouble the Teacher.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 50,
+     "content": "But Jesus hearing it, answered him, “Don’t be afraid. Only believe, and she will be healed.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 51,
+     "content": "When he came to the house, he didn’t allow anyone to enter in, except Peter, John, James, the father of the child, and her mother.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 52,
+     "content": "All were weeping and mourning her, but he said, “Don’t weep. She isn’t dead, but sleeping.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 53,
+     "content": "They were ridiculing him, knowing that she was dead.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 54,
+     "content": "But he put them all outside, and taking her by the hand, he called, saying, “Child, arise!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 55,
+     "content": "Her spirit returned, and she rose up immediately. He commanded that something be given to her to eat.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 56,
+     "content": "Her parents were amazed, but he commanded them to tell no one what had been done.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Matthew",
+   "description": "Unmercenaries",
+   "display": "Matthew 10.1, 5-8",
+   "short_display": "Matt 10.1, 5-8",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 1,
+     "content": "He called to himself his twelve disciples, and gave them authority over unclean spirits, to cast them out, and to heal every disease and every sickness.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 5,
+     "content": "Jesus sent these twelve out and commanded them, saying, “Don’t go among the Gentiles, and don’t enter into any city of the Samaritans.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 6,
+     "content": "Rather, go to the lost sheep of the house of Israel.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 7,
+     "content": "As you go, preach, saying, ‘The Kingdom of Heaven is at hand!’",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 10,
+     "verse": 8,
+     "content": "Heal the sick, cleanse the lepers, and cast out demons. Freely you received, so freely give.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "Angels",
+   "display": "Luke 10.16-21",
+   "short_display": "Luke 10.16-21",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 16,
+     "content": "Whoever listens to you listens to me, and whoever rejects you rejects me. Whoever rejects me rejects him who sent me.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 17,
+     "content": "The seventy returned with joy, saying, “Lord, even the demons are subject to us in your name!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 18,
+     "content": "He said to them, “I saw Satan having fallen like lightning from heaven.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 19,
+     "content": "Behold, I give you authority to tread on serpents and scorpions, and over all the power of the enemy. Nothing will in any way hurt you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 20,
+     "content": "Nevertheless, don’t rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 21,
+     "content": "In that same hour, Jesus rejoiced in the Holy Spirit, and said, “I thank you, O Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding, and revealed them to little children. Yes, Father, for so it was well-pleasing in your sight.”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Synaxis of the Chief Captains of the Heavenly Host, Michael and Gabriel, and of the other Bodiless Powers of Heaven",
+   "story": "<p>The holy Scriptures, from beginning to end, are filled with mentions and descriptions of the Heavenly Host: not to believe in angels is not to believe in the Bible. In the heavens they behold the face of God, eternally hymning His glory. They are intimately involved with mankind as well: an angel is appointed guardian over every nation, and over every individual Christian. The Archangels Michael and Gabriel, whom we especially commemorate today along with all the other bodiless powers, have served as messengers to man. “Michael” means “Who is like God?”;”Gabriel” means “God is mighty.” Gabriel especially was appointed to announce the coming of Christ in the flesh.</p>\n<p>There is no reckoning the number of the Heavenly Host, though we know that they are a great multitude. They are ranked in nine orders, called Thrones, Cherubim, Seraphim, Dominions, Powers, Authorities, Principalities, Archangels and Angels. “Angel” means “herald” or “messenger” and is properly applied only to those who serve as messengers from God to man; but the name is often applied to the entire host of bodiless powers.</p>\n<p>Though bodiless, the angels are finite in knowledge, extension and power. The angel Lucifer, once the highest of them all, desired to be like God Himself, and was cast forever from the presence of God, along with countless others who followed him. These we now know as Satan and the demons. (Needless to say, they are not commemorated today).</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/8/?translation=lxx2012-web"
+}

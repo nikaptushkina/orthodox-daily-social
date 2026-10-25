@@ -84,6 +84,19 @@ Without it, repeat Step 5.5 and Step 6 every 60 days.
 - To change a caption: **Files changed → posts/<date>/post.json → ⋯ → Edit file**, change the text, commit to the same branch.
 - **Merge** to approve, or **Close** to skip the day. Approve before the posting time and the feed post waits for it; a day not approved by midnight is not posted.
 
+## Saint icons
+
+The nightly fetch asks orthodoxdaily.net's own icon lookup (Wikipedia and Wikimedia Commons, freely licensed images only) for every saint in the coming days, and saves what it finds in `assets/icons/`. On Monday and Thursday the saint's icon goes in the arch on the first slide. No credit is shown on the slide; when an image's licence requires one (CC BY-SA, for example), a one-line credit is added at the end of the caption.
+
+When the lookup has no confident match, the cross is shown instead and the morning pull request opens as a **draft** that says "Icon needed". To add one, reply on the pull request with
+
+```
+icon: https://link-to-the-image.jpg
+credit: Icon: Wikimedia Commons · Public domain
+```
+
+or paste the image into a comment that has the word "icon" in it (the credit line is optional). A workflow downloads it, rebuilds the slides, comments with the new preview and marks the pull request ready. Only your own comments are acted on.
+
 ## Posting times
 
 Set in `config.json` under `posting_times`, in Pacific time:

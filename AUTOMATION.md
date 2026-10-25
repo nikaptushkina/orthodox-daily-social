@@ -26,10 +26,12 @@ Every day: the **Story**. Plus, by weekday:
 | Tuesday | `word`: today's Gospel (the Epistle if there is no Gospel) | none |
 | Wednesday | none | The psalm printed by `python3 -m social.psalm_plan D` (the weekly rotation through the whole Psalter; never pick one yourself) |
 | Thursday | `saint`: today's principal saint | none |
-| Friday | `feast`: the most significant feast in the coming 8 days (Great Feasts first, then feasts of the Theotokos, the Cross, apostles and great saints); if none, today's principal commemoration | none |
+| Friday | `feast`: the most significant feast in the coming 8 days (D to D+8), where a feast is a day whose `feasts` list in `days/` is not empty (exactly the days orthodoxdaily.net highlights in light blue and shows a feast card for). Great Feasts first, then the highest `feast_level`, then the nearest. If no day in the window has a feast, make a `saint` carousel for today's principal saint instead | none |
 | Saturday | none | The dark Vespers Reel if `days/D.json` has readings whose `source` is `Vespers`; otherwise today's Gospel |
 
 On a Great Feast (or Pascha), make the feed post a `feast` explainer for that feast, whatever the weekday.
+
+**What counts as a feast**: only days whose `feasts` list in `days/YYYY-MM-DD.json` is not empty, as on orthodoxdaily.net. **Its name is always `feasts[0]`**, the first entry, which is what the site's feast card shows, even when the day lists a second feast (November 8: "Synaxis of the Holy Unmercenaries", not the Archangel Michael feast listed after it). Use that name everywhere: the Story, the week-ahead rows, banner and end card, and the Friday feast explainer. A well-known saint with no entry in `feasts` (for example Cosmas and Damian on November 1) is a commemoration, not a feast: never call it a feast.
 
 ## 2. Write `posts/D/content.json`
 
@@ -57,13 +59,14 @@ Write only text here. Scripture is never typed: `reading.index` points into `day
 ```
 
 **Story** (every day), from `days/D.json`:
-- `title`: the feast or principal commemoration, in plain words (from `titles[0]`, `summary_title`, `feasts`, `saints`). `subtitle`: one short line saying what the day is, if useful. `week_line`: the liturgical week (`titles[1]` when it reads like "Saturday of the 21st week after Pentecost").
+- `title`: the feast (`feasts[0]`) when the day has one, otherwise the principal commemoration, in plain words (from `titles[0]`, `summary_title`, `saints`). `subtitle`: one short line saying what the day is, if useful. `week_line`: the liturgical week (`titles[1]` when it reads like "Saturday of the 21st week after Pentecost").
 - `commemorating`: one or two saints, the most important first. `fasting`: from `fast_level_desc` and `fast_exception_desc`, written simply ("No fast", "Fast day", "Fish allowed", "Wine and oil allowed", "Strict fast").
 - `readings`: the day's Epistle and Gospel as "Book C:V–V" (en dash), then a second group for extra readings with their `description` as the label ("For the departed", "For the saint"). At most two groups.
 
 **Feed kinds** (every carousel also needs `caption` and `accent`):
-- `week_ahead`: `range_line` ("October 25 – 31"), `rows` (up to 7: `day` "Sun 25", `title` the main commemoration, `fast` short text, `fast_kind` one of `none` `fast` `fish` `dairy`), optional `banner` (the week's main event), and `end` (`kicker`, `title`, `date`, optional `second` (the Old Calendar date when it helps), `line`, `accent`): the coming feast or fast, or "Have a blessed week".
+- `week_ahead`: `range_line` ("October 25 – 31"), `rows` (up to 7: `day` "Sun 25", `title` the feast (`feasts[0]`) or else the main commemoration, `fast` short text, `fast_kind` one of `none` `fast` `fish` `dairy`), optional `banner` (the week's feast, if a day in it has one: "Monday: Greatmartyr Demetrius"), and `end` (`kicker`, `title`, `date`, optional `second` (the Old Calendar date when it helps), `line`, `accent`): the next feast after this week found in `days/` (kicker "Coming next"), or a fast that begins soon, or else "Have a blessed week". The end card's `line` must make sense read on its own, in plain words: one short phrase about the feast, never a fragment of its name (not "and of all the Bodiless Powers").
 - `saint`: `name`, `subtitle` (title and place), `dates` ("Oct 26 New Calendar · Nov 8 Old Calendar"), `heading` ("Who he was" / "Who she was" / "Who they were"), `life` (two short paragraphs, 25–45 words each, from the day's `stories` and well-established tradition only), `intercession` ("Holy Great-martyr Demetrios, pray to God for us.").
+  - **Icon**: look up the saint's story `title` (exactly as in `days/D.json` `stories`) in `assets/icons/index.json`, which the nightly fetch fills using orthodoxdaily.net's own icon lookup. If the entry has a `file`, **check it before using it**: the lookup is automatic and is sometimes wrong. Its `page` must be the Wikipedia article about this same saint (not a namesake: "Anastasia of Sirmium" is not "Anastasia the Roman"), and when you open the image it must be an icon, mosaic or fresco of a person, not a building, a well, a seal, a map or a modern photo. Only then add `"icon": "<file>"` and `"icon_credit": "<credit>"` to the feed. The slide shows no credit. If the credit names a licence other than "Public domain" or "CC0" (for example "CC BY-SA 4.0"), the licence requires attribution: end the caption, after the hashtags, with one line "Icon: Wikimedia Commons, CC BY-SA 4.0". If there is no entry, its `file` is null, or the check fails, leave `icon` out (the cross is shown), open the pull request as a draft, and ask for one (see step 4), saying why ("the only image found was of a different saint"). Never search for or download an icon yourself.
 - `word`: `reading` (`{"index": N}`), `book_intro` ("The Gospel according to", "The Epistle of St Paul to the", "The Acts of the"), `book_title` ("Luke", "Romans", "Apostles"), `ref_line` ("Chapter 7, verses 1–10"), `context` ("Gospel for Tuesday, October 27"), `translation` ("World English Bible"). Pages are built automatically.
 - `feast`: `kicker` ("Great Feast", "Feast"), `name`, `subtitle`, `dates`, `meaning` (exactly three sentences of 20–30 words), `kept` (three rows labelled `Fasting`, `Services`, `Hymns`, one sentence each).
 
@@ -109,6 +112,8 @@ gh api repos/nikaptushkina/orthodox-daily-social/pulls -f base=main -f head=post
 
 On days with a Reel, add `-F draft=true`: the pull request stays a draft (it can't be merged by accident) until the workflow has added the voiced Reel, then becomes ready by itself.
 
+On a saint day with no icon, also add `-F draft=true`, and put this near the top of the body: "**Icon needed for <saint>.** Reply to this pull request with `icon:` and a link to an image, or paste the image into a comment with the word icon. The slides are rebuilt with it and this pull request becomes ready to approve." Then finish with: "Icon needed for <saint>: reply on the pull request with an image."
+
 Use this body:
 
 - `![preview](https://raw.githubusercontent.com/nikaptushkina/orthodox-daily-social/posts/D/posts/D/preview.jpg)`
@@ -118,3 +123,15 @@ Use this body:
 - "Merge to approve: the Story posts right away and the feed post at its posting time (POSTING TIME). To change a caption, edit `posts/D/post.json` in this pull request before merging. To skip today, close the pull request." Replace POSTING TIME with that weekday's time from `config.json` `posting_times`, written like "2 pm Pacific".
 
 Finish with one line for the person: the pull request link and what it contains.
+
+## 5. If the person replies here with an icon
+
+The person may answer "Icon needed" in this conversation instead of on GitHub, by attaching an image. Then:
+
+1. Check the attached image shows the right saint (an icon, mosaic or fresco of a person).
+2. On the `posts/D` branch, save it as `posts/D/icon-upload.jpg`, commit ("Icon from the chat") and push.
+3. Comment on the pull request, so the *Add an icon from a comment* workflow rebuilds the slides and marks the pull request ready:
+   `gh api repos/nikaptushkina/orthodox-daily-social/issues/<number>/comments -f body="icon: https://github.com/nikaptushkina/orthodox-daily-social/raw/posts/D/posts/D/icon-upload.jpg"`
+4. Reply with one line: the icon is being added and the pull request will be ready to merge in a few minutes.
+
+A link sent in the chat usually can't be downloaded from here (most websites are blocked), so if the person sends a link rather than an image, post it as the `icon:` comment on the pull request instead; the workflow downloads it on GitHub.

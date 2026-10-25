@@ -3,6 +3,7 @@
     python3 -m social.build 2026-10-25            # stills, Reel cover, post.json, preview
     python3 -m social.build 2026-10-25 --video    # also a silent test video of the Reel
     python3 -m social.build 2026-10-25 --no-reel  # leave the Reel out entirely
+    python3 -m social.build 2026-10-25 --stills   # redo the images only, keeping the finished Reel
 
 Writes JPEGs, the Reel cover, post.json (what to publish) and preview.jpg (a
 contact sheet for the pull request) into posts/<date>/. The Reel video itself,
@@ -175,6 +176,8 @@ def main():
     ap.add_argument("date")
     ap.add_argument("--no-reel", action="store_true", help="leave the Reel out")
     ap.add_argument("--video", action="store_true", help="also render a silent test video of the Reel")
+    ap.add_argument("--stills", action="store_true",
+                    help="re-render only the Story and carousel; keep the Reel already in post.json")
     args = ap.parse_args()
 
     cfg = load_json(os.path.join(ROOT, "config.json"))
@@ -200,6 +203,13 @@ def main():
             feed.setdefault("calendar_label", cfg["calendar_label"])
             slides = T.week_ahead(feed, site)
         elif kind == "saint":
+            icon = feed.get("icon")
+            if icon:  # "assets/icons/....jpg" (from the nightly lookup) or "icon.jpg" (added to this day's folder)
+                path = icon if os.path.isabs(icon) else (
+                    os.path.join(outdir, icon) if os.path.exists(os.path.join(outdir, icon)) else os.path.join(ROOT, icon))
+                if not os.path.exists(path):
+                    raise SystemExit(f"icon not found: {icon}")
+                feed = dict(feed, icon="file://" + os.path.abspath(path))
             slides = T.saint(feed, site)
         elif kind == "feast":
             slides = T.feast(feed, site)
@@ -222,7 +232,12 @@ def main():
     # Reel (Wednesday psalm, Saturday Vespers or Gospel). Here only its cover; the
     # video with voice and music is added by the workflow (social.voice).
     reel = content.get("reel")
-    if reel and not args.no_reel:
+    old_post = os.path.join(outdir, "post.json")
+    if reel and args.stills and os.path.exists(old_post):
+        kept = [i for i in load_json(old_post).get("items", []) if i.get("type") == "REEL"]
+        items += kept
+        preview += [i["cover"] for i in kept if i.get("cover") and os.path.exists(os.path.join(outdir, i["cover"]))]
+    elif reel and not args.no_reel:
         spec = reel_spec(content, day)
         built = T.reel(spec, site)
         cover = os.path.join(outdir, "reel-cover.jpg")

@@ -6,8 +6,8 @@ This is a one-time setup, about 30–45 minutes. After it, your only daily job i
 
 1. **Every night**, the *Fetch calendar days* workflow (GitHub Actions) saves the next 8 days of calendar data from Orthocal, the same source and settings as orthodoxdaily.net (New Calendar, Slavic, Septuagint and World English Bible), into `days/`. On its first run it also downloads the public-domain LXX2012 Psalter (all 151 psalms) for the Wednesday Reels.
 2. **Every morning just before 9 am Pacific**, a scheduled task in Claude follows [AUTOMATION.md](AUTOMATION.md): it writes the day's texts, renders the Story, carousel and Reel in your fonts and colours, and opens a pull request named "Posts for …" with a preview.
-3. **You review it** in the GitHub app or website. Merge it to publish. Close it to skip the day.
-4. **Merging publishes**: the *Publish approved posts* workflow puts the images and video online with GitHub Pages (Instagram needs a public address to fetch them from), then posts them through Instagram's official API.
+3. **You review it** in the GitHub app or website. Merge it to approve. Close it to skip the day.
+4. **Approved posts go out on schedule**: the *Publish approved posts* workflow puts the images and video online with GitHub Pages (Instagram needs a public address to fetch them from), posts the Story right away, and posts the feed post at that weekday's posting time (see *Posting times* below) through Instagram's official API. If you approve after the posting time, it goes out right away.
 
 Nothing is ever posted without your merge.
 
@@ -52,8 +52,8 @@ Repository **Settings → Secrets and variables → Actions**.
 ## Step 7: Test, then switch publishing on
 
 1. The next morning's pull request arrives at 9 am. Merge it with `PUBLISH_ENABLED` still `false`: the workflow puts the media online and does a dry run, listing what it *would* post. Open **Actions → Publish approved posts** to read it.
-2. When you're happy, change `PUBLISH_ENABLED` to `true`. From then on, merging publishes.
-3. If a day ever fails, open the failed workflow run in Actions to see why, fix the cause, and use **Run workflow** on *Publish approved posts* with that date. Items that already went out are never posted twice.
+2. When you're happy, change `PUBLISH_ENABLED` to `true`. From then on, merging approves: the Story posts right away and the feed post at its posting time.
+3. If a day ever fails, open the failed workflow run in Actions to see why, fix the cause, and use **Run workflow** on *Publish approved posts* with that date. That posts the day's remaining items immediately, whatever the time. Items that already went out are never posted twice.
 
 ## Step 8 (optional): Keep the token fresh automatically
 
@@ -70,7 +70,23 @@ Without it, repeat Step 5.5 and Step 6 every 60 days.
 - Around 9 am, open the "Posts for …" pull request (the GitHub app notifies you).
 - Look at the preview and captions.
 - To change a caption: **Files changed → posts/<date>/post.json → ⋯ → Edit file**, change the text, commit to the same branch.
-- **Merge** to publish, or **Close** to skip the day.
+- **Merge** to approve, or **Close** to skip the day. Approve before the posting time and the feed post waits for it; a day not approved by midnight is not posted.
+
+## Posting times
+
+Set in `config.json` under `posting_times`, in Pacific time:
+
+| Day | Feed post | Time |
+|---|---|---|
+| Monday | Saint carousel | 2:00 pm |
+| Tuesday | Word for the day | 1:00 pm |
+| Wednesday | Psalm Reel | 12:00 noon |
+| Thursday | Saint carousel | 12:00 noon |
+| Friday | Feast explainer | 11:00 am |
+| Saturday | Vespers readings Reel | 4:00 pm |
+| Sunday | The week ahead | 1:00 pm |
+
+The Story goes out as soon as you approve, so the day's calendar is up all day. To change a time, edit the value (24-hour, e.g. `"17:30"`). Posts can land up to about 15–30 minutes after the time, because GitHub's scheduled checks run every 15 minutes and are sometimes delayed.
 
 ## Things you can change
 

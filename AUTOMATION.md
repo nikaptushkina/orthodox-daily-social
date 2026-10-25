@@ -1,7 +1,7 @@
 # The daily procedure (for the morning task)
 
 This file is the instruction set the 9 am scheduled task follows. A person can follow it too.
-Everything happens in this repository; nothing is posted until the day's pull request is merged.
+Everything happens in this repository; nothing is posted until the day's pull request is merged, and feed posts then wait for their posting time.
 
 ## 0. Setup
 
@@ -110,6 +110,6 @@ Use this body:
 - `![preview](https://raw.githubusercontent.com/nikaptushkina/orthodox-daily-social/posts/D/posts/D/preview.jpg)`
 - What is in it (Story, carousel or Reel) and today's commemoration in one line.
 - Each caption in a quote block.
-- "Merge to publish. To change a caption, edit `posts/D/post.json` in this pull request before merging. To skip today, close the pull request."
+- "Merge to approve: the Story posts right away and the feed post at its posting time (POSTING TIME). To change a caption, edit `posts/D/post.json` in this pull request before merging. To skip today, close the pull request." Replace POSTING TIME with that weekday's time from `config.json` `posting_times`, written like "2 pm Pacific".
 
 Finish with one line for the person: the pull request link and what it contains.

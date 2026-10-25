@@ -1,0 +1,126 @@
+{
+ "pascha_distance": 204,
+ "julian_day_number": 2461347,
+ "year": 2026,
+ "month": 11,
+ "day": 2,
+ "weekday": 1,
+ "tone": 5,
+ "titles": [
+  "Monday of the 23rd week after Pentecost"
+ ],
+ "summary_title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [],
+ "saints": [
+  "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Thessalonians 1.1-5",
+   "short_display": "1 Thess 1.1-5",
+   "passage": [
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 1,
+     "content": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 2,
+     "content": "We always give thanks to God for all of you, mentioning you in our prayers,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 3,
+     "content": "remembering without ceasing your work of faith and labor of love and perseverance of hope in our Lord Jesus Christ, before our God and Father.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 4,
+     "content": "We know, brothers loved by God, that you are chosen,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TH",
+     "chapter": 1,
+     "verse": 5,
+     "content": "and that our Good News came to you not in word only, but also in power, and in the Holy Spirit and with much assurance. You know what kind of men we showed ourselves to be among you for your sake.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 11.29-33",
+   "short_display": "Luke 11.29-33",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 29,
+     "content": "When the multitudes were gathering together to him, he began to say, “This is an evil generation. It seeks after a sign. No sign will be given to it but the sign of Jonah the prophet.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 30,
+     "content": "For even as Jonah became a sign to the Ninevites, so the Son of Man will also be to this generation.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 31,
+     "content": "The Queen of the South will rise up in the judgment with the men of this generation and will condemn them, for she came from the ends of the earth to hear the wisdom of Solomon; and behold, one greater than Solomon is here.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 32,
+     "content": "The men of Nineveh will stand up in the judgment with this generation, and will condemn it, for they repented at the preaching of Jonah; and behold, one greater than Jonah is here.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 33,
+     "content": "“No one, when he has lit a lamp, puts it in a cellar or under a basket, but on a stand, that those who come in may see the light.",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia",
+   "story": "<p>Acindynus, Pegasius and Anempodistus were courtiers to King Shapur II of Persia. When the king began a fierce persecution of Christians, the three withdrew from court to a private house and, fearless of their own safety, openly exhorted their fellow-Christians to stand firm in their faith. For this they were arrested and brought before their former lord, who subjected them to many cruel tortures, from which they emerged miraculously unscathed. Seeing this, one of the king’s soldiers, named Aphthonius, embraced the Faith and was immediately beheaded. The former courtiers were then put to further tortures, but their only effect was to convince Elpidophorus, a distinguished nobleman, and seven thousand other Persians to faith in Christ. All were beheaded, but not before receiving holy Baptism. The trials of the three continued, but once again they were preserved, and even the king’s mother was led to the true faith. Finally they were killed (the account does not say how), receiving the crown of martyrdom along with the king’s mother and twenty-eight others.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/2/?translation=lxx2012-web"
+}

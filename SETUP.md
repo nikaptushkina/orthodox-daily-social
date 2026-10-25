@@ -111,7 +111,9 @@ Set in `config.json` under `posting_times`, in Pacific time:
 | Saturday | Vespers readings Reel | 4:00 pm |
 | Sunday | The week ahead | 1:00 pm |
 
-The Story goes out as soon as you approve, so the day's calendar is up all day. To change a time, edit the value (24-hour, e.g. `"17:30"`). Posts can land up to about 15–30 minutes after the time, because GitHub's scheduled checks run every 15 minutes and are sometimes delayed.
+The Story goes out as soon as you approve, so the day's calendar is up all day. The same run then waits and posts the feed post at its time (to the minute, give or take a few). To change a time, edit the value (24-hour, e.g. `"17:30"`).
+
+To post a day by hand, use **Actions → Publish approved posts → Run workflow** with the date: it posts what's due and waits for the rest. Tick **now** only if you want everything for that date posted immediately.
 
 ## Things you can change
 

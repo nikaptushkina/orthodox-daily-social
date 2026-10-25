@@ -14,6 +14,7 @@ Standard library only.
     python3 scripts/publish.py 2026-10-25 --dry-run    # show what would happen
 """
 import argparse
+import subprocess
 import datetime as dt
 import json
 import os
@@ -131,14 +132,53 @@ def when_label(due):
     return due.strftime("%A at %-I:%M %p").replace(":00 ", " ").replace("AM", "am").replace("PM", "pm")
 
 
+def record(folder, item_id):
+    """Commit and push published.json right after each post (in GitHub Actions), so a later run
+    never posts the same thing twice, even if this run stops while waiting."""
+    if os.environ.get("RECORD_PUSH") != "1":
+        return
+    rel = os.path.relpath(os.path.join(folder, "published.json"), ROOT)
+    cmds = [["git", "add", rel], ["git", "commit", "-q", "-m", f"Published {item_id} [skip ci]"],
+            ["git", "pull", "-q", "--rebase"], ["git", "push", "-q"]]
+    for c in cmds:
+        r = subprocess.run(c, cwd=ROOT, capture_output=True, text=True)
+        if r.returncode and c[1] != "commit":
+            print("  could not save the record yet:", (r.stderr or r.stdout).strip()[:200])
+            return
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("date")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--when-due", action="store_true",
                     help="only publish items whose posting time has come (and only on their own day)")
+    ap.add_argument("--wait", type=int, default=0, metavar="SECONDS",
+                    help="with --when-due: stay and post later items when their time comes, waiting at most this long")
     args = ap.parse_args()
+    started = time.time()
+    while True:
+        status, next_due = publish_pass(args)
+        if not (args.when_due and args.wait and next_due):
+            break
+        now = dt.datetime.now(ZoneInfo(CONFIG["timezone"]))
+        seconds = (next_due - now).total_seconds() + 20
+        if time.time() + seconds - started > args.wait:
+            print(f"Next post is due {when_label(next_due)}; handing over to a new run.")
+            out = os.environ.get("GITHUB_OUTPUT")
+            if out:
+                with open(out, "a") as f:
+                    f.write(f"continue=true\ncontinue_date={args.date}\n")
+            break
+        print(f"Waiting until {when_label(next_due)} for the next post…", flush=True)
+        time.sleep(max(0, seconds))
+    return status
+
+
+def publish_pass(args):
+    """Publish what is due now. Returns (exit status, the next later posting time today or None)."""
     now = dt.datetime.now(ZoneInfo(CONFIG["timezone"]))
+    next_due = None
 
     folder = os.path.join(ROOT, "posts", args.date)
     post = json.load(open(os.path.join(folder, "post.json"), encoding="utf-8"))
@@ -149,7 +189,7 @@ def main():
     token = os.environ.get("IG_ACCESS_TOKEN", "")
     if not args.dry_run and not (user and token):
         print("IG_USER_ID / IG_ACCESS_TOKEN are not set: nothing published.")
-        return 1
+        return 1, None
 
     failures = 0
     for item in post["items"]:
@@ -168,6 +208,8 @@ def main():
             if now < due:
                 wait = f"{due:%A}, its own day" if (due.hour, due.minute) == (0, 0) else when_label(due)
                 print(f"{item['id']}: approved, waiting until {wait}")
+                if due.date() == now.date() and (next_due is None or due < next_due):
+                    next_due = due
                 continue
         try:
             media_id = publish_item(args.date, item, user, token)
@@ -178,8 +220,9 @@ def main():
         done[item["id"]] = {"media_id": media_id, "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
         with open(done_path, "w") as f:
             json.dump(done, f, indent=1)
-        print(f"{item['id']}: published as {media_id}")
-    return 1 if failures else 0
+        print(f"{item['id']}: published as {media_id}", flush=True)
+        record(folder, item["id"])
+    return (1 if failures else 0), next_due
 
 
 if __name__ == "__main__":

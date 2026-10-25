@@ -2,11 +2,12 @@ name: Publish approved posts
 
 # Merging a day's pull request into main is the approval.
 # 1. On merge: puts the images and videos online with GitHub Pages (Instagram fetches
-#    them from there) and posts whatever is already due: the Story right away, the feed
-#    post too if its posting time has passed.
-# 2. Every 15 minutes during the day: posts any approved feed post whose time has come
-#    (posting_times in config.json, Pacific time).
-# 3. By hand (Run workflow with a date): posts that day's remaining items now.
+#    them from there), posts the Story right away, then waits in the same run and posts
+#    the feed post at its time (posting_times in config.json, Pacific time). If that is
+#    more than 5½ hours away, the run hands over to a fresh run that keeps waiting.
+# 2. By hand (Run workflow with a date): the same, posting what's due and waiting for the
+#    rest; tick "now" to post everything for that date immediately.
+# 3. A schedule as a backup, in case a run was cancelled. GitHub runs it only now and then.
 # Nothing is posted unless the PUBLISH_ENABLED repository variable is "true".
 on:
   push:
@@ -18,13 +19,18 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: "Date folder to publish now (YYYY-MM-DD)"
+        description: "Date folder to publish (YYYY-MM-DD)"
         required: true
+      now:
+        description: "Post everything for this date right away, ignoring the posting times"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write   # to hand over to a fresh run when the wait is long
 
 jobs:
   pages:
@@ -57,6 +63,7 @@ jobs:
     # Scheduled runs only matter once publishing is switched on.
     if: ${{ !cancelled() && needs.pages.result != 'failure' && (github.event_name != 'schedule' || vars.PUBLISH_ENABLED == 'true') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     # One publisher at a time, so nothing is ever posted twice.
     concurrency:
       group: publish
@@ -71,24 +78,28 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             dates="${{ github.event.inputs.date }}"
-            mode=""
+            if [ "${{ github.event.inputs.now }}" = "true" ]; then mode=""; else mode="--when-due --wait 19800"; fi
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             dates=$(TZ=$(python3 -c "import json;print(json.load(open('config.json'))['timezone'])") date +%F)
             mode="--when-due"
           else
             dates=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- posts \
               | cut -d/ -f2 | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort -u | tr '\n' ' ')
-            mode="--when-due"
+            mode="--when-due --wait 19800"
           fi
           echo "dates=$dates" >> "$GITHUB_OUTPUT"
           echo "mode=$mode" >> "$GITHUB_OUTPUT"
           echo "Days: $dates $mode"
       - name: Publish
+        id: publish
         if: ${{ vars.PUBLISH_ENABLED == 'true' }}
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          RECORD_PUSH: "1"   # save each post's record right away
         run: |
+          git config user.name "orthodox-daily-bot"
+          git config user.email "orthodox-daily-bot@users.noreply.github.com"
           status=0
           for d in ${{ steps.dates.outputs.dates }}; do
             if [ -f "posts/$d/post.json" ]; then
@@ -98,6 +109,11 @@ jobs:
             fi
           done
           exit $status
+      - name: Keep waiting in a fresh run
+        if: ${{ steps.publish.outputs.continue == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main -f date="${{ steps.publish.outputs.continue_date }}"
       - name: Publishing is switched off
         if: ${{ vars.PUBLISH_ENABLED != 'true' }}
         env:

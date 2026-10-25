@@ -30,6 +30,8 @@ TITLE_LEAD, LEAD, TAIL, END_HOLD = 1.0, 0.8, 1.0, 3.0   # seconds of quiet aroun
 SILENT_END = 5.0                                        # end screen when nothing is read there
 
 GOSPELS = {"Matthew", "Mark", "Luke", "John"}
+PROPHETS = {"Isaiah", "Jeremiah", "Baruch", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah",
+            "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"}
 DOXOLOGY = ("Glory to the Father, and to the Son, and to the Holy Spirit, "
             "now and ever, and unto ages of ages. Amen.")
 
@@ -52,10 +54,14 @@ def narration(spec):
         closing = DOXOLOGY if not m or m.group(1) == m.group(2) else ""
     else:
         r = spec.get("_reading") or {}
-        book = r.get("book") if r.get("book") in GOSPELS else _book_from_display(r.get("display"))
-        if kind == "gospel" or book in GOSPELS:
+        book = r.get("book") or _book_from_display(r.get("display"))
+        if book in GOSPELS:
             intro = f"The reading from the Holy Gospel according to Saint {book}."
             closing = "Glory to Thee, O Lord, glory to Thee."
+        elif book in PROPHETS:
+            intro, closing = f"The reading from the Prophecy of {book}.", ""
+        elif book.startswith("Wisdom") or book in ("Proverbs", "Ecclesiastes", "Job"):
+            intro, closing = f"The reading from the {book}." if book.startswith("Wisdom") else f"The reading from {book}.", ""
         else:
             intro, closing = f"The reading from {book}.", ""
     intro = v.get("intro", intro)

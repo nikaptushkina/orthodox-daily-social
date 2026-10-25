@@ -2,6 +2,30 @@
  "_how": "Friday 'From the website' posts (when no feast is coming) go down this list in order and don't repeat a feature until all have been shown. Each shot is a real screenshot of orthodoxdaily.net taken nightly on GitHub by scripts/site_shots.py following its recipe; if a recipe can't be followed (e.g. no livestream today) the last good screenshot is kept. 'about' is the fact sheet the caption is written from. Edit, add or reorder freely.",
  "features": [
   {
+   "id": "home-screen",
+   "title": "Keep it on your home screen",
+   "line": "Add orthodoxdaily.net to your phone like an app, one tap away every morning and evening.",
+   "about": "orthodoxdaily.net can be added to a phone's home screen and then opens from its own icon, like an app. On iPhone in Safari: tap the share button at the top right, then View More, then Add to Home Screen. On Android in Chrome: tap the three-dot menu at the top right, then Add to Home screen (some phones say Install app).",
+   "shots": [
+    {
+     "file": "home-screen-iphone.png",
+     "heading": "On iPhone",
+     "text": "Tap the share button at the top right, then View More, then Add to Home Screen."
+    },
+    {
+     "file": "home-screen-android.png",
+     "heading": "On Android",
+     "text": "Tap the three-dot menu at the top right, then Add to Home screen (some phones say Install app)."
+    }
+   ],
+   "steps": [
+    "Open orthodoxdaily.net in Safari or Chrome",
+    "iPhone: share button → View More → Add to Home Screen",
+    "Android: three-dot menu → Add to Home screen"
+   ],
+   "steps_heading": "How to set it up"
+  },
+  {
    "id": "readings-text-size",
    "title": "Today’s readings, your way",
    "line": "Every reading of the day, with text you can make larger for comfort.",

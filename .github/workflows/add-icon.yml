@@ -1,0 +1,116 @@
+name: Add an icon from a comment
+
+# On a day's pull request (branch posts/YYYY-MM-DD), the repository owner can comment
+#   icon: https://example.org/some-icon.jpg
+# or paste/drag an image into a comment that contains the word "icon".
+# Optionally add a second line "credit: Icon: Wikimedia Commons · Public domain".
+# This downloads the image, puts it in the saint's arch, rebuilds the slides,
+# commits them to the pull request and marks it ready to approve.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: add-icon-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  icon:
+    if: >-
+      github.event.issue.pull_request &&
+      github.event.comment.author_association == 'OWNER' &&
+      contains(github.event.comment.body, 'icon')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PR: ${{ github.event.issue.number }}
+    steps:
+      - name: Which day?
+        id: pr
+        run: |
+          ref=$(gh api "repos/${GITHUB_REPOSITORY}/pulls/${PR}" --jq .head.ref)
+          echo "ref=$ref" >> "$GITHUB_OUTPUT"
+          d="${ref#posts/}"
+          if ! echo "$d" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then echo "Not a day's pull request ($ref)."; exit 1; fi
+          echo "date=$d" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the image tools
+        run: |
+          pip install -q playwright==1.63.0 pillow
+          python -m playwright install --with-deps chromium
+
+      - name: Download the icon
+        env:
+          BODY: ${{ github.event.comment.body }}
+          D: ${{ steps.pr.outputs.date }}
+        run: |
+          python3 - <<'EOF'
+          import io, json, os, re, urllib.request
+          from PIL import Image
+          body, d = os.environ["BODY"], os.environ["D"]
+          m = (re.search(r"!\[[^\]]*\]\((https?://[^)\s]+)\)", body) or re.search(r"<img[^>]+src=\"(https?://[^\"]+)\"", body)
+               or re.search(r"icon:\s*(https?://\S+)", body, re.I) or re.search(r"(https?://\S+)", body))
+          if not m:
+              raise SystemExit("No image link or pasted image found in the comment.")
+          url = m.group(1).rstrip(").,>")
+          headers = {"User-Agent": "orthodox-daily-social"}
+          if re.match(r"https://(github\.com|[a-z0-9.-]*githubusercontent\.com)/", url):
+              headers["Authorization"] = "Bearer " + os.environ["GH_TOKEN"]
+          with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as r:
+              data = r.read()
+          im = Image.open(io.BytesIO(data)).convert("RGB")
+          im.thumbnail((1200, 1600))
+          im.save(f"posts/{d}/icon.jpg", quality=90)
+          p = f"posts/{d}/content.json"
+          c = json.load(open(p, encoding="utf-8"))
+          if not c.get("feed") or c["feed"].get("kind") != "saint":
+              raise SystemExit("This day has no saint carousel to put an icon on.")
+          c["feed"]["icon"] = "icon.jpg"
+          credit = re.search(r"credit:\s*(.+)", body, re.I)
+          if credit:
+              c["feed"]["icon_credit"] = credit.group(1).strip()[:120]
+          else:
+              c["feed"].pop("icon_credit", None)
+          json.dump(c, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          print("Icon saved:", im.size, "from", url)
+          EOF
+
+      - name: Rebuild the slides
+        env:
+          FONTCONFIG_FILE: ${{ github.workspace }}/fonts/fonts.conf
+        run: python3 -m social.build "${{ steps.pr.outputs.date }}" --stills
+
+      - name: Commit and tell the pull request
+        run: |
+          d="${{ steps.pr.outputs.date }}"
+          git config user.name "orthodox-daily-bot"
+          git config user.email "orthodox-daily-bot@users.noreply.github.com"
+          git add "posts/$d"
+          git commit -m "Icon for $d"
+          git push origin "HEAD:${{ steps.pr.outputs.ref }}"
+          sha=$(git rev-parse HEAD)
+          gh pr comment "$PR" --body "🖼️ **Icon added** and the slides rebuilt. New preview: https://github.com/${GITHUB_REPOSITORY}/raw/${sha}/posts/${d}/preview.jpg
+
+          This pull request is ready to approve."
+          gh pr ready "$PR" || true
+
+      - name: Say what went wrong
+        if: failure()
+        run: |
+          gh pr comment "$PR" --body "⚠️ **The icon could not be added.** Details: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+
+          Reply with \`icon:\` followed by a direct link to an image file (.jpg or .png), or paste the image into a comment with the word icon."

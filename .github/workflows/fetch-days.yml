@@ -1,7 +1,7 @@
 name: Fetch calendar days
 
-# Every night, save the next 8 days of calendar data (New Calendar, Slavic,
-# Septuagint + World English Bible) so the morning task can build posts.
+# Every night, save the next 15 days of calendar data (New Calendar, Slavic,
+# Septuagint + World English Bible) and the saints' icons, so the morning task can build posts.
 on:
   schedule:
     - cron: "17 9 * * *"   # 09:17 UTC = 1:17 or 2:17 am Pacific
@@ -24,6 +24,9 @@ jobs:
           python-version: "3.12"
       - name: Fetch days
         run: python3 scripts/fetch_days.py
+      - name: Find saint icons (with the site's own lookup)
+        continue-on-error: true
+        run: python3 scripts/fetch_icons.py
       - name: Build the Psalter (first run only)
         continue-on-error: true
         run: |
@@ -33,6 +36,7 @@ jobs:
           git config user.name "orthodox-daily-bot"
           git config user.email "orthodox-daily-bot@users.noreply.github.com"
           git add days
+          git add assets/icons 2>/dev/null || true
           git add assets/psalter-lxx2012.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes"

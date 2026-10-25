@@ -123,11 +123,18 @@ def week_ahead(c, site):
 
 # ---------------------------------------------------------------- Saint of the day
 
-def _arch(a):
-    return (f"<div style='width:340px;height:430px;flex-shrink:0;border-radius:170px 170px 24px 24px;background:#FFFFFF;"
-            f"border:2px solid {a};padding:16px'><div style='width:100%;height:100%;border-radius:154px 154px 12px 12px;"
-            f"background:linear-gradient(180deg,#E0F2FE 0%,#F1F5F9 52%,#FFE4E6 100%);display:flex;align-items:center;justify-content:center'>"
-            f"<img src='{LOGO}' alt='' style='width:150px;height:150px;opacity:0.9'></div></div>")
+def _arch(a, icon=None, credit=None):
+    """The arched frame: the saint's icon when we have one (with its credit), otherwise the cross."""
+    inside = (f"<img src='{icon}' alt='' style='width:100%;height:100%;object-fit:cover;object-position:50% 20%'>" if icon
+              else f"<img src='{LOGO}' alt='' style='width:150px;height:150px;opacity:0.9'>")
+    frame = (f"<div style='width:340px;height:430px;flex-shrink:0;border-radius:170px 170px 24px 24px;background:#FFFFFF;"
+             f"border:2px solid {a};padding:16px;box-sizing:border-box'><div style='width:100%;height:100%;border-radius:154px 154px 12px 12px;overflow:hidden;"
+             f"background:linear-gradient(180deg,#E0F2FE 0%,#F1F5F9 52%,#FFE4E6 100%);display:flex;align-items:center;justify-content:center'>"
+             f"{inside}</div></div>")
+    if not (icon and credit):
+        return frame
+    return (f"<div style='display:flex;flex-direction:column;gap:12px;flex-shrink:0;width:340px'>{frame}"
+            f"<div class='sans' style='font-size:18px;color:{MUTED};text-align:center'>{esc(credit)}</div></div>")
 
 
 def saint(c, site):
@@ -137,7 +144,7 @@ def saint(c, site):
 <div style="width:1080px;height:1350px;padding:96px;background:{tint(key)};color:{INK};display:flex;flex-direction:column;gap:44px">
   {counter_header('Saint of the day', '1 / 3')}
   <div style="display:flex;flex-direction:column;gap:44px;flex:1;min-height:0">
-    {_arch(a)}
+    {_arch(a, c.get('icon'), c.get('icon_credit'))}
     <div data-fit class="fit" style="flex:1;font-size:40px;display:flex;flex-direction:column;justify-content:flex-end;gap:0.6em">
       {rule(a)}
       <h1 class="serif" style="margin:0;font-size:2.7em;font-weight:700;line-height:0.95;letter-spacing:-2px">{esc(c['name'])}</h1>

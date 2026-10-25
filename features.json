@@ -557,7 +557,7 @@
   {
    "id": "saints-lives",
    "title": "Meet the day’s saints",
-   "line": "Read the life of each saint of the day, often with their icon.",
+   "line": "Read the life of each saint of the day, sometimes with their icon.",
    "about": "Each saint commemorated on a day has an 'About' button (on the Calendar) or link (on Home) that opens their life. When a matching, freely licensed icon is found, it is shown beside the life and can be opened full screen.",
    "shots": [
     {
@@ -605,8 +605,7 @@
         "until": "figure img[alt^=\"Icon of\"]",
         "open": ".htc-modal-content",
         "close": ".modal-close-control",
-        "timeout": 7000,
-        "required": true
+        "timeout": 7000
        },
        {
         "pause": 1500

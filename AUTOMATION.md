@@ -122,7 +122,7 @@ Use this body:
 - On Reel days: "The Reel's voice and music are being added; this pull request becomes ready to approve in about 15 minutes, with a link to watch it."
 - "Merge to approve: the Story posts right away and the feed post at its posting time (POSTING TIME). To change a caption, edit `posts/D/post.json` in this pull request before merging. To skip today, close the pull request." Replace POSTING TIME with that weekday's time from `config.json` `posting_times`, written like "2 pm Pacific".
 
-Finish with one line for the person: the pull request link and what it contains.
+Finish with one line for the person: the pull request link and what it contains. Then stop: don't schedule check-ins, reminders or follow-up tasks, and don't watch the pull request. GitHub's workflows handle everything after the merge, and the person can reply in this conversation if they need you.
 
 ## 5. If the person replies here with an icon
 

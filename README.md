@@ -12,4 +12,4 @@ Daily Instagram posts and Stories for [orthodoxdaily.net](https://orthodoxdaily.
 | `social/` | Templates and renderer (`python3 -m social.build <date>`) |
 | `scripts/` | Fetching calendar data and publishing to Instagram |
 | `fonts/`, `assets/` | Crimson Text and Geist (SIL Open Font License), the cross logo, the LXX2012 Psalter (public domain, downloaded on the first run) |
-| `.github/workflows/` | Nightly data fetch, publishing on merge, monthly token refresh |
+| `.github/workflows/` | Nightly data fetch, publishing approved posts at their posting times, monthly token refresh |

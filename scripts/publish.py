@@ -9,10 +9,12 @@ posted twice.
 Needs two repository secrets: IG_USER_ID and IG_ACCESS_TOKEN.
 Standard library only.
 
-    python3 scripts/publish.py 2026-10-25           # publish
-    python3 scripts/publish.py 2026-10-25 --dry-run # show what would happen
+    python3 scripts/publish.py 2026-10-25              # publish everything now
+    python3 scripts/publish.py 2026-10-25 --when-due   # only what is due (posting_times in config.json)
+    python3 scripts/publish.py 2026-10-25 --dry-run    # show what would happen
 """
 import argparse
+import datetime as dt
 import json
 import os
 import sys
@@ -20,6 +22,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG = json.load(open(os.path.join(ROOT, "config.json")))
@@ -108,11 +111,34 @@ def publish_item(date, item, user, token):
     return publish_container(user, token, c)
 
 
+def due_time(date, item):
+    """When an item may go out: the Story as soon as it is approved, feed posts at
+    that weekday's time in config.json "posting_times" (local time in "timezone")."""
+    tz = ZoneInfo(CONFIG["timezone"])
+    day = dt.date.fromisoformat(date)
+    times = CONFIG.get("posting_times", {})
+    key = "story" if item["type"] == "STORY" else day.strftime("%A").lower()
+    value = str(times.get(key, "00:00"))
+    hh, mm = (int(x) for x in value.split(":")) if ":" in value else (0, 0)
+    return dt.datetime(day.year, day.month, day.day, hh, mm, tzinfo=tz)
+
+
+def when_label(due):
+    if due.hour == 0 and due.minute == 0:
+        return "as soon as it is approved"
+    if due.hour == 12 and due.minute == 0:
+        return due.strftime("%A at noon")
+    return due.strftime("%A at %-I:%M %p").replace(":00 ", " ").replace("AM", "am").replace("PM", "pm")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("date")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--when-due", action="store_true",
+                    help="only publish items whose posting time has come (and only on their own day)")
     args = ap.parse_args()
+    now = dt.datetime.now(ZoneInfo(CONFIG["timezone"]))
 
     folder = os.path.join(ROOT, "posts", args.date)
     post = json.load(open(os.path.join(folder, "post.json"), encoding="utf-8"))
@@ -130,9 +156,19 @@ def main():
         if item["id"] in done:
             print(f"{item['id']}: already published ({done[item['id']]['media_id']})")
             continue
+        due = due_time(args.date, item)
         if args.dry_run:
-            print(f"{item['id']}: would publish {item['type']} with {item['media']}")
+            print(f"{item['id']}: would publish {item['type']} with {item['media']}, {when_label(due)}")
             continue
+        if args.when_due:
+            if now.date() > due.date():
+                print(f"{item['id']}: not posted, its day is over. To post it anyway, run "
+                      f"'Publish approved posts' by hand with the date {args.date}.")
+                continue
+            if now < due:
+                wait = f"{due:%A}, its own day" if (due.hour, due.minute) == (0, 0) else when_label(due)
+                print(f"{item['id']}: approved, waiting until {wait}")
+                continue
         try:
             media_id = publish_item(args.date, item, user, token)
         except ApiError as e:

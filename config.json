@@ -9,5 +9,16 @@
   "days_ahead": 8,
   "pages_base_url": "https://nikaptushkina.github.io/orthodox-daily-social",
   "graph_api_version": "v26.0",
-  "site_url": "orthodoxdaily.net"
+  "site_url": "orthodoxdaily.net",
+  "posting_times": {
+    "_how": "Local time (see 'timezone') when each day's feed post goes out after you approve it. The Story goes out as soon as you approve. If you approve after the time, it posts right away.",
+    "story": "on approval",
+    "monday": "14:00",
+    "tuesday": "13:00",
+    "wednesday": "12:00",
+    "thursday": "12:00",
+    "friday": "11:00",
+    "saturday": "16:00",
+    "sunday": "13:00"
+  }
 }

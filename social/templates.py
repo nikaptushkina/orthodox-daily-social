@@ -237,23 +237,33 @@ def feast(c, site):
     a = accent(key)
     star = (f"<svg width='30' height='30' viewBox='0 0 24 24' fill='none' stroke='{a}' stroke-width='1.5' stroke-linecap='round' "
             f"stroke-linejoin='round'><path d='M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z'/></svg>")
+    # Cover in the style of the Sunday end card: centred star, title, gold line, dates. Feasts rarely have an icon.
+    big_star = (f"<svg width='72' height='72' viewBox='0 0 24 24' fill='none' stroke='{a}' stroke-width='1.2' stroke-linecap='round' "
+                f"stroke-linejoin='round'><path d='M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z'/></svg>")
+    date = c.get("date") or c.get("dates", "")
+    second = (f"<p class='serif' style='margin:0;font-style:italic;font-size:0.75em;color:{TEXT_BODY}'>{esc(c['second'])}</p>"
+              if c.get("second") else "")
+    sub = (f"<p class='serif' style='margin:0;font-size:0.8em;line-height:1.35;color:{BODY};max-width:760px'>{esc(c['subtitle'])}</p>"
+           if c.get("subtitle") else "")
     s1 = f"""
-<div style="width:1080px;height:1350px;padding:96px;background:{tint(key)};color:{INK};display:flex;flex-direction:column;gap:44px">
-  <div style="display:flex;justify-content:space-between;align-items:center;flex-shrink:0">
-    <div style="display:flex;align-items:center;gap:14px">{star}{label(c.get('kicker', 'Feast'))}</div>
-    <div class="sans" style="font-size:24px;color:{MUTED}">1 / 3</div>
+<div style="width:1080px;height:1350px;padding:88px 96px;background:{tint(key)};color:{INK};
+  display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center;gap:32px">
+  <div style="width:100%;display:flex;justify-content:space-between;align-items:center;flex-shrink:0">
+    {label(c.get('kicker', 'Feast'))}<div class="sans" style="font-size:24px;color:{MUTED}">1 / 3</div>
   </div>
-  <div style="display:flex;flex-direction:column;gap:44px;flex:1;min-height:0">
-    {_arch(a, inner='linear-gradient(180deg,#FFFFFF 0%,#FBF5EA 50%,#F3E3C3 100%)')}
-    <div data-fit class="fit" style="flex:1;font-size:40px;display:flex;flex-direction:column;justify-content:flex-end;gap:0.6em">
-      {rule(a)}
-      <h1 class="serif" style="margin:0;font-size:2.5em;font-weight:700;line-height:0.98;letter-spacing:-2px">{esc(c['name'])}</h1>
-      <p class="serif" style="margin:0;font-style:italic;font-size:1em;color:{TEXT_BODY};line-height:1.2">{esc(c.get('subtitle', ''))}</p>
+  <div data-fit class="fit" style="flex:1;width:100%;font-size:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.7em">
+    {big_star}
+    <h1 class="serif" style="margin:0;font-size:2.4em;font-weight:700;line-height:0.98;letter-spacing:-2px">{esc(c['name'])}</h1>
+    {rule(a)}
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <p class="serif" style="margin:0;font-size:1em;font-weight:600">{esc(date)}</p>{second}
     </div>
+    {sub}
   </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(15,23,42,0.12);padding-top:30px;flex-shrink:0">
-    <div class="serif" style="font-size:30px;color:{BODY}">{esc(c.get('dates', ''))}</div>
-    <div class="sans" style="display:flex;align-items:center;gap:12px;font-size:24px;color:{TEXT_BODY}">{_swipe()}</div>
+  <div style="display:flex;flex-direction:column;align-items:center;gap:20px;flex-shrink:0">
+    <div class="sans" style="display:flex;align-items:center;gap:12px;font-size:26px;color:{TEXT_BODY}">{_swipe("Swipe to learn more")}</div>
+    <div style="display:flex;align-items:center;gap:16px"><img src="{LOGO}" alt="" style="width:40px;height:40px">
+    <div class="serif caps" style="font-size:28px;font-weight:600;letter-spacing:4px;color:{BODY}">{esc(site)}</div></div>
   </div>
 </div>"""
     points = "".join(

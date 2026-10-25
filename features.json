@@ -375,7 +375,12 @@
         "highlight": "section:has(p:has-text(\"Psalm of the Day\")) h3",
         "label": "Today’s psalm"
        }
-      ]
+      ],
+      "clip_around": {
+       "sel": "section:has(p:has-text(\"Psalm of the Day\")) h3",
+       "above": 90,
+       "below": 420
+      }
      }
     }
    ],
@@ -405,10 +410,10 @@
         "pause": 3000
        },
        {
-        "scroll": ".grid-cols-7"
+        "scroll": "button:has(svg.lucide-chevron-right) >> visible=true"
        },
        {
-        "eval": "window.scrollBy(0, -150)"
+        "eval": "window.scrollBy(0, -60)"
        },
        {
         "pause": 500
@@ -419,9 +424,9 @@
        }
       ],
       "clip_around": {
-       "sel": ".grid-cols-7",
-       "above": 90,
-       "below": 20
+       "sel": "button:has(svg.lucide-chevron-right) >> visible=true",
+       "above": 40,
+       "below": 520
       }
      }
     },
@@ -439,10 +444,10 @@
         "pause": 3000
        },
        {
-        "scroll": ".grid-cols-7"
+        "scroll": "button:has(svg.lucide-chevron-right) >> visible=true"
        },
        {
-        "eval": "window.scrollBy(0, -150)"
+        "eval": "window.scrollBy(0, -60)"
        },
        {
         "pause": 500
@@ -453,9 +458,9 @@
        }
       ],
       "clip_around": {
-       "sel": ".grid-cols-7",
-       "above": 90,
-       "below": 20
+       "sel": "button:has(svg.lucide-chevron-right) >> visible=true",
+       "above": 40,
+       "below": 520
       }
      }
     }
@@ -533,7 +538,12 @@
        {
         "pause": 600
        }
-      ]
+      ],
+      "clip_around": {
+       "sel": "text=meat fast only >> visible=true",
+       "above": 560,
+       "below": 110
+      }
      }
     }
    ],
@@ -682,7 +692,12 @@
         "pause": 1000
        }
       ],
-      "settle": 7000
+      "settle": 7000,
+      "clip_around": {
+       "sel": "text=Feast day AI insight",
+       "above": 170,
+       "below": 470
+      }
      }
     }
    ],
@@ -763,7 +778,12 @@
         "highlight": "role=button[name=/wander during prayer/]",
         "label": "Selected"
        }
-      ]
+      ],
+      "clip_around": {
+       "sel": "role=button[name=/wander during prayer/]",
+       "above": 300,
+       "below": 280
+      }
      }
     }
    ],
@@ -813,7 +833,12 @@
        {
         "highlight": "role=button[name=\"4. Confession Draft\"]"
        }
-      ]
+      ],
+      "clip_around": {
+       "sel": "text=Your Confession Draft",
+       "above": 130,
+       "below": 520
+      }
      }
     }
    ],
@@ -936,7 +961,13 @@
       "local_storage": {
        "theme": "dark"
       },
-      "settle": 1500
+      "settle": 1500,
+      "clip": [
+       0,
+       0,
+       390,
+       640
+      ]
      }
     },
     {

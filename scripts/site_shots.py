@@ -43,10 +43,15 @@ RING_JS = """
     const tag = document.createElement('div');
     tag.className = 'od-ring';
     tag.textContent = label;
+    // Small buttons: label underneath. Wide rows: label sits on the ring's top-right corner,
+    // so it never covers the next line.
+    const wide = w > 160;
     const below = y + h + pad + 34 < window.innerHeight;
+    const left = wide ? Math.min(x + w - 70, window.innerWidth - 90) : Math.max(6, Math.min(x + w / 2 - 40, window.innerWidth - 86));
+    const top = wide ? y - pad - 16 : (below ? y + h + pad + 8 : y - pad - 34);
     Object.assign(tag.style, {
-      position: 'fixed', left: Math.max(6, Math.min(x + w / 2 - 40, window.innerWidth - 86)) + 'px',
-      top: (below ? y + h + pad + 8 : y - pad - 34) + 'px', minWidth: '80px', textAlign: 'center',
+      position: 'fixed', left: left + 'px',
+      top: top + 'px', minWidth: '80px', textAlign: 'center',
       padding: '4px 10px', borderRadius: '999px', background: '#0369A1', color: '#FFFFFF',
       font: '700 14px/1.3 system-ui, -apple-system, sans-serif', letterSpacing: '0.02em',
       boxShadow: '0 4px 12px rgba(3,105,161,0.35)', zIndex: 2147483647, pointerEvents: 'none'

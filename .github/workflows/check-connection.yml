@@ -1,0 +1,23 @@
+name: Check Instagram connection
+
+# Run by hand (Actions > Check Instagram connection > Run workflow) to confirm
+# the IG_USER_ID and IG_ACCESS_TOKEN secrets work. It never posts anything.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the token
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python3 scripts/check_connection.py

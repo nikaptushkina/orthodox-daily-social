@@ -26,6 +26,37 @@ INDEX = os.path.join(OUT, "index.json")
 BASE = "https://" + CONFIG["site_url"]
 
 
+RING_JS = """
+([x, y, w, h, label]) => {
+  const pad = 7, small = w < 70 && h < 70;
+  const ring = document.createElement('div');
+  ring.className = 'od-ring';
+  Object.assign(ring.style, {
+    position: 'fixed', left: (x - pad) + 'px', top: (y - pad) + 'px',
+    width: (w + 2 * pad) + 'px', height: (h + 2 * pad) + 'px',
+    border: '4px solid #0369A1', borderRadius: small ? '999px' : '16px', boxSizing: 'border-box',
+    boxShadow: '0 0 0 3px rgba(255,255,255,0.95), 0 0 0 9px rgba(3,105,161,0.28)',
+    zIndex: 2147483647, pointerEvents: 'none'
+  });
+  document.body.appendChild(ring);
+  if (label) {
+    const tag = document.createElement('div');
+    tag.className = 'od-ring';
+    tag.textContent = label;
+    const below = y + h + pad + 34 < window.innerHeight;
+    Object.assign(tag.style, {
+      position: 'fixed', left: Math.max(6, Math.min(x + w / 2 - 40, window.innerWidth - 86)) + 'px',
+      top: (below ? y + h + pad + 8 : y - pad - 34) + 'px', minWidth: '80px', textAlign: 'center',
+      padding: '4px 10px', borderRadius: '999px', background: '#0369A1', color: '#FFFFFF',
+      font: '700 14px/1.3 system-ui, -apple-system, sans-serif', letterSpacing: '0.02em',
+      boxShadow: '0 4px 12px rgba(3,105,161,0.35)', zIndex: 2147483647, pointerEvents: 'none'
+    });
+    document.body.appendChild(tag);
+  }
+}
+"""
+
+
 def run_recipe(browser, shot, path):
     r = shot["recipe"]
     vw, vh = r.get("viewport", [390, 844])
@@ -63,6 +94,12 @@ def run_recipe(browser, shot, path):
                 pg.keyboard.press(step["press"])
             elif "eval" in step:
                 pg.evaluate(step["eval"])
+            elif "highlight" in step:
+                # Ring the button to tap, with a small label, so the post shows exactly where to tap.
+                el = pg.locator(step["highlight"]).first
+                el.wait_for(state="visible", timeout=step.get("timeout", 15000))
+                box = el.bounding_box()
+                pg.evaluate(RING_JS, [box["x"], box["y"], box["width"], box["height"], step.get("label", "Tap")])
             elif "try_each" in step:
                 # Open each match in turn until one shows what we want (e.g. a saint with an icon);
                 # if none does, leave the first one open.
@@ -84,10 +121,21 @@ def run_recipe(browser, shot, path):
                     buttons.first.click(timeout=15000)
                     pg.locator(step["open"]).first.wait_for(state="visible", timeout=30000)
         pg.wait_for_timeout(r.get("settle", 1200))  # let fade-ins finish
-        if r.get("element"):
+        if r.get("clip_around"):
+            # Zoom in: the full width, from a little above to a little below the given element.
+            c = r["clip_around"]
+            box = pg.locator(c["sel"]).first.bounding_box()
+            top = max(0, box["y"] - c.get("above", 60))
+            bottom = min(vh, box["y"] + box["height"] + c.get("below", 160))
+            pg.screenshot(path=path, animations="disabled", clip={"x": 0, "y": top, "width": vw, "height": bottom - top})
+        elif r.get("clip"):
+            x, y, w, h = r["clip"]
+            pg.screenshot(path=path, animations="disabled", clip={"x": x, "y": y, "width": w, "height": h})
+        elif r.get("element"):
             el = pg.locator(r["element"]).first
-            el.scroll_into_view_if_needed(timeout=15000)
-            pg.wait_for_timeout(400)
+            if not any("highlight" in a for a in r.get("actions", [])):  # rings are fixed: don't scroll under them
+                el.scroll_into_view_if_needed(timeout=15000)
+                pg.wait_for_timeout(400)
             el.screenshot(path=path, animations="disabled")
         else:
             pg.screenshot(path=path, animations="disabled", full_page=False)

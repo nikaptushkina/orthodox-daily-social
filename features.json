@@ -32,9 +32,39 @@
    "about": "On the Home page, the Scripture card lists the day's readings. Tapping one opens the full passage in a window with − and + buttons that make the text smaller or larger (90% to 150%).",
    "shots": [
     {
-     "file": "readings-text-size.png",
-     "heading": "Make the text larger",
-     "text": "Open any reading and use the − and + buttons for a comfortable size.",
+     "file": "readings-text-size-1.png",
+     "heading": "1. Tap a reading",
+     "text": "On the Home page, the Scripture card lists today’s readings.",
+     "recipe": {
+      "path": "/",
+      "actions": [
+       {
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "scroll": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "eval": "window.scrollBy(0, 260)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "div:has(> div:text-is(\"Scripture\")) button"
+       }
+      ],
+      "clip_around": {
+       "sel": "div:has(> div:text-is(\"Scripture\"))",
+       "above": 30,
+       "below": 30
+      }
+     }
+    },
+    {
+     "file": "readings-text-size-2.png",
+     "heading": "2. Tap + for larger text",
+     "text": "Tap − to make it smaller again.",
      "recipe": {
       "path": "/",
       "actions": [
@@ -51,7 +81,11 @@
         "click": "[aria-label=\"Increase popup text size\"]"
        },
        {
-        "click": "[aria-label=\"Increase popup text size\"]"
+        "pause": 500
+       },
+       {
+        "highlight": "[aria-label=\"Increase popup text size\"]",
+        "label": "Larger"
        }
       ],
       "element": "[role=dialog]"
@@ -71,9 +105,39 @@
    "about": "In a reading's window, the sparkles button opens the 'Orthodox AI reading guide': a short explanation of the passage written by AI from an Orthodox perspective. It is a help for understanding, not a teaching of the Church.",
    "shots": [
     {
-     "file": "readings-ai-guide.png",
-     "heading": "Tap the sparkles",
-     "text": "A short, plain explanation of the passage, written by AI from an Orthodox perspective.",
+     "file": "readings-ai-guide-1.png",
+     "heading": "1. Tap the sparkles",
+     "text": "Open any reading, then tap the sparkles button at the top.",
+     "recipe": {
+      "path": "/",
+      "actions": [
+       {
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "click": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "wait": ".htc-modal-content"
+       },
+       {
+        "pause": 600
+       },
+       {
+        "highlight": "button[aria-label^=\"Explain \"]"
+       }
+      ],
+      "clip_around": {
+       "sel": "button[aria-label^=\"Explain \"]",
+       "above": 60,
+       "below": 260
+      }
+     }
+    },
+    {
+     "file": "readings-ai-guide-2.png",
+     "heading": "2. Read the guide",
+     "text": "A short explanation of the passage, written by AI from an Orthodox perspective.",
      "recipe": {
       "path": "/",
       "actions": [
@@ -115,7 +179,7 @@
    "shots": [
     {
      "file": "prayers-with-readings.png",
-     "heading": "Read them as you pray",
+     "heading": "Tap a reading as you pray",
      "text": "Morning has the Epistle and Gospel; Evening has the Vespers readings.",
      "recipe": {
       "path": "/morning",
@@ -130,10 +194,20 @@
         "wait": "section:has(h2:has-text(\"The Gospel and Epistle\")) button"
        },
        {
-        "scroll": "section:has(h2:has-text(\"The Gospel and Epistle\"))"
+        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span,button')].find(e => e.children.length === 0 && e.textContent.trim() === \"The Gospel and Epistle\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -70); } })()"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "section:has(h2:has-text(\"The Gospel and Epistle\")) button"
        }
       ],
-      "element": "section:has(h2:has-text(\"The Gospel and Epistle\"))"
+      "clip_around": {
+       "sel": "section:has(h2:has-text(\"The Gospel and Epistle\"))",
+       "above": 10,
+       "below": 10
+      }
      }
     }
    ],
@@ -147,12 +221,12 @@
    "id": "prayers-listen",
    "title": "Pray along out loud",
    "line": "Listen to the prayers and the psalm of the day while you pray.",
-   "about": "On the Morning and Evening Prayers pages, the headphones button opens an audio player for the prayers, and the 'Play Psalm' button plays the psalm of the day.",
+   "about": "On the Morning and Evening Prayers pages, the headphones button next to the title opens an audio player for the prayers, and the 'Play Psalm' button plays the psalm of the day.",
    "shots": [
     {
-     "file": "prayers-listen.png",
-     "heading": "Tap the headphones",
-     "text": "An audio player for the prayers, and a button to hear the psalm of the day.",
+     "file": "prayers-listen-1.png",
+     "heading": "1. Tap the headphones",
+     "text": "Next to the title on Morning and Evening Prayers.",
      "recipe": {
       "path": "/morning",
       "actions": [
@@ -160,20 +234,52 @@
         "wait": "text=Psalm of the Day"
        },
        {
-        "click": "role=button[name='Show prayer audio player']"
+        "pause": 600
+       },
+       {
+        "highlight": "[aria-label=\"Show prayer audio player\"] >> visible=true"
+       }
+      ],
+      "clip_around": {
+       "sel": "[aria-label=\"Show prayer audio player\"] >> visible=true",
+       "above": 110,
+       "below": 170
+      }
+     }
+    },
+    {
+     "file": "prayers-listen-2.png",
+     "heading": "2. Press play",
+     "text": "Or tap Psalm to hear the psalm of the day.",
+     "recipe": {
+      "path": "/morning",
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "click": "[aria-label=\"Show prayer audio player\"] >> visible=true"
        },
        {
         "pause": 4000
+       },
+       {
+        "highlight": "button[aria-label^=\"Play Psalm\"] >> visible=true",
+        "label": "Psalm"
        }
       ],
-      "settle": 2000
+      "clip_around": {
+       "sel": "button[aria-label^=\"Play Psalm\"] >> visible=true",
+       "above": 360,
+       "below": 70
+      }
      }
     }
    ],
    "steps": [
     "Open Morning or Evening in the menu",
     "Tap the headphones next to the title",
-    "Or tap Play Psalm to hear the psalm"
+    "Or tap Psalm to hear the psalm"
    ]
   },
   {
@@ -183,9 +289,33 @@
    "about": "On the Morning and Evening Prayers pages, the Icons button shows the icons of the Mother of God and of Christ side by side, to pray before.",
    "shots": [
     {
-     "file": "prayers-icons.png",
-     "heading": "Tap Icons",
-     "text": "The Mother of God and Christ, side by side, above your prayers.",
+     "file": "prayers-icons-1.png",
+     "heading": "1. Tap Icons",
+     "text": "Under the title on Morning and Evening Prayers.",
+     "recipe": {
+      "path": "/morning",
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "pause": 600
+       },
+       {
+        "highlight": "button[aria-controls=\"prayer-icons\"]"
+       }
+      ],
+      "clip_around": {
+       "sel": "button[aria-controls=\"prayer-icons\"]",
+       "above": 230,
+       "below": 70
+      }
+     }
+    },
+    {
+     "file": "prayers-icons-2.png",
+     "heading": "2. Pray before them",
+     "text": "The Mother of God and Christ, side by side. Tap Icons again to hide them.",
      "recipe": {
       "path": "/morning",
       "actions": [
@@ -200,18 +330,19 @@
        },
        {
         "pause": 1500
-       },
-       {
-        "eval": "window.scrollTo(0, 0)"
        }
       ],
-      "settle": 1200
+      "clip_around": {
+       "sel": "#prayer-icons",
+       "above": 120,
+       "below": 90
+      }
      }
     }
    ],
    "steps": [
     "Open Morning or Evening in the menu",
-    "Tap Icons near the top",
+    "Tap Icons under the title",
     "Tap it again to hide them"
    ]
   },
@@ -223,7 +354,7 @@
    "shots": [
     {
      "file": "psalm-of-the-day.png",
-     "heading": "Psalm of the Day",
+     "heading": "Scroll to Psalm of the Day",
      "text": "A different psalm for each day of the week, morning and evening.",
      "recipe": {
       "path": "/morning",
@@ -235,13 +366,16 @@
         "eval": "document.querySelectorAll('section').forEach(s=>s.style.contentVisibility='visible')"
        },
        {
-        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span')].find(e => e.children.length === 0 && e.textContent.trim() === \"Psalm of the Day\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -90); } })()"
+        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span,button')].find(e => e.children.length === 0 && e.textContent.trim() === \"Psalm of the Day\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -90); } })()"
        },
        {
         "pause": 800
+       },
+       {
+        "highlight": "section:has(p:has-text(\"Psalm of the Day\")) h3",
+        "label": "Today’s psalm"
        }
-      ],
-      "settle": 1200
+      ]
      }
     }
    ],
@@ -258,9 +392,9 @@
    "about": "The Calendar page shows a month at a time; the arrows move through the year. Feast days are shaded light blue, and tapping any day shows its feast, saints, fasting and readings.",
    "shots": [
     {
-     "file": "calendar-year.png",
-     "heading": "Month by month",
-     "text": "Feast days are shaded blue. Tap any day for its saints, fasting and readings.",
+     "file": "calendar-year-1.png",
+     "heading": "1. Tap the arrows to change month",
+     "text": "Feast days are shaded light blue.",
      "recipe": {
       "path": "/calendar",
       "actions": [
@@ -269,9 +403,60 @@
        },
        {
         "pause": 3000
+       },
+       {
+        "scroll": ".grid-cols-7"
+       },
+       {
+        "eval": "window.scrollBy(0, -150)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "button:has(svg.lucide-chevron-right) >> visible=true",
+        "label": "Next month"
        }
       ],
-      "settle": 2000
+      "clip_around": {
+       "sel": ".grid-cols-7",
+       "above": 90,
+       "below": 20
+      }
+     }
+    },
+    {
+     "file": "calendar-year-2.png",
+     "heading": "2. Tap a day",
+     "text": "See its feast, saints, fasting rule and readings.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": ".grid-cols-7 button"
+       },
+       {
+        "pause": 3000
+       },
+       {
+        "scroll": ".grid-cols-7"
+       },
+       {
+        "eval": "window.scrollBy(0, -150)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": ".grid-cols-7 button.bg-sky-50",
+        "label": "Feast day"
+       }
+      ],
+      "clip_around": {
+       "sel": ".grid-cols-7",
+       "above": 90,
+       "below": 20
+      }
      }
     }
    ],
@@ -288,9 +473,9 @@
    "about": "On the Calendar page each fasting day has a coloured dot. The Calendar Legend explains them: blue for fish, wine and oil allowed; purple for wine and oil allowed; amber for meat fast only; grey for a strict or other fast. Feast days are shaded light blue.",
    "shots": [
     {
-     "file": "calendar-fasting.png",
-     "heading": "Read the dots",
-     "text": "Open the legend to see what each colour means.",
+     "file": "calendar-fasting-1.png",
+     "heading": "1. Tap View legend",
+     "text": "Under the calendar.",
      "recipe": {
       "path": "/calendar",
       "actions": [
@@ -301,7 +486,40 @@
         "pause": 3000
        },
        {
-        "click": "role=button[name='View legend'] >> visible=true"
+        "scroll": "text=View legend >> visible=true"
+       },
+       {
+        "eval": "window.scrollBy(0, 120)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "text=View legend >> visible=true"
+       }
+      ],
+      "clip_around": {
+       "sel": "text=View legend >> visible=true",
+       "above": 420,
+       "below": 60
+      }
+     }
+    },
+    {
+     "file": "calendar-fasting-2.png",
+     "heading": "2. Read the dots",
+     "text": "Each colour is a fasting rule; light blue days are feasts.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": ".grid-cols-7 button"
+       },
+       {
+        "pause": 3000
+       },
+       {
+        "click": "text=View legend >> visible=true"
        },
        {
         "pause": 1000
@@ -315,8 +533,7 @@
        {
         "pause": 600
        }
-      ],
-      "settle": 1500
+      ]
      }
     }
    ],
@@ -333,17 +550,47 @@
    "about": "Each saint commemorated on a day has an 'About' button (on the Calendar) or link (on Home) that opens their life. When a matching, freely licensed icon is found, it is shown beside the life and can be opened full screen.",
    "shots": [
     {
-     "file": "saints-lives.png",
-     "heading": "Tap About",
-     "text": "The saint’s life, and their icon when one is available.",
+     "file": "saints-lives-1.png",
+     "heading": "1. Tap About",
+     "text": "On the Calendar, under Commemorations.",
      "recipe": {
       "path": "/calendar",
       "actions": [
        {
-        "wait": "role=button[name='About']"
+        "wait": "role=button[name=\"About\"]"
        },
        {
-        "try_each": "role=button[name='About']",
+        "scroll": "role=button[name=\"About\"]"
+       },
+       {
+        "eval": "window.scrollBy(0, 150)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "role=button[name=\"About\"]"
+       }
+      ],
+      "clip_around": {
+       "sel": "role=button[name=\"About\"]",
+       "above": 160,
+       "below": 160
+      }
+     }
+    },
+    {
+     "file": "saints-lives-2.png",
+     "heading": "2. Read their life",
+     "text": "With their icon, when one is available.",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": "role=button[name=\"About\"]"
+       },
+       {
+        "try_each": "role=button[name=\"About\"]",
         "until": "figure img[alt^=\"Icon of\"]",
         "open": ".htc-modal-content",
         "close": ".modal-close-control",
@@ -371,14 +618,56 @@
    "about": "On feast days, the Feast card has a sparkles button that opens a short 'Feast day AI insight' written for newcomers. It is a help for understanding, not a teaching of the Church.",
    "shots": [
     {
-     "file": "feast-insight.png",
-     "heading": "Tap the sparkles on a feast",
+     "file": "feast-insight-1.png",
+     "heading": "1. On a feast day, tap the sparkles",
+     "text": "On the Feast card (here on the Calendar).",
+     "recipe": {
+      "path": "/calendar",
+      "actions": [
+       {
+        "wait": ".grid-cols-7 button"
+       },
+       {
+        "pause": 3000
+       },
+       {
+        "click": ".grid-cols-7 button.bg-sky-50"
+       },
+       {
+        "wait": "button[aria-label^=\"Learn about\"]"
+       },
+       {
+        "scroll": "button[aria-label^=\"Learn about\"]"
+       },
+       {
+        "eval": "window.scrollBy(0, 120)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "button[aria-label^=\"Learn about\"]"
+       }
+      ],
+      "clip_around": {
+       "sel": "button[aria-label^=\"Learn about\"]",
+       "above": 120,
+       "below": 120
+      }
+     }
+    },
+    {
+     "file": "feast-insight-2.png",
+     "heading": "2. Read the reflection",
      "text": "A short reflection on the feast, written by AI for newcomers.",
      "recipe": {
       "path": "/calendar",
       "actions": [
        {
-        "wait": ".grid-cols-7 button.bg-sky-50"
+        "wait": ".grid-cols-7 button"
+       },
+       {
+        "pause": 3000
        },
        {
         "click": ".grid-cols-7 button.bg-sky-50"
@@ -410,14 +699,44 @@
    "about": "The Confession page has four steps: an opening prayer, an examination (tap the items that apply from three lists), prayers that include what you selected, and a confession draft to read before the priest, with a short guide on how to confess.",
    "shots": [
     {
-     "file": "confession-prepare.png",
-     "heading": "Tap what applies",
-     "text": "Three short lists help you examine your conscience.",
+     "file": "confession-prepare-1.png",
+     "heading": "1. Tap Examination",
+     "text": "The page walks you through four steps.",
      "recipe": {
       "path": "/confession",
       "actions": [
        {
-        "click": "role=button[name='2. Examination']"
+        "wait": "role=button[name=\"2. Examination\"]"
+       },
+       {
+        "scroll": "role=button[name=\"2. Examination\"]"
+       },
+       {
+        "eval": "window.scrollBy(0, 160)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "role=button[name=\"2. Examination\"]"
+       }
+      ],
+      "clip_around": {
+       "sel": "role=button[name=\"2. Examination\"]",
+       "above": 200,
+       "below": 120
+      }
+     }
+    },
+    {
+     "file": "confession-prepare-2.png",
+     "heading": "2. Tap what applies",
+     "text": "Choose a list, then tap each item that applies to you.",
+     "recipe": {
+      "path": "/confession",
+      "actions": [
+       {
+        "click": "role=button[name=\"2. Examination\"]"
        },
        {
         "click": "role=button[name=/Sins Against God/]"
@@ -435,13 +754,16 @@
         "scroll": "role=button[name=/wander during prayer/]"
        },
        {
-        "eval": "window.scrollBy(0, -260)"
+        "eval": "window.scrollBy(0, 120)"
        },
        {
-        "pause": 600
+        "pause": 500
+       },
+       {
+        "highlight": "role=button[name=/wander during prayer/]",
+        "label": "Selected"
        }
-      ],
-      "settle": 1500
+      ]
      }
     }
    ],
@@ -459,13 +781,13 @@
    "shots": [
     {
      "file": "confession-private.png",
-     "heading": "A draft for Confession",
+     "heading": "Tap Confession Draft",
      "text": "Only on your screen: nothing is saved or sent, and it’s gone when you leave.",
      "recipe": {
       "path": "/confession",
       "actions": [
        {
-        "click": "role=button[name='2. Examination']"
+        "click": "role=button[name=\"2. Examination\"]"
        },
        {
         "click": "role=button[name=/Sins Against God/]"
@@ -477,19 +799,21 @@
         "click": "role=button[name=/wander during prayer/]"
        },
        {
-        "click": "role=button[name='4. Confession Draft']"
+        "click": "role=button[name=\"4. Confession Draft\"]"
        },
        {
         "wait": "text=Your Confession Draft"
        },
        {
-        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span')].find(e => e.children.length === 0 && e.textContent.trim() === \"Your Confession Draft\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -120); } })()"
+        "eval": "(() => { const el = [...document.querySelectorAll('p,h2,h3,div,span,button')].find(e => e.children.length === 0 && e.textContent.trim() === \"Your Confession Draft\" && e.offsetParent); if (el) { el.scrollIntoView({block: 'start'}); window.scrollBy(0, -230); } })()"
        },
        {
         "pause": 800
+       },
+       {
+        "highlight": "role=button[name=\"4. Confession Draft\"]"
        }
-      ],
-      "settle": 1500
+      ]
      }
     }
    ],
@@ -506,14 +830,43 @@
    "about": "The Settings (gear) button lets you choose New or Old Calendar, Slavic or Greek tradition, and the Scripture translation (LXX2012 & WEB, or King James). Your choices are saved on your device.",
    "shots": [
     {
-     "file": "settings.png",
-     "heading": "Tap the gear",
-     "text": "Your choices are saved on this device.",
+     "file": "settings-1.png",
+     "heading": "1. Tap the gear",
+     "text": "At the top right of every page.",
      "recipe": {
       "path": "/",
       "actions": [
        {
-        "click": "role=button[name='Settings']"
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "pause": 800
+       },
+       {
+        "highlight": "role=button[name=\"Settings\"] >> visible=true",
+        "label": "Tap"
+       }
+      ],
+      "clip": [
+       0,
+       0,
+       390,
+       230
+      ]
+     }
+    },
+    {
+     "file": "settings-2.png",
+     "heading": "2. Make your choices",
+     "text": "They’re saved on this device for next time.",
+     "recipe": {
+      "path": "/",
+      "actions": [
+       {
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
+       },
+       {
+        "click": "role=button[name=\"Settings\"] >> visible=true"
        },
        {
         "wait": "#settings-menu"
@@ -522,7 +875,11 @@
         "pause": 800
        }
       ],
-      "settle": 1200
+      "clip_around": {
+       "sel": "#settings-menu",
+       "above": 90,
+       "below": 30
+      }
      }
     }
    ],
@@ -539,41 +896,73 @@
    "about": "The moon button switches the site to dark mode (and the sun back to light). The leaf button turns on gentle seasonal effects: snow in winter, rose petals in spring, sun rays in summer and falling leaves in autumn.",
    "shots": [
     {
-     "file": "dark-mode.png",
-     "heading": "Tap the moon",
-     "text": "A dark version of every page, for evening prayer.",
+     "file": "dark-mode-1.png",
+     "heading": "1. Tap the moon",
+     "text": "At the top right of every page.",
      "recipe": {
       "path": "/evening",
-      "dark": true,
-      "local_storage": {
-       "theme": "dark"
-      },
+      "actions": [
+       {
+        "wait": "text=Psalm of the Day"
+       },
+       {
+        "pause": 800
+       },
+       {
+        "highlight": "[aria-label=\"Switch to dark mode\"] >> visible=true",
+        "label": "Tap"
+       }
+      ],
+      "clip": [
+       0,
+       0,
+       390,
+       230
+      ]
+     }
+    },
+    {
+     "file": "dark-mode-2.png",
+     "heading": "Dark mode",
+     "text": "Every page, for evening prayer. Tap the sun to switch back.",
+     "recipe": {
+      "path": "/evening",
       "actions": [
        {
         "wait": "text=Psalm of the Day"
        }
       ],
+      "dark": true,
+      "local_storage": {
+       "theme": "dark"
+      },
       "settle": 1500
      }
     },
     {
-     "file": "seasonal.png",
-     "heading": "Tap the leaf",
-     "text": "Snow, rose petals, sun rays or falling leaves, depending on the season.",
+     "file": "dark-mode-3.png",
+     "heading": "2. Tap the leaf for the seasons",
+     "text": "Snow, rose petals, sun rays or falling leaves, by season.",
      "recipe": {
       "path": "/",
-      "local_storage": {
-       "isEffectsEnabled": "true"
-      },
       "actions": [
        {
-        "wait": "text=Scripture"
+        "wait": "div:has(> div:text-is(\"Scripture\")) button"
        },
        {
-        "pause": 3500
+        "pause": 800
+       },
+       {
+        "highlight": "[aria-label=\"Enable Seasonal Effects\"] >> visible=true",
+        "label": "Tap"
        }
       ],
-      "settle": 500
+      "clip": [
+       0,
+       0,
+       390,
+       230
+      ]
      }
     }
    ],
@@ -591,20 +980,37 @@
    "shots": [
     {
      "file": "live-liturgy.png",
-     "heading": "Watch from home",
-     "text": "Choose a parish and press play, right on the page.",
+     "heading": "On Sundays, tap play",
+     "text": "Choose a parish, then press play, right on the page.",
      "recipe": {
       "path": "/?livestream=1",
-      "timezone": "America/New_York",
       "actions": [
        {
         "wait": "section[aria-label=\"Livestream\"]"
        },
        {
         "pause": 6000
+       },
+       {
+        "scroll": "section[aria-label=\"Livestream\"]"
+       },
+       {
+        "eval": "window.scrollBy(0, 120)"
+       },
+       {
+        "pause": 500
+       },
+       {
+        "highlight": "section[aria-label=\"Livestream\"] button[aria-label=\"Watch live\"], section[aria-label=\"Livestream\"] button[aria-label=\"Open stream\"], section[aria-label=\"Livestream\"] button[aria-label=\"Watch\"]",
+        "label": "Play"
        }
       ],
-      "element": "section[aria-label=\"Livestream\"]"
+      "timezone": "America/New_York",
+      "clip_around": {
+       "sel": "section[aria-label=\"Livestream\"]",
+       "above": 40,
+       "below": 40
+      }
      }
     }
    ],

@@ -23,7 +23,7 @@ def render_stills(items, outdir):
     tmp = tempfile.mkdtemp(prefix="od-stills-")
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch()
+            browser = p.chromium.launch(channel="chromium")  # full Chromium, as in the previews (not the headless shell)
             for name, html, w, h in items:
                 pg = browser.new_page(viewport={"width": w, "height": h})
                 _load(pg, html, tmp, os.path.splitext(name)[0])
@@ -43,7 +43,7 @@ def render_cover(spec, out_cover):
     w, h = spec["width"], spec["height"]
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch()
+            browser = p.chromium.launch(channel="chromium")  # full Chromium, as in the previews (not the headless shell)
             pg = browser.new_page(viewport={"width": w, "height": h})
             _load(pg, spec["html"], tmp, "reel")
             pg.evaluate("document.getAnimations().forEach(a => a.pause())")
@@ -63,7 +63,7 @@ def render_reel(spec, out_mp4, out_cover, fps=30, audio=None):
     w, h, T = spec["width"], spec["height"], spec["duration"]
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch()
+            browser = p.chromium.launch(channel="chromium")  # full Chromium, as in the previews (not the headless shell)
             pg = browser.new_page(viewport={"width": w, "height": h})
             _load(pg, spec["html"], tmp, "reel")
             pg.evaluate("document.getAnimations().forEach(a => a.pause())")

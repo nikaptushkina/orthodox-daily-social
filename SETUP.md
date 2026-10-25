@@ -86,7 +86,7 @@ Without it, repeat Step 5.5 and Step 6 every 60 days.
 
 ## Saint icons
 
-The nightly fetch asks orthodoxdaily.net's own icon lookup (Wikipedia and Wikimedia Commons, freely licensed images only) for every saint in the coming days, and saves what it finds in `assets/icons/`. On Monday and Thursday the saint's icon goes in the arch on the first slide, with its credit underneath.
+The nightly fetch asks orthodoxdaily.net's own icon lookup (Wikipedia and Wikimedia Commons, freely licensed images only) for every saint in the coming days, and saves what it finds in `assets/icons/`. On Monday and Thursday the saint's icon goes in the arch on the first slide. No credit is shown on the slide; when an image's licence requires one (CC BY-SA, for example), a one-line credit is added at the end of the caption.
 
 When the lookup has no confident match, the cross is shown instead and the morning pull request opens as a **draft** that says "Icon needed". To add one, reply on the pull request with
 

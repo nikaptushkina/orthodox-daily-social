@@ -123,3 +123,15 @@ Use this body:
 - "Merge to approve: the Story posts right away and the feed post at its posting time (POSTING TIME). To change a caption, edit `posts/D/post.json` in this pull request before merging. To skip today, close the pull request." Replace POSTING TIME with that weekday's time from `config.json` `posting_times`, written like "2 pm Pacific".
 
 Finish with one line for the person: the pull request link and what it contains.
+
+## 5. If the person replies here with an icon
+
+The person may answer "Icon needed" in this conversation instead of on GitHub, by attaching an image. Then:
+
+1. Check the attached image shows the right saint (an icon, mosaic or fresco of a person).
+2. On the `posts/D` branch, save it as `posts/D/icon-upload.jpg`, commit ("Icon from the chat") and push.
+3. Comment on the pull request, so the *Add an icon from a comment* workflow rebuilds the slides and marks the pull request ready:
+   `gh api repos/nikaptushkina/orthodox-daily-social/issues/<number>/comments -f body="icon: https://github.com/nikaptushkina/orthodox-daily-social/raw/posts/D/posts/D/icon-upload.jpg"`
+4. Reply with one line: the icon is being added and the pull request will be ready to merge in a few minutes.
+
+A link sent in the chat usually can't be downloaded from here (most websites are blocked), so if the person sends a link rather than an image, post it as the `icon:` comment on the pull request instead; the workflow downloads it on GitHub.

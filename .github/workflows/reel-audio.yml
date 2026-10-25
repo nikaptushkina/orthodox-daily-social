@@ -77,7 +77,7 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y -q ffmpeg
-          pip install -q playwright pillow
+          pip install -q playwright==1.63.0 pillow   # the same browser version that renders the previews
           python -m playwright install --with-deps chromium
 
       - name: Wait for Kokoro
@@ -91,6 +91,8 @@ jobs:
 
       - name: Make the Reel
         if: steps.day.outputs.reel == 'yes'
+        env:
+          FONTCONFIG_FILE: ${{ github.workspace }}/fonts/fonts.conf   # draw text like the previews
         run: python3 -m social.voice "${{ steps.day.outputs.date }}" --music "_assets/${{ steps.day.outputs.music }}"
 
       - name: Add it to the pull request

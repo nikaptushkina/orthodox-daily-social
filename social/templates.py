@@ -91,13 +91,14 @@ def week_ahead(c, site):
   {footer(site, '1 / 2 ' + arrow())}
 </div>"""
     e = c.get("end", {})
-    a = accent(e.get("accent", "feast"))
+    # The Sunday end card is always gold, so the week-ahead post stands apart in the grid.
+    a = accent("feast")
     second = (f"<p class='serif' style='margin:0;font-style:italic;font-size:0.75em;color:{TEXT_BODY}'>{esc(e['second'])}</p>"
               if e.get("second") else "")
     line = (f"<p class='serif' style='margin:0;font-size:0.8em;line-height:1.35;color:{BODY};max-width:760px'>{esc(e['line'])}</p>"
             if e.get("line") else "")
     s2 = f"""
-<div style="width:1080px;height:1350px;padding:88px 96px;background:{tint(e.get('accent', 'feast'))};color:{INK};
+<div style="width:1080px;height:1350px;padding:88px 96px;background:{tint('feast')};color:{INK};
   display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center;gap:32px">
   <div style="width:100%;display:flex;justify-content:space-between;align-items:center;flex-shrink:0">
     {label(e.get('kicker', 'Coming next'))}<div class="sans" style="font-size:24px;color:{MUTED}">2 / 2</div>

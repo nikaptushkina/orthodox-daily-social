@@ -79,7 +79,13 @@ jobs:
           exit $status
       - name: Publishing is switched off
         if: ${{ vars.PUBLISH_ENABLED != 'true' }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: |
+          echo "Checking the Instagram connection (nothing is posted):"
+          python3 scripts/check_connection.py || true
+          echo
           echo "PUBLISH_ENABLED is not 'true', so nothing was posted. Dry run:"
           for d in ${{ steps.dates.outputs.dates }}; do
             [ -f "posts/$d/post.json" ] && python3 scripts/publish.py "$d" --dry-run || true

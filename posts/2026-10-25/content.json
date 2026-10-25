@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-25",
+  "story": {
+    "date_line": "Sunday · October 25",
+    "title": "21st Sunday after Pentecost",
+    "subtitle": "The Lord's Day · Tone 4",
+    "commemorating": "Martyrs Marcian and Martyrius the Notaries, St Tabitha of Joppa",
+    "fasting": "No fast",
+    "readings": [
+      {
+        "label": "Readings of the day",
+        "refs": [
+          "Galatians 2:16–20",
+          "Luke 16:19–31"
+        ]
+      }
+    ],
+    "accent": "ordinary"
+  },
+  "feed": {
+    "kind": "week_ahead",
+    "accent": "ordinary",
+    "range_line": "October 25 – 31",
+    "rows": [
+      {
+        "day": "Sun 25",
+        "title": "21st Sunday after Pentecost",
+        "fast": "No fast",
+        "fast_kind": "none"
+      },
+      {
+        "day": "Mon 26",
+        "title": "Greatmartyr Demetrius",
+        "fast": "No fast",
+        "fast_kind": "none"
+      },
+      {
+        "day": "Tue 27",
+        "title": "Martyr Nestor of Thessalonica",
+        "fast": "No fast",
+        "fast_kind": "none"
+      },
+      {
+        "day": "Wed 28",
+        "title": "Martyrs Terence, Neonila and Children",
+        "fast": "Fast day",
+        "fast_kind": "fast"
+      },
+      {
+        "day": "Thu 29",
+        "title": "Martyr Anastasia the Roman",
+        "fast": "No fast",
+        "fast_kind": "none"
+      },
+      {
+        "day": "Fri 30",
+        "title": "Hieromartyr Zenobius and his sister Zenobia",
+        "fast": "Fast day",
+        "fast_kind": "fast"
+      },
+      {
+        "day": "Sat 31",
+        "title": "Apostles Stachys, Apelles, Amplias and Companions",
+        "fast": "No fast",
+        "fast_kind": "none"
+      }
+    ],
+    "banner": "Monday: Greatmartyr Demetrius",
+    "end": {
+      "kicker": "Coming next",
+      "title": "Synaxis of the Holy Unmercenaries",
+      "date": "Sunday, November 8",
+      "line": "We honor the holy healers who served without payment.",
+      "accent": "ordinary"
+    },
+    "caption": "The week ahead, October 25 – 31 (New Calendar): feasts, saints and fasting at a glance.\n\nWe begin with the 21st Sunday after Pentecost. On Monday the Church keeps the feast of the Greatmartyr Demetrius.\n\nWednesday and Friday are fast days. Later in the week we remember the Martyr Nestor of Thessalonica, the Martyr Anastasia the Roman, and the Apostles Stachys, Apelles, Amplias and their companions.\n\nComing next: the Synaxis of the Holy Unmercenaries on Sunday, November 8.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #SaintOfTheDay"
+  }
+}

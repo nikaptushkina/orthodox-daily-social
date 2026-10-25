@@ -2,7 +2,7 @@
  "voice": "am_michael",
  "speed": 0.9,
  "music": "the-mountain-quiet-documentary.mp3",
- "total": 73.578,
+ "total": 73.584,
  "screens": [
   {
    "text": "Psalm 1.",
@@ -12,31 +12,31 @@
   {
    "text": "Blessed is the man who has not walked in the counsel of the ungodly, and has not stood in the way of sinners, and has not sat in the seat of evil men.",
    "starts": 4.8,
-   "length": 11.91
+   "length": 11.919
   },
   {
    "text": "But his pleasure is in the law of the Lord; and in his law will he meditate day and night.",
-   "starts": 16.71,
+   "starts": 16.719,
    "length": 8.01
   },
   {
    "text": "And he shall be as a tree planted by the brooks of waters, which shall yield its fruit in its season, and its leaf shall not fall off; and whatever he shall do shall be prospered.",
-   "starts": 24.72,
+   "starts": 24.729,
    "length": 14.027
   },
   {
    "text": "Not so the ungodly; —not so: but rather as the chaff which the wind scatters away from the face of the earth. Therefore the ungodly shall not rise in judgment, nor sinners in the counsel of the just.",
-   "starts": 38.747,
+   "starts": 38.757,
    "length": 16.182
   },
   {
    "text": "For the Lord knows the way of the righteous; but the way of the ungodly shall perish.",
-   "starts": 54.928,
-   "length": 7.513
+   "starts": 54.938,
+   "length": 7.509
   },
   {
    "text": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
-   "starts": 62.441,
+   "starts": 62.447,
    "length": 11.937
   }
  ]

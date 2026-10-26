@@ -1,0 +1,26 @@
+name: Mark a day ready
+
+# The morning task (acting as the repository owner) comments "/ready" on a day's draft
+# pull request once everything it was waiting for (an icon, a write-up) is in.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  ready:
+    if: >-
+      github.event.issue.pull_request &&
+      github.event.comment.author_association == 'OWNER' &&
+      startsWith(github.event.comment.body, '/ready')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark the pull request ready to approve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.issue.number }}
+        run: |
+          gh pr ready "$PR" --repo "$GITHUB_REPOSITORY"
+          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body "✅ Everything's in. This pull request is ready to approve."

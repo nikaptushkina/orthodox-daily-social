@@ -284,6 +284,7 @@ def feast(c, site):
         "Fasting": "<path d='M5 19c0-8 5-13 14-14-1 9-6 14-14 14z'/><path d='M5 19l7-7'/>",
         "Services": "<path d='M12 3c2 3 3 4.5 3 6.5a3 3 0 0 1-6 0C9 7.5 10 6 12 3z'/><rect x='9' y='13' width='6' height='8' rx='1'/>",
         "Hymns": "<path d='M9 18V6l10-2v12'/><circle cx='6.5' cy='18' r='2.5'/><circle cx='16.5' cy='16' r='2.5'/>",
+        "Readings": "<path d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'/>",
     }
     rows = ""
     kept = c.get("kept", [])

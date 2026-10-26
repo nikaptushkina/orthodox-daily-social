@@ -31,6 +31,8 @@ Every day: the **Story**. Plus, by weekday:
 
 On a Great Feast (or Pascha), make the feed post a `feast` explainer for that feast, whatever the weekday.
 
+**When something is missing** (a saint's icon, a saint's or feast's write-up): never skip the post and never fill the gap from memory. Add a `"needs"` list to the feed, e.g. `"needs": ["icon", "write-up"]`, open the pull request as a draft (step 4) and ask the person. A feast with no write-up about `feasts[0]` gets `meaning: ["Write-up needed: reply in the Claude chat with what this feast celebrates.", "", ""]` and `"write-up"` in `needs`.
+
 **What counts as a feast**: only days whose `feasts` list in `days/YYYY-MM-DD.json` is not empty, as on orthodoxdaily.net. **Its name is always `feasts[0]`**, the first entry, which is what the site's feast card shows, even when the day lists a second feast (November 8: "Synaxis of the Holy Unmercenaries", not the Archangel Michael feast listed after it). Use that name everywhere: the Story, the week-ahead rows, banner and end card, and the Friday feast explainer. A well-known saint with no entry in `feasts` (for example Cosmas and Damian on November 1) is a commemoration, not a feast: never call it a feast.
 
 ## 2. Write `posts/D/content.json`
@@ -65,11 +67,16 @@ Write only text here. Scripture is never typed: `reading.index` points into `day
 
 **Feed kinds** (every carousel also needs `caption` and `accent`):
 - `week_ahead`: `range_line` ("October 25 – 31"), `rows` (up to 7: `day` "Sun 25", `title` the feast (`feasts[0]`) or else the main commemoration, `fast` short text, `fast_kind` one of `none` `fast` `fish` `dairy`), optional `banner` (the week's feast, if a day in it has one: "Monday: Greatmartyr Demetrius"), and `end` (`kicker`, `title`, `date`, optional `second` (the Old Calendar date when it helps), `line`, `accent`): the next feast after this week found in `days/` (kicker "Coming next"), or a fast that begins soon, or else "Have a blessed week". The end card is always gold, whatever `accent` says. The end card's `line` must make sense read on its own, in plain words: one short phrase about the feast, never a fragment of its name (not "and of all the Bodiless Powers").
-- `saint`: `name`, `subtitle` (title and place), `dates` ("Oct 26 New Calendar · Nov 8 Old Calendar"), `heading` ("Who he was" / "Who she was" / "Who they were"), `life` (two short paragraphs, 25–45 words each, from the day's `stories` and well-established tradition only), `intercession` ("Holy Great-martyr Demetrios, pray to God for us.").
-  - **Icon**: look up the saint's story `title` (exactly as in `days/D.json` `stories`) in `assets/icons/index.json`, which the nightly fetch fills using orthodoxdaily.net's own icon lookup. If the entry has a `file`, **check it before using it**: the lookup is automatic and is sometimes wrong. Its `page` must be the Wikipedia article about this same saint (not a namesake: "Anastasia of Sirmium" is not "Anastasia the Roman"), and when you open the image it must be an icon, mosaic or fresco of a person, not a building, a well, a seal, a map or a modern photo. Only then add `"icon": "<file>"` and `"icon_credit": "<credit>"` to the feed. The slide shows no credit. If the credit names a licence other than "Public domain" or "CC0" (for example "CC BY-SA 4.0"), the licence requires attribution: end the caption, after the hashtags, with one line "Icon: Wikimedia Commons, CC BY-SA 4.0". If there is no entry, its `file` is null, or the check fails, leave `icon` out (the cross is shown), open the pull request as a draft, and ask for one (see step 4), saying why ("the only image found was of a different saint"). Never search for or download an icon yourself.
+- `saint`: `name`, `subtitle` (title and place), `dates` ("Oct 26 New Calendar · Nov 8 Old Calendar"), `heading` ("Who he was" / "Who she was" / "Who they were"), `life` (two short paragraphs, 25–45 words each, written **only** from that saint's own write-up in `days/D.json` `stories`: no facts from anywhere else, not even well-known ones), `intercession` ("Holy Great-martyr Demetrios, pray to God for us.").
+  - **Icon**: look up the saint's story `title` (exactly as in `days/D.json` `stories`) in `assets/icons/index.json`, which the nightly fetch fills using orthodoxdaily.net's own icon lookup. If the entry has a `file`, **check it before using it**: the lookup is automatic and is sometimes wrong. Its `page` must be the Wikipedia article about this same saint (not a namesake: "Anastasia of Sirmium" is not "Anastasia the Roman"), and when you open the image it must be an icon, mosaic or fresco of a person, not a building, a well, a seal, a map or a modern photo. Only then add `"icon": "<file>"` and `"icon_credit": "<credit>"` to the feed. The slide shows no credit. If the credit names a licence other than "Public domain" or "CC0" (for example "CC BY-SA 4.0"), the licence requires attribution: end the caption, after the hashtags, with one line "Icon: Wikimedia Commons, CC BY-SA 4.0". If there is no entry, its `file` is null, or the check fails, leave `icon` out (the cross is shown), open the pull request as a draft, and ask for one (see step 4), saying why ("the only image found was of a different saint"). Add `"icon"` to `needs`. Never search for or download an icon yourself.
+  - **Write-up**: if the saint has no write-up in `stories` (or it's too short to write two paragraphs from), don't write the life from memory and don't skip the saint. Set `life` to `["Write-up needed: reply in the Claude chat with this saint's life.", ""]` and add `"write-up"` to `needs` (below).
 - `word`: `reading` (`{"index": N}`), `book_intro` ("The Gospel according to", "The Epistle of St Paul to the", "The Acts of the"), `book_title` ("Luke", "Romans", "Apostles"), `ref_line` ("Chapter 7, verses 1–10"), `context` ("Gospel for Tuesday, October 27"), `translation` ("World English Bible"). Pages are built automatically.
 - `feature` ("From the website", Friday with no feast coming): `{"kind": "feature", "feature": "<id from social.feature_plan>", "caption": "..."}`. The slides' text and the real screenshots come from `features.json` and `assets/site/`; don't change them. Write the caption only from that feature's `about` text in `features.json`: what it is, where to find it, why it helps someone pray or keep the Church year. Never claim more than `about` says. If `about` mentions AI, say plainly that the text is written by AI. Hashtags from #OrthodoxChristian #OrthodoxChurch #DailyPrayer #OrthodoxFeasts.
-- `feast` (always gold, whatever `accent` says): `kicker` ("Great Feast", "Feast"), `name`, `subtitle` (one short line, e.g. "Forty days of preparation for the Nativity of Christ."), `date` ("Saturday, November 21"), optional `second` ("Old Calendar: Friday, December 4"), `meaning` (exactly three sentences of 20–30 words), `kept` (three rows labelled `Fasting`, `Services`, `Hymns`, one sentence each).
+- `feast` (always gold, whatever `accent` says): `kicker` ("Great Feast", "Feast"), `name`, `subtitle` (one short line, e.g. "Forty days of preparation for the Nativity of Christ."), `date` ("Saturday, November 21"), optional `second` ("Old Calendar: Friday, December 4"), `meaning` (exactly three sentences of 20–30 words, written **only** from the feast's own write-up: the entry in `stories` that is about `feasts[0]` itself, usually the first one), `kept` (three rows, one sentence each, all from the data, never from memory):
+  - `Fasting`: from `fast_level_desc` and `fast_exception_desc` for the feast day.
+  - `Services`: from `feast_level` only: 7 or 8 "One of the Twelve Great Feasts, kept with an All-night Vigil on the eve."; 5 or 6 "Kept with an All-night Vigil on the eve."; 4 "Kept with a Polyeleos at Matins."; 3 or lower "Its hymns are added to the day's services."
+  - `Readings`: the feast's Epistle and Gospel references from that day's `readings` (prefer the ones whose `description` names the feast), written like "Philippians 2:5–11 and Luke 10:38–42".
+  Never quote hymns or prayers from memory.
 
 **Reel**:
 - Psalm (Wednesday): copy `name`, `from` and `to` exactly from `python3 -m social.psalm_plan D`: `{"kind":"psalm","mood":"dawn","psalm":{"name":"Psalm 102","from":1,"to":11},"title":{"kicker":"A psalm to pray · Wednesday","title":"Psalm 102","subtitle":"Bless the Lord, O my soul"},"end":{"quote":"a short line from these verses, word for word"},"footer":"orthodoxdaily.net · Septuagint (LXX2012)"}`. If the plan says the Psalter is missing, stop and report it. When the plan prints a `part` ("1 of 2"), make the kicker "A psalm to pray · Part 1 of 2", and say in the caption that the psalm continues (or concludes) next Wednesday.
@@ -113,7 +120,10 @@ gh api repos/nikaptushkina/orthodox-daily-social/pulls -f base=main -f head=post
 
 On days with a Reel, add `-F draft=true`: the pull request stays a draft (it can't be merged by accident) until the workflow has added the voiced Reel, then becomes ready by itself.
 
-On a saint day with no icon, also add `-F draft=true`, and put this near the top of the body: "**Icon needed for <saint>.** Reply to this pull request with `icon:` and a link to an image, or paste the image into a comment with the word icon. The slides are rebuilt with it and this pull request becomes ready to approve." Then finish with: "Icon needed for <saint>: reply on the pull request with an image."
+Whenever the feed has `needs`, also add `-F draft=true` and put each need near the top of the body:
+- icon: "**Icon needed for <saint>.** Reply in the Claude chat with the image, or on this pull request with `icon:` and a link."
+- write-up: "**Write-up needed for <saint or feast>.** Reply in the Claude chat with the text (from a source you trust); the slides are written only from it."
+The pull request becomes ready to approve by itself once everything is in. Then finish with one line naming what's needed, e.g. "Needed for Monday's post: an icon and a write-up for St X. Reply here with them."
 
 Use this body:
 
@@ -125,7 +135,7 @@ Use this body:
 
 Finish with one line for the person: the pull request link and what it contains. Then stop: don't schedule check-ins, reminders or follow-up tasks, and don't watch the pull request. GitHub's workflows handle everything after the merge, and the person can reply in this conversation if they need you.
 
-## 5. If the person replies here with an icon
+## 5. If the person replies here with an icon or a write-up
 
 The person may answer "Icon needed" in this conversation instead of on GitHub, by attaching an image. Then:
 
@@ -136,3 +146,11 @@ The person may answer "Icon needed" in this conversation instead of on GitHub, b
 4. Reply with one line: the icon is being added and the pull request will be ready to merge in a few minutes.
 
 A link sent in the chat usually can't be downloaded from here (most websites are blocked), so if the person sends a link rather than an image, post it as the `icon:` comment on the pull request instead; the workflow downloads it on GitHub.
+
+**A write-up** (text the person pastes or attaches):
+
+1. On the `posts/D` branch, write the missing `life` (saint) or `meaning` (feast) **only** from the person's text, in the same form as always. Remove `"write-up"` from `needs`.
+2. Rebuild the images without touching a Reel: `python3 -m social.build D --stills`. Look at the slides.
+3. Commit ("Write-up from the chat") and push.
+4. If `needs` is now empty, comment `/ready` on the pull request (`gh api repos/nikaptushkina/orthodox-daily-social/issues/<number>/comments -f body="/ready"`); a workflow marks it ready to approve. If an icon is still needed, say so.
+5. Reply with one line: what was updated, and whether anything is still needed.

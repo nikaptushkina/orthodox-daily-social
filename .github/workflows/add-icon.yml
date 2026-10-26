@@ -54,6 +54,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Download the icon
+        id: icon
         env:
           BODY: ${{ github.event.comment.body }}
           D: ${{ steps.pr.outputs.date }}
@@ -80,6 +81,10 @@ jobs:
           if not c.get("feed") or c["feed"].get("kind") != "saint":
               raise SystemExit("This day has no saint carousel to put an icon on.")
           c["feed"]["icon"] = "icon.jpg"
+          c["feed"]["needs"] = [n for n in c["feed"].get("needs", []) if n != "icon"]
+          still = c["feed"]["needs"]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write("still=" + ", ".join(still) + "\n")
           credit = re.search(r"credit:\s*(.+)", body, re.I)
           if credit:
               c["feed"]["icon_credit"] = credit.group(1).strip()[:120]
@@ -103,10 +108,17 @@ jobs:
           git commit -m "Icon for $d"
           git push origin "HEAD:${{ steps.pr.outputs.ref }}"
           sha=$(git rev-parse HEAD)
-          gh pr comment "$PR" --body "🖼️ **Icon added** and the slides rebuilt. New preview: https://github.com/${GITHUB_REPOSITORY}/raw/${sha}/posts/${d}/preview.jpg
+          still="${{ steps.icon.outputs.still }}"
+          if [ -z "$still" ]; then
+            gh pr comment "$PR" --body "🖼️ **Icon added** and the slides rebuilt. New preview: https://github.com/${GITHUB_REPOSITORY}/raw/${sha}/posts/${d}/preview.jpg
 
           This pull request is ready to approve."
-          gh pr ready "$PR" || true
+            gh pr ready "$PR" || true
+          else
+            gh pr comment "$PR" --body "🖼️ **Icon added** and the slides rebuilt. New preview: https://github.com/${GITHUB_REPOSITORY}/raw/${sha}/posts/${d}/preview.jpg
+
+          Still needed before this can be approved: ${still}. Reply in the Claude chat with it."
+          fi
 
       - name: Say what went wrong
         if: failure()

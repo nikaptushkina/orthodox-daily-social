@@ -1,0 +1,657 @@
+{
+ "pascha_distance": 238,
+ "julian_day_number": 2461381,
+ "year": 2026,
+ "month": 12,
+ "day": 6,
+ "weekday": 0,
+ "tone": 2,
+ "titles": [
+  "27th Sunday after Pentecost"
+ ],
+ "summary_title": "27th Sunday after Pentecost",
+ "feast_level": 5,
+ "feast_level_description": "Red cross half-circle (vigil typikon symbol)",
+ "feasts": [
+  "St Nicholas the Wonderworker, Abp. of Myra in Lycia"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "New Martyr Nicolas Karamos of Smyrna (1657)",
+  "St Maximus, Metropolitan of Kiev & Vladimir (1305)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  4,
+  6
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Composite 2 - Proverbs 10, 3, 8",
+   "short_display": "Prov 10, 3, 8",
+   "passage": [
+    {
+     "book": "",
+     "chapter": 1,
+     "verse": 1,
+     "content": "The memory of a just man is praised, and the Lord’s blessing is upon his head. Blessed is one who has found wisdom; a mortal who knows understanding. To import her is better than treasures of gold and silver. She is more valuable than precious stones; nothing of value equals her worth. Justice proceeds from her mouth; she bears law and mercy on her tongue. Therefore, my children, listen to me, for I speak weighty things. And blessed is the one who keeps my ways. For my goings out are the goings out of life, and favour is prepared from the Lord. Therefore I exhort you, and utter my voice to the children of humankind. Because I, Wisdom, have prepared counsel, knowledge and understanding. I have called on them. Counsel and sureness are mine; prudence is mine, strength is mine. I love those who are my friends, while those who seek me will find grace. You innocent, then, understand cunning; you untaught, take it to heart. Listen to me, for I will speak weighty things, and I will open right things from my lips. Because my throat will meditate truth; lying lips are abominable before me. All the words of my mouth are with justice, there is nothing crooked in them nor twisted. They are all straight for those who understand, and right for those who find knowledge. For I teach you what is true, that your hope may be in the Lord and that you may be filled with spirit.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Proverbs 10.31-11.12",
+   "short_display": "Prov 10.31-11.12",
+   "passage": [
+    {
+     "book": "PRO",
+     "chapter": 10,
+     "verse": 31,
+     "content": "The mouth of the righteous drops wisdom: but the tongue of the unjust shall perish.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 10,
+     "verse": 32,
+     "content": "The lips of just men drop grace: but the mouth of the ungodly is perverse.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 1,
+     "content": "False balances are an abomination before the Lord: but a just weight is acceptable to him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 2,
+     "content": "Wherever pride enters, there will be also disgrace: but the mouth of the lowly meditates wisdom.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 3,
+     "content": "When a just man dies he leaves regret: but the destruction of the ungodly is speedy, and causes joy.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 4,
+     "content": "Possessions will not profit in a day of wrath, but righteousness will deliver from death.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 5,
+     "content": "Righteousness traces out blameless paths: but ungodliness encounters unjust dealing.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 6,
+     "content": "The righteousness of upright men delivers them: but transgressors are caught in their own destruction.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 7,
+     "content": "At the death of a just man his hope does not perish: but the boast of the ungodly perishes.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 8,
+     "content": "A righteous man escapes from a snare, and the ungodly man is delivered up in his place.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 9,
+     "content": "In the mouth of ungodly men is a snare to citizens: but the understanding of righteous men is prosperous.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 10,
+     "content": "In the prosperity of righteous men a city prospers: but by the mouth of ungodly men it is overthrown.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 11,
+     "content": "At the blessing of the upright a city shall be exalted.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 11,
+     "verse": 12,
+     "content": "A man void of understanding sneers at his fellow citizens: but a sensible man is quiet.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Wisdom of Solomon 4.7-15",
+   "short_display": "Wis 4.7-15",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 7,
+     "content": "But though the righteous be prevented with death, yet shall he be in rest.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 8,
+     "content": "For honorable age is not that which stands in length of time, nor that is measured by number of years.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 9,
+     "content": "But wisdom is the gray hair to men, and an unspotted life is old age.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 10,
+     "content": "He pleased God, and was beloved of him: so that living among sinners he was translated.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 11,
+     "content": "Yes speedily was he taken away, lest that wickedness should alter his understanding, or deceit decieve his soul.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 12,
+     "content": "For the bewitching of naughtiness does obscure things that are honest; and the wandering of concupiscence does undermine the simple mind.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 13,
+     "content": "He, being made perfect in a short time, fulfilled a long time:",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 14,
+     "content": "For his soul pleased the Lord: therefore hasted he to take him away from among the wicked.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 15,
+     "content": "This the people saw, and understood it not, neither laid they up this in their minds, That his grace and mercy is with his saints, and that he has respect to his chosen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "5th Matins Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 24.12-35",
+   "short_display": "Luke 24.12-35",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 12,
+     "content": "But Peter got up and ran to the tomb. Stooping and looking in, he saw the strips of linen lying by themselves, and he departed to his home, wondering what had happened.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 13,
+     "content": "Behold, two of them were going that very day to a village named Emmaus, which was sixty stadia from Jerusalem.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 14,
+     "content": "They talked with each other about all of these things which had happened.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 15,
+     "content": "While they talked and questioned together, Jesus himself came near, and went with them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 16,
+     "content": "But their eyes were kept from recognizing him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 17,
+     "content": "He said to them, “What are you talking about as you walk, and are sad?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 18,
+     "content": "One of them, named Cleopas, answered him, “Are you the only stranger in Jerusalem who doesn’t know the things which have happened there in these days?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 19,
+     "content": "He said to them, “What things?” They said to him, “The things concerning Jesus the Nazarene, who was a prophet mighty in deed and word before God and all the people;",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 20,
+     "content": "and how the chief priests and our rulers delivered him up to be condemned to death, and crucified him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 21,
+     "content": "But we were hoping that it was he who would redeem Israel. Yes, and besides all this, it is now the third day since these things happened.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 22,
+     "content": "Also, certain women of our company amazed us, having arrived early at the tomb;",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 23,
+     "content": "and when they didn’t find his body, they came saying that they had also seen a vision of angels, who said that he was alive.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 24,
+     "content": "Some of us went to the tomb and found it just like the women had said, but they didn’t see him.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 25,
+     "content": "He said to them, “Foolish people, and slow of heart to believe in all that the prophets have spoken!",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 26,
+     "content": "Didn’t the Christ have to suffer these things and to enter into his glory?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 27,
+     "content": "Beginning from Moses and from all the prophets, he explained to them in all the Scriptures the things concerning himself.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 28,
+     "content": "They came near to the village where they were going, and he acted like he would go further.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 29,
+     "content": "They urged him, saying, “Stay with us, for it is almost evening, and the day is almost over.” He went in to stay with them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 30,
+     "content": "When he had sat down at the table with them, he took the bread and gave thanks. Breaking it, he gave it to them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 31,
+     "content": "Their eyes were opened and they recognized him; then he vanished out of their sight.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 32,
+     "content": "They said to one another, “Weren’t our hearts burning within us while he spoke to us along the way, and while he opened the Scriptures to us?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 33,
+     "content": "They rose up that very hour, returned to Jerusalem, and found the eleven gathered together, and those who were with them,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 34,
+     "content": "saying, “The Lord is risen indeed, and has appeared to Simon!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 35,
+     "content": "They related the things that happened along the way, and how he was recognized by them in the breaking of the bread.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Ephesians 6.10-17",
+   "short_display": "Eph 6.10-17",
+   "passage": [
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 10,
+     "content": "Finally, be strong in the Lord and in the strength of his might.",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 11,
+     "content": "Put on the whole armor of God, that you may be able to stand against the wiles of the devil.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 12,
+     "content": "For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 13,
+     "content": "Therefore put on the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 14,
+     "content": "Stand therefore, having the utility belt of truth buckled around your waist, and having put on the breastplate of righteousness,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 15,
+     "content": "and having fitted your feet with the preparation of the Good News of peace,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 16,
+     "content": "above all, taking up the shield of faith, with which you will be able to quench all the fiery darts of the evil one.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 6,
+     "verse": 17,
+     "content": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God;",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Nicholas",
+   "display": "Hebrews 13.17-21",
+   "short_display": "Heb 13.17-21",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 17,
+     "content": "Obey your leaders and submit to them, for they watch on behalf of your souls, as those who will give account, that they may do this with joy and not with groaning, for that would be unprofitable for you.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 18,
+     "content": "Pray for us, for we are persuaded that we have a good conscience, desiring to live honorably in all things.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 19,
+     "content": "I strongly urge you to do this, that I may be restored to you sooner.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 20,
+     "content": "Now may the God of peace, who brought again from the dead the great shepherd of the sheep with the blood of an eternal covenant, our Lord Jesus,",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 21,
+     "content": "make you complete in every good work to do his will, working in you that which is well pleasing in his sight, through Jesus Christ, to whom be the glory forever and ever. Amen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 17.12-19",
+   "short_display": "Luke 17.12-19",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 12,
+     "content": "As he entered into a certain village, ten men who were lepers met him, who stood at a distance.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 13,
+     "content": "They lifted up their voices, saying, “Jesus, Master, have mercy on us!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 14,
+     "content": "When he saw them, he said to them, “Go and show yourselves to the priests.” As they went, they were cleansed.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 15,
+     "content": "One of them, when he saw that he was healed, turned back, glorifying God with a loud voice.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 16,
+     "content": "He fell on his face at Jesus’ feet, giving him thanks; and he was a Samaritan.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 17,
+     "content": "Jesus answered, “Weren’t the ten cleansed? But where are the nine?",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 18,
+     "content": "Were there none found who returned to give glory to God, except this foreigner?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 19,
+     "content": "Then he said to him, “Get up, and go your way. Your faith has healed you.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "St Nicholas",
+   "display": "Luke 6.17-23",
+   "short_display": "Luke 6.17-23",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 17,
+     "content": "He came down with them and stood on a level place, with a crowd of his disciples and a great number of the people from all Judea and Jerusalem and the sea coast of Tyre and Sidon, who came to hear him and to be healed of their diseases,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 18,
+     "content": "as well as those who were troubled by unclean spirits; and they were being healed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 19,
+     "content": "All the multitude sought to touch him, for power came out of him and healed them all.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 20,
+     "content": "He lifted up his eyes to his disciples, and said: “Blessed are you who are poor, for God’s Kingdom is yours.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 21,
+     "content": "Blessed are you who hunger now, for you will be filled. Blessed are you who weep now, for you will laugh.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 22,
+     "content": "Blessed are you when men hate you, and when they exclude and mock you, and throw out your name as evil, for the Son of Man’s sake.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 23,
+     "content": "Rejoice in that day and leap for joy, for behold, your reward is great in heaven, for their fathers did the same thing to the prophets.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Our Father among the Saints Nicholas the Wonderworker, Archbishop of Myra (345)",
+   "story": "<p>Our beloved holy Father Nicholas is, along with St George (and second to the All-holy Theotokos), probably the best-loved Saint of the Church. His numberless miracles through the ages, on behalf of the countless Christians who have called on him, cannot be told.</p>\n<p>He was born in Lycia (in Asia Minor) around the end of the third century, to pious Christian parents. His love of virtue, and his zeal for observing the canons of the Church, were evident from his infancy, when he would abstain from his mother’s breast every Wednesday and Friday until the evening. From early youth he was inclined to solitude and silence; in fact, not a single written or spoken word of the Saint has come down to us. Though ordained a priest by his uncle, Archbishop Nicholas, he attempted to withdraw to a hermit’s life in the Holy Land; but he was told by revelation that he was to return home to serve the Church publicly and be the salvation of many souls.</p>\n<p>When his parents died, he gave away all of his inheritance to the needy, and thereafter almsgiving was his greatest glory. He always took particular care that his charity be done in secret. Perhaps the most famous story of his open-handedness concerns a debt-ridden man who had no money to provide dowries for his daughters, or even to support them, and in despair had resolved to give them into prostitution. On three successive nights the Saint threw a bag of gold into the window of the man’s house, saving him and his daughters from sin and hopelessness. The man searched relentlessly to find and thank his benefactor; when at last he discovered that it was Nicholas, the Saint made him promise not to reveal the good deed until after he had died. (This story may be the thin thread that connects the Saint with the modern-day Santa Claus).</p>\n<p>God honored his faithfulness by granting him unparalleled gifts of healing and wonderworking. Several times he calmed storms by his prayers and saved the ship that he was sailing in. Through the centuries he has often done the same for sailors who call out to him, and is considered the patron of sailors and all who go to sea.</p>\n<p>He was elected Bishop of Myra not long before the great persecutions under Diocletian and Maximian (c. 305), and was put in prison, from which he continued to encourage his flock in the Faith. When the Arian heresy wracked the Church not long after Constantine came to the throne, St Nicholas was one of the 318 Bishops who gathered in Nicea in 325. There he was so incensed at the blasphemies of Arius that he struck him on the face. This put the other bishops in a quandary, since the canons require that any hierarch who strikes anyone must be deposed. Sadly, they prepared to depose the holy Nicholas; but in the night the Lord Jesus and the most Holy Theotokos appeared to them, telling them that the Saint had acted solely out of love for Truth, not from hatred or passion, and that they should not act against him.</p>\n<p>While still in the flesh, he sometimes miraculously appeared in distant places to save the lives of the faithful. He once saved the city of Myra from famine by appearing to the captain of a ship full of grain, telling him to take his cargo to the city. He appeared in a dream to Constantine to intercede for the lives of three Roman officers who had been falsely condemned; the three grateful soldiers later became monks.</p>\n<p>The holy bishop reposed in peace around 345. His holy relics were placed in a church built in his honor in Myra, where they were venerated by throngs of pilgrims every year. In 1087, after Myra was conquered by the Saracens, the Saint’s relics were translated to Bari in southern Italy, where they are venerated today. Every year, quantities of fragrant myrrh are gathered from the casket containing his holy relics.</p>"
+  },
+  {
+   "title": "New Martyr Nicolas Karamos of Smyrna (1657)",
+   "story": "<p>He was a Christian living in Smyrna under Ottoman rule. One day he lost his temper in an argument and exclaimed that he would “turn Turk” before he would give way in the dispute. Immediately, some Turks watching the argument seized Nicolas and brought him before the judge to honor his promise. Nicolas, who had come to his senses, declared ‘If it please God, I will never deny my Lord Jesus Christ, the true God who will come to judge the living and the dead.’ The judge had the humble confessor flogged and tortured through thirty-six days, but he remained firm in his confession of Christ, despite even the tears of his mother and his wife. Finally, the judge had him hanged on March 19 1657. His torments and faithfulness were seen by some Western visitors; so moved were they that they recovered his body from the sea (where it had been cast after hanging) and took it to Europe.</p>"
+  },
+  {
+   "title": "St Maximus, Metropolitan of Kiev & Vladimir (1305)",
+   "story": "<p>He was one of the bold Confessors who opposed the false Union of Lyons perpetrated by the Emperor Michael VIII in 1274. In 1283 he became Metropolitan of Kiev (and thus of the whole Russian Church). At that time the Principality of Kiev had been reduced to ruins by the Tatar invaders. Saint Maximus received a revelation from God that he should transfer the metropolitanate from Kiev to Vladimir. On the night following the move to Vladimir, the Most Holy Theotokos appeared to the Saint, saying ‘You have done well, Maximus my servant, in coming to live in my city!’ She then put a mantle on his shoulders which he found when he awoke.</p>\n<p>Saint Maximus reposed in peace in 1305. His body, interred in the Cathedral of Vladimir, was found to be incorrupt in the nineteenth century.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/6/?translation=lxx2012-web"
+}

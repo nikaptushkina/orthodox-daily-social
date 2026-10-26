@@ -1,0 +1,244 @@
+{
+ "pascha_distance": 257,
+ "julian_day_number": 2461400,
+ "year": 2026,
+ "month": 12,
+ "day": 25,
+ "weekday": 5,
+ "tone": 4,
+ "titles": [
+  "Friday of the 30th week after Pentecost"
+ ],
+ "summary_title": "Nativity of Christ",
+ "feast_level": 8,
+ "feast_level_description": "Major feast Lord",
+ "feasts": [
+  "Nativity of Christ"
+ ],
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 11,
+ "fast_exception_desc": "Fast Free",
+ "fast_abstentions": [],
+ "saints": [
+  "The Shepherds who saw the Lord",
+  "The Veneration of the Magi"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  1,
+  2
+ ],
+ "readings": [
+  {
+   "source": "Matins Gospel",
+   "book": "Matthew",
+   "description": "",
+   "display": "Matthew 1.18-25",
+   "short_display": "Matt 1.18-25",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 18,
+     "content": "Now the birth of Jesus Christ was like this: After his mother, Mary, was engaged to Joseph, before they came together, she was found pregnant by the Holy Spirit.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 19,
+     "content": "Joseph, her husband, being a righteous man, and not willing to make her a public example, intended to put her away secretly.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 20,
+     "content": "But when he thought about these things, behold, an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, don’t be afraid to take to yourself Mary as your wife, for that which is conceived in her is of the Holy Spirit.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 21,
+     "content": "She shall give birth to a son. You shall name him Jesus, for it is he who shall save his people from their sins.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 22,
+     "content": "Now all this has happened that it might be fulfilled which was spoken by the Lord through the prophet, saying,",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 23,
+     "content": "“Behold, the virgin shall be with child, and shall give birth to a son. They shall call his name Immanuel,” which is, being interpreted, “God with us.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 24,
+     "content": "Joseph arose from his sleep, and did as the angel of the Lord commanded him, and took his wife to himself;",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 1,
+     "verse": 25,
+     "content": "and didn’t know her sexually until she had given birth to her firstborn son. He named him Jesus.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Nativity",
+   "display": "Galatians 4.4-7",
+   "short_display": "Gal 4.4-7",
+   "passage": [
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 4,
+     "content": "But when the fullness of the time came, God sent out his Son, born to a woman, born under the law,",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 5,
+     "content": "that he might redeem those who were under the law, that we might receive the adoption as children.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 6,
+     "content": "And because you are children, God sent out the Spirit of his Son into your hearts, crying, “Abba, Father!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 7,
+     "content": "So you are no longer a bondservant, but a son; and if a son, then an heir of God through Christ.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Matthew",
+   "description": "Nativity",
+   "display": "Matthew 2.1-12",
+   "short_display": "Matt 2.1-12",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 1,
+     "content": "Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 2,
+     "content": "“Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 3,
+     "content": "When King Herod heard it, he was troubled, and all Jerusalem with him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 4,
+     "content": "Gathering together all the chief priests and scribes of the people, he asked them where the Christ would be born.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 5,
+     "content": "They said to him, “In Bethlehem of Judea, for this is written through the prophet,",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 6,
+     "content": "‘You Bethlehem, land of Judah, are in no way least among the princes of Judah; for out of you shall come a governor who shall shepherd my people, Israel.’”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 7,
+     "content": "Then Herod secretly called the wise men, and learned from them exactly what time the star appeared.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 8,
+     "content": "He sent them to Bethlehem, and said, “Go and search diligently for the young child. When you have found him, bring me word, so that I also may come and worship him.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 9,
+     "content": "They, having heard the king, went their way; and behold, the star, which they saw in the east, went before them until it came and stood over where the young child was.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 10,
+     "content": "When they saw the star, they rejoiced with exceedingly great joy.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 11,
+     "content": "They came into the house and saw the young child with Mary, his mother, and they fell down and worshiped him. Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 2,
+     "verse": 12,
+     "content": "Being warned in a dream not to return to Herod, they went back to their own country another way.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "The Nativity according to the Flesh of our Lord, God and Savior Jesus Christ",
+   "story": "<p>The <i>Synaxarion</i>‘s account includes this tradition from the Protoevangelium of James: “When Joseph had found a place for Mary in Bethlehem, he went out to look for a midwife. On his way, he noticed that the whole of nature had suddenly become utterly still as though seized with astonishment: the birds hung motionless in mid-air, men and beasts stopped in their tracks, and the waters ceased flowing. The continuous movement that leads everything from birth to death and imprisons it in vanity (cf Pss. 38:6-7; 102:15. Eccles. 1) was suspended, for at that moment the Eternal entered within the heart of time. The pre-eternal God became a newborn child. Time and history now took on a new dimension.”</p>"
+  },
+  {
+   "title": "The Shepherds who saw the Lord",
+   "story": "<p>“And there were in the same country shepherds abiding in the field, keeping watch over their flock by night. And lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them. And they were sore afraid. And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord. And this shall be a sign unto you; Ye shall find the babe wrapped in swaddling clothes, lying in a manger. And suddenly there was with the angel a multitude of the heavenly host praising God, and saying, Glory to God in the highest, and on earth peace, good will toward men.” (Luke 2:8- 14)</p>"
+  },
+  {
+   "title": "The Veneration of the Magi",
+   "story": "<p>See Matthew ch. 2. According to the verses of the Feast and most of the Holy Fathers, the Magi were astrologers from Persia or Babylonia (The Scripture says only that they came “from the east.”) The star which they followed was no inanimate object, but one of the Angelic Powers of heaven, appointed to lead them to the Savior. From the very beginning, the Good News of Christ was proclaimed to the nations.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/25/?translation=lxx2012-web"
+}

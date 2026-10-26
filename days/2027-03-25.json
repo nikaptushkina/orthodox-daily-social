@@ -1,0 +1,862 @@
+{
+ "pascha_distance": -38,
+ "julian_day_number": 2461490,
+ "year": 2027,
+ "month": 3,
+ "day": 25,
+ "weekday": 4,
+ "tone": 1,
+ "titles": [
+  "Thursday of the Second Week of Lent"
+ ],
+ "summary_title": "Annunciation Most Holy Theotokos",
+ "feast_level": 7,
+ "feast_level_description": "Major feast Theotokos",
+ "feasts": [
+  "Annunciation Most Holy Theotokos"
+ ],
+ "fast_level": 2,
+ "fast_level_desc": "Lenten Fast",
+ "fast_exception": 4,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "New Confessor/Hieromartyr Tikhon, patriarch of Moscow (1925)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  6,
+  7
+ ],
+ "readings": [
+  {
+   "source": "Matins Gospel",
+   "book": "Luke",
+   "description": "Annunciation",
+   "display": "Luke 1.39-49, 56",
+   "short_display": "Luke 1.39-49, 56",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 39,
+     "content": "Mary arose in those days and went into the hill country with haste, into a city of Judah,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 40,
+     "content": "and entered into the house of Zacharias and greeted Elizabeth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 41,
+     "content": "When Elizabeth heard Mary’s greeting, the baby leaped in her womb; and Elizabeth was filled with the Holy Spirit.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 42,
+     "content": "She called out with a loud voice and said, “Blessed are you among women, and blessed is the fruit of your womb!",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 43,
+     "content": "Why am I so favored, that the mother of my Lord should come to me?",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 44,
+     "content": "For behold, when the voice of your greeting came into my ears, the baby leaped in my womb for joy!",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 45,
+     "content": "Blessed is she who believed, for there will be a fulfillment of the things which have been spoken to her from the Lord!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 46,
+     "content": "Mary said, “My soul magnifies the Lord.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 47,
+     "content": "My spirit has rejoiced in God my Savior,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 48,
+     "content": "for he has looked at the humble state of his servant. For behold, from now on, all generations will call me blessed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 49,
+     "content": "For he who is mighty has done great things for me. Holy is his name.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 56,
+     "content": "Mary stayed with her about three months, and then returned to her house.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "6th Hour",
+   "book": "OT",
+   "description": "",
+   "display": "Isaiah 6.1-12",
+   "short_display": "Isa 6.1-12",
+   "passage": [
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 1,
+     "content": "And it came to pass in the year in which king Ozias died, that I saw the Lord sitting on a high and exalted throne, and the house was full of his glory.",
+     "paragraph_start": true
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 2,
+     "content": "And seraphs stood round about him: each one had six wings: and with two they covered their face, and with two they covered their feet, and with two they flew.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 3,
+     "content": "And one cried to the other, and they said, Holy, holy, holy is the Lord of hosts: the whole earth is full of his glory.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 4,
+     "content": "And the lintel shook at the voice they uttered, and the house was filled with smoke.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 5,
+     "content": "And I said, Woe is me, for I am pricked to the heart; for being a man, and having unclean lips, I dwell in the midst of a people having unclean lips; and I have seen with my eyes the King, the Lord of hosts.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 6,
+     "content": "And there was sent to me one of the seraphs, and he had in his hand a coal, which he had taken off the altar with the tongs:",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 7,
+     "content": "and he touched my mouth, and said, Behold, this has touched your lips, and will take away your iniquities, and will purge off your sins.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 8,
+     "content": "And I heard the voice of the Lord, saying, Whom shall I send, and who will go to this people? And I said, behold, I am here, send me. And he said, Go, and say to this people,",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 9,
+     "content": "You⌃ shall hear indeed, but you⌃ shall not understand; and you⌃ shall see indeed, but you⌃ shall not perceive.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 10,
+     "content": "For the heart of this people has become gross, and their ears are dull of hearing, and their eyes have they closed; lest they should see with their eyes, and hear with their ears, and understand with their heart, and be converted, and I should heal them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 11,
+     "content": "And I said, How long, O Lord? And he said, Until cities be deserted by reason of their not being inhabited, and the houses by reason of there being no men, and the land shall be left desolate.",
+     "paragraph_start": false
+    },
+    {
+     "book": "ISA",
+     "chapter": 6,
+     "verse": 12,
+     "content": "And after this God shall remove the men far off, and they that are left upon the land shall be multiplied.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Genesis 5.1-24",
+   "short_display": "Gen 5.1-24",
+   "passage": [
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 1,
+     "content": "This is the genealogy of men in the day in which God made Adam; in the image of God he made him:",
+     "paragraph_start": true
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 2,
+     "content": "male and female he made them, and blessed them; and he called his name Adam, in the day in which he made them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 3,
+     "content": "And Adam lived two hundred and thirty years, and begot a son after his own form, and after his own image, and he called his name Seth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 4,
+     "content": "And the days of Adam, which he lived after his begetting Seth, were seven hundred years; and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 5,
+     "content": "And all the days of Adam which he lived were nine hundred and thirty years, and he died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 6,
+     "content": "Now Seth lived two hundred and five years, and begot Enos.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 7,
+     "content": "And Seth lived after his begetting Enos, seven hundred and seven years, and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 8,
+     "content": "And all the days of Seth were nine hundred and twelve years, and he died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 9,
+     "content": "And Enos lived one hundred and ninety years, and begot Cainan.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 10,
+     "content": "And Enos lived after his begetting Cainan, seven hundred and fifteen years, and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 11,
+     "content": "And all the days of Enos were nine hundred and five years, and he died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 12,
+     "content": "And Cainan lived one hundred and seventy years, and he begot Maleleel.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 13,
+     "content": "And Cainan lived after his begetting Maleleel, seven hundred and forty years, and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 14,
+     "content": "And all the days of Cainan were nine hundred and ten years, and he died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 15,
+     "content": "And Maleleel lived one hundred and sixty and five years, and he begot Jared.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 16,
+     "content": "And Maleleel lived after his begetting Jared, seven hundred and thirty years, and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 17,
+     "content": "And all the days of Maleleel were eight hundred and ninety and five years, and he died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 18,
+     "content": "And Jared lived one hundred and sixty and two years, and begot Enoch:",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 19,
+     "content": "and Jared lived after his begetting Enoch, eight hundred years, and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 20,
+     "content": "And all the days of Jared were nine hundred and sixty and two years, and he died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 21,
+     "content": "And Enoch lived one hundred and sixty and five years, and became the father of Mathusala.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 22,
+     "content": "And Enoch was well-pleasing to God after his begetting Mathusala, two hundred years, and he begot sons and daughters.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 23,
+     "content": "And all the days of Enoch were three hundred and sixty and five years.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GEN",
+     "chapter": 5,
+     "verse": 24,
+     "content": "And Enoch was well-pleasing to God, and was not found, because God translated him.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Proverbs 6.3-20",
+   "short_display": "Prov 6.3-20",
+   "passage": [
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 3,
+     "content": "My son, do what I command you, and deliver yourself; for on your friend's account you are come into the power of evil men: faint not, but stir up even your friend for whom you are become surety.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 4,
+     "content": "Give not sleep to your eyes, nor slumber with your eyelids;",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 5,
+     "content": "that you may deliver yourself as a doe out of the toils, and as a bird out of a snare.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 6,
+     "content": "Go to the ant, O sluggard; and see, and emulate his ways, and become wiser than he.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 7,
+     "content": "For whereas he has no husbandry, nor any one to compel him, and is under no master,",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 8,
+     "content": "he prepares food for himself in the summer, and lays by abundant store in harvest. Or go to the bee, and learn how diligent she is, and how earnestly she is engaged in her work; whose labors kings and private men use for health, and she is desired and respected by all: though weak in body, she is advanced by honouring wisdom.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 9,
+     "content": "How long will you lie, O sluggard? and when will you awake out of sleep?",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 10,
+     "content": "You sleep a little, and you rest a little, and you slumber a short time, and you fold your arms over your breast a little.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 11,
+     "content": "Then poverty comes upon you as an evil traveller, and lack as a swift courier: but if you be diligent, your harvest shall arrive as a fountain, and poverty shall flee away as a bad courier.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 12,
+     "content": "A foolish man and a transgressor goes in ways that are not good.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 13,
+     "content": "And the same winks with the eye, and makes a sign with his foot, and teaches with the beckonings of his fingers.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 14,
+     "content": "His perverse heart devises evils: at all times such a one causes troubles to a city.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 15,
+     "content": "Therefore his destruction shall come suddenly; overthrow and irretrievable ruin.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 16,
+     "content": "For he rejoices in all things which God hates, and he is ruined by reason of impurity of soul.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 17,
+     "content": "The eye of the haughty, a tongue unjust, hands shedding the blood of the just;",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 18,
+     "content": "and a heart devising evil thoughts, and feet hastening to do evil, —are hateful to God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 19,
+     "content": "An unjust witness kindles falsehoods, and brings on quarrels between brethren.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 6,
+     "verse": 20,
+     "content": "My son, keep the laws of your father, and reject not the ordinances of your mother:",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "Annunciation",
+   "display": "Exodus 3.1-8",
+   "short_display": "Exod 3.1-8",
+   "passage": [
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 1,
+     "content": "And Moses was feeding the flock of Jothor his father-in-law, the priest of Madiam; and he brought the sheep near to the wilderness, and came to the mount of Choreb.",
+     "paragraph_start": true
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 2,
+     "content": "And an angel of the Lord appeared to him in flaming fire out of the bush, and he sees that the bush burns with fire, —but the bush was not consumed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 3,
+     "content": "And Moses said, I will go near and see this great sight, why the bush is not consumed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 4,
+     "content": "And when the Lord saw that he drew near to see, the Lord called him out of the bush, saying, Moses, Moses; and he said, What is it?",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 5,
+     "content": "And he said, Draw not near hither: loose your sandals from off your feet, for the place whereon you stand is holy ground.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 6,
+     "content": "And he said, I am the God of your father, the God of Abraam, and the God of Isaac, and the God of Jacob; and Moses turned away his face, for he was afraid to gaze at God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 7,
+     "content": "And the Lord said to Moses, I have surely seen the affliction of my people that is in Egypt, and I have heard their cry caused by their taskmasters; for I know their affliction.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 3,
+     "verse": 8,
+     "content": "And I have come down to deliver them out of the hand of the Egyptians, and to bring them out of that land, and to bring them into a good and wide land, into a land flowing with milk and honey, into the place of the Chananites, and the Chettites, and Amorites, and Pherezites, and Gergesites, and Evites, and Jebusites.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "Annunciation",
+   "display": "Proverbs 8.22-30",
+   "short_display": "Prov 8.22-30",
+   "passage": [
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 22,
+     "content": "The Lord made me the beginning of his ways for his works.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 23,
+     "content": "He established me before time was in the beginning, before he made the earth:",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 24,
+     "content": "even before he made the depths; before the fountains of water came forth:",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 25,
+     "content": "before the mountains were settled, and before all hills, he begets me.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 26,
+     "content": "The Lord made countries and uninhabited tracks, and the highest inhabited parts of the world.",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 27,
+     "content": "When he prepared the heaven, I was present with him; and when he prepared his throne upon the winds:",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 28,
+     "content": "and when he strengthened the clouds above; and when he secured the fountains of the earth:",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 29,
+     "content": "decree. and when he strengthened the foundations of the earth:",
+     "paragraph_start": false
+    },
+    {
+     "book": "PRO",
+     "chapter": 8,
+     "verse": 30,
+     "content": "I was by him, suiting myself to him, I was that wherein he took delight; and daily I rejoiced in his presence continually.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Annunciation",
+   "display": "Hebrews 2.11-18",
+   "short_display": "Heb 2.11-18",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 11,
+     "content": "For both he who sanctifies and those who are sanctified are all from one, for which cause he is not ashamed to call them brothers,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 12,
+     "content": "saying, “I will declare your name to my brothers. Among the congregation I will sing your praise.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 13,
+     "content": "Again, “I will put my trust in him.” Again, “Behold, here I am with the children whom God has given me.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 14,
+     "content": "Since then the children have shared in flesh and blood, he also himself in the same way partook of the same, that through death he might bring to nothing him who had the power of death, that is, the devil,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 15,
+     "content": "and might deliver all of them who through fear of death were all their lifetime subject to bondage.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 16,
+     "content": "For most certainly, he doesn’t give help to angels, but he gives help to the offspring of Abraham.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 17,
+     "content": "Therefore he was obligated in all things to be made like his brothers, that he might become a merciful and faithful high priest in things pertaining to God, to make atonement for the sins of the people.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 2,
+     "verse": 18,
+     "content": "For in that he himself has suffered being tempted, he is able to help those who are tempted.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "Annunciation",
+   "display": "Luke 1.24-38",
+   "short_display": "Luke 1.24-38",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 24,
+     "content": "After these days Elizabeth his wife conceived, and she hid herself five months, saying,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 25,
+     "content": "“Thus has the Lord done to me in the days in which he looked at me, to take away my reproach among men.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 26,
+     "content": "Now in the sixth month, the angel Gabriel was sent from God to a city of Galilee named Nazareth,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 27,
+     "content": "to a virgin pledged to be married to a man whose name was Joseph, of David’s house. The virgin’s name was Mary.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 28,
+     "content": "Having come in, the angel said to her, “Rejoice, you highly favored one! The Lord is with you. Blessed are you among women!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 29,
+     "content": "But when she saw him, she was greatly troubled at the saying, and considered what kind of salutation this might be.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 30,
+     "content": "The angel said to her, “Don’t be afraid, Mary, for you have found favor with God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 31,
+     "content": "Behold, you will conceive in your womb and give birth to a son, and shall name him ‘Jesus.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 32,
+     "content": "He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 33,
+     "content": "and he will reign over the house of Jacob forever. There will be no end to his Kingdom.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 34,
+     "content": "Mary said to the angel, “How can this be, seeing I am a virgin?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 35,
+     "content": "The angel answered her, “The Holy Spirit will come on you, and the power of the Most High will overshadow you. Therefore also the holy one who is born from you will be called the Son of God.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 36,
+     "content": "Behold, Elizabeth your relative also has conceived a son in her old age; and this is the sixth month with her who was called barren.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 37,
+     "content": "For nothing spoken by God is impossible.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 38,
+     "content": "Mary said, “Behold, the servant of the Lord; let it be done to me according to your word.” Then the angel departed from her.",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "The Annunciation of Our Most Holy Lady, the Theotokos and Ever-Virgin Mary",
+   "story": "<p>When Mary the Virgin was about fourteen years old, the Archangel Gabriel came to Joseph’s dwelling, where she was living, and said to her, ‘Rejoice, thou Full of Grace, the Lord is with thee: blessed art thou among women.’ Receiving assurance that she had been chosen to be the Mother of God Himself, she answered in humility, ‘Behold the handmaid of the Lord; be it unto me according to thy word.’ Immediately, the Holy Spirit came upon her, the power of the Most High overshadowed her, and the Incarnation, long awaited by the whole creation, took place: He who contains the whole universe consented to be contained in the womb of one woman, the most holy Theotokos.</p>\n<p>The Church teaches us that it was within the holy Virgin’s power to refuse the divine conception: her knowing and willing acceptance, the consummation of the faith of the whole righteous remnant of Israel, shows us that our very salvation is the fruit of the cooperation (<i>synergia</i>) of human faithfulness with God’s saving grace.</p>\n<p>Carrying in her womb the Savior of the Universe, the Virgin went to the hills of Judea to stay with her kinswoman Elizabeth, who six months before had conceived in her old age (by Zacharias the priest) St John the Forerunner. As the holy Virgin approached, the child John leaped in his mother’s womb for joy, prophesying the coming of Emmanuel. Feeling the prophecy, Elizabeth was filled with the Holy Spirit and blessed the holy Mary and the fruit of her womb. And Mary in turn glorified God, saying ‘My soul doth magnify the Lord, and my spirit hath rejoiced in God my Savior’ (Luke ch. 1).</p>"
+  },
+  {
+   "title": "New Confessor/Hieromartyr Tikhon, patriarch of Moscow (1925)",
+   "story": "<p>Born in 1865, he was tonsured a monk in 1891, and consecrated a Bishop in 1891. From 1900, he was Bishop of Alaska, with oversight of the Church throughout North America. In America, he consecrated the first Orthodox monastery on the continent and worked tirelessly to unite all ethnic groups as one flock. In 1907 he was made Bishop of Yaroslavl and returned to Russia.</p>\n<p>In 1917, he was elected to be the first Patriarch of Moscow since the abolition of the Patriarchate by Tsar Peter the Great more than 200 years before. Almost immediately, the Russian Church was plunged into new and terrible persecution as an atheist and totalitarian government seized control. Patriarch Tikhon always sought not to quarrel with the Communist government, but his refusal to deny his faith or his Church marked him in their eyes as an enemy. In 1925 he died under mysterious circumstances, and is generally thought to have been murdered by the Soviets. He is commemorated as a Confessor, and by many as a Martyr also.</p>\n<p><i>Note: because his commemoration falls on the Feast of the Annunciation, his service is usually transferred to the day before or after the Feast.</i></p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2027/3/25/?translation=lxx2012-web"
+}

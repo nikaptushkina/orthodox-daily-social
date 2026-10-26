@@ -1,0 +1,585 @@
+{
+ "pascha_distance": 293,
+ "julian_day_number": 2461436,
+ "year": 2027,
+ "month": 1,
+ "day": 30,
+ "weekday": 6,
+ "tone": 1,
+ "titles": [
+  "Saturday of the 35th week after Pentecost"
+ ],
+ "summary_title": "Synaxis 3 Hierarchs: Basil the Great, Gregory the Theologian, John Chrysostom",
+ "feast_level": 5,
+ "feast_level_description": "Red cross half-circle (vigil typikon symbol)",
+ "feasts": [
+  "Synaxis 3 Hierarchs: Basil the Great, Gregory the Theologian, John Chrysostom"
+ ],
+ "fast_level": 0,
+ "fast_level_desc": "No Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [],
+ "saints": [
+  "Saint Peter, King of Bulgaria (970)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  5,
+  7
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Deuteronomy 1.8-11, 15-17",
+   "short_display": "Deut 1.8-11, 15-17",
+   "passage": [
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 8,
+     "content": "Behold, God has delivered the land before you; go in and inherit the land, which I swore to your fathers, Abraam, and Isaac, and Jacob, to give it to them and to their seed after them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 9,
+     "content": "And I spoke to you at that time, saying, I shall not be able by myself to bear you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 10,
+     "content": "The Lord your God has multiplied you, and, behold, you⌃ are today as the stars of heaven for multitude.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 11,
+     "content": "The Lord God of your fathers add to you a thousand-fold more than you are, and bless you as he has spoken to you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 15,
+     "content": "So I took of you wise and understanding and prudent men, and I set them to rule over you as rulers of thousands, and rulers of hundreds, and rulers of fifties, and rulers of tens, and officers to your judges.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 16,
+     "content": "And I charged your judges at that time, saying, Hear causes between your brethren, and judge rightly between a man and his brother, and the stranger that is with him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 1,
+     "verse": 17,
+     "content": "You shall not have respect to persons in judgment, you shall judge small and great equally; you shall not shrink from before the person of a man, for the judgment is God's; and whatever matter shall be too hard for you, you⌃ shall bring it to me, and I will hear it.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Deuteronomy 10.14-21",
+   "short_display": "Deut 10.14-21",
+   "passage": [
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 14,
+     "content": "Behold, the heaven and the heaven of heavens belong to the Lord your God, the earth and all things that are in it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 15,
+     "content": "Only the Lord chose your fathers to love them, and he chose out their seed after them, even you, beyond all nations, as at this day.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 16,
+     "content": "Therefore you⌃ shall circumcise the hardness of your heart, and you⌃ shall not harden your neck.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 17,
+     "content": "For the Lord your God, he is God of gods, and the Lord of lords, the great, and strong, and terrible God, who does not accept persons, nor will he by any means accept a bribe:",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 18,
+     "content": "executing judgment for the stranger and orphan and widow, and he loves the stranger to give him food and raiment.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 19,
+     "content": "And you⌃ shall love the stranger; for you⌃ were strangers in the land of Egypt.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 20,
+     "content": "You shall fear the Lord your God, and serve him, and shall cleave to him, and shall swear by his name.",
+     "paragraph_start": false
+    },
+    {
+     "book": "DEU",
+     "chapter": 10,
+     "verse": 21,
+     "content": "He is your boast, and he is your God, who has wrought in the midst of you these great and glorious things, which your eyes have seen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Wisdom of Solomon 3.1-9",
+   "short_display": "Wis 3.1-9",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 1,
+     "content": "But the souls of the righteous are in the hand of God, and there shall no torment touch them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 2,
+     "content": "In the sight of the unwise they seemed to die: and their departure is taken for misery,",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 3,
+     "content": "And their going from us to be utter destruction: but they are in peace.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 4,
+     "content": "For though they be punished in the sight of men, yet is their hope full of immortality.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 5,
+     "content": "And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 6,
+     "content": "As gold in the furnace has he tried them, and received them as a burnt offering.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 7,
+     "content": "And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 8,
+     "content": "They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 9,
+     "content": "They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he has care for his elect.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Matins Gospel",
+   "book": "John",
+   "description": "",
+   "display": "John 10.9-16",
+   "short_display": "John 10.9-16",
+   "passage": [
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 9,
+     "content": "I am the door. If anyone enters in by me, he will be saved, and will go in and go out and will find pasture.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 10,
+     "content": "The thief only comes to steal, kill, and destroy. I came that they may have life, and may have it abundantly.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 11,
+     "content": "“I am the good shepherd. The good shepherd lays down his life for the sheep.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 12,
+     "content": "He who is a hired hand, and not a shepherd, who doesn’t own the sheep, sees the wolf coming, leaves the sheep, and flees. The wolf snatches the sheep and scatters them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 13,
+     "content": "The hired hand flees because he is a hired hand and doesn’t care for the sheep.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 14,
+     "content": "I am the good shepherd. I know my own, and I’m known by my own;",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 15,
+     "content": "even as the Father knows me, and I know the Father. I lay down my life for the sheep.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 10,
+     "verse": 16,
+     "content": "I have other sheep which are not of this fold. I must bring them also, and they will hear my voice. They will become one flock with one shepherd.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Ephesians 5.1-8",
+   "short_display": "Eph 5.1-8",
+   "passage": [
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 1,
+     "content": "Be therefore imitators of God, as beloved children.",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 2,
+     "content": "Walk in love, even as Christ also loved us and gave himself up for us, an offering and a sacrifice to God for a sweet-smelling fragrance.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 3,
+     "content": "But sexual immorality, and all uncleanness or covetousness, let it not even be mentioned among you, as becomes saints;",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 4,
+     "content": "nor filthiness, nor foolish talking, nor jesting, which are not appropriate, but rather giving of thanks.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 5,
+     "content": "Know this for sure, that no sexually immoral person, nor unclean person, nor covetous man (who is an idolater), has any inheritance in the Kingdom of Christ and God.",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 6,
+     "content": "Let no one deceive you with empty words, for because of these things the wrath of God comes on the children of disobedience.",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 7,
+     "content": "Therefore don’t be partakers with them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 8,
+     "content": "For you were once darkness, but are now light in the Lord. Walk as children of light,",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Hierarchs",
+   "display": "Hebrews 13.7-16",
+   "short_display": "Heb 13.7-16",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 7,
+     "content": "Remember your leaders, men who spoke to you the word of God, and considering the results of their conduct, imitate their faith.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 8,
+     "content": "Jesus Christ is the same yesterday, today, and forever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 9,
+     "content": "Don’t be carried away by various and strange teachings, for it is good that the heart be established by grace, not by foods, through which those who were so occupied were not benefited.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 10,
+     "content": "We have an altar from which those who serve the holy tabernacle have no right to eat.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 11,
+     "content": "For the bodies of those animals, whose blood is brought into the holy place by the high priest as an offering for sin, are burned outside of the camp.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 12,
+     "content": "Therefore Jesus also, that he might sanctify the people through his own blood, suffered outside of the gate.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 13,
+     "content": "Let’s therefore go out to him outside of the camp, bearing his reproach.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 14,
+     "content": "For we don’t have here an enduring city, but we seek that which is to come.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 15,
+     "content": "Through him, then, let’s offer up a sacrifice of praise to God continually, that is, the fruit of lips which proclaim allegiance to his name.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 16,
+     "content": "But don’t forget to be doing good and sharing, for with such sacrifices God is well pleased.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 14.1-11",
+   "short_display": "Luke 14.1-11",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 1,
+     "content": "When he went into the house of one of the rulers of the Pharisees on a Sabbath to eat bread, they were watching him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 2,
+     "content": "Behold, a certain man who had dropsy was in front of him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 3,
+     "content": "Jesus, answering, spoke to the lawyers and Pharisees, saying, “Is it lawful to heal on the Sabbath?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 4,
+     "content": "But they were silent. He took him, and healed him, and let him go.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 5,
+     "content": "He answered them, “Which of you, if your son or an ox fell into a well, wouldn’t immediately pull him out on a Sabbath day?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 6,
+     "content": "They couldn’t answer him regarding these things.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 7,
+     "content": "He spoke a parable to those who were invited, when he noticed how they chose the best seats, and said to them,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 8,
+     "content": "“When you are invited by anyone to a wedding feast, don’t sit in the best seat, since perhaps someone more honorable than you might be invited by him,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 9,
+     "content": "and he who invited both of you would come and tell you, ‘Make room for this person.’ Then you would begin, with shame, to take the lowest place.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 10,
+     "content": "But when you are invited, go and sit in the lowest place, so that when he who invited you comes, he may tell you, ‘Friend, move up higher.’ Then you will be honored in the presence of all who sit at the table with you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 11,
+     "content": "For everyone who exalts himself will be humbled, and whoever humbles himself will be exalted.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Matthew",
+   "description": "Hierarchs",
+   "display": "Matthew 5.14-19",
+   "short_display": "Matt 5.14-19",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 5,
+     "verse": 14,
+     "content": "“You are the light of the world. A city located on a hill can’t be hidden.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 5,
+     "verse": 15,
+     "content": "Neither do you light a lamp and put it under a measuring basket, but on a stand; and it shines to all who are in the house.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 5,
+     "verse": 16,
+     "content": "Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 5,
+     "verse": 17,
+     "content": "“Don’t think that I came to destroy the law or the prophets. I didn’t come to destroy, but to fulfill.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 5,
+     "verse": 18,
+     "content": "For most certainly, I tell you, until heaven and earth pass away, not even one smallest letter or one tiny pen stroke shall in any way pass away from the law, until all things are accomplished.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 5,
+     "verse": 19,
+     "content": "Therefore, whoever shall break one of these least commandments and teach others to do so, shall be called least in the Kingdom of Heaven; but whoever shall do and teach them shall be called great in the Kingdom of Heaven.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Synaxis of the Three Holy Hierarchs: St Basil the Great, St Gregory the Theologian, and St John Chrysostom",
+   "story": "<p>This feast was instituted during the reign of Alexis I Comnenus (1081 1118). A dispute arose in Constantinople among various prominent citizens and clergy, about which of the three Fathers Basil the Great, Gregory the Theologian, or St John Chrysostom was the greatest. In typically Byzantine fashion, the people of the City joined into the dispute, which became more animated, dividing the populace into three hostile factions styling themselves Basilians, Gregorians and Joannites. At last, desiring to restore peace to the City and the Church, the three holy hierarchs themselves appeared to the monk John Mauropus; they revealed to him that they stand together in harmony and in equal glory before the heavenly throne, and instructed him to compose a common service for the three of them. Saint John (Mauropus) obeyed, and chose January 30 as the date of the commemoration, since each of the three hierarchs is commemorated separately in January.</p>"
+  },
+  {
+   "title": "Saint Peter, King of Bulgaria (970)",
+   "story": "<p>“Saint Peter was a humble, devout and peace-loving man, unlike his father, Tsar Symeon the Warrior (d. 927), during whose reign there had been perpetual warfare. By contrast, Peter’s long reign was peaceful, and notable for the restoration of good relations with Byzantium and with the West. Peter married Maria, the grand-daughter of the Emperor Romanus Lecapenus, who recognized him as <i>basileus</i> (tsar or king), and he obtained independence from Constantinople for the Bulgarian Church with its own Patriarch. He had a great love for Saint John of Rila (19 Oct.), whom he would often consult, and he kept in touch with renowned ascetics of the time like Saint Paul of Latros (15 Dec.). The King acted energetically against the Bogomil heresy, an offshoot of Manicheism, by which some of his people, lacking sufficient instruction in the faith, were being misled. He called a council in order to condemn the heresy and reassert Christian principles. Nevertheless, the infection was to remain active for many years in Bulgaria. Following the invasion of the north of his Kingdom by Prince Svyatoslav of Kiev in 969, Peter abdicated and became a monk. He died in the following year, having consecrated his final days to God alone.” (<i>Synaxarion</i>)</p>\n<p><i>A note on the Bogomils:</i> The Bogomils flourished in the Eastern Europe as an organized church from the 10th to the 15th century. In theology they were dualistic, incorporating some Manichean and Gnostic ideas from the Paulicians. They were nationalistic and gained much support through their opposition to Byzantine dominance over the Slavic peoples. They disappeared as an organized body around the fifteenth century, but elements of their beliefs persisted in popular thinking for many centuries afterward.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2027/1/30/?translation=lxx2012-web"
+}

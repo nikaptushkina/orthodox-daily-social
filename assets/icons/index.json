@@ -1,4 +1,12 @@
 {
+ "Apostle Onesimus of the Seventy": {
+  "checked": "2026-10-26",
+  "file": "assets/icons/apostle-onesimus-of-the-seventy.jpg",
+  "page": "https://en.wikipedia.org/wiki/Onesimus",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:St.Onesimus.jpg",
+  "is_icon": true
+ },
  "Hieromartyr Zenobius and His Sister Zenobia": {
   "checked": "2026-10-25",
   "file": null,
@@ -102,13 +110,28 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Onesiphorus_(Menologion_of_Basil_II).jpg",
   "is_icon": true
  },
+ "New Confessor/Hieromartyr Tikhon, patriarch of Moscow (1925)": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": "https://en.wikipedia.org/wiki/Patriarch_Tikhon_of_Moscow"
+ },
  "New Martyr Nicholas of Chios (1754)": {
   "checked": "2026-10-25",
   "file": null,
   "page": null
  },
+ "New Martyr Nicolas Karamos of Smyrna (1657)": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
  "Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).": {
   "checked": "2026-10-25",
+  "file": null,
+  "page": null
+ },
+ "Our Father among the Saints Nicholas the Wonderworker, Archbishop of Myra (345)": {
+  "checked": "2026-10-26",
   "file": null,
   "page": null
  },
@@ -135,6 +158,16 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%9C%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_(13899411716).jpg",
   "is_icon": true
  },
+ "Our Venerable Father Anthimos of Chios (1960)": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
+ "Our Venerable Father Dalmatius of Siberia (1697)": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
  "Our Venerable Father Demetrius of Basarabov (Romania) (13th c.)": {
   "checked": "2026-10-25",
   "file": null,
@@ -155,6 +188,11 @@
   "credit": "Icon: Wikimedia Commons · Public domain",
   "file_page": "https://commons.wikimedia.org/wiki/File:German_of_Kazan.jpg",
   "is_icon": true
+ },
+ "Saint Peter, King of Bulgaria (970)": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
  },
  "Saint Symeon Metaphrastes (960)": {
   "checked": "2026-10-25",
@@ -184,6 +222,11 @@
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
+ "St Maximus, Metropolitan of Kiev & Vladimir (1305)": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
  "St Paul the Confessor of Constantinople": {
   "checked": "2026-10-25",
   "file": "assets/icons/st-paul-the-confessor-of-constantinople.jpg",
@@ -204,6 +247,50 @@
  },
  "Synaxis of the Chief Captains of the Heavenly Host, Michael and Gabriel, and of the other Bodiless Powers of Heaven": {
   "checked": "2026-10-25",
+  "file": null,
+  "page": null
+ },
+ "Synaxis of the Three Holy Hierarchs: St Basil the Great, St Gregory the Theologian, and St John Chrysostom": {
+  "checked": "2026-10-26",
+  "file": "assets/icons/synaxis-of-the-three-holy-hierarchs-st-basil-the-great-st-gregory-the-theologian.jpg",
+  "page": "https://en.wikipedia.org/wiki/Three_Holy_Hierarchs",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:3HolyHierarchs.jpg",
+  "is_icon": true
+ },
+ "The Annunciation of Our Most Holy Lady, the Theotokos and Ever-Virgin Mary": {
+  "checked": "2026-10-26",
+  "file": "assets/icons/the-annunciation-of-our-most-holy-lady-the-theotokos-and-ever-virgin-mary.jpg",
+  "page": "https://en.wikipedia.org/wiki/Annunciation",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Annunciation_to_Zechariah_British_Library_Add._MS_59874_Ethiopian_Bible.jpg",
+  "is_icon": true
+ },
+ "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
+ "The Holy Theophany of our Lord, God and Savior Jesus Christ": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
+ "The Nativity according to the Flesh of our Lord, God and Savior Jesus Christ": {
+  "checked": "2026-10-26",
+  "file": "assets/icons/the-nativity-according-to-the-flesh-of-our-lord-god-and-savior-jesus-christ.jpg",
+  "page": "https://en.wikipedia.org/wiki/Nativity_of_Jesus",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Russian_nativity_icon.jpg",
+  "is_icon": true
+ },
+ "The Shepherds who saw the Lord": {
+  "checked": "2026-10-26",
+  "file": null,
+  "page": null
+ },
+ "The Veneration of the Magi": {
+  "checked": "2026-10-26",
   "file": null,
   "page": null
  },

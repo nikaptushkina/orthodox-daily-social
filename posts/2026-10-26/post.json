@@ -1,0 +1,24 @@
+{
+ "date": "2026-10-26",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (October 26, New Calendar) the Church keeps the feast of the Holy Greatmartyr Demetrius of Thessalonica.\n\nBorn of noble parents, Demetrius became commander of all the Roman forces in Thessaly and Proconsul of Hellas. Despite these worldly honors he put his Christian faith before all, and by his words and example brought many pagans to Christ.\n\nWhen the Emperor Maximian came to Thessalonica, Demetrius was denounced and cast into a cell. He blessed the young Nestor, who cried out “God of Demetrius, help me!” and overcame the mighty Lyaios in the arena. The Emperor then sent soldiers who killed Demetrius with their spears.\n\nFragrant myrrh flowed from the Martyr’s body after his death, healing many of the sick. For many centuries he has been a patron saint of Thessalonica.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts"
+  }
+ ]
+}

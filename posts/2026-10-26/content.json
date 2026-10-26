@@ -8,8 +8,20 @@
     "commemorating": "Greatmartyr Demetrius the Outpourer of Myrrh",
     "fasting": "No fast",
     "readings": [
-      {"label": "Readings of the day", "refs": ["Colossians 2:13–20", "Luke 10:22–24"]},
-      {"label": "For the saint", "refs": ["2 Timothy 2:1–10", "John 15:17–16:2"]}
+      {
+        "label": "Readings of the day",
+        "refs": [
+          "Colossians 2:13–20",
+          "Luke 10:22–24"
+        ]
+      },
+      {
+        "label": "For the saint",
+        "refs": [
+          "2 Timothy 2:1–10",
+          "John 15:17–16:2"
+        ]
+      }
     ],
     "accent": "martyr"
   },
@@ -21,10 +33,11 @@
     "dates": "Oct 26 New Calendar · Nov 8 Old Calendar",
     "heading": "Who he was",
     "life": [
-      "A native of Thessalonica, born of noble parents, Demetrius rose to command the Roman forces in Thessaly. Despite these honors he put his faith in Christ before all, and by word and example brought many pagans to the faith.",
-      "Denounced to the Emperor Maximian, he was imprisoned. He blessed the young Nestor, who defeated the champion Lyaios in the arena; then soldiers slew Demetrius with spears in his cell, in 306. Fragrant myrrh flowed from his body, healing many."
+      "Born of noble parents in Thessalonica, Demetrius rose to command all the Roman forces in Thessaly and to serve as Proconsul of Hellas. Yet he put his faith before every honor, and by word and example brought many pagans to Christ.",
+      "Denounced to the Emperor Maximian, he was thrown into a cell beneath the baths. With his blessing the young Nestor slew the mighty Lyaios in the arena; then soldiers killed Demetrius with spears. Fragrant myrrh flowed from his body, healing many."
     ],
     "intercession": "Holy Great-martyr Demetrius, pray to God for us.",
-    "caption": "Today (October 26, New Calendar) the Church keeps the feast of the Holy Greatmartyr Demetrius of Thessalonica.\n\nBorn of a noble family in Thessalonica, Demetrius commanded the Roman forces in Thessaly, yet put his faith in Christ before every worldly honor and brought many to the faith.\n\nUnder the Emperor Maximian he was imprisoned and killed with spears in his cell, in the year 306. Fragrant myrrh flowed from his body and healed many of the sick, and for centuries he has been the patron saint of Thessalonica.\n\nHoly Great-martyr Demetrius, pray to God for us.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts"
+    "caption": "Today (October 26, New Calendar) the Church keeps the feast of the Holy Greatmartyr Demetrius of Thessalonica.\n\nBorn of noble parents, Demetrius became commander of all the Roman forces in Thessaly and Proconsul of Hellas. Despite these worldly honors he put his Christian faith before all, and by his words and example brought many pagans to Christ.\n\nWhen the Emperor Maximian came to Thessalonica, Demetrius was denounced and cast into a cell. He blessed the young Nestor, who cried out “God of Demetrius, help me!” and overcame the mighty Lyaios in the arena. The Emperor then sent soldiers who killed Demetrius with their spears.\n\nFragrant myrrh flowed from the Martyr’s body after his death, healing many of the sick. For many centuries he has been a patron saint of Thessalonica.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts",
+    "icon": "icon-upload.jpg"
   }
 }

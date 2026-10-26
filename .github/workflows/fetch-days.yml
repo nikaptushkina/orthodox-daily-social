@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch days
-        run: python3 scripts/fetch_days.py
+        run: python3 scripts/fetch_days.py 2026-11-21 2026-12-25 2027-01-06 2027-02-15 2027-03-25 2026-12-06 2027-01-30
       - name: Find saint icons (with the site's own lookup)
         continue-on-error: true
         run: python3 scripts/fetch_icons.py

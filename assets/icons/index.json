@@ -99,6 +99,11 @@
   "file": null,
   "page": null
  },
+ "Martyrs Menas, Victor and Vincent": {
+  "checked": "2026-10-27",
+  "file": null,
+  "page": null
+ },
  "Martyrs Onesiphorus and Porphyrius": {
   "checked": "2026-10-25",
   "file": "assets/icons/martyrs-onesiphorus-and-porphyrius.jpg",
@@ -138,6 +143,14 @@
   "page": "https://en.wikipedia.org/wiki/Matrona_Nikonova",
   "credit": "Icon: Wikimedia Commons · CC BY 2.0",
   "file_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%9C%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_(13899411716).jpg",
+  "is_icon": true
+ },
+ "Our Righteous Father Theodore the Studite (826)": {
+  "checked": "2026-10-27",
+  "file": "assets/icons/our-righteous-father-theodore-the-studite-826.jpg",
+  "page": "https://en.wikipedia.org/wiki/Theodore_the_Studite",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Agios_Theodoros_Stoudites_Dionysiou.jpg",
   "is_icon": true
  },
  "Our Venerable Father Arsenios of Cappadocia, the Wonderworker (1924)": {

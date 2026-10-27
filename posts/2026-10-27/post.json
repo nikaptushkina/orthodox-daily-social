@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-27",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg",
+    "feed-slide-4.jpg"
+   ],
+   "caption": "Today’s Gospel (Tuesday, October 27, New Calendar): Luke 11:1–10, where the Lord teaches His disciples to pray.\n\n“Lord, teach us to pray, just as John also taught his disciples.” In answer, Christ gives them the prayer the Church has prayed ever since: “Our Father in heaven, may your name be kept holy.”\n\nThen He speaks of the friend who knocks at midnight, and of persistence: “Keep asking, and it will be given you. Keep seeking, and you will find. Keep knocking, and it will be opened to you.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #DailyPrayer #Scripture"
+  }
+ ]
+}

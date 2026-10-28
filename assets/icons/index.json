@@ -5,17 +5,17 @@
   "page": null
  },
  "Hieromartyr Zenobius and His Sister Zenobia": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Holy Apostle Cleopas": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Cleopas"
  },
  "Holy Apostles Patrobas, Hermas, Linus, Gaius and Philologus": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
@@ -44,17 +44,17 @@
   "is_icon": false
  },
  "Holy Martyr Hermengild, Prince of the Visigoths (486)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Holy New Martyr Helen of Sinope (18th c.)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Helen_of_Sinope"
  },
  "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
@@ -80,17 +80,17 @@
   "is_icon": true
  },
  "Martyrs Acepsimus, Joseph, Aithalas": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Martyrs Galacteon and Wife Epistemis": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
@@ -113,29 +113,42 @@
   "is_icon": true
  },
  "New Martyr Nicholas of Chios (1754)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
+  "file": null,
+  "page": null
+ },
+ "Our Father among the Saints Martin, Bishop of Tours (397)": {
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Our Holy Father Firmilian, Bishop of Caesarea (268)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Firmilian"
  },
  "Our Holy Father Gregory the Confessor, Patriarch of Alexandria (early 9th c.)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
+ },
+ "Our Holy Father Nilus the Ascetic of Sinai (430)": {
+  "checked": "2026-10-28",
+  "file": "assets/icons/our-holy-father-nilus-the-ascetic-of-sinai-430.jpg",
+  "page": "https://en.wikipedia.org/wiki/Nilus_of_Sinai",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Nil_Postnik.jpg",
+  "is_icon": true
  },
  "Our Holy Mother Matrona (492)": {
   "checked": "2026-10-25",
@@ -183,7 +196,7 @@
   "is_icon": true
  },
  "Saint Symeon Metaphrastes (960)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
@@ -196,19 +209,32 @@
   "is_icon": false
  },
  "St Dimitri (Demetrius) of Rostov (1709)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "St Hieron and the Holy 33 Martyrs of Melitene": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
+ "St John the Merciful, Patriarch of Alexandria": {
+  "checked": "2026-10-28",
+  "file": "assets/icons/st-john-the-merciful-patriarch-of-alexandria.jpg",
+  "page": "https://en.wikipedia.org/wiki/John_the_Merciful",
+  "credit": "Icon: Wikimedia Commons · CC BY-SA 4.0",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Giovanni_Elemosinario.jpg",
+  "is_icon": true
+ },
  "St Joseph I, Patriarch of Constantinople (1283)": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
+ },
+ "St Nilus the Myrrh-Gusher of Mt Athos (1651)": {
+  "checked": "2026-10-28",
+  "file": null,
+  "page": "https://en.wikipedia.org/wiki/Nilus_the_Myrrh-streamer"
  },
  "St Paul the Confessor of Constantinople": {
   "checked": "2026-10-25",
@@ -229,17 +255,17 @@
   "page": null
  },
  "Synaxis of the Chief Captains of the Heavenly Host, Michael and Gabriel, and of the other Bodiless Powers of Heaven": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Unmercenaries and Wonderworkers Cosmas and Damian": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  },
  "Ven. Joannicus the Great": {
-  "checked": "2026-10-25",
+  "checked": "2026-10-28",
   "file": null,
   "page": null
  }

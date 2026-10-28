@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-28",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "A psalm to pray this Wednesday (October 28, New Calendar): Psalm 1, the first psalm of the Psalter, read in full.\n\n“Blessed is the man who has not walked in the counsel of the ungodly.” The psalm opens the whole book of Psalms by setting two ways before us: the way of the righteous and the way of the ungodly.\n\nThe blessed man finds his pleasure in the law of the Lord, and meditates on it day and night. “He shall be as a tree planted by the brooks of waters, which shall yield its fruit in its season.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Psalms #DailyPrayer #Scripture",
+   "duration": 73.591,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

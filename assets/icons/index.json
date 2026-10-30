@@ -1,6 +1,6 @@
 {
  "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius": {
-  "checked": "2026-10-26",
+  "checked": "2026-10-30",
   "file": null,
   "page": null
  },
@@ -13,6 +13,11 @@
   "checked": "2026-10-28",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Cleopas"
+ },
+ "Holy Apostle Philip": {
+  "checked": "2026-10-30",
+  "file": null,
+  "page": "https://en.wikipedia.org/wiki/Saint_Philip"
  },
  "Holy Apostles Patrobas, Hermas, Linus, Gaius and Philologus": {
   "checked": "2026-10-28",
@@ -100,7 +105,7 @@
   "page": null
  },
  "Martyrs Menas, Victor and Vincent": {
-  "checked": "2026-10-27",
+  "checked": "2026-10-30",
   "file": null,
   "page": null
  },
@@ -114,6 +119,11 @@
  },
  "New Martyr Nicholas of Chios (1754)": {
   "checked": "2026-10-28",
+  "file": null,
+  "page": null
+ },
+ "Our Father among the Saints John Chrysostom, Archbishop of Constantinople (407)": {
+  "checked": "2026-10-30",
   "file": null,
   "page": null
  },
@@ -187,6 +197,11 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas_(nave,_vault_over_south-west_bay)_-_John_Kolobos.jpg",
   "is_icon": true
  },
+ "Pious Emperor Justinian and His Wife Theodora (565)": {
+  "checked": "2026-10-30",
+  "file": null,
+  "page": null
+ },
  "Rep. St Herman, Archbishop of Kazan": {
   "checked": "2026-10-25",
   "file": "assets/icons/rep-st-herman-archbishop-of-kazan.jpg",
@@ -212,6 +227,14 @@
   "checked": "2026-10-28",
   "file": null,
   "page": null
+ },
+ "St Gregory Palamas (1359)": {
+  "checked": "2026-10-30",
+  "file": "assets/icons/st-gregory-palamas-1359.jpg",
+  "page": "https://en.wikipedia.org/wiki/Gregory_Palamas",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9_%D0%9F%D0%B0%D0%BB%D0%B0%D0%BC%D0%B0_14%D0%B2.jpg",
+  "is_icon": true
  },
  "St Hieron and the Holy 33 Martyrs of Melitene": {
   "checked": "2026-10-28",

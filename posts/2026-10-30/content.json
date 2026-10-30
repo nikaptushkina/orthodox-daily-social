@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "story": {
+    "date_line": "Friday · October 30",
+    "title": "Hieromartyr Zenobius and His Sister Zenobia",
+    "subtitle": "A brother and sister who gave all they had to the poor",
+    "week_line": "Friday of the 22nd week after Pentecost",
+    "commemorating": "Sts Zenobius and Zenobia · Apostle Cleopas",
+    "fasting": "Fast day",
+    "readings": [
+      {"label": "Readings of the day", "refs": ["Colossians 4:10–18", "Luke 11:23–26"]}
+    ],
+    "accent": "martyr"
+  },
+  "feed": {
+    "kind": "feature",
+    "feature": "home-screen",
+    "caption": "From the website: keep orthodoxdaily.net on your phone's home screen, like an app.\n\northodoxdaily.net can be added to your home screen. It then opens from its own icon, like an app.\n\nOn iPhone, in Safari: tap the share button at the top right, then View More, then Add to Home Screen.\n\nOn Android, in Chrome: tap the three-dot menu at the top right, then Add to Home screen (some phones say Install app).\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #DailyPrayer"
+  }
+}

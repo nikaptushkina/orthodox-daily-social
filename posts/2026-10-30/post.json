@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-30",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg",
+    "feed-slide-4.jpg"
+   ],
+   "caption": "From the website: keep orthodoxdaily.net on your phone's home screen, like an app.\n\northodoxdaily.net can be added to your home screen. It then opens from its own icon, like an app.\n\nOn iPhone, in Safari: tap the share button at the top right, then View More, then Add to Home Screen.\n\nOn Android, in Chrome: tap the three-dot menu at the top right, then Add to Home screen (some phones say Install app).\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #DailyPrayer"
+  }
+ ]
+}

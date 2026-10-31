@@ -1,0 +1,43 @@
+{
+ "voice": "am_michael",
+ "speed": 0.9,
+ "music": "the-mountain-quiet-documentary.mp3",
+ "total": 67.516,
+ "screens": [
+  {
+   "text": "The reading from the Holy Gospel according to Saint Luke.",
+   "starts": 1.0,
+   "length": 5.93
+  },
+  {
+   "text": "“No one, when he has lit a lamp, covers it with a container or puts it under a bed; but puts it on a stand, that those who enter in may see the light.",
+   "starts": 6.73,
+   "length": 12.257
+  },
+  {
+   "text": "For nothing is hidden that will not be revealed, nor anything secret that will not be known and come to light.",
+   "starts": 18.987,
+   "length": 9.001
+  },
+  {
+   "text": "Be careful therefore how you hear. For whoever has, to him will be given; and whoever doesn’t have, from him will be taken away even that which he thinks he has.”",
+   "starts": 27.987,
+   "length": 12.738
+  },
+  {
+   "text": "His mother and brothers came to him, and they could not come near him for the crowd. Some people told him, “Your mother and your brothers stand outside, desiring to see you.”",
+   "starts": 40.726,
+   "length": 12.982
+  },
+  {
+   "text": "But he answered them, “My mother and my brothers are these who hear the word of God and do it.”",
+   "starts": 53.708,
+   "length": 7.852
+  },
+  {
+   "text": "Glory to Thee, O Lord, glory to Thee.",
+   "starts": 61.56,
+   "length": 6.756
+  }
+ ]
+}

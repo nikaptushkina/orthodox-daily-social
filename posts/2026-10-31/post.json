@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-31",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "The Gospel for Saturday, October 31 (New Calendar): Luke 8:16–21, read aloud.\n\n“No one, when he has lit a lamp, covers it with a container or puts it under a bed; but puts it on a stand, that those who enter in may see the light.”\n\n“Be careful therefore how you hear.” When He is told that His mother and brothers are standing outside, the Lord answers: “My mother and my brothers are these who hear the word of God and do it.”\n\nToday we also remember the holy Apostles Stachys, Apelles, Amplias, Urban, Narcissus and Aristobulus, Hieromartyr John Kochurov and New Martyr Nicholas of Chios.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #Scripture #DailyPrayer",
+   "duration": 67.516,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

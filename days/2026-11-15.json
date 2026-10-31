@@ -1,0 +1,283 @@
+{
+ "pascha_distance": 217,
+ "julian_day_number": 2461360,
+ "year": 2026,
+ "month": 11,
+ "day": 15,
+ "weekday": 0,
+ "tone": 7,
+ "titles": [
+  "24th Sunday after Pentecost"
+ ],
+ "summary_title": "24th Sunday after Pentecost",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Begin Nativity Fast",
+  "Guria, Shamuna, and Habib, Martyrs and Confessors of Edessa",
+  "Our Venerable Father Paisius Velichkovsky (1794)"
+ ],
+ "service_notes": [
+  "Beginning of Nativity Fast"
+ ],
+ "abbreviated_reading_indices": [
+  1,
+  2
+ ],
+ "readings": [
+  {
+   "source": "2nd Matins Gospel",
+   "book": "Mark",
+   "description": "",
+   "display": "Mark 16.1-8",
+   "short_display": "Mark 16.1-8",
+   "passage": [
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 1,
+     "content": "When the Sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome bought spices, that they might come and anoint him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 2,
+     "content": "Very early on the first day of the week, they came to the tomb when the sun had risen.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 3,
+     "content": "They were saying among themselves, “Who will roll away the stone from the door of the tomb for us?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 4,
+     "content": "for it was very big. Looking up, they saw that the stone was rolled back.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 5,
+     "content": "Entering into the tomb, they saw a young man sitting on the right side, dressed in a white robe; and they were amazed.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 6,
+     "content": "He said to them, “Don’t be amazed. You seek Jesus, the Nazarene, who has been crucified. He has risen! He is not here. See the place where they laid him!",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 7,
+     "content": "But go, tell his disciples and Peter, ‘He goes before you into Galilee. There you will see him, as he said to you.’”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 8,
+     "content": "They went out, and fled from the tomb, for trembling and astonishment had come on them. They said nothing to anyone; for they were afraid.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Ephesians 2.14-22",
+   "short_display": "Eph 2.14-22",
+   "passage": [
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 14,
+     "content": "For he is our peace, who made both one, and broke down the middle wall of separation,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 15,
+     "content": "having abolished in his flesh the hostility, the law of commandments contained in ordinances, that he might create in himself one new man of the two, making peace,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 16,
+     "content": "and might reconcile them both in one body to God through the cross, having killed the hostility through it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 17,
+     "content": "He came and preached peace to you who were far off and to those who were near.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 18,
+     "content": "For through him we both have our access in one Spirit to the Father.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 19,
+     "content": "So then you are no longer strangers and foreigners, but you are fellow citizens with the saints and of the household of God,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 20,
+     "content": "being built on the foundation of the apostles and prophets, Christ Jesus himself being the chief cornerstone;",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 21,
+     "content": "in whom the whole building, fitted together, grows into a holy temple in the Lord;",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 2,
+     "verse": 22,
+     "content": "in whom you also are built together for a habitation of God in the Spirit.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 10.25-37",
+   "short_display": "Luke 10.25-37",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 25,
+     "content": "Behold, a certain lawyer stood up and tested him, saying, “Teacher, what shall I do to inherit eternal life?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 26,
+     "content": "He said to him, “What is written in the law? How do you read it?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 27,
+     "content": "He answered, “You shall love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind; and your neighbor as yourself.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 28,
+     "content": "He said to him, “You have answered correctly. Do this, and you will live.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 29,
+     "content": "But he, desiring to justify himself, asked Jesus, “Who is my neighbor?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 30,
+     "content": "Jesus answered, “A certain man was going down from Jerusalem to Jericho, and he fell among robbers, who both stripped him and beat him, and departed, leaving him half dead.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 31,
+     "content": "By chance a certain priest was going down that way. When he saw him, he passed by on the other side.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 32,
+     "content": "In the same way a Levite also, when he came to the place and saw him, passed by on the other side.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 33,
+     "content": "But a certain Samaritan, as he traveled, came where he was. When he saw him, he was moved with compassion,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 34,
+     "content": "came to him, and bound up his wounds, pouring on oil and wine. He set him on his own animal, brought him to an inn, and took care of him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 35,
+     "content": "On the next day, when he departed, he took out two denarii, gave them to the host, and said to him, ‘Take care of him. Whatever you spend beyond that, I will repay you when I return.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 36,
+     "content": "Now which of these three do you think seemed to be a neighbor to him who fell among the robbers?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 37,
+     "content": "He said, “He who showed mercy on him.” Then Jesus said to him, “Go and do likewise.”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Our Venerable Father Paisius Velichkovsky (1794)",
+   "story": "<p>He was born in Ukraine in 1722, one of the many children of a priest. He attended the Ecclesiastical Academy in Kiev, but was disappointed by the worldliness, love of ease and western theological climate that he found there.</p>\n<p>After four years he left the school and embarked on a search for a spiritual father and a monastery where he could live in poverty. He eventually found wise spiritual guides in Romania, where many of the Russian monks had fled after Peter the Great’s reforms. From there he traveled to the Holy Mountain. Spiritual life was at a low ebb there also, and Plato (the name he had been given as a novice) became a hermit, devoting his days to prayer and reading the Holy Scriptures and the writings of the Fathers. After four years, a visiting Elder from Romania tonsured him a monk under the name Paisius, and advised him to live with other monks to avoid the spiritual dangers of taking up the solitary life too soon. A few brethren from Romania arrived, seeking to make him their spiritual father, but as he felt unworthy to take on this task, all of them lived in poverty and mutual obedience. Others joined them from Romania and the Slavic countries, and in time they took up the cenobitic life, with Paisius as their reluctant abbot.</p>\n<p>In 1763 the entire community (grown to sixty-five in number) left the Holy Mountain and returned to Romania. They were given a monastery where they adopted the Athonite rule of life. Abbot Paisius introduced the Jesus Prayer and other aspects of hesychasm to the monastic life there: before this time, they had been used mostly by hermits. The services of the Church were conducted fully, with the choirs chanting alternately in Slavonic and Romanian. The monks confessed to their Elder every evening so as not to let the sun go down on their anger, and a brother who held a grudge against another was forbidden to enter the church, or even to say the Lord’s Prayer, until he had settled it.</p>\n<p>The monastic brotherhood eventually grew to more than a thousand, divided into two monasteries. Visitors and pilgrims came from Russia, Greece and other lands to experience its holy example.</p>\n<p>St Paisius had learned Greek while on Mt Athos, and undertook to produce accurate Slavonic translations of the writings of many of the Fathers of the Church. The Greek <i>Philokalia</i> had been published not long before, and St Paisius produced a Slavonic version that was read throughout the Slavic Orthodox world. (This is the <i>Philokalia</i> that the pilgrim carries with him in <i>The Way of a Pilgrim</i>).</p>\n<p>The Saint reposed in peace in 1794, one year after the publication of his Slavonic Philokalia. The <i>Synaxarion</i> summarizes his influence: “These translations, and the influence of the Saint through the activity of his disciples in Russia, led to a widespread spiritual renewal, and to the restoration of traditional monastic life there which lasted until the Revolution of 1917.”</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/15/?translation=lxx2012-web"
+}

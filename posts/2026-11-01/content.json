@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01",
+  "story": {
+    "date_line": "Sunday · November 1",
+    "title": "22nd Sunday after Pentecost",
+    "subtitle": "The Lord's Day · Tone 5",
+    "commemorating": "Unmercenaries Cosmas and Damian of Asia, New Martyr Helen of Sinope",
+    "fasting": "No fast",
+    "readings": [
+      {
+        "label": "Readings of the day",
+        "refs": [
+          "Galatians 6:11–18",
+          "Luke 8:26–39"
+        ]
+      }
+    ],
+    "accent": "ordinary"
+  },
+  "feed": {
+    "kind": "week_ahead",
+    "accent": "ordinary",
+    "range_line": "November 1 – 7",
+    "rows": [
+      {"day": "Sun 1", "title": "22nd Sunday after Pentecost", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Mon 2", "title": "Martyrs Acindynus, Pegasius and Companions", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Tue 3", "title": "Martyrs Acepsimus, Joseph and Aithalas", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Wed 4", "title": "Venerable Joannicius the Great", "fast": "Fast day", "fast_kind": "fast"},
+      {"day": "Thu 5", "title": "Martyrs Galacteon and Epistemis", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Fri 6", "title": "St Paul the Confessor of Constantinople", "fast": "Fast day", "fast_kind": "fast"},
+      {"day": "Sat 7", "title": "St Hieron and the 33 Martyrs of Melitene", "fast": "No fast", "fast_kind": "none"}
+    ],
+    "end": {
+      "kicker": "Coming next",
+      "title": "Synaxis of the Holy Unmercenaries",
+      "date": "Sunday, November 8",
+      "line": "The holy physicians who healed without payment.",
+      "accent": "ordinary"
+    },
+    "caption": "The week ahead, November 1 – 7 (New Calendar): saints and fasting at a glance.\n\nWe begin with the 22nd Sunday after Pentecost, when we also remember the Unmercenaries Cosmas and Damian of Asia, physicians who healed without charge in the Name of Christ.\n\nWednesday and Friday are fast days. Through the week we remember the Martyrs Acindynus, Pegasius and their companions, the Venerable Joannicius the Great, the Martyrs Galacteon and Epistemis, St Paul the Confessor of Constantinople, and St Hieron and the 33 Martyrs of Melitene.\n\nComing next: the Synaxis of the Holy Unmercenaries on Sunday, November 8.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts"
+  }
+}

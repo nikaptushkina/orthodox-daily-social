@@ -1,0 +1,772 @@
+{
+ "pascha_distance": 218,
+ "julian_day_number": 2461361,
+ "year": 2026,
+ "month": 11,
+ "day": 16,
+ "weekday": 1,
+ "tone": 7,
+ "titles": [
+  "Monday of the 25th week after Pentecost"
+ ],
+ "summary_title": "Holy Apostle and Evangelist Mathew",
+ "feast_level": 6,
+ "feast_level_description": "Red cross circle (great feast typikon symbol)",
+ "feasts": [
+  "Holy Apostle and Evangelist Mathew"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": null,
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  4,
+  6
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Peter 1.1-2.6",
+   "short_display": "1 Pet 1.1-2.6",
+   "passage": [
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 1,
+     "content": "Peter, an apostle of Jesus Christ, to the chosen ones who are living as foreigners in the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 2,
+     "content": "according to the foreknowledge of God the Father, in sanctification of the Spirit, that you may obey Jesus Christ and be sprinkled with his blood: Grace to you and peace be multiplied.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 3,
+     "content": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 4,
+     "content": "to an incorruptible and undefiled inheritance that doesn’t fade away, reserved in Heaven for you,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 5,
+     "content": "who by the power of God are guarded through faith for a salvation ready to be revealed in the last time.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 6,
+     "content": "In this you greatly rejoice, though now for a little while, if need be, you have been grieved in various trials,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 7,
+     "content": "that the proof of your faith, which is more precious than gold that perishes, even though it is tested by fire, may be found to result in praise, glory, and honor at the revelation of Jesus Christ—",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 8,
+     "content": "whom, not having known, you love. In him, though now you don’t see him, yet believing, you rejoice greatly with joy that is unspeakable and full of glory,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 9,
+     "content": "receiving the result of your faith, the salvation of your souls.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 10,
+     "content": "Concerning this salvation, the prophets sought and searched diligently. They prophesied of the grace that would come to you,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 11,
+     "content": "searching for who or what kind of time the Spirit of Christ which was in them pointed to when he predicted the sufferings of Christ and the glories that would follow them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 12,
+     "content": "To them it was revealed that they served not themselves, but you, in these things, which now have been announced to you through those who preached the Good News to you by the Holy Spirit sent out from heaven; which things angels desire to look into.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 13,
+     "content": "Therefore prepare your minds for action. Be sober, and set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ—",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 14,
+     "content": "as children of obedience, not conforming yourselves according to your former lusts as in your ignorance,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 15,
+     "content": "but just as he who called you is holy, you yourselves also be holy in all of your behavior,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 16,
+     "content": "because it is written, “You shall be holy, for I am holy.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 17,
+     "content": "If you call on him as Father, who without respect of persons judges according to each man’s work, pass the time of your living as foreigners here in reverent fear,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 18,
+     "content": "knowing that you were redeemed, not with corruptible things like silver or gold, from the useless way of life handed down from your fathers,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 19,
+     "content": "but with precious blood, as of a lamb without blemish or spot, the blood of Christ,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 20,
+     "content": "who was foreknown indeed before the foundation of the world, but was revealed in this last age for your sake,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 21,
+     "content": "who through him are believers in God, who raised him from the dead and gave him glory, so that your faith and hope might be in God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 22,
+     "content": "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 23,
+     "content": "having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 24,
+     "content": "For, “All flesh is like grass, and all of man’s glory like the flower in the grass. The grass withers, and its flower falls;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 25,
+     "content": "but the Lord’s word endures forever.” This is the word of Good News which was preached to you.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 1,
+     "content": "Putting away therefore all wickedness, all deceit, hypocrisies, envies, and all evil speaking,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 2,
+     "content": "as newborn babies, long for the pure spiritual milk, that with it you may grow,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 3,
+     "content": "if indeed you have tasted that the Lord is gracious.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 4,
+     "content": "Come to him, a living stone, rejected indeed by men, but chosen by God, precious.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 5,
+     "content": "You also as living stones are built up as a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices, acceptable to God through Jesus Christ.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 6,
+     "content": "Because it is contained in Scripture, “Behold, I lay in Zion a chief cornerstone, chosen and precious. He who believes in him will not be disappointed.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Peter 2.21-3.9",
+   "short_display": "1 Pet 2.21-3.9",
+   "passage": [
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 21,
+     "content": "For you were called to this, because Christ also suffered for us, leaving you an example, that you should follow his steps,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 22,
+     "content": "who didn’t sin, “neither was deceit found in his mouth.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 23,
+     "content": "When he was cursed, he didn’t curse back. When he suffered, he didn’t threaten, but committed himself to him who judges righteously.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 24,
+     "content": "He himself bore our sins in his body on the tree, that we, having died to sins, might live to righteousness. You were healed by his wounds.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 25,
+     "content": "For you were going astray like sheep; but now you have returned to the Shepherd and Overseer of your souls.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 1,
+     "content": "In the same way, wives, be in subjection to your own husbands, so that, even if any don’t obey the Word, they may be won by the behavior of their wives without a word,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 2,
+     "content": "seeing your pure behavior in fear.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 3,
+     "content": "Let your beauty come not from the outward adorning of braiding your hair, and of wearing gold ornaments or of putting on fine clothing,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 4,
+     "content": "but from the hidden person of the heart, in the incorruptible adornment of a gentle and quiet spirit, which is very precious in God’s sight.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 5,
+     "content": "For this is how in the past the holy women who hoped in God also adorned themselves, being in subjection to their own husbands.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 6,
+     "content": "So Sarah obeyed Abraham, calling him lord, whose children you now are if you do well and are not put in fear by any terror.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 7,
+     "content": "You husbands, in the same way, live with your wives according to knowledge, giving honor to the woman as to the weaker vessel, as also being joint heirs of the grace of life, that your prayers may not be hindered.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 8,
+     "content": "Finally, all of you be like-minded, compassionate, loving as brothers, tenderhearted, courteous,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 9,
+     "content": "not rendering evil for evil or insult for insult; but instead blessing, knowing that you were called to this, that you may inherit a blessing.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Peter 4.1-11",
+   "short_display": "1 Pet 4.1-11",
+   "passage": [
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 1,
+     "content": "Therefore, since Christ suffered for us in the flesh, arm yourselves also with the same mind; for he who has suffered in the flesh has ceased from sin,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 2,
+     "content": "that you no longer should live the rest of your time in the flesh for the lusts of men, but for the will of God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 3,
+     "content": "For we have spent enough of our past time doing the desire of the Gentiles, and having walked in lewdness, lusts, drunken binges, orgies, carousings, and abominable idolatries.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 4,
+     "content": "They think it is strange that you don’t run with them into the same excess of riot, speaking evil of you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 5,
+     "content": "They will give account to him who is ready to judge the living and the dead.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 6,
+     "content": "For to this end the Good News was preached even to the dead, that they might be judged indeed as men in the flesh, but live as to God in the spirit.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 7,
+     "content": "But the end of all things is near. Therefore be of sound mind, self-controlled, and sober in prayer.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 8,
+     "content": "And above all things be earnest in your love among yourselves, for love covers a multitude of sins.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 9,
+     "content": "Be hospitable to one another without grumbling.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 10,
+     "content": "As each has received a gift, employ it in serving one another, as good managers of the grace of God in its various forms.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 11,
+     "content": "If anyone speaks, let it be as it were the very words of God. If anyone serves, let it be as of the strength which God supplies, that in all things God may be glorified through Jesus Christ, to whom belong the glory and the dominion forever and ever. Amen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Matins Gospel",
+   "book": "John",
+   "description": "",
+   "display": "John 21.15-25",
+   "short_display": "John 21.15-25",
+   "passage": [
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 15,
+     "content": "So when they had eaten their breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love me more than these?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “Feed my lambs.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 16,
+     "content": "He said to him again a second time, “Simon, son of Jonah, do you love me?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “Tend my sheep.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 17,
+     "content": "He said to him the third time, “Simon, son of Jonah, do you have affection for me?” Peter was grieved because he asked him the third time, “Do you have affection for me?” He said to him, “Lord, you know everything. You know that I have affection for you.” Jesus said to him, “Feed my sheep.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 18,
+     "content": "Most certainly I tell you, when you were young, you dressed yourself and walked where you wanted to. But when you are old, you will stretch out your hands, and another will dress you and carry you where you don’t want to go.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 19,
+     "content": "Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him, “Follow me.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 20,
+     "content": "Then Peter, turning around, saw a disciple following. This was the disciple whom Jesus loved, the one who had also leaned on Jesus’ chest at the supper and asked, “Lord, who is going to betray you?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 21,
+     "content": "Peter, seeing him, said to Jesus, “Lord, what about this man?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 22,
+     "content": "Jesus said to him, “If I desire that he stay until I come, what is that to you? You follow me.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 23,
+     "content": "This saying therefore went out among the brothers that this disciple wouldn’t die. Yet Jesus didn’t say to him that he wouldn’t die, but, “If I desire that he stay until I come, what is that to you?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 24,
+     "content": "This is the disciple who testifies about these things, and wrote these things. We know that his witness is true.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 21,
+     "verse": 25,
+     "content": "There are also many other things which Jesus did, which if they would all be written, I suppose that even the world itself wouldn’t have room for the books that would be written.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Matthew",
+   "display": "1 Corinthians 4.9-16",
+   "short_display": "1 Cor 4.9-16",
+   "passage": [
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 9,
+     "content": "For I think that God has displayed us, the apostles, last of all, like men sentenced to death. For we are made a spectacle to the world, both to angels and men.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 10,
+     "content": "We are fools for Christ’s sake, but you are wise in Christ. We are weak, but you are strong. You have honor, but we have dishonor.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 11,
+     "content": "Even to this present hour we hunger, thirst, are naked, are beaten, and have no certain dwelling place.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 12,
+     "content": "We toil, working with our own hands. When people curse us, we bless. Being persecuted, we endure.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 13,
+     "content": "Being defamed, we entreat. We are made as the filth of the world, the dirt wiped off by all, even until now.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 14,
+     "content": "I don’t write these things to shame you, but to admonish you as my beloved children.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 15,
+     "content": "For though you have ten thousand tutors in Christ, you don’t have many fathers. For in Christ Jesus, I became your father through the Good News.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 16,
+     "content": "I beg you therefore, be imitators of me.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Thessalonians 1.1-10",
+   "short_display": "2 Thess 1.1-10",
+   "passage": [
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 1,
+     "content": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God our Father and the Lord Jesus Christ:",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 2,
+     "content": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 3,
+     "content": "We are bound to always give thanks to God for you, brothers, even as it is appropriate, because your faith grows exceedingly, and the love of each and every one of you toward one another abounds,",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 4,
+     "content": "so that we ourselves boast about you in the assemblies of God for your perseverance and faith in all your persecutions and in the afflictions which you endure.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 5,
+     "content": "This is an obvious sign of the righteous judgment of God, to the end that you may be counted worthy of God’s Kingdom, for which you also suffer.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 6,
+     "content": "For it is a righteous thing with God to repay affliction to those who afflict you,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 7,
+     "content": "and to give relief to you who are afflicted with us when the Lord Jesus is revealed from heaven with his mighty angels in flaming fire,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 8,
+     "content": "punishing those who don’t know God, and to those who don’t obey the Good News of our Lord Jesus,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 9,
+     "content": "who will pay the penalty: eternal destruction from the face of the Lord and from the glory of his might,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 1,
+     "verse": 10,
+     "content": "when he comes in that day to be glorified in his saints and to be admired among all those who have believed, because our testimony to you was believed.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Matthew",
+   "description": "St Matthew",
+   "display": "Matthew 9.9-13",
+   "short_display": "Matt 9.9-13",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 9,
+     "verse": 9,
+     "content": "As Jesus passed by from there, he saw a man called Matthew sitting at the tax collection office. He said to him, “Follow me.” He got up and followed him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 9,
+     "verse": 10,
+     "content": "As he sat in the house, behold, many tax collectors and sinners came and sat down with Jesus and his disciples.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 9,
+     "verse": 11,
+     "content": "When the Pharisees saw it, they said to his disciples, “Why does your teacher eat with tax collectors and sinners?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 9,
+     "verse": 12,
+     "content": "When Jesus heard it, he said to them, “Those who are healthy have no need for a physician, but those who are sick do.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 9,
+     "verse": 13,
+     "content": "But you go and learn what this means: ‘I desire mercy, and not sacrifice,’ for I came not to call the righteous, but sinners to repentance.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 14.12-15",
+   "short_display": "Luke 14.12-15",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 12,
+     "content": "He also said to the one who had invited him, “When you make a dinner or a supper, don’t call your friends, nor your brothers, nor your kinsmen, nor rich neighbors, or perhaps they might also return the favor, and pay you back.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 13,
+     "content": "But when you make a feast, ask the poor, the maimed, the lame, or the blind;",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 14,
+     "content": "and you will be blessed, because they don’t have the resources to repay you. For you will be repaid in the resurrection of the righteous.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 14,
+     "verse": 15,
+     "content": "When one of those who sat at the table with him heard these things, he said to him, “Blessed is he who will feast in God’s Kingdom!”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Holy Apostle and Evangelist Matthew",
+   "story": "<p>He was a Galilean, the son of Alphaeus, and was originally named Levi. He was a tax-collector (an occupation despised by the Jews of Palestine) until he met the Lord, who said to him, “Follow me.” From that day he was one of the disciples.</p>\n<p>After the descent of the Holy Spirit at Pentecost, the Apostle was appointed to bring the Gospel to his fellow Jews, for whom, according to the Church’s tradition, he wrote down the Gospel for the first time, in the Aramaic language, eight years after the Ascension. Some years later, this book was translated into Greek by St James, the first Bishop of Jerusalem. No copy in the original language has survived.</p>\n<p>Later, St Matthew traveled to Parthia and the city of Hierapolis (on the Euphrates river) to proclaim the Gospel to the pagans there. One tradition holds that he reposed in peace in that region at a great age. Another tradition holds that he was martyred by a king of that region, who later repented and was baptized, taking the name Matthew. The king then cast down the idols and established the Christian faith in his realm.</p>\n<p>When St Matthew is portrayed in icons, the likeness of a man is shown with him, one of the four living creatures spoken of in the first chapter of Ezekiel. St Irenaeus writes that the man symbolizes Christ’s Incarnation.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/16/?translation=lxx2012-web"
+}

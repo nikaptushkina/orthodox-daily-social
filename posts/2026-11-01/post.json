@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-01",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg"
+   ],
+   "caption": "The week ahead, November 1 – 7 (New Calendar): saints and fasting at a glance.\n\nWe begin with the 22nd Sunday after Pentecost, when we also remember the Unmercenaries Cosmas and Damian of Asia, physicians who healed without charge in the Name of Christ.\n\nWednesday and Friday are fast days. Through the week we remember the Martyrs Acindynus, Pegasius and their companions, the Venerable Joannicius the Great, the Martyrs Galacteon and Epistemis, St Paul the Confessor of Constantinople, and St Hieron and the 33 Martyrs of Melitene.\n\nComing soon: the Nativity Fast begins on Sunday, November 15, forty days of preparation for the Nativity of Christ.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts"
+  }
+ ]
+}

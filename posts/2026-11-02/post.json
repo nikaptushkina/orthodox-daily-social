@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-02",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (November 2, New Calendar) the Church remembers the Holy Martyrs Acindynus, Pegasius and their companions of Persia.\n\nAcindynus, Pegasius and Anempodistus were courtiers to King Shapur II of Persia. When the king began a fierce persecution of Christians, they withdrew from court and, fearless for their own safety, openly urged their fellow Christians to stand firm in the faith. Arrested and cruelly tortured, they emerged miraculously unscathed.\n\nSeeing this, the soldier Aphthonius embraced the Faith and was beheaded. The trials of the three led the nobleman Elpidophorus and seven thousand other Persians to faith in Christ, and even the king’s mother came to the true faith.\n\nAt last they received the crown of martyrdom, together with the king’s mother and twenty-eight others.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay"
+  }
+ ]
+}

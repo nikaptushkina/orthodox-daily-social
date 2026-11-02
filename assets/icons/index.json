@@ -1,6 +1,6 @@
 {
  "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius": {
-  "checked": "2026-10-30",
+  "checked": "2026-11-02",
   "file": null,
   "page": null
  },
@@ -15,7 +15,7 @@
   "page": "https://en.wikipedia.org/wiki/Cleopas"
  },
  "Holy Apostle Philip": {
-  "checked": "2026-10-30",
+  "checked": "2026-11-02",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Saint_Philip"
  },
@@ -110,7 +110,7 @@
   "page": null
  },
  "Martyrs Menas, Victor and Vincent": {
-  "checked": "2026-10-30",
+  "checked": "2026-11-02",
   "file": null,
   "page": null
  },
@@ -128,7 +128,7 @@
   "page": null
  },
  "Our Father among the Saints John Chrysostom, Archbishop of Constantinople (407)": {
-  "checked": "2026-10-30",
+  "checked": "2026-11-02",
   "file": null,
   "page": null
  },
@@ -157,12 +157,28 @@
   "file": null,
   "page": null
  },
+ "Our Holy Father Longinus (4th or 5th c.)": {
+  "checked": "2026-11-02",
+  "file": "assets/icons/our-holy-father-longinus-4th-or-5th-c.jpg",
+  "page": "https://en.wikipedia.org/wiki/Longinus",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:LonginusFyodorZubov.jpg",
+  "is_icon": true
+ },
  "Our Holy Father Nilus the Ascetic of Sinai (430)": {
   "checked": "2026-10-28",
   "file": "assets/icons/our-holy-father-nilus-the-ascetic-of-sinai-430.jpg",
   "page": "https://en.wikipedia.org/wiki/Nilus_of_Sinai",
   "credit": "Icon: Wikimedia Commons · Public domain",
   "file_page": "https://commons.wikimedia.org/wiki/File:Nil_Postnik.jpg",
+  "is_icon": true
+ },
+ "Our Holy Mother Hilda, Abbess of Whitby (680)": {
+  "checked": "2026-11-02",
+  "file": "assets/icons/our-holy-mother-hilda-abbess-of-whitby-680.jpg",
+  "page": "https://en.wikipedia.org/wiki/Hilda_of_Whitby",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B8%D0%BB%D1%8C%D0%B4%D0%B0_%D0%A3%D0%B8%D1%82%D0%B1%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_(%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0).jpg",
   "is_icon": true
  },
  "Our Holy Mother Matrona (492)": {
@@ -211,7 +227,7 @@
   "is_icon": false
  },
  "Pious Emperor Justinian and His Wife Theodora (565)": {
-  "checked": "2026-10-30",
+  "checked": "2026-11-02",
   "file": null,
   "page": null
  },
@@ -248,6 +264,11 @@
   "credit": "Icon: Wikimedia Commons · Public domain",
   "file_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9_%D0%9F%D0%B0%D0%BB%D0%B0%D0%BC%D0%B0_14%D0%B2.jpg",
   "is_icon": true
+ },
+ "St Gregory the Wonderworker": {
+  "checked": "2026-11-02",
+  "file": null,
+  "page": null
  },
  "St Hieron and the Holy 33 Martyrs of Melitene": {
   "checked": "2026-10-31",
@@ -304,5 +325,13 @@
   "checked": "2026-10-31",
   "file": null,
   "page": null
+ },
+ "Ven. Nikon of Radonezh": {
+  "checked": "2026-11-02",
+  "file": "assets/icons/ven-nikon-of-radonezh.jpg",
+  "page": "https://en.wikipedia.org/wiki/Nikon_of_Radonezh",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Nikon_of_Radonej.jpg",
+  "is_icon": true
  }
 }

@@ -1,0 +1,228 @@
+{
+ "pascha_distance": 220,
+ "julian_day_number": 2461363,
+ "year": 2026,
+ "month": 11,
+ "day": 18,
+ "weekday": 3,
+ "tone": 7,
+ "titles": [
+  "Wednesday of the 25th week after Pentecost"
+ ],
+ "summary_title": "Martyrs Platon and Roman; Holy Martyr Romanus and the holy child who declared for Christ (305); Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs",
+  "wine",
+  "oil"
+ ],
+ "saints": [
+  "Martyrs Platon and Roman",
+  "Zaccheus the Deacon",
+  "Holy Martyr Romanus and the holy child who declared for Christ (305)",
+  "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Thessalonians 2.1-12",
+   "short_display": "2 Thess 2.1-12",
+   "passage": [
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 1,
+     "content": "Now, brothers, concerning the coming of our Lord Jesus Christ and our gathering together to him, we ask you",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 2,
+     "content": "not to be quickly shaken in your mind or troubled, either by spirit or by word or by letter as if from us, saying that the day of Christ has already come.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 3,
+     "content": "Let no one deceive you in any way. For it will not be unless the rebellion comes first, and the man of sin is revealed, the son of destruction.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 4,
+     "content": "He opposes and exalts himself against all that is called God or that is worshiped, so that he sits as God in the temple of God, setting himself up as God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 5,
+     "content": "Don’t you remember that when I was still with you, I told you these things?",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 6,
+     "content": "Now you know what is restraining him, to the end that he may be revealed in his own season.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 7,
+     "content": "For the mystery of lawlessness already works. Only there is one who restrains now, until he is taken out of the way.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 8,
+     "content": "Then the lawless one will be revealed, whom the Lord will kill with the breath of his mouth and destroy by the manifestation of his coming;",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 9,
+     "content": "even he whose coming is according to the working of Satan with all power and signs and lying wonders,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 10,
+     "content": "and with all deception of wickedness for those who are being lost, because they didn’t receive the love of the truth, that they might be saved.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 11,
+     "content": "Because of this, God sends them a powerful delusion, that they should believe a lie,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 2,
+     "verse": 12,
+     "content": "that they all might be judged who didn’t believe the truth, but had pleasure in unrighteousness.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 15.1-10",
+   "short_display": "Luke 15.1-10",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 1,
+     "content": "Now all the tax collectors and sinners were coming close to him to hear him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 2,
+     "content": "The Pharisees and the scribes murmured, saying, “This man welcomes sinners, and eats with them.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 3,
+     "content": "He told them this parable:",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 4,
+     "content": "“Which of you men, if you had one hundred sheep and lost one of them, wouldn’t leave the ninety-nine in the wilderness and go after the one that was lost, until he found it?",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 5,
+     "content": "When he has found it, he carries it on his shoulders, rejoicing.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 6,
+     "content": "When he comes home, he calls together his friends and his neighbors, saying to them, ‘Rejoice with me, for I have found my sheep which was lost!’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 7,
+     "content": "I tell you that even so there will be more joy in heaven over one sinner who repents, than over ninety-nine righteous people who need no repentance.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 8,
+     "content": "“Or what woman, if she had ten drachma coins, if she lost one drachma coin, wouldn’t light a lamp, sweep the house, and seek diligently until she found it?",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 9,
+     "content": "When she has found it, she calls together her friends and neighbors, saying, ‘Rejoice with me, for I have found the drachma which I had lost!’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 15,
+     "verse": 10,
+     "content": "Even so, I tell you, there is joy in the presence of the angels of God over one sinner repenting.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyrs Platon and Roman",
+   "story": "<p>He lived in Ancyra in Galatia during the reign of the Emperor Maximian. Arrested for openly confessing his faith in Christ, he was subjected to many brutal tortures and, refusing after each torment to bow to the idols, was finally beheaded.</p>"
+  },
+  {
+   "title": "Holy Martyr Romanus and the holy child who declared for Christ (305)",
+   "story": "<p>“Saint Romanus was a deacon and exorcist in the Church of Caesarea in Palestine. He happened to be at Antioch in 303 when the Emperor Diocletian’s edicts for the general persecution of Christians were published. He could not bear to see so many Christian men, women and children denying their faith in the true God for fear of suffering. As they went to sacrifice to the idols, he ran up, consumed with zeal for righteousness, crying shame on them with a loud voice. He was immediately arrested and brought before the city Prefect. He faced interrogation boldly and to prove the stupidity of the pagan cult, he asked for a child to be brought in, taken at random from the crowd in the public square. Romanus enquired of the lad whether it was more sensible to worship the one and only God and Creator of the world, or the many gods of the pagans. Showing himself wiser than the pagans, the child unhesitatingly decided for the God of the Christians. The Prefect flew into a rage at being made to look ridiculous and ordered the young confessor to be put to the torture straight away in the presence of his mother. The child endured the torments without flinching but told his mother he was thirsty and wanted a drink. ‘0 my dear son’, the admirable woman answered, ‘do not drink corruptible and temporal water, but keep up your courage so as to drink living and eternal water in the Kingdom of God!’ The child was beheaded, and Saint Romanus was condemned to be burnt to death. He welcomed the sentence joyfully, and with a shining face was led unresistingly to the stake. Since the Emperor was in the city, the executioners awaited his decision before lighting the fire and the valiant Martyr exclaimed at the delay, ‘Where is the fire that is prepared for me?’ But the execution was stayed so that he could be brought before the Emperor in person. Aware that Christians rejoice over the death of a Martyr as the entrance to everlasting life, the tyrant wanted to increase the suffering of Christ’s athlete by delaying the moment of deliverance. He ordered the executioners to tear out his tongue, which Romanus freely offered, and he miraculously went on praising God and encouraging the faithful after it was cut away. After this torment, he was imprisoned for a long time in chains until the Emperor’s birthday. This was celebrated all over the Empire and a general release of prisoners was customary. But Romanus was not freed; with his feet crushed in the stocks, he was secretly strangled in his dungeon and thus received the adornment of martyrdom, as he had desired.”(<i>Synaxarion</i>)</p>"
+  },
+  {
+   "title": "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted",
+   "story": "<p>Anastasius and his sister were Greek peasants living in Epirus under Ottoman rule. One day a band of Turks came through their village, led by Musa, the son of the local Pasha (Governor). Musa was struck by the beauty of Anastasius’ sister and tried to seize her, but Anastasius threw himself at the Turks and fought them off long enough for his sister to escape. Musa’s father had Anastasius arrested and brought before him and, impressed by his courage, attempted to convert him to Islam by many means: threats, beatings, and offers of worldly honor; but Anastasius held firm and was cast into prison.</p>\n<p>Musa was moved by the way that Anastasius bore all these trials and temptations, and wanted to know more about the Faith that sustained him. Going secretly to Anastasius’ prison cell, he peered in and saw two young men of shining appearance with the prisoner. They vanished as soon as Musa entered. Anastasius told Musa that these were angels who guard and aid every Christian, especially when they suffer for Christ. He also explained in a simple way the Gospel of Jesus Christ, which enables His followers to set little value upon worldly things. Musa, deeply moved, threw himself at Anastasius’ feet and asked to become a Christian. Anastasius told him to wait until the proper time, because his conversion would cause his father to persecute all the Christians under his power. A few days later, in 1750, Anastasius was beheaded by order of the Pasha.</p>\n<p>Soon after this, Musa visited the tomb of a holy Martyr and was granted a vision of Anastasius, who appeared to him encircled in light and urged him to continue on the road to Christ. Musa fled his father’s domain to the Peleponnese where he received direction in the Faith from an aged ascetic. He then traveled to Venice to be baptized without fear of reprisal by the Turks. In time he became a monk on Corfu, receiving the monastic name of Daniel. He lived there in asceticism, but the desire grew in him to taste martyrdom for Christ, so he traveled to Constantinople to declare his conversion to the Muslims. But the Christians there dissuaded him, knowing that the conversion of such a prominent Turk would, if it were known, lead to retaliation against Christians. Saint Daniel returned to Corfu, where he founded a church in honor of St Anastasius and reposed in peace.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/18/?translation=lxx2012-web"
+}

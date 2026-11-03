@@ -25,7 +25,7 @@
   "page": null
  },
  "Holy Apostles Patrobas, Hermas, Linus, Gaius and Philologus": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -58,13 +58,23 @@
   "file": null,
   "page": null
  },
+ "Holy Martyr Romanus and the holy child who declared for Christ (305)": {
+  "checked": "2026-11-03",
+  "file": null,
+  "page": null
+ },
+ "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted": {
+  "checked": "2026-11-03",
+  "file": null,
+  "page": null
+ },
  "Holy New Martyr Helen of Sinope (18th c.)": {
   "checked": "2026-10-31",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Helen_of_Sinope"
  },
  "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -90,7 +100,7 @@
   "is_icon": true
  },
  "Martyrs Acepsimus, Joseph, Aithalas": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -100,7 +110,7 @@
   "page": null
  },
  "Martyrs Galacteon and Wife Epistemis": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -122,6 +132,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Onesiphorus_(Menologion_of_Basil_II).jpg",
   "is_icon": true
  },
+ "Martyrs Platon and Roman": {
+  "checked": "2026-11-03",
+  "file": "assets/icons/martyrs-platon-and-roman.jpg",
+  "page": "https://en.wikipedia.org/wiki/Platon_Rozhdestvensky",
+  "credit": "Image: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Bishop_Platon_(Rozhdestvensky).jpg",
+  "is_icon": false
+ },
  "New Martyr Nicholas of Chios (1754)": {
   "checked": "2026-10-31",
   "file": null,
@@ -133,12 +151,12 @@
   "page": null
  },
  "Our Father among the Saints Martin, Bishop of Tours (397)": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
  "Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -153,7 +171,7 @@
   "page": "https://en.wikipedia.org/wiki/Firmilian"
  },
  "Our Holy Father Gregory the Confessor, Patriarch of Alexandria (early 9th c.)": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -240,7 +258,7 @@
   "is_icon": true
  },
  "Saint Symeon Metaphrastes (960)": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -271,7 +289,7 @@
   "page": null
  },
  "St Hieron and the Holy 33 Martyrs of Melitene": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -289,7 +307,7 @@
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
  "St Nilus the Myrrh-Gusher of Mt Athos (1651)": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Nilus_the_Myrrh-streamer"
  },
@@ -312,7 +330,7 @@
   "page": null
  },
  "Synaxis of the Chief Captains of the Heavenly Host, Michael and Gabriel, and of the other Bodiless Powers of Heaven": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },
@@ -322,7 +340,7 @@
   "page": null
  },
  "Ven. Joannicus the Great": {
-  "checked": "2026-10-31",
+  "checked": "2026-11-03",
   "file": null,
   "page": null
  },

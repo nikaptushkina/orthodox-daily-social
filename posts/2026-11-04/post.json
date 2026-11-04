@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-04",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "A psalm to pray this Wednesday (November 4, New Calendar): Psalm 2, read in full.\n\n“The kings of the earth stood up, and the rulers gathered themselves together, against the Lord, and against his Christ.” But “he that dwells in the heavens shall laugh them to scorn.”\n\n“The Lord said to me, You are my Son, today have I begotten you.” And the psalm closes: “Serve the Lord with fear, and rejoice in him with trembling.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Psalms #DailyPrayer #Scripture",
+   "duration": 94.11,
+   "audio": "pending"
+  }
+ ]
+}

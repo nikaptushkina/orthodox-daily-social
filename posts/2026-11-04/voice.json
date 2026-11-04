@@ -1,0 +1,48 @@
+{
+ "voice": "am_michael",
+ "speed": 0.9,
+ "music": "the-mountain-quiet-documentary.mp3",
+ "total": 102.155,
+ "screens": [
+  {
+   "text": "Psalm 2.",
+   "starts": 1.0,
+   "length": 4.0
+  },
+  {
+   "text": "Therefore did the heathen rage, and the nations imagine vain things? The kings of the earth stood up, and the rulers gathered themselves together, against the Lord, and against his Christ;",
+   "starts": 4.8,
+   "length": 14.777
+  },
+  {
+   "text": "saying, Let us break through their bonds, and cast away their yoke from us. He that dwells in the heavens shall laugh them to scorn, and the Lord shall mock them.",
+   "starts": 19.577,
+   "length": 12.353
+  },
+  {
+   "text": "Then shall he speak to them in his anger, and trouble them in his fury. But I have been made king by him on Sion his holy mountain, declaring the ordinance of the Lord: the Lord said to me, You are my Son, today have I begotten you.",
+   "starts": 31.931,
+   "length": 17.726
+  },
+  {
+   "text": "Ask of me, and I will give you the heathen for your inheritance, and the ends of the earth for your possession. You shall rule them with a rod of iron; you shall dash them in pieces as a potter's vessel.",
+   "starts": 49.657,
+   "length": 15.364
+  },
+  {
+   "text": "Now therefore understand, you kings: be instructed, all you that judge the earth. Serve the Lord with fear, and rejoice in him with trembling.",
+   "starts": 65.021,
+   "length": 11.598
+  },
+  {
+   "text": "Accept correction, lest at any time the Lord be angry, and you should perish from the righteous way: whenever his wrath shall be suddenly kindled, blessed are all they that trust in him.",
+   "starts": 76.619,
+   "length": 14.399
+  },
+  {
+   "text": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+   "starts": 91.018,
+   "length": 11.937
+  }
+ ]
+}

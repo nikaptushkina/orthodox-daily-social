@@ -1,30 +1,37 @@
 {
-  "date": "2026-11-05",
-  "story": {
-    "date_line": "Thursday · November 5",
-    "title": "Martyrs Galaction and Episteme",
-    "subtitle": "A husband and wife who died together for Christ",
-    "week_line": "Thursday of the 23rd week after Pentecost",
-    "commemorating": "Martyrs Galaction and Episteme · St Jonah of Novgorod",
-    "fasting": "No fast",
-    "readings": [
-      {"label": "Readings of the day", "refs": ["1 Thessalonians 2:9–14", "Luke 11:47–12:1"]}
-    ],
-    "accent": "martyr"
-  },
-  "feed": {
-    "kind": "saint",
-    "accent": "martyr",
-    "name": "Martyrs Galaction and Episteme",
-    "subtitle": "Husband and wife, martyrs for Christ",
-    "dates": "Nov 5 New Calendar · Nov 18 Old Calendar",
-    "heading": "Who they were",
-    "life": [
-      "Galaction was born in Emesa to pagan parents who grieved that they had no children. His mother was baptized at the word of a monk named Onuphrius and soon bore him, and his father too came to faith in Christ.",
-      "At his father’s wish he married a pagan maiden, Episteme, and in time baptized her himself. Both chose virginity, living in neighboring monasteries. When Galaction was seized in a persecution, Episteme hurried to join him, and they were beheaded together."
-    ],
-    "intercession": "Holy Martyrs Galaction and Episteme, pray to God for us.",
-    "needs": ["icon"],
-    "caption": "Today (November 5, New Calendar) the Church remembers the Holy Martyrs Galaction and his wife Episteme.\n\nGalaction was born in Emesa to pagan parents who could not have children. A monk named Onuphrius told his mother that if they accepted Christ she would bear a child. She was baptized and bore a son, and his father too came to faith.\n\nGalaction married a pagan maiden, Episteme, out of obedience to his father, and in time brought her to Christ and baptized her himself. The two resolved to remain in virginity and settled in separate monastic communities near one another.\n\nWhen Galaction was seized in a persecution, Episteme asked her abbess’s blessing to join him. She boldly confessed Christ, and after many tortures husband and wife were beheaded together.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay"
-  }
+ "date": "2026-11-05",
+ "story": {
+  "date_line": "Thursday · November 5",
+  "title": "Martyrs Galaction and Episteme",
+  "subtitle": "A husband and wife who died together for Christ",
+  "week_line": "Thursday of the 23rd week after Pentecost",
+  "commemorating": "Martyrs Galaction and Episteme · St Jonah of Novgorod",
+  "fasting": "No fast",
+  "readings": [
+   {
+    "label": "Readings of the day",
+    "refs": [
+     "1 Thessalonians 2:9–14",
+     "Luke 11:47–12:1"
+    ]
+   }
+  ],
+  "accent": "martyr"
+ },
+ "feed": {
+  "kind": "saint",
+  "accent": "martyr",
+  "name": "Martyrs Galaction and Episteme",
+  "subtitle": "Husband and wife, martyrs for Christ",
+  "dates": "Nov 5 New Calendar · Nov 18 Old Calendar",
+  "heading": "Who they were",
+  "life": [
+   "Galaction was born in Emesa to pagan parents who grieved that they had no children. His mother was baptized at the word of a monk named Onuphrius and soon bore him, and his father too came to faith in Christ.",
+   "At his father’s wish he married a pagan maiden, Episteme, and in time baptized her himself. Both chose virginity, living in neighboring monasteries. When Galaction was seized in a persecution, Episteme hurried to join him, and they were beheaded together."
+  ],
+  "intercession": "Holy Martyrs Galaction and Episteme, pray to God for us.",
+  "needs": [],
+  "caption": "Today (November 5, New Calendar) the Church remembers the Holy Martyrs Galaction and his wife Episteme.\n\nGalaction was born in Emesa to pagan parents who could not have children. A monk named Onuphrius told his mother that if they accepted Christ she would bear a child. She was baptized and bore a son, and his father too came to faith.\n\nGalaction married a pagan maiden, Episteme, out of obedience to his father, and in time brought her to Christ and baptized her himself. The two resolved to remain in virginity and settled in separate monastic communities near one another.\n\nWhen Galaction was seized in a persecution, Episteme asked her abbess’s blessing to join him. She boldly confessed Christ, and after many tortures husband and wife were beheaded together.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay",
+  "icon": "icon.jpg"
+ }
 }

@@ -1,0 +1,217 @@
+{
+ "pascha_distance": 222,
+ "julian_day_number": 2461365,
+ "year": 2026,
+ "month": 11,
+ "day": 20,
+ "weekday": 5,
+ "tone": 7,
+ "titles": [
+  "Friday of the 25th week after Pentecost"
+ ],
+ "summary_title": "Forefeast of Entry",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": [
+  "Forefeast of Entry"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs",
+  "wine",
+  "oil"
+ ],
+ "saints": [
+  "Ven. Gregory Decapolites",
+  "Our Holy Father Proclus, Archbishop of Constantinople (447)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Thessalonians 3.6-18",
+   "short_display": "2 Thess 3.6-18",
+   "passage": [
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 6,
+     "content": "Now we command you, brothers, in the name of our Lord Jesus Christ, that you withdraw yourselves from every brother who walks in rebellion and not after the tradition which they received from us.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 7,
+     "content": "For you know how you ought to imitate us. For we didn’t behave ourselves rebelliously among you,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 8,
+     "content": "neither did we eat bread from anyone’s hand without paying for it, but in labor and travail worked night and day, that we might not burden any of you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 9,
+     "content": "This was not because we don’t have the right, but to make ourselves an example to you, that you should imitate us.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 10,
+     "content": "For even when we were with you, we commanded you this: “If anyone is not willing to work, don’t let him eat.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 11,
+     "content": "For we hear of some who walk among you in rebellion, who don’t work at all, but are busybodies.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 12,
+     "content": "Now those who are that way, we command and exhort in the Lord Jesus Christ, that they work with quietness and eat their own bread.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 13,
+     "content": "But you, brothers, don’t be weary in doing what is right.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 14,
+     "content": "If any man doesn’t obey our word in this letter, note that man and have no company with him, to the end that he may be ashamed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 15,
+     "content": "Don’t count him as an enemy, but admonish him as a brother.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 16,
+     "content": "Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 17,
+     "content": "I, Paul, write this greeting with my own hand, which is the sign in every letter. This is how I write.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TH",
+     "chapter": 3,
+     "verse": 18,
+     "content": "The grace of our Lord Jesus Christ be with you all. Amen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 16.15-18, 17.1-4",
+   "short_display": "Luke 16.15-18, 17.1-4",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 15,
+     "content": "He said to them, “You are those who justify yourselves in the sight of men, but God knows your hearts. For that which is exalted among men is an abomination in the sight of God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 16,
+     "content": "“The law and the prophets were until John. From that time the Good News of God’s Kingdom is preached, and everyone is forcing his way into it.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 17,
+     "content": "But it is easier for heaven and earth to pass away than for one tiny stroke of a pen in the law to fall.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 16,
+     "verse": 18,
+     "content": "“Everyone who divorces his wife and marries another commits adultery. He who marries one who is divorced from a husband commits adultery.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 1,
+     "content": "He said to the disciples, “It is impossible that no occasions of stumbling should come, but woe to him through whom they come!",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 2,
+     "content": "It would be better for him if a millstone were hung around his neck, and he were thrown into the sea, rather than that he should cause one of these little ones to stumble.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 3,
+     "content": "Be careful. If your brother sins against you, rebuke him. If he repents, forgive him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 4,
+     "content": "If he sins against you seven times in the day, and seven times returns, saying, ‘I repent,’ you shall forgive him.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Ven. Gregory Decapolites",
+   "story": "<p>He was born in Irenopolis, one of the “Ten Cities” of Asia Minor. Though his parents wanted him to marry, he entered monastic life as a young man, and struggled for many years, living in reclusion under the guidance of a wise spiritual father. One day, while in prayer, he was carried away to Paradise and experienced the blessedness that the redeemed will know at the general Resurrection. The vision seemed to him only to last for an hour, but he learned from his disciple that he had been in ecstasy for four days.</p>\n<p>Aware that the Enemy can appear as an angel of light, and that we should be suspicious of seeming revelations, he sought the counsel of his Abbot, who reassured him, and told him to give thanks to God by continuing in his ascetic labors.</p>\n<p>Soon, he was told by revelation that he was to go forth into the world, living without an earthly home, to uphold the Orthodox faith, which was then under attack by the Iconoclasts. He traveled through Ephesus, Constantinople, Corinth, Rome, Sicily, Thessalonica, and Constantinople again, laboring in defense of the Faith and working many miracles. Usually he would stay with poor people who welcomed him into their houses, though it was forbidden by law to receive an Orthodox monk (that is, one who defended the Icons). In his last few years, afflicted by illness, he settled in Constantinople, where he reposed in peace in 832, just before the end of iconoclasm and the restoration of Orthodoxy. Since 1490, his incorrupt relics have dwelt at the Monastery of Bistritsa in Romania, where they continue to be a source of miracles for the many pilgrims who come to venerate them.</p>"
+  },
+  {
+   "title": "Our Holy Father Proclus, Archbishop of Constantinople (447)",
+   "story": "<p>He was a disciple and scribe of St John Chrysostom. About the year 426 he was ordained Bishop of Cyzicus, but was unable to take up his see because another had been unlawfully elected in his place, so he remained in Constantinople. Around 428, Nestorius was made Patriarch of Constantinople, and almost immediately began teaching his blasphemous doctrine that the holy Virgin could not be called Theotokos, “God-bearer,” but only Christotokos, “Christ-bearer.” Proclus resisted this teaching forcefully, once giving a sermon in the presence of the heretical Patriarch, defending the Orthodox teaching concerning the Theotokos. Proclus was elevated to the throne of Patriarch of Constantinople in 434, after Nestorius had been deposed and the Orthodox teaching clearly proclaimed in an Ecumenical Council. It was Proclus who persuaded the Emperor Theodosius the Younger to have the holy relics of his teacher St John Chrysostom returned to Constantinople, and who received them on their triumphal return to the city. He reposed in peace in 447.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/20/?translation=lxx2012-web"
+}

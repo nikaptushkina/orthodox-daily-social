@@ -1,6 +1,6 @@
 {
  "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius": {
-  "checked": "2026-11-02",
+  "checked": "2026-11-05",
   "file": null,
   "page": null
  },
@@ -15,7 +15,7 @@
   "page": "https://en.wikipedia.org/wiki/Cleopas"
  },
  "Holy Apostle Philip": {
-  "checked": "2026-11-02",
+  "checked": "2026-11-05",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Saint_Philip"
  },
@@ -125,7 +125,7 @@
   "page": null
  },
  "Martyrs Menas, Victor and Vincent": {
-  "checked": "2026-11-02",
+  "checked": "2026-11-05",
   "file": null,
   "page": null
  },
@@ -151,7 +151,7 @@
   "page": null
  },
  "Our Father among the Saints John Chrysostom, Archbishop of Constantinople (407)": {
-  "checked": "2026-11-02",
+  "checked": "2026-11-05",
   "file": null,
   "page": null
  },
@@ -203,6 +203,14 @@
   "credit": "Image: Wikimedia Commons · Public domain",
   "file_page": "https://commons.wikimedia.org/wiki/File:Filareto_Drozdov.jpg",
   "is_icon": false
+ },
+ "Our Holy Father Proclus, Archbishop of Constantinople (447)": {
+  "checked": "2026-11-05",
+  "file": "assets/icons/our-holy-father-proclus-archbishop-of-constantinople-447.jpg",
+  "page": "https://en.wikipedia.org/wiki/Proclus_of_Constantinople",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Proclus_of_constantinople.jpg",
+  "is_icon": true
  },
  "Our Holy Mother Hilda, Abbess of Whitby (680)": {
   "checked": "2026-11-02",
@@ -258,7 +266,7 @@
   "is_icon": false
  },
  "Pious Emperor Justinian and His Wife Theodora (565)": {
-  "checked": "2026-11-02",
+  "checked": "2026-11-05",
   "file": null,
   "page": null
  },
@@ -305,7 +313,7 @@
   "is_icon": true
  },
  "St Gregory the Wonderworker": {
-  "checked": "2026-11-02",
+  "checked": "2026-11-05",
   "file": null,
   "page": null
  },
@@ -362,6 +370,11 @@
  },
  "Ven. Barlaam and Joasaph": {
   "checked": "2026-11-04",
+  "file": null,
+  "page": null
+ },
+ "Ven. Gregory Decapolites": {
+  "checked": "2026-11-05",
   "file": null,
   "page": null
  },

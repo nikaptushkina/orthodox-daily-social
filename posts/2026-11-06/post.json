@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-06",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Coming this Sunday: the Synaxis of the Holy Unmercenaries, November 8 (New Calendar).\n\nThe Unmercenaries, called Anargyroi in Greek (“no silver”), were physicians who received no money for their work. Each has his own feast day, and in the Slavic tradition all of them are honored together on the Sunday after November 1.\n\nThe feast is kept with an All-night Vigil on the eve. Its readings at the Divine Liturgy are 1 Corinthians 12:27–13:8 and Matthew 10:1, 5–8.\n\n“Freely you received, so freely give.” (Matthew 10:8)\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #Scripture"
+  }
+ ]
+}

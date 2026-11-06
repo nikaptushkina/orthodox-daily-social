@@ -7,6 +7,7 @@ on:
     types: [created]
 
 permissions:
+  contents: write  # marking a draft ready needs this as well as pull-requests
   pull-requests: write
 
 jobs:

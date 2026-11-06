@@ -1,0 +1,562 @@
+{
+ "pascha_distance": 223,
+ "julian_day_number": 2461366,
+ "year": 2026,
+ "month": 11,
+ "day": 21,
+ "weekday": 6,
+ "tone": 7,
+ "titles": [
+  "Saturday of the 25th week after Pentecost"
+ ],
+ "summary_title": "Entry of the Most-Holy Theotokos into the Temple",
+ "feast_level": 7,
+ "feast_level_description": "Major feast Theotokos",
+ "feasts": [
+  "Entry of the Most-Holy Theotokos into the Temple"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": null,
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  4,
+  6
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "​Composite 17 - Exodus 40:1-5, 9-10, 16, 34-35",
+   "short_display": "Exod 40:1-5, 9-10, 16, 34-35",
+   "passage": [
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 1,
+     "content": "And the Lord spoke to Moses, saying,",
+     "paragraph_start": true
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 2,
+     "content": "On the first day of the first month, at the new moon, you shall set up the tabernacle of witness,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 3,
+     "content": "and you shall place in it the ark of the testimony, and shall cover the ark with the veil,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 4,
+     "content": "and you shall bring in the table and shall set forth that which is to be set forth on it; and you shall bring in the candlestick and place its lamps on it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 5,
+     "content": "And you shall place the golden altar, to burn incense before the ark; and you shall put a covering of a veil on the door of the tabernacle of witness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 9,
+     "content": "And you shall take the anointing oil, and shall anoint the tabernacle, and all things in it; and shall sanctify it, and all its furniture, and it shall be holy.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 10,
+     "content": "And you shall anoint the altar of burnt offerings, and all its furniture; and you shall hallow the altar, and the altar shall be most holy.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 16,
+     "content": "And Moses did all things whatever the Lord commanded him, so did he.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 34,
+     "content": "And the cloud covered the tabernacle of witness, and the tabernacle was filled with the glory of the Lord.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EXO",
+     "chapter": 40,
+     "verse": 35,
+     "content": "And Moses was not able to enter into the tabernacle of testimony, because the cloud overshadowed it, and the tabernacle was filled with the glory of the Lord.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "​Composite 18 - 3 [1] Kings 8:1, 3-7, 9-11",
+   "short_display": "3 Kgs 8:1, 3-7, 9-11",
+   "passage": [
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 1,
+     "content": "And it came to pass when Solomon had finished building the house of the Lord and his own house after twenty years, then king Solomon assembled all the elders of Israel in Sion, to bring the ark of the covenant of the Lord out of the city of David, this is Sion,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 3,
+     "content": "And the priests took up the ark,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 4,
+     "content": "and the tabernacle of testimony, and the holy furniture that was in the tabernacle of testimony.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 5,
+     "content": "And the king and all Israel were occupied before the ark, sacrificing sheep and oxen, without number.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 6,
+     "content": "And the priests bring in the ark into its place, into the oracle of the house, even into the holy of holies, under the wings of the cherubs.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 7,
+     "content": "For the cherubs spread out their wings over the place of the ark, and the cherubs covered the ark and its holy things above.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 9,
+     "content": "There was nothing in the ark except the two tables of stone, the tables of the covenant which Moses put there in Choreb, which tables the Lord made as a covenant with the children of Israel in their going forth from the land of Egypt.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 10,
+     "content": "And it came to pass when the priests departed out of the holy place, that the cloud filled the house.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1KI",
+     "chapter": 8,
+     "verse": 11,
+     "content": "And the priests could not stand to minister because of the cloud, because the glory of the Lord filled the house.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Ezekiel 43.27-44.4",
+   "short_display": "Ezek 43.27-44.4",
+   "passage": [
+    {
+     "book": "EZK",
+     "chapter": 43,
+     "verse": 27,
+     "content": "And it shall come to pass from the eighth day and onward, that the priests shall offer your whole burnt offerings on the altar, and your peace-offerings; and I will accept you, says the Lord.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EZK",
+     "chapter": 44,
+     "verse": 1,
+     "content": "Then he brought me back by the way of the outer gate of the sanctuary that looks eastward; and it was shut.",
+     "paragraph_start": true
+    },
+    {
+     "book": "EZK",
+     "chapter": 44,
+     "verse": 2,
+     "content": "And the Lord said to me, This gate shall be shut, it shall not be opened, and no one shall pass through it; for the Lord God of Israel shall enter by it, and it shall be shut.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EZK",
+     "chapter": 44,
+     "verse": 3,
+     "content": "For the prince, he shall sit in it, to eat bread before the Lord; he shall go in by the way of the porch of the gate, and shall go forth by the way of the same.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EZK",
+     "chapter": 44,
+     "verse": 4,
+     "content": "And he brought me in by the way of the gate that looks northward, in front of the house: and I looked, and, behold, the house was full of the glory of the Lord: and I fell upon my face.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Matins Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 1.39-49, 56",
+   "short_display": "Luke 1.39-49, 56",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 39,
+     "content": "Mary arose in those days and went into the hill country with haste, into a city of Judah,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 40,
+     "content": "and entered into the house of Zacharias and greeted Elizabeth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 41,
+     "content": "When Elizabeth heard Mary’s greeting, the baby leaped in her womb; and Elizabeth was filled with the Holy Spirit.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 42,
+     "content": "She called out with a loud voice and said, “Blessed are you among women, and blessed is the fruit of your womb!",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 43,
+     "content": "Why am I so favored, that the mother of my Lord should come to me?",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 44,
+     "content": "For behold, when the voice of your greeting came into my ears, the baby leaped in my womb for joy!",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 45,
+     "content": "Blessed is she who believed, for there will be a fulfillment of the things which have been spoken to her from the Lord!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 46,
+     "content": "Mary said, “My soul magnifies the Lord.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 47,
+     "content": "My spirit has rejoiced in God my Savior,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 48,
+     "content": "for he has looked at the humble state of his servant. For behold, from now on, all generations will call me blessed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 49,
+     "content": "For he who is mighty has done great things for me. Holy is his name.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 1,
+     "verse": 56,
+     "content": "Mary stayed with her about three months, and then returned to her house.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Entrance",
+   "display": "Hebrews 9.1-7",
+   "short_display": "Heb 9.1-7",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 1,
+     "content": "Now indeed even the first covenant had ordinances of divine service and an earthly sanctuary.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 2,
+     "content": "For a tabernacle was prepared. In the first part were the lamp stand, the table, and the show bread, which is called the Holy Place.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 3,
+     "content": "After the second veil was the tabernacle which is called the Holy of Holies,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 4,
+     "content": "having a golden altar of incense and the ark of the covenant overlaid on all sides with gold, in which was a golden pot holding the manna, Aaron’s rod that budded, and the tablets of the covenant;",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 5,
+     "content": "and above it cherubim of glory overshadowing the mercy seat, of which things we can’t speak now in detail.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 6,
+     "content": "Now these things having been thus prepared, the priests go in continually into the first tabernacle, accomplishing the services,",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 7,
+     "content": "but into the second the high priest alone, once in the year, not without blood, which he offers for himself and for the errors of the people.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Galatians 1.3-10",
+   "short_display": "Gal 1.3-10",
+   "passage": [
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 3,
+     "content": "Grace to you and peace from God the Father and our Lord Jesus Christ,",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 4,
+     "content": "who gave himself for our sins, that he might deliver us out of this present evil age, according to the will of our God and Father—",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 5,
+     "content": "to whom be the glory forever and ever. Amen.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 6,
+     "content": "I marvel that you are so quickly deserting him who called you in the grace of Christ to a different “good news”,",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 7,
+     "content": "but there isn’t another “good news.” Only there are some who trouble you and want to pervert the Good News of Christ.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 8,
+     "content": "But even though we, or an angel from heaven, should preach to you any “good news” other than that which we preached to you, let him be cursed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 9,
+     "content": "As we have said before, so I now say again: if any man preaches to you any “good news” other than that which you received, let him be cursed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 1,
+     "verse": 10,
+     "content": "For am I now seeking the favor of men, or of God? Or am I striving to please men? For if I were still pleasing men, I wouldn’t be a servant of Christ.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "Entrance",
+   "display": "Luke 10.38-42, 11.27-28",
+   "short_display": "Luke 10.38-42, 11.27-28",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 38,
+     "content": "As they went on their way, he entered into a certain village, and a certain woman named Martha received him into her house.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 39,
+     "content": "She had a sister called Mary, who also sat at Jesus’ feet and heard his word.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 40,
+     "content": "But Martha was distracted with much serving, and she came up to him, and said, “Lord, don’t you care that my sister left me to serve alone? Ask her therefore to help me.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 41,
+     "content": "Jesus answered her, “Martha, Martha, you are anxious and troubled about many things,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 42,
+     "content": "but one thing is needed. Mary has chosen the good part, which will not be taken away from her.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 27,
+     "content": "It came to pass, as he said these things, a certain woman out of the multitude lifted up her voice and said to him, “Blessed is the womb that bore you, and the breasts which nursed you!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 28,
+     "content": "But he said, “On the contrary, blessed are those who hear the word of God, and keep it.”",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 9.57-62",
+   "short_display": "Luke 9.57-62",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 9,
+     "verse": 57,
+     "content": "As they went on the way, a certain man said to him, “I want to follow you wherever you go, Lord.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 9,
+     "verse": 58,
+     "content": "Jesus said to him, “The foxes have holes and the birds of the sky have nests, but the Son of Man has no place to lay his head.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 9,
+     "verse": 59,
+     "content": "He said to another, “Follow me!” But he said, “Lord, allow me first to go and bury my father.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 9,
+     "verse": 60,
+     "content": "But Jesus said to him, “Leave the dead to bury their own dead, but you go and announce God’s Kingdom.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 9,
+     "verse": 61,
+     "content": "Another also said, “I want to follow you, Lord, but first allow me to say good-bye to those who are at my house.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 9,
+     "verse": 62,
+     "content": "But Jesus said to him, “No one, having put his hand to the plow and looking back, is fit for God’s Kingdom.”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.",
+   "story": "<p>When the holy and most pure child Mary (Mariam or Miriam in Hebrew) reached the age of three, her parents, the righteous Joachim and Anna, fulfilled the vow they had made to dedicate her to God. Going in procession with a company of maidens carrying torches, they presented their child at the Temple in Jerusalem, where Zecharias the High Priest took her under his care, blessing her with these words: “The Lord has glorified thy name in every generation; it is in thee that He will reveal the Redemption that he has prepared for his people in the last days.” He then brought the child into the Holy of Holies — something completely unheard-of, for under the Law only the High Priest was allowed to enter the Holy Place, and he only once a year on the Day of Atonement. (In the icon of the feast, the maidens who accompany the Theotokos are shown bare-headed, as was customary for unmarried girls; but the Theotokos herself, though only three years old, wears the head-covering of a married woman to show her consecration to God.) The holy Virgin lived in the Temple for the next nine years, devoting herself entirely to prayer. In this time she attained the utter purity of heart befitting the destined Bearer of the Most High; she became in her own person the fulfilment and condensation of all of Israel’s faithfulness. Saint Gregory Palamas says that, when the Theotokos entered the Holy of Holies, the time of preparation and testing of the Old Covenant came to an end for Israel, which was now ready, in the blessed Virgin, to bring forth the Savior. When Mary approached marriageable age, she was entrusted to the chaste widower Joseph to guard her. (The Prologue says that a life of intentional virginity was unknown among the Hebrews, so the righteous Joseph undertook the forms of marriage so as not to cause scandal among the people.) “Wherefore the Church rejoices and exhorts all the friends of God for their part to enter into the temple of their heart, there to make ready for the coming of the Lord by silence and prayer, withdrawing from the pleasures and cares of this world.” <i>(Synaxarion)</i></p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/21/?translation=lxx2012-web"
+}

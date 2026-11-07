@@ -4,6 +4,14 @@
   "file": null,
   "page": null
  },
+ "Apostles of the 70 Philemon, Archippus, Apphia, and Onesimus": {
+  "checked": "2026-11-07",
+  "file": "assets/icons/apostles-of-the-70-philemon-archippus-apphia-and-onesimus.jpg",
+  "page": "https://en.wikipedia.org/wiki/Philemon_(biblical_figure)",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Philemon_and_Apphia.jpg",
+  "is_icon": true
+ },
  "Hieromartyr Zenobius and His Sister Zenobia": {
   "checked": "2026-10-28",
   "file": null,
@@ -20,7 +28,7 @@
   "page": "https://en.wikipedia.org/wiki/Saint_Philip"
  },
  "Holy Apostle and Evangelist Matthew": {
-  "checked": "2026-11-04",
+  "checked": "2026-11-07",
   "file": null,
   "page": null
  },
@@ -54,7 +62,7 @@
   "is_icon": false
  },
  "Holy Martyr Barlaam of Antioch (304)": {
-  "checked": "2026-11-04",
+  "checked": "2026-11-07",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Barlaam"
  },
@@ -68,6 +76,14 @@
   "file": null,
   "page": null
  },
+ "Holy Martyrs Cecilia, Valerian, Tiburtius and Maximus, at Rome (3rd c.)": {
+  "checked": "2026-11-07",
+  "file": "assets/icons/holy-martyrs-cecilia-valerian-tiburtius-and-maximus-at-rome-3rd-c.jpg",
+  "page": "https://en.wikipedia.org/wiki/Cecilia_of_Rome",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Vouet,_Simon_-_Saint_Cecilia_-_c._1626.jpg",
+  "is_icon": true
+ },
  "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted": {
   "checked": "2026-11-06",
   "file": null,
@@ -77,6 +93,11 @@
   "checked": "2026-10-31",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Helen_of_Sinope"
+ },
+ "Holy Prince and Passion-Bearer Peter Yaropolk (1086)": {
+  "checked": "2026-11-07",
+  "file": null,
+  "page": null
  },
  "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)": {
   "checked": "2026-11-03",
@@ -335,6 +356,11 @@
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
+ "St Michael, Prince of Tver": {
+  "checked": "2026-11-07",
+  "file": null,
+  "page": null
+ },
  "St Nilus the Myrrh-Gusher of Mt Athos (1651)": {
   "checked": "2026-11-06",
   "file": null,
@@ -374,7 +400,7 @@
   "page": null
  },
  "Ven. Barlaam and Joasaph": {
-  "checked": "2026-11-04",
+  "checked": "2026-11-07",
   "file": null,
   "page": null
  },

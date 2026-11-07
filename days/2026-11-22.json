@@ -1,0 +1,253 @@
+{
+ "pascha_distance": 224,
+ "julian_day_number": 2461367,
+ "year": 2026,
+ "month": 11,
+ "day": 22,
+ "weekday": 0,
+ "tone": 8,
+ "titles": [
+  "25th Sunday after Pentecost"
+ ],
+ "summary_title": "25th Sunday after Pentecost",
+ "feast_level": 2,
+ "feast_level_description": "Black squigg (6-stich typikon symbol)",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Apostles of the 70 Philemon, Archippus, Apphia, and Onesimus",
+  "St Michael, Prince of Tver",
+  "Kallistos Xanthopoulos, Patriarch of Constantinople",
+  "Holy Martyrs Cecilia, Valerian, Tiburtius and Maximus, at Rome (3rd c.)",
+  "Holy Prince and Passion-Bearer Peter Yaropolk (1086)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  1,
+  2
+ ],
+ "readings": [
+  {
+   "source": "3rd Matins Gospel",
+   "book": "Mark",
+   "description": "",
+   "display": "Mark 16.9-20",
+   "short_display": "Mark 16.9-20",
+   "passage": [
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 9,
+     "content": "Now when he had risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 10,
+     "content": "She went and told those who had been with him, as they mourned and wept.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 11,
+     "content": "When they heard that he was alive and had been seen by her, they disbelieved.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 12,
+     "content": "After these things he was revealed in another form to two of them as they walked, on their way into the country.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 13,
+     "content": "They went away and told it to the rest. They didn’t believe them, either.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 14,
+     "content": "Afterward he was revealed to the eleven themselves as they sat at the table; and he rebuked them for their unbelief and hardness of heart, because they didn’t believe those who had seen him after he had risen.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 15,
+     "content": "He said to them, “Go into all the world and preach the Good News to the whole creation.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 16,
+     "content": "He who believes and is baptized will be saved; but he who disbelieves will be condemned.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 17,
+     "content": "These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages;",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 18,
+     "content": "they will take up serpents; and if they drink any deadly thing, it will in no way hurt them; they will lay hands on the sick, and they will recover.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 19,
+     "content": "So then the Lord, after he had spoken to them, was received up into heaven and sat down at the right hand of God.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MRK",
+     "chapter": 16,
+     "verse": 20,
+     "content": "They went out and preached everywhere, the Lord working with them and confirming the word by the signs that followed. Amen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Ephesians 4.1-6",
+   "short_display": "Eph 4.1-6",
+   "passage": [
+    {
+     "book": "EPH",
+     "chapter": 4,
+     "verse": 1,
+     "content": "I therefore, the prisoner in the Lord, beg you to walk worthily of the calling with which you were called,",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 4,
+     "verse": 2,
+     "content": "with all lowliness and humility, with patience, bearing with one another in love,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 4,
+     "verse": 3,
+     "content": "being eager to keep the unity of the Spirit in the bond of peace.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 4,
+     "verse": 4,
+     "content": "There is one body and one Spirit, even as you also were called in one hope of your calling,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 4,
+     "verse": 5,
+     "content": "one Lord, one faith, one baptism,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 4,
+     "verse": 6,
+     "content": "one God and Father of all, who is over all and through all and in us all.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 12.16-21",
+   "short_display": "Luke 12.16-21",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 16,
+     "content": "He spoke a parable to them, saying, “The ground of a certain rich man produced abundantly.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 17,
+     "content": "He reasoned within himself, saying, ‘What will I do, because I don’t have room to store my crops?’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 18,
+     "content": "He said, ‘This is what I will do. I will pull down my barns, build bigger ones, and there I will store all my grain and my goods.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 19,
+     "content": "I will tell my soul, “Soul, you have many goods laid up for many years. Take your ease, eat, drink, and be merry.”’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 20,
+     "content": "“But God said to him, ‘You foolish one, tonight your soul is required of you. The things which you have prepared—whose will they be?’",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 21,
+     "content": "So is he who lays up treasure for himself, and is not rich toward God.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Apostles of the 70 Philemon, Archippus, Apphia, and Onesimus",
+   "story": "<p>Philemon is addressed in the Epistle of the holy Apostle Paul that bears his name. He was a nobleman from Colossae; Apphia was his wife. Archippus was Bishop of Colossae. All three were disciples of the Apostle Paul. Onesimus was a pagan slave of Philemon, who stole from his master and fled to Rome. There St Paul led him to faith in Christ, and wrote the Epistle to Philemon, urging Onesimus’ master to forgive him and take him back as a brother in Christ. This Philemon did, and Onesimus later became a bishop. In Greece he is venerated as the patron Saint of the imprisoned. All of these holy followers of Christ died as martyrs, stoned to death by pagans.</p>"
+  },
+  {
+   "title": "St Michael, Prince of Tver",
+   "story": "<p>He was born in Tver in 1272 to Prince Yaroslav Yaroslavovich, who was the brother of St Alexander Nevsky (November 23). Michael was brought up in the faith by his mother, who later became a nun. Such was his fervor that from childhood he was certain that he must end his life either as a monk or a martyr. He succeeded his brother as Prince of Tver in 1285, and later became Grand Prince of Vladimir, the Russian capital during the Mongol conquest.</p>\n<p>When Prince Michael lost the throne of Vladimir through the plotting of his kinsman Prince George, his advisers urged him to go to war against George; but he preferred to lose power rather than to subject his people to bloodshed. When George attacked Tver itself, Michael took up arms to defend it, and was victorious. One of his prisoners was Princess Agatha, George’s wife and the sister of the Tatar Khan. When she died in captivity, the full wrath of both George and the Tatars was aroused against Michael. The Prince knew that the only way to avert catastrophe for his people was to go to the Golden Horde to be judged at the Khan’s court. Michael’s kinsmen and advisors knew that such a course would surely lead to his death, but none were able to dissuade him from going to save his people.</p>\n<p>Michael was kept prisoner with a wooden yoke around his neck, and subjected to many humiliations by the Tatars. But as he awaited his sentence he remained calm, spending his days in chanting the Church services and the Psalms. On the night of 21-22 November he had a revelation of his impending death. He attended the Liturgy, took Communion, and embraced his family. Then, opening the Psalter, he read the words <i>Cast thy burden on the Lord, and He will sustain thee: He will never permit the righteous to be moved</i> (Ps 54). He then calmly greeted his kinsman George and his minions, who pounced on the Prince and ran him through with swords. Prince Michael’s relics were returned to Moscow, then translated to Tver in 1320. When the city was besieged in 1549, St Michael appeared to the inhabitants in the form of a mounted knight, armed for battle.</p>"
+  },
+  {
+   "title": "Holy Martyrs Cecilia, Valerian, Tiburtius and Maximus, at Rome (3rd c.)",
+   "story": "<p>Saint Cecilia was born to a prominent pagan family in Rome. In her youth she secretly became a disciple of Christ. When her parents betrothed her to a young man named Valerian, she brought him to faith in Christ and persuaded him that they should live in virginity. Valerian was baptised by Pope Urban, and in his turn went on to bring his brother Tiburtius to the Faith. At the time, Christians in Rome were being violently persecuted, many to the point of martyrdom; Cecilia, her husband, and his brother made it their work to go out by night and secretly give pious burial to the martyrs and give charitable help to their families. Eventually, this was discovered, and the two brothers were in their own turn arrested and condemned as Christians. At the moment of their beheading, the Roman officer Maximus saw heaven open and angels come to receive their souls; he, along with several other onlookers, confessed Christ, and in his turn died under torture. Finally, Cecilia herself was arrested and, after faithfully enduring various tortures, was beheaded. Because St Cecilia is described in her first biography as a lover of music, she is honored as patroness of church music in the West, and is often shown playing the organ.</p>"
+  },
+  {
+   "title": "Holy Prince and Passion-Bearer Peter Yaropolk (1086)",
+   "story": "<p>“Saint Peter Yaropolk, the son of Grand Prince Iziaslav Yaroslavovich, took part in all his father’s campaigns as an obedient son, and went with him into exile. The meek and humble Prince had much to suffer from the members of his family, but he always forgave them. Every day he earnestly prayed to be counted worthy of holy death, like Saints Boris and Gleb (24 July), in order to be cleansed of his many sins by the shedding of his blood and to be freed from the vanity of this world. He was assasinated on 21 November 1086.” (<i>Synaxarion</i>)</p>\n<p><i>The term ‘Passion-bearer’ is used in the Russian Church for Saints who, though they were not killed for their faith and are thus not strictly Martyrs, suffered death with resignation and in the spirit of the Gospel. Saints Boris and Gleb are the first and model Passion-bearers.</i></p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/22/?translation=lxx2012-web"
+}

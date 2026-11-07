@@ -1,0 +1,33 @@
+{
+ "voice": "am_michael",
+ "speed": 0.9,
+ "music": "the-mountain-quiet-documentary.mp3",
+ "total": 56.625,
+ "screens": [
+  {
+   "text": "The reading from the Holy Gospel according to Saint Luke.",
+   "starts": 1.0,
+   "length": 5.93
+  },
+  {
+   "text": "He called the twelve together and gave them power and authority over all demons, and to cure diseases. He sent them out to preach God’s Kingdom and to heal the sick.",
+   "starts": 6.73,
+   "length": 13.095
+  },
+  {
+   "text": "He said to them, “Take nothing for your journey—no staffs, nor wallet, nor bread, nor money. Don’t have two tunics each. Into whatever house you enter, stay there, and depart from there.",
+   "starts": 19.825,
+   "length": 14.164
+  },
+  {
+   "text": "As many as don’t receive you, when you depart from that city, shake off even the dust from your feet for a testimony against them.” They departed and went throughout the villages, preaching the Good News and healing everywhere.",
+   "starts": 33.989,
+   "length": 16.68
+  },
+  {
+   "text": "Glory to Thee, O Lord, glory to Thee.",
+   "starts": 50.669,
+   "length": 6.755
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-07",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "The Gospel for Saturday, November 7 (New Calendar): Luke 9:1–6, read aloud.\n\n“He called the twelve together and gave them power and authority over all demons, and to cure diseases. He sent them out to preach God’s Kingdom and to heal the sick.”\n\n“Take nothing for your journey.” And so “they departed and went throughout the villages, preaching the Good News and healing everywhere.”\n\nToday we also remember the holy Martyr Hieron and the 33 Martyrs of Melitene, St Willibrord, first Bishop of Utrecht, and St Lazarus the Wonderworker.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #Scripture #DailyPrayer",
+   "duration": 56.625,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

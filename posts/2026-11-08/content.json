@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "story": {
+    "date_line": "Sunday · November 8",
+    "title": "Synaxis of the Holy Unmercenaries",
+    "subtitle": "The Lord's Day · Tone 6",
+    "week_line": "23rd Sunday after Pentecost",
+    "commemorating": "Archangel Michael and the Bodiless Powers",
+    "fasting": "No fast",
+    "readings": [
+      {"label": "Readings of the day", "refs": ["Ephesians 2:4–10", "Luke 8:41–56"]},
+      {"label": "For the Unmercenaries", "refs": ["1 Corinthians 12:27–13:8", "Matthew 10:1, 5–8"]}
+    ],
+    "accent": "ordinary"
+  },
+  "feed": {
+    "kind": "week_ahead",
+    "accent": "ordinary",
+    "range_line": "November 8 – 14",
+    "rows": [
+      {"day": "Sun 8", "title": "Synaxis of the Holy Unmercenaries", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Mon 9", "title": "St Nectarius of Pentapolis", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Tue 10", "title": "Apostles Erastus, Olympas and Companions", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Wed 11", "title": "Martyrs Menas, Victor and Vincent", "fast": "Fast day", "fast_kind": "fast"},
+      {"day": "Thu 12", "title": "St John the Merciful", "fast": "No fast", "fast_kind": "none"},
+      {"day": "Fri 13", "title": "St John Chrysostom, Archbishop of Constantinople", "fast": "Fish allowed", "fast_kind": "fish"},
+      {"day": "Sat 14", "title": "Holy Apostle Philip", "fast": "No fast", "fast_kind": "none"}
+    ],
+    "banner": "Friday: St John Chrysostom",
+    "end": {
+      "kicker": "Coming next",
+      "title": "Holy Apostle and Evangelist Matthew",
+      "date": "Monday, November 16",
+      "line": "The tax-collector who followed the Lord and wrote the first Gospel.",
+      "accent": "feast"
+    },
+    "caption": "The week ahead, November 8 – 14 (New Calendar): feasts, saints and fasting at a glance.\n\nWe begin with the 23rd Sunday after Pentecost and the Synaxis of the Holy Unmercenaries, together with the Synaxis of the Archangel Michael and all the Bodiless Powers.\n\nThrough the week we remember St Nectarius of Pentapolis, the Apostles of the Seventy Erastus, Olympas and their companions, the Martyrs Menas, Victor and Vincent, and St John the Merciful. Friday is the feast of St John Chrysostom, Archbishop of Constantinople, and Saturday the feast of the Holy Apostle Philip. Wednesday is a fast day; on Friday fish is allowed.\n\nThe Nativity Fast begins on Sunday, November 15, and the Holy Apostle and Evangelist Matthew is remembered on Monday, November 16.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts"
+  }
+}

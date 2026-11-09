@@ -12,6 +12,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Philemon_and_Apphia.jpg",
   "is_icon": true
  },
+ "Great Martyr Mercurius (ca. 259)": {
+  "checked": "2026-11-09",
+  "file": "assets/icons/great-martyr-mercurius-ca-259.jpg",
+  "page": "https://en.wikipedia.org/wiki/Saint_Mercurius",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas_(nave,_west_arch)_-_Mercurios.jpg",
+  "is_icon": true
+ },
  "Hieromartyr Zenobius and His Sister Zenobia": {
   "checked": "2026-10-28",
   "file": null,
@@ -71,8 +79,13 @@
   "file": null,
   "page": null
  },
+ "Holy Martyr Mercurius of Smolensk (1238)": {
+  "checked": "2026-11-09",
+  "file": null,
+  "page": null
+ },
  "Holy Martyr Romanus and the holy child who declared for Christ (305)": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": null
  },
@@ -85,7 +98,7 @@
   "is_icon": true
  },
  "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": null
  },
@@ -177,12 +190,12 @@
   "page": null
  },
  "Our Father among the Saints Martin, Bishop of Tours (397)": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": null
  },
  "Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": null
  },
@@ -313,7 +326,7 @@
   "is_icon": true
  },
  "Saint Symeon Metaphrastes (960)": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": null
  },
@@ -377,7 +390,7 @@
   "page": null
  },
  "St Nilus the Myrrh-Gusher of Mt Athos (1651)": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Nilus_the_Myrrh-streamer"
  },
@@ -405,7 +418,7 @@
   "page": null
  },
  "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "file": null,
   "page": null
  },

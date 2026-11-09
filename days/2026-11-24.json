@@ -1,0 +1,200 @@
+{
+ "pascha_distance": 226,
+ "julian_day_number": 2461369,
+ "year": 2026,
+ "month": 11,
+ "day": 24,
+ "weekday": 2,
+ "tone": 8,
+ "titles": [
+  "Tuesday of the 26th week after Pentecost"
+ ],
+ "summary_title": "Greatmartyr Catherine of Alexandria; Holy Martyr Mercurius of Smolensk (1238); Great Martyr Mercurius (ca. 259)",
+ "feast_level": 2,
+ "feast_level_description": "Black squigg (6-stich typikon symbol)",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 1,
+ "fast_exception_desc": "Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Greatmartyr Catherine of Alexandria",
+  "Holy Martyr Mercurius of Smolensk (1238)",
+  "Great Martyr Mercurius (ca. 259)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Timothy 1.8-14",
+   "short_display": "1 Tim 1.8-14",
+   "passage": [
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 8,
+     "content": "But we know that the law is good if a person uses it lawfully,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 9,
+     "content": "as knowing this, that law is not made for a righteous person, but for the lawless and insubordinate, for the ungodly and sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 10,
+     "content": "for the sexually immoral, for homosexuals, for slave-traders, for liars, for perjurers, and for any other thing contrary to the sound doctrine,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 11,
+     "content": "according to the Good News of the glory of the blessed God, which was committed to my trust.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 12,
+     "content": "I thank him who enabled me, Christ Jesus our Lord, because he counted me faithful, appointing me to service,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 13,
+     "content": "although I used to be a blasphemer, a persecutor, and insolent. However, I obtained mercy because I did it ignorantly in unbelief.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 14,
+     "content": "The grace of our Lord abounded exceedingly with faith and love which is in Christ Jesus.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 17.26-37",
+   "short_display": "Luke 17.26-37",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 26,
+     "content": "As it was in the days of Noah, even so it will also be in the days of the Son of Man.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 27,
+     "content": "They ate, they drank, they married, and they were given in marriage until the day that Noah entered into the ship, and the flood came and destroyed them all.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 28,
+     "content": "Likewise, even as it was in the days of Lot: they ate, they drank, they bought, they sold, they planted, they built;",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 29,
+     "content": "but in the day that Lot went out from Sodom, it rained fire and sulfur from the sky and destroyed them all.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 30,
+     "content": "It will be the same way in the day that the Son of Man is revealed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 31,
+     "content": "In that day, he who will be on the housetop and his goods in the house, let him not go down to take them away. Let him who is in the field likewise not turn back.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 32,
+     "content": "Remember Lot’s wife!",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 33,
+     "content": "Whoever seeks to save his life loses it, but whoever loses his life preserves it.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 34,
+     "content": "I tell you, in that night there will be two people in one bed. One will be taken and the other will be left.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 35,
+     "content": "There will be two grinding grain together. One will be taken and the other will be left.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 36,
+     "content": "",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 17,
+     "verse": 37,
+     "content": "They, answering, asked him, “Where, Lord?” He said to them, “Where the body is, there the vultures will also be gathered together.”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Holy Martyr Mercurius of Smolensk (1238)",
+   "story": "<p>He was a soldier from Byzantium, one of the defenders of Smolensk when it was besieged by the Tatars in 1238. One day the Mother of God appeared to Mercurius and told him that the Tatars were preparing a surprise attack — and, further, that he must take up arms and attack the enemy singlehandedly. Placing all his trust in God, the lone soldier threw himself against the Tatar host crying ‘Most Holy Mother of God, help me!’ He was quickly surrounded and cut down, and it appeared that his action had been as foolhardy as it had seemed, when a woman at the head of a glorious host, all of them surrounded by light, appeared and threw back the Tatar army. The next morning the people of Smolensk found the ground covered with the bodies of their enemies. They buried Mercurius in the Cathedral, where he has been venerated as a Martyr ever since.</p>"
+  },
+  {
+   "title": "Great Martyr Mercurius (ca. 259)",
+   "story": "<p>He was born in the province of Asia, to a Scythian who had secretly converted to Christianity. Like his parents, he was a secret follower of Christ, serving as a legionary in the Roman army during the reign of the Emperor Decius. During a campaign, an Angel appeared to him, gave him a sword and told him to go into battle trusting in Christ’s help. Mercurius plunged into battle, fought his way alone through the enemy lines, and reached the barbarian commander Rigas, whom he killed. Upon the death of their chief the barbarians scattered and the victory was won.</p>\n<p>The Emperor, hearing of the young soldier’s exploits, promoted him to a position at court. There, lulled by the pleasures and honors of the court, Mercurius forgot his duties to Christ his King. One night the same Angel who had given him the sword appeared to him once again and reminded him of the sword that Christ had given him, an emblem of the battle of martyrdom that he was about to enter. The next day Mercurius, now returned to his senses, refused to offer sacrifice to the gods. When called before the Emperor, he boldly proclaimed Christ and threw off his badges of office. He was thrown in prison and subjected to cruel tortures, all of which he bore with peace and joy, encouraged by the Angel who appeared to him again to offer comfort and encouragement. After long torment he was beheaded in Caesarea in Cappadocia, at the age of twenty-five.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/24/?translation=lxx2012-web"
+}

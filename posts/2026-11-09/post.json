@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-09",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (November 9, New Calendar) the Church remembers St Nectarius, Metropolitan of Pentapolis and Wonderworker of Aegina.\n\nBorn in Selyvria of Thrace in 1846, he became a monk on Chios and was ordained priest in Alexandria. In 1889 he was consecrated Metropolitan of Pentapolis, but envious men slandered him to the Patriarch, and he was commanded to leave Egypt.\n\nWithout seeking to avenge or even defend himself, he went to Athens, preached in Euboia, and became dean of the Rizarios Ecclesiastical School, a spiritual guide to many through his meekness and fatherly love.\n\nOn Aegina he founded the convent of the Holy Trinity, where he spent his last years in intense prayer, healing the sick and forgiving his false accusers. Since his repose in 1920, countless miracles have been wrought through his prayers.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay"
+  }
+ ]
+}

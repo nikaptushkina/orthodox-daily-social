@@ -1,0 +1,305 @@
+{
+ "pascha_distance": 227,
+ "julian_day_number": 2461370,
+ "year": 2026,
+ "month": 11,
+ "day": 25,
+ "weekday": 3,
+ "tone": 8,
+ "titles": [
+  "Wednesday of the 26th week after Pentecost"
+ ],
+ "summary_title": "Leavetaking of the Entry",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": [
+  "Leavetaking of the Entry"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 1,
+ "fast_exception_desc": "Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs"
+ ],
+ "saints": null,
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  2
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Timothy 1.18-20, 2.8-15",
+   "short_display": "1 Tim 1.18-20, 2.8-15",
+   "passage": [
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 18,
+     "content": "I commit this instruction to you, my child Timothy, according to the prophecies which were given to you before, that by them you may wage the good warfare,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 19,
+     "content": "holding faith and a good conscience, which some having thrust away made a shipwreck concerning the faith,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 1,
+     "verse": 20,
+     "content": "of whom are Hymenaeus and Alexander, whom I delivered to Satan that they might be taught not to blaspheme.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 8,
+     "content": "I desire therefore that the men in every place pray, lifting up holy hands without anger and doubting.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 9,
+     "content": "In the same way, that women also adorn themselves in decent clothing, with modesty and propriety, not with braided hair, gold, pearls, or expensive clothing,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 10,
+     "content": "but with good works, which is appropriate for women professing godliness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 11,
+     "content": "Let a woman learn in quietness with full submission.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 12,
+     "content": "But I don’t permit a woman to teach, nor to exercise authority over a man, but to be in quietness.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 13,
+     "content": "For Adam was formed first, then Eve.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 14,
+     "content": "Adam wasn’t deceived, but the woman, being deceived, has fallen into disobedience;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 2,
+     "verse": 15,
+     "content": "but she will be saved through her childbearing, if they continue in faith, love, and holiness with sobriety.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "Theotokos",
+   "display": "Hebrews 9.1-7",
+   "short_display": "Heb 9.1-7",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 1,
+     "content": "Now indeed even the first covenant had ordinances of divine service and an earthly sanctuary.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 2,
+     "content": "For a tabernacle was prepared. In the first part were the lamp stand, the table, and the show bread, which is called the Holy Place.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 3,
+     "content": "After the second veil was the tabernacle which is called the Holy of Holies,",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 4,
+     "content": "having a golden altar of incense and the ark of the covenant overlaid on all sides with gold, in which was a golden pot holding the manna, Aaron’s rod that budded, and the tablets of the covenant;",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 5,
+     "content": "and above it cherubim of glory overshadowing the mercy seat, of which things we can’t speak now in detail.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 6,
+     "content": "Now these things having been thus prepared, the priests go in continually into the first tabernacle, accomplishing the services,",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 9,
+     "verse": 7,
+     "content": "but into the second the high priest alone, once in the year, not without blood, which he offers for himself and for the errors of the people.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 18.15-17, 26-30",
+   "short_display": "Luke 18.15-17, 26-30",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 15,
+     "content": "They were also bringing their babies to him, that he might touch them. But when the disciples saw it, they rebuked them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 16,
+     "content": "Jesus summoned them, saying, “Allow the little children to come to me, and don’t hinder them, for God’s Kingdom belongs to such as these.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 17,
+     "content": "Most certainly, I tell you, whoever doesn’t receive God’s Kingdom like a little child, he will in no way enter into it.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 26,
+     "content": "Those who heard it said, “Then who can be saved?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 27,
+     "content": "But he said, “The things which are impossible with men are possible with God.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 28,
+     "content": "Peter said, “Look, we have left everything and followed you.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 29,
+     "content": "He said to them, “Most certainly I tell you, there is no one who has left house, or wife, or brothers, or parents, or children, for God’s Kingdom’s sake,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 30,
+     "content": "who will not receive many times more in this time, and in the world to come, eternal life.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "Theotokos",
+   "display": "Luke 10.38-42, 11.27-28",
+   "short_display": "Luke 10.38-42, 11.27-28",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 38,
+     "content": "As they went on their way, he entered into a certain village, and a certain woman named Martha received him into her house.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 39,
+     "content": "She had a sister called Mary, who also sat at Jesus’ feet and heard his word.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 40,
+     "content": "But Martha was distracted with much serving, and she came up to him, and said, “Lord, don’t you care that my sister left me to serve alone? Ask her therefore to help me.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 41,
+     "content": "Jesus answered her, “Martha, Martha, you are anxious and troubled about many things,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 10,
+     "verse": 42,
+     "content": "but one thing is needed. Mary has chosen the good part, which will not be taken away from her.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 27,
+     "content": "It came to pass, as he said these things, a certain woman out of the multitude lifted up her voice and said to him, “Blessed is the womb that bore you, and the breasts which nursed you!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 11,
+     "verse": 28,
+     "content": "But he said, “On the contrary, blessed are those who hear the word of God, and keep it.”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/25/?translation=lxx2012-web"
+}

@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-10",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today’s Gospel (Tuesday, November 10, New Calendar): Luke 12:42–48, on the faithful and wise steward.\n\n“Who then is the faithful and wise steward, whom his lord will set over his household, to give them their portion of food at the right times? Blessed is that servant whom his lord will find doing so when he comes.”\n\nThe Lord warns against the servant who says in his heart, “My lord delays his coming,” and He ends with words for each of us: “To whomever much is given, of him will much be required; and to whom much was entrusted, of him more will be asked.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #DailyPrayer #Scripture"
+  }
+ ]
+}

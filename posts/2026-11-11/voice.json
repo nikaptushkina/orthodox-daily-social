@@ -2,7 +2,7 @@
  "voice": "am_michael",
  "speed": 0.9,
  "music": "the-mountain-quiet-documentary.mp3",
- "total": 74.443,
+ "total": 73.231,
  "screens": [
   {
    "text": "Psalm 3.",
@@ -10,29 +10,29 @@
    "length": 4.0
   },
   {
-   "text": "A Psalm of David, when he fled from the presence of his son Abessalom. O Lord, why are they that afflict me multiplied? many rise up against me. Many say concerning my soul, There is no deliverance for him in his God. Pause.",
+   "text": "A Psalm of David, when he fled from the presence of his son Abessalom. O Lord, why are they that afflict me multiplied? many rise up against me. Many say concerning my soul, There is no deliverance for him in his God.",
    "starts": 4.8,
-   "length": 18.486
+   "length": 17.738
   },
   {
-   "text": "But you, O Lord, are my helper: my glory, and the one that lifts up my head. I cried to the Lord with my voice, and he heard me out of his holy mountain. Pause. I lay down and slept; I awaked; for the Lord will help me.",
-   "starts": 23.286,
-   "length": 17.43
+   "text": "But you, O Lord, are my helper: my glory, and the one that lifts up my head. I cried to the Lord with my voice, and he heard me out of his holy mountain. I lay down and slept; I awaked; for the Lord will help me.",
+   "starts": 22.538,
+   "length": 16.929
   },
   {
    "text": "I will not be afraid of ten thousands of people, who beset me round about. Arise, Lord; deliver me, my God: for you have struck all who were without cause my enemies; you have broken the teeth of sinners.",
-   "starts": 40.716,
+   "starts": 39.467,
    "length": 16.195
   },
   {
    "text": "Deliverance is the Lord's, and your blessing is upon your people.",
-   "starts": 56.911,
-   "length": 6.396
+   "starts": 55.662,
+   "length": 6.434
   },
   {
    "text": "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
-   "starts": 63.306,
-   "length": 11.936
+   "starts": 62.096,
+   "length": 11.934
   }
  ]
 }

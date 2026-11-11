@@ -56,8 +56,14 @@ def psalm_verses(name, first=None, last=None):
     for k, t in psalms[name].items():
         n = int(k)
         if (first is None or n >= first) and (last is None or n <= last):
-            out.append({"n": n, "t": clean(t)})
+            out.append({"n": n, "t": strip_pause(clean(t))})
     return out
+
+
+def strip_pause(text):
+    """Drop the Septuagint's "Pause." (diapsalma, "Selah"): a musical rubric, not words to read or show."""
+    text = re.sub(r"\s*\bPause[.:]?(?=\s|$)", "", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def chunk(verses, budget):

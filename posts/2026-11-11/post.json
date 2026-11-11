@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-11",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "A psalm to pray this Wednesday (November 11, New Calendar): Psalm 3, read in full.\n\n“O Lord, why are they that afflict me multiplied? many rise up against me.” Surrounded by those who say there is no deliverance for him, David turns to God: “But you, O Lord, are my helper: my glory, and the one that lifts up my head.”\n\n“I lay down and slept; I awaked; for the Lord will help me.” And the psalm closes: “Deliverance is the Lord's, and your blessing is upon your people.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Psalms #DailyPrayer #Scripture",
+   "duration": 73.231,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

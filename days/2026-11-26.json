@@ -1,0 +1,196 @@
+{
+ "pascha_distance": 228,
+ "julian_day_number": 2461371,
+ "year": 2026,
+ "month": 11,
+ "day": 26,
+ "weekday": 4,
+ "tone": 8,
+ "titles": [
+  "Thursday of the 26th week after Pentecost"
+ ],
+ "summary_title": "Ven. Alypius the Stylite; Our Holy Father Innocent, Bishop of Irkutsk (1731); St Nikon Metanoite (\"Repent!\") (ca. 1000)",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 1,
+ "fast_exception_desc": "Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Ven. Alypius the Stylite",
+  "Stylianos the Monk of Paphlagonia",
+  "Our Holy Father Innocent, Bishop of Irkutsk (1731)",
+  "St Nikon Metanoite (\"Repent!\") (ca. 1000)",
+  "Holy New Martyr George of Chios (1897)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Timothy 3.1-13",
+   "short_display": "1 Tim 3.1-13",
+   "passage": [
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 1,
+     "content": "This is a faithful saying: someone who seeks to be an overseer desires a good work.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 2,
+     "content": "The overseer therefore must be without reproach, the husband of one wife, temperate, sensible, modest, hospitable, good at teaching;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 3,
+     "content": "not a drinker, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 4,
+     "content": "one who rules his own house well, having children in subjection with all reverence;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 5,
+     "content": "(for how could someone who doesn’t know how to rule his own house take care of God’s assembly?)",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 6,
+     "content": "not a new convert, lest being puffed up he fall into the same condemnation as the devil.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 7,
+     "content": "Moreover he must have good testimony from those who are outside, to avoid falling into reproach and the snare of the devil.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 8,
+     "content": "Servants, in the same way, must be reverent, not double-tongued, not addicted to much wine, not greedy for money,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 9,
+     "content": "holding the mystery of the faith in a pure conscience.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 10,
+     "content": "Let them also first be tested; then let them serve if they are blameless.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 11,
+     "content": "Their wives in the same way must be reverent, not slanderers, temperate, and faithful in all things.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 12,
+     "content": "Let servants be husbands of one wife, ruling their children and their own houses well.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 3,
+     "verse": 13,
+     "content": "For those who have served well gain for themselves a good standing and great boldness in the faith which is in Christ Jesus.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 18.31-34",
+   "short_display": "Luke 18.31-34",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 31,
+     "content": "He took the twelve aside and said to them, “Behold, we are going up to Jerusalem, and all the things that are written through the prophets concerning the Son of Man will be completed.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 32,
+     "content": "For he will be delivered up to the Gentiles, will be mocked, treated shamefully, and spit on.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 33,
+     "content": "They will scourge and kill him. On the third day, he will rise again.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 18,
+     "verse": 34,
+     "content": "They understood none of these things. This saying was hidden from them, and they didn’t understand the things that were said.",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Ven. Alypius the Stylite",
+   "story": "<p>He was from Adrianopolis in Bythinia, and took up the ascetical life at a young age. After many spiritual struggles he took up residence on a pillar, where he dwelt for fifty-three years. Crowds came to seek his intercession and counsel, and in time a women’s monastery was founded near the pillar. At times an unearthly light was seen to radiate from the top of the pillar, accompanied by thunder and lightning. He owned nothing, and once threw his only tunic down to a poor man in need, leaving himself completely exposed to the elements until a recluse dwelling nearby saw his condition and came to his help. After fifty-three years, Alypius suffered a stroke which paralyzed half his body, but he continued to live on the pillar for another fourteen years, giving up his soul to God at the age of ninety-nine.</p>"
+  },
+  {
+   "title": "Our Holy Father Innocent, Bishop of Irkutsk (1731)",
+   "story": "<p>He was descended from a noble family near Chernigov. He became a monk at the Lavra of the Kiev Caves in 1706 and in 1721 was consecrated bishop. He was sent as a missionary to China but, due to political complications, could not gain entry into the country and settled temporarily near Lake Baikal in Siberia. He and his companions soon ran out of money and were forced to live for a time on alms and by day- labor. Rather than become discouraged, Saint Innocent made use of this time to learn the native language and found a school for the local Mongol people, many of whom he brought to the faith. In 1722 he was appointed Bishop of Irkutsk, a diocese that covered all the huge area of eastern Siberia. At the time of his appointment there were only about thirty churches in the whole diocese. For ten years the bishop devoted himself to converting the Mongol peoples, preaching to them and catechizing them in their own language. At the same time he worked for moral reform among the Russian Orthodox people of the region. As bishop, he lived in the Monastery of the Ascension in Irkutsk, where he established a firm ascetical life, in which he himself took a full part. He spent every night in prayer, meditation on the writings of the Fathers, and preparing sermons in both Russian and the local languages. Under the strain of the cruel Siberian climate the Saint fell ill and reposed in 1731. Many miracles take place to this day at his tomb. Among the people of Siberia he is honored as highly as Saint Nicholas and counted as the Enlightener of their land.</p>"
+  },
+  {
+   "title": "St Nikon Metanoite (\"Repent!\") (ca. 1000)",
+   "story": "<p>He was born about 930 to a pious and wealthy family near Trebizond. Once, making an inspection of the family’s estates, he was so affected by the wretched conditions of the poor fieldworkers that he despaired of happiness in this world and determined to live a monastic life. After years spent in a monastery, where he shone in obedience, prayer and self-denial, the Saint was given leave to travel in the ministry of the Gospel of Christ. For three years he wandered the East, without home or possessions, crying to everyone he met, “Repent!” and proclaiming with tears the message of salvation in Christ. He then spent seven years in Crete, then went to Greece, walking barefoot from place to place, preaching repentance and becoming so well known that he acquired the nickname “Metanoite,” meaning “Repent!” After driving a great plague from Sparta through his prayers, he settled near that city, building a great church dedicated to Christ the Savior, and living in the church for the remainder of his life. In time, a monastery was attached to the church for his disciples. His last counsel to his disciples was: “Flee pride, cleave to humility; do not despise the poor; keep clear of all evil, of all envy and of the remembrance of wrongs; forgive your brethren. Go regularly to church and confess your sins often to the priests and spiritual fathers. If you keep to these counsels, I will never abandon you.” He then gave his soul back to God. Saint Nikon was immediately venerated as a saint by the people of Sparta, and is regarded as the protector of the city, where his relics are venerated to this day.</p>"
+  },
+  {
+   "title": "Holy New Martyr George of Chios (1897)",
+   "story": "<p>He was born of Christian parents on Chios. As a boy he was caught stealing melons from a garden with some companions. Brought before the Turkish judge, in fear of punishment he agreed to become a Muslim with the name Ahmed. (This was common practice under the Turkokratia: a Christian brought before the courts would be offered his freedom in return for conversion to Islam. Many gave in.) He returned home, weeping and lamenting his apostasy, and his parents put him (now aged ten) in the care of a good Christian woman to strengthen him in the faith and hide him from the Turkish authorities. At the age of twenty-one he was engaged to a young woman of the town, but quarreled with her brother who, knowing George’s past, went to the authorities and denounced him as an apostate from Islam. George was imprisoned and tortured, but rather than breaking him down his torments strengthened his love of Christ, and he resolved to offer up his life for Him. The priests and faithful of the town held all-night vigil, praying God to give courage to His New Martyr. At daybreak, George was led to the place of execution, saying over and over again the names of the Lord Jesus and his blessed Mother. He was shot, then beheaded, joining the ranks of the holy Martyrs.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/26/?translation=lxx2012-web"
+}

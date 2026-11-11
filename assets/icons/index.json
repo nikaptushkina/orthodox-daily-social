@@ -31,7 +31,7 @@
   "page": "https://en.wikipedia.org/wiki/Cleopas"
  },
  "Holy Apostle Philip": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Saint_Philip"
  },
@@ -102,6 +102,11 @@
   "file": null,
   "page": null
  },
+ "Holy New Martyr George of Chios (1897)": {
+  "checked": "2026-11-11",
+  "file": null,
+  "page": null
+ },
  "Holy New Martyr Helen of Sinope (18th c.)": {
   "checked": "2026-10-31",
   "file": null,
@@ -159,7 +164,7 @@
   "page": null
  },
  "Martyrs Menas, Victor and Vincent": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -185,7 +190,7 @@
   "page": null
  },
  "Our Father among the Saints John Chrysostom, Archbishop of Constantinople (407)": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -205,7 +210,7 @@
   "page": null
  },
  "Our Holy Father Amphilocus, Bishop of Iconium (395)": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -218,6 +223,14 @@
   "checked": "2026-11-03",
   "file": null,
   "page": null
+ },
+ "Our Holy Father Innocent, Bishop of Irkutsk (1731)": {
+  "checked": "2026-11-11",
+  "file": "assets/icons/our-holy-father-innocent-bishop-of-irkutsk-1731.jpg",
+  "page": "https://en.wikipedia.org/wiki/Innocent_of_Irkutsk",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Innocent_of_Irkutsk.jpg",
+  "is_icon": true
  },
  "Our Holy Father Longinus (4th or 5th c.)": {
   "checked": "2026-11-02",
@@ -305,7 +318,7 @@
   "is_icon": false
  },
  "Pious Emperor Justinian and His Wife Theodora (565)": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -339,12 +352,12 @@
   "is_icon": false
  },
  "St Alexander Nevsky (1263)": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
  "St Columban, Abbot of Luxeuil (615)": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -362,7 +375,7 @@
   "is_icon": true
  },
  "St Gregory the Wonderworker": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -386,6 +399,11 @@
  },
  "St Michael, Prince of Tver": {
   "checked": "2026-11-10",
+  "file": null,
+  "page": null
+ },
+ "St Nikon Metanoite (\"Repent!\") (ca. 1000)": {
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },
@@ -427,13 +445,21 @@
   "file": null,
   "page": null
  },
+ "Ven. Alypius the Stylite": {
+  "checked": "2026-11-11",
+  "file": "assets/icons/ven-alypius-the-stylite.gif",
+  "page": "https://en.wikipedia.org/wiki/Alypius_the_Stylite",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Saint_Alypius_stylite.gif",
+  "is_icon": true
+ },
  "Ven. Barlaam and Joasaph": {
   "checked": "2026-11-10",
   "file": null,
   "page": null
  },
  "Ven. Gregory Decapolites": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "file": null,
   "page": null
  },

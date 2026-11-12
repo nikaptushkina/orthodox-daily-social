@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-12",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (November 12, New Calendar) the Church remembers St John the Merciful, Patriarch of Alexandria.\n\nHe was born to a noble family in Cyprus. When his wife and children all died at nearly the same time, he took his loss as a call to forsake worldly cares and gave his life entirely to God. In time he became Archbishop of Alexandria.\n\nOn the day he became Patriarch, he had a census made of his “masters,” as he called the poor. There were 7,500 in the city, and he ordered that all of them be clothed and fed every day. When a beggar came to him four times in four disguises, he ordered him given twice as much: “Perhaps he is Jesus my Savior, who has come on purpose to put me to the test.”\n\nHe owned no property and lived in a humble cell. At his own request he returned to Cyprus, where he died in 619, giving thanks that nothing remained of the riches given him for the sake of the poor.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay"
+  }
+ ]
+}

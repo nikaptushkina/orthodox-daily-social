@@ -136,8 +136,9 @@ def footer(site, right_html="", border="rgba(15,23,42,0.12)", logo=True, color=B
 
 
 def counter_header(text, counter):
-    return (f"<div style='display:flex;justify-content:space-between;align-items:center;flex-shrink:0'>"
-            f"{label(text)}<div class='sans' style='font-size:24px;color:{MUTED}'>{esc(counter)}</div></div>")
+    return (f"<div style='display:flex;justify-content:space-between;align-items:center;gap:32px;flex-shrink:0'>"
+            f"{label(text)}<div class='sans' style='font-size:24px;color:{MUTED};white-space:nowrap;flex-shrink:0'>"
+            f"{esc(counter)}</div></div>")
 
 
 def verse_html(verses, num_size="0.48em", num_color="#B7832F"):

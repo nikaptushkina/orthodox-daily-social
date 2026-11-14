@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-14",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "Vespers for Saturday, November 14 (New Calendar): the first reading, 1 Peter 1:1–2:6, read aloud.\n\n“Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead.”\n\n“You shall be holy, for I am holy.” For, “All flesh is like grass, and all of man’s glory like the flower in the grass. The grass withers, and its flower falls; but the Lord’s word endures forever.”\n\nToday is the feast of the holy Apostle Philip, and we also remember St Gregory Palamas and the pious Emperor Justinian and his wife Theodora. The Nativity Fast begins tomorrow.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Scripture #DailyPrayer",
+   "duration": 313.908,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

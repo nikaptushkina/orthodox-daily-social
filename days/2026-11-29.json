@@ -1,0 +1,299 @@
+{
+ "pascha_distance": 231,
+ "julian_day_number": 2461374,
+ "year": 2026,
+ "month": 11,
+ "day": 29,
+ "weekday": 0,
+ "tone": 1,
+ "titles": [
+  "26th Sunday after Pentecost"
+ ],
+ "summary_title": "26th Sunday after Pentecost",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Martyr Paramon and Companions",
+  "Phaedrus the Martyr",
+  "Our Holy Father Pitirim of Egypt (4th c.)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  1,
+  2
+ ],
+ "readings": [
+  {
+   "source": "4th Matins Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 24.1-12",
+   "short_display": "Luke 24.1-12",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 1,
+     "content": "But on the first day of the week, at early dawn, they and some others came to the tomb, bringing the spices which they had prepared.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 2,
+     "content": "They found the stone rolled away from the tomb.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 3,
+     "content": "They entered in, and didn’t find the Lord Jesus’ body.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 4,
+     "content": "While they were greatly perplexed about this, behold, two men stood by them in dazzling clothing.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 5,
+     "content": "Becoming terrified, they bowed their faces down to the earth. The men said to them, “Why do you seek the living among the dead?",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 6,
+     "content": "He isn’t here, but is risen. Remember what he told you when he was still in Galilee,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 7,
+     "content": "saying that the Son of Man must be delivered up into the hands of sinful men and be crucified, and the third day rise again?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 8,
+     "content": "They remembered his words,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 9,
+     "content": "returned from the tomb, and told all these things to the eleven and to all the rest.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 10,
+     "content": "Now they were Mary Magdalene, Joanna, and Mary the mother of James. The other women with them told these things to the apostles.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 11,
+     "content": "These words seemed to them to be nonsense, and they didn’t believe them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 24,
+     "verse": 12,
+     "content": "But Peter got up and ran to the tomb. Stooping and looking in, he saw the strips of linen lying by themselves, and he departed to his home, wondering what had happened.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Ephesians 5.8-19",
+   "short_display": "Eph 5.8-19",
+   "passage": [
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 8,
+     "content": "For you were once darkness, but are now light in the Lord. Walk as children of light,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 9,
+     "content": "for the fruit of the Spirit is in all goodness and righteousness and truth,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 10,
+     "content": "proving what is well pleasing to the Lord.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 11,
+     "content": "Have no fellowship with the unfruitful deeds of darkness, but rather even reprove them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 12,
+     "content": "For it is a shame even to speak of the things which are done by them in secret.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 13,
+     "content": "But all things, when they are reproved, are revealed by the light, for everything that reveals is light.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 14,
+     "content": "Therefore he says, “Awake, you who sleep, and arise from the dead, and Christ will shine on you.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 15,
+     "content": "Therefore watch carefully how you walk, not as unwise, but as wise,",
+     "paragraph_start": true
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 16,
+     "content": "redeeming the time, because the days are evil.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 17,
+     "content": "Therefore, don’t be foolish, but understand what the will of the Lord is.",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 18,
+     "content": "Don’t be drunken with wine, in which is dissipation, but be filled with the Spirit,",
+     "paragraph_start": false
+    },
+    {
+     "book": "EPH",
+     "chapter": 5,
+     "verse": 19,
+     "content": "speaking to one another in psalms, hymns, and spiritual songs; singing and making melody in your heart to the Lord;",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 13.10-17",
+   "short_display": "Luke 13.10-17",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 10,
+     "content": "He was teaching in one of the synagogues on the Sabbath day.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 11,
+     "content": "Behold, there was a woman who had a spirit of infirmity eighteen years. She was bent over and could in no way straighten herself up.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 12,
+     "content": "When Jesus saw her, he called her and said to her, “Woman, you are freed from your infirmity.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 13,
+     "content": "He laid his hands on her, and immediately she stood up straight and glorified God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 14,
+     "content": "The ruler of the synagogue, being indignant because Jesus had healed on the Sabbath, said to the multitude, “There are six days in which men ought to work. Therefore come on those days and be healed, and not on the Sabbath day!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 15,
+     "content": "Therefore the Lord answered him, “You hypocrites! Doesn’t each one of you free his ox or his donkey from the stall on the Sabbath and lead him away to water?",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 16,
+     "content": "Ought not this woman, being a daughter of Abraham whom Satan had bound eighteen long years, be freed from this bondage on the Sabbath day?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 13,
+     "verse": 17,
+     "content": "As he said these things, all his adversaries were disappointed; and all the multitude rejoiced for all the glorious things that were done by him.",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyr Paramon and Companions",
+   "story": "<p>“Akylinus, the Governor of Bithynia in the reign of the Emperor Decius (249-51), was leaving for the hot springs at Bisaltia, when he decided to make 370 Christians from Nicomedia, who had been imprisoned on his orders, worship in the temple of Isis. On their refusal to do so, they were all beheaded. Seeing this massacre, the righteous Paramon cried out: ‘What a wicked deed to slaughter so many righteous men, and strangers moreover, as if they were animals.’ The Governor heard these words and had Paramon seized and taken with him under guard. On the road he was mistreated in various ways by the soldiers. Some of them struck him with their spears, others excised his tongue and other members, and he was finally put to death in the presence of the Governor.” <i>(Synaxarion)</i> Note: of the various persecutions launched by the pagan Emperors before St Constantine, the persecution under Decius was probably the fiercest and bloodiest.</p>"
+  },
+  {
+   "title": "Our Holy Father Pitirim of Egypt (4th c.)",
+   "story": "<p>“Abba Pitirim directed a group of ascetics who led a very austere life in the arid mountains of the Thebaid. He was himself a disciple and third successor of Saint Anthony the Great (17 Jan.) in his hermitage. He ate no more than a little flour mixed with water twice a week, and so persevered in spiritual labours that he gained abundant graces from the Holy Spirit. Among other things, he taught that to each passion there corresponds a demon who tries to stir up that passion within us through different temptations. In order to get rid of these demons and of evil thoughts, Abba Pitirim said that we must first free our hearts from passions.” (<i>Synaxarion</i>)</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/29/?translation=lxx2012-web"
+}

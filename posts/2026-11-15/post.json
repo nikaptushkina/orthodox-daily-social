@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-15",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg"
+   ],
+   "caption": "The week ahead, November 15 – 21 (New Calendar): feasts, saints and fasting at a glance.\n\nThe Nativity Fast begins today, on the 24th Sunday after Pentecost. We also remember the Martyrs Guria, Shamuna and Habib of Edessa and St Paisius Velichkovsky.\n\nOn Monday the Church keeps the feast of the Holy Apostle and Evangelist Matthew. Through the week we remember St Gregory the Wonderworker, the Martyrs Platon and Roman, and the Prophet Obadiah. Friday is the Forefeast, and on Saturday we celebrate the Great Feast of the Entry of the Most-Holy Theotokos into the Temple. Fish is allowed on Sunday, Monday and Saturday; Wednesday and Friday are strict fast days.\n\nComing next: St Alexander Nevsky on Monday, November 23.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #SaintOfTheDay"
+  }
+ ]
+}

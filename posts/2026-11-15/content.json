@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-15",
+  "story": {
+    "date_line": "Sunday · November 15",
+    "title": "24th Sunday after Pentecost",
+    "subtitle": "The Nativity Fast begins · Tone 7",
+    "commemorating": "Martyrs Guria, Shamuna and Habib, St Paisius Velichkovsky",
+    "fasting": "Fish allowed",
+    "readings": [
+      {"label": "Readings of the day", "refs": ["Ephesians 2:14–22", "Luke 10:25–37"]}
+    ],
+    "accent": "ordinary"
+  },
+  "feed": {
+    "kind": "week_ahead",
+    "accent": "ordinary",
+    "range_line": "November 15 – 21",
+    "rows": [
+      {"day": "Sun 15", "title": "24th Sunday after Pentecost", "fast": "Fish allowed", "fast_kind": "fish"},
+      {"day": "Mon 16", "title": "Holy Apostle and Evangelist Matthew", "fast": "Fish allowed", "fast_kind": "fish"},
+      {"day": "Tue 17", "title": "St Gregory the Wonderworker", "fast": "Wine and oil allowed", "fast_kind": "fast"},
+      {"day": "Wed 18", "title": "Martyrs Platon and Roman", "fast": "Strict fast", "fast_kind": "fast"},
+      {"day": "Thu 19", "title": "Prophet Obadiah", "fast": "Wine and oil allowed", "fast_kind": "fast"},
+      {"day": "Fri 20", "title": "Forefeast of Entry", "fast": "Strict fast", "fast_kind": "fast"},
+      {"day": "Sat 21", "title": "Entry of the Most-Holy Theotokos into the Temple", "fast": "Fish allowed", "fast_kind": "fish"}
+    ],
+    "banner": "Saturday: Entry of the Most-Holy Theotokos into the Temple",
+    "end": {
+      "kicker": "Coming next",
+      "title": "Rt. Blv. Great Prince Alexander Nevsky",
+      "date": "Monday, November 23",
+      "line": "A Christian prince who served his people without rest until the end.",
+      "accent": "ordinary"
+    },
+    "caption": "The week ahead, November 15 – 21 (New Calendar): feasts, saints and fasting at a glance.\n\nThe Nativity Fast begins today, on the 24th Sunday after Pentecost. We also remember the Martyrs Guria, Shamuna and Habib of Edessa and St Paisius Velichkovsky.\n\nOn Monday the Church keeps the feast of the Holy Apostle and Evangelist Matthew. Through the week we remember St Gregory the Wonderworker, the Martyrs Platon and Roman, and the Prophet Obadiah. Friday is the Forefeast, and on Saturday we celebrate the Great Feast of the Entry of the Most-Holy Theotokos into the Temple. Fish is allowed on Sunday, Monday and Saturday; Wednesday and Friday are strict fast days.\n\nComing next: St Alexander Nevsky on Monday, November 23.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #SaintOfTheDay"
+  }
+}

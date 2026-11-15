@@ -1,0 +1,855 @@
+{
+ "pascha_distance": 232,
+ "julian_day_number": 2461375,
+ "year": 2026,
+ "month": 11,
+ "day": 30,
+ "weekday": 1,
+ "tone": 1,
+ "titles": [
+  "Monday of the 27th week after Pentecost"
+ ],
+ "summary_title": "Holy Apostle Andrew the First Called",
+ "feast_level": 4,
+ "feast_level_description": "Red cross (polyeleos typikon symbol)",
+ "feasts": [
+  "Holy Apostle Andrew the First Called"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Our Venerable Father Frumentius, first Bishop of Ethiopia (4th c.)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  5,
+  7
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Peter 1.1-2.6",
+   "short_display": "1 Pet 1.1-2.6",
+   "passage": [
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 1,
+     "content": "Peter, an apostle of Jesus Christ, to the chosen ones who are living as foreigners in the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 2,
+     "content": "according to the foreknowledge of God the Father, in sanctification of the Spirit, that you may obey Jesus Christ and be sprinkled with his blood: Grace to you and peace be multiplied.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 3,
+     "content": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 4,
+     "content": "to an incorruptible and undefiled inheritance that doesn’t fade away, reserved in Heaven for you,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 5,
+     "content": "who by the power of God are guarded through faith for a salvation ready to be revealed in the last time.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 6,
+     "content": "In this you greatly rejoice, though now for a little while, if need be, you have been grieved in various trials,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 7,
+     "content": "that the proof of your faith, which is more precious than gold that perishes, even though it is tested by fire, may be found to result in praise, glory, and honor at the revelation of Jesus Christ—",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 8,
+     "content": "whom, not having known, you love. In him, though now you don’t see him, yet believing, you rejoice greatly with joy that is unspeakable and full of glory,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 9,
+     "content": "receiving the result of your faith, the salvation of your souls.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 10,
+     "content": "Concerning this salvation, the prophets sought and searched diligently. They prophesied of the grace that would come to you,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 11,
+     "content": "searching for who or what kind of time the Spirit of Christ which was in them pointed to when he predicted the sufferings of Christ and the glories that would follow them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 12,
+     "content": "To them it was revealed that they served not themselves, but you, in these things, which now have been announced to you through those who preached the Good News to you by the Holy Spirit sent out from heaven; which things angels desire to look into.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 13,
+     "content": "Therefore prepare your minds for action. Be sober, and set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ—",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 14,
+     "content": "as children of obedience, not conforming yourselves according to your former lusts as in your ignorance,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 15,
+     "content": "but just as he who called you is holy, you yourselves also be holy in all of your behavior,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 16,
+     "content": "because it is written, “You shall be holy, for I am holy.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 17,
+     "content": "If you call on him as Father, who without respect of persons judges according to each man’s work, pass the time of your living as foreigners here in reverent fear,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 18,
+     "content": "knowing that you were redeemed, not with corruptible things like silver or gold, from the useless way of life handed down from your fathers,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 19,
+     "content": "but with precious blood, as of a lamb without blemish or spot, the blood of Christ,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 20,
+     "content": "who was foreknown indeed before the foundation of the world, but was revealed in this last age for your sake,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 21,
+     "content": "who through him are believers in God, who raised him from the dead and gave him glory, so that your faith and hope might be in God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 22,
+     "content": "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 23,
+     "content": "having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 24,
+     "content": "For, “All flesh is like grass, and all of man’s glory like the flower in the grass. The grass withers, and its flower falls;",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 1,
+     "verse": 25,
+     "content": "but the Lord’s word endures forever.” This is the word of Good News which was preached to you.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 1,
+     "content": "Putting away therefore all wickedness, all deceit, hypocrisies, envies, and all evil speaking,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 2,
+     "content": "as newborn babies, long for the pure spiritual milk, that with it you may grow,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 3,
+     "content": "if indeed you have tasted that the Lord is gracious.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 4,
+     "content": "Come to him, a living stone, rejected indeed by men, but chosen by God, precious.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 5,
+     "content": "You also as living stones are built up as a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices, acceptable to God through Jesus Christ.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 6,
+     "content": "Because it is contained in Scripture, “Behold, I lay in Zion a chief cornerstone, chosen and precious. He who believes in him will not be disappointed.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Peter 2.21-3.9",
+   "short_display": "1 Pet 2.21-3.9",
+   "passage": [
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 21,
+     "content": "For you were called to this, because Christ also suffered for us, leaving you an example, that you should follow his steps,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 22,
+     "content": "who didn’t sin, “neither was deceit found in his mouth.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 23,
+     "content": "When he was cursed, he didn’t curse back. When he suffered, he didn’t threaten, but committed himself to him who judges righteously.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 24,
+     "content": "He himself bore our sins in his body on the tree, that we, having died to sins, might live to righteousness. You were healed by his wounds.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 2,
+     "verse": 25,
+     "content": "For you were going astray like sheep; but now you have returned to the Shepherd and Overseer of your souls.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 1,
+     "content": "In the same way, wives, be in subjection to your own husbands, so that, even if any don’t obey the Word, they may be won by the behavior of their wives without a word,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 2,
+     "content": "seeing your pure behavior in fear.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 3,
+     "content": "Let your beauty come not from the outward adorning of braiding your hair, and of wearing gold ornaments or of putting on fine clothing,",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 4,
+     "content": "but from the hidden person of the heart, in the incorruptible adornment of a gentle and quiet spirit, which is very precious in God’s sight.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 5,
+     "content": "For this is how in the past the holy women who hoped in God also adorned themselves, being in subjection to their own husbands.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 6,
+     "content": "So Sarah obeyed Abraham, calling him lord, whose children you now are if you do well and are not put in fear by any terror.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 7,
+     "content": "You husbands, in the same way, live with your wives according to knowledge, giving honor to the woman as to the weaker vessel, as also being joint heirs of the grace of life, that your prayers may not be hindered.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 8,
+     "content": "Finally, all of you be like-minded, compassionate, loving as brothers, tenderhearted, courteous,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 3,
+     "verse": 9,
+     "content": "not rendering evil for evil or insult for insult; but instead blessing, knowing that you were called to this, that you may inherit a blessing.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Peter 4.1-11",
+   "short_display": "1 Pet 4.1-11",
+   "passage": [
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 1,
+     "content": "Therefore, since Christ suffered for us in the flesh, arm yourselves also with the same mind; for he who has suffered in the flesh has ceased from sin,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 2,
+     "content": "that you no longer should live the rest of your time in the flesh for the lusts of men, but for the will of God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 3,
+     "content": "For we have spent enough of our past time doing the desire of the Gentiles, and having walked in lewdness, lusts, drunken binges, orgies, carousings, and abominable idolatries.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 4,
+     "content": "They think it is strange that you don’t run with them into the same excess of riot, speaking evil of you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 5,
+     "content": "They will give account to him who is ready to judge the living and the dead.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 6,
+     "content": "For to this end the Good News was preached even to the dead, that they might be judged indeed as men in the flesh, but live as to God in the spirit.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 7,
+     "content": "But the end of all things is near. Therefore be of sound mind, self-controlled, and sober in prayer.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 8,
+     "content": "And above all things be earnest in your love among yourselves, for love covers a multitude of sins.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 9,
+     "content": "Be hospitable to one another without grumbling.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 10,
+     "content": "As each has received a gift, employ it in serving one another, as good managers of the grace of God in its various forms.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1PE",
+     "chapter": 4,
+     "verse": 11,
+     "content": "If anyone speaks, let it be as it were the very words of God. If anyone serves, let it be as of the strength which God supplies, that in all things God may be glorified through Jesus Christ, to whom belong the glory and the dominion forever and ever. Amen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Matins Gospel",
+   "book": "Matthew",
+   "description": "",
+   "display": "Matthew 4.18-23",
+   "short_display": "Matt 4.18-23",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 4,
+     "verse": 18,
+     "content": "Walking by the sea of Galilee, he saw two brothers: Simon, who is called Peter, and Andrew, his brother, casting a net into the sea; for they were fishermen.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 4,
+     "verse": 19,
+     "content": "He said to them, “Come after me, and I will make you fishers for men.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 4,
+     "verse": 20,
+     "content": "They immediately left their nets and followed him.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 4,
+     "verse": 21,
+     "content": "Going on from there, he saw two other brothers, James the son of Zebedee, and John his brother, in the boat with Zebedee their father, mending their nets. He called them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 4,
+     "verse": 22,
+     "content": "They immediately left the boat and their father, and followed him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 4,
+     "verse": 23,
+     "content": "Jesus went about in all Galilee, teaching in their synagogues, preaching the Good News of the Kingdom, and healing every disease and every sickness among the people.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "1 Timothy 5.1-10",
+   "short_display": "1 Tim 5.1-10",
+   "passage": [
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 1,
+     "content": "Don’t rebuke an older man, but exhort him as a father; the younger men as brothers;",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 2,
+     "content": "the elder women as mothers; the younger as sisters, in all purity.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 3,
+     "content": "Honor widows who are widows indeed.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 4,
+     "content": "But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is acceptable in the sight of God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 5,
+     "content": "Now she who is a widow indeed and desolate, has her hope set on God and continues in petitions and prayers night and day.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 6,
+     "content": "But she who gives herself to pleasure is dead while she lives.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 7,
+     "content": "Also command these things, that they may be without reproach.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 8,
+     "content": "But if anyone doesn’t provide for his own, and especially his own household, he has denied the faith and is worse than an unbeliever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 9,
+     "content": "Let no one be enrolled as a widow under sixty years old, having been the wife of one man,",
+     "paragraph_start": true
+    },
+    {
+     "book": "1TI",
+     "chapter": 5,
+     "verse": 10,
+     "content": "being approved by good works, if she has brought up children, if she has been hospitable to strangers, if she has washed the saints’ feet, if she has relieved the afflicted, and if she has diligently followed every good work.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Andrew",
+   "display": "1 Corinthians 4.9-16",
+   "short_display": "1 Cor 4.9-16",
+   "passage": [
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 9,
+     "content": "For I think that God has displayed us, the apostles, last of all, like men sentenced to death. For we are made a spectacle to the world, both to angels and men.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 10,
+     "content": "We are fools for Christ’s sake, but you are wise in Christ. We are weak, but you are strong. You have honor, but we have dishonor.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 11,
+     "content": "Even to this present hour we hunger, thirst, are naked, are beaten, and have no certain dwelling place.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 12,
+     "content": "We toil, working with our own hands. When people curse us, we bless. Being persecuted, we endure.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 13,
+     "content": "Being defamed, we entreat. We are made as the filth of the world, the dirt wiped off by all, even until now.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 14,
+     "content": "I don’t write these things to shame you, but to admonish you as my beloved children.",
+     "paragraph_start": true
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 15,
+     "content": "For though you have ten thousand tutors in Christ, you don’t have many fathers. For in Christ Jesus, I became your father through the Good News.",
+     "paragraph_start": false
+    },
+    {
+     "book": "1CO",
+     "chapter": 4,
+     "verse": 16,
+     "content": "I beg you therefore, be imitators of me.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 19.37-44",
+   "short_display": "Luke 19.37-44",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 37,
+     "content": "As he was now getting near, at the descent of the Mount of Olives, the whole multitude of the disciples began to rejoice and praise God with a loud voice for all the mighty works which they had seen,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 38,
+     "content": "saying, “Blessed is the King who comes in the name of the Lord! Peace in heaven, and glory in the highest!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 39,
+     "content": "Some of the Pharisees from the multitude said to him, “Teacher, rebuke your disciples!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 40,
+     "content": "He answered them, “I tell you that if these were silent, the stones would cry out.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 41,
+     "content": "When he came near, he saw the city and wept over it,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 42,
+     "content": "saying, “If you, even you, had known today the things which belong to your peace! But now, they are hidden from your eyes.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 43,
+     "content": "For the days will come on you when your enemies will throw up a barricade against you, surround you, hem you in on every side,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 19,
+     "verse": 44,
+     "content": "and will dash you and your children within you to the ground. They will not leave in you one stone on another, because you didn’t know the time of your visitation.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "John",
+   "description": "St Andrew",
+   "display": "John 1.35-51",
+   "short_display": "John 1.35-51",
+   "passage": [
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 35,
+     "content": "Again, the next day, John was standing with two of his disciples,",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 36,
+     "content": "and he looked at Jesus as he walked, and said, “Behold, the Lamb of God!”",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 37,
+     "content": "The two disciples heard him speak, and they followed Jesus.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 38,
+     "content": "Jesus turned and saw them following, and said to them, “What are you looking for?” They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “where are you staying?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 39,
+     "content": "He said to them, “Come and see.” They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 40,
+     "content": "One of the two who heard John and followed him was Andrew, Simon Peter’s brother.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 41,
+     "content": "He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ).",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 42,
+     "content": "He brought him to Jesus. Jesus looked at him and said, “You are Simon the son of Jonah. You shall be called Cephas” (which is by interpretation, Peter).",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 43,
+     "content": "On the next day, he was determined to go out into Galilee, and he found Philip. Jesus said to him, “Follow me.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 44,
+     "content": "Now Philip was from Bethsaida, the city of Andrew and Peter.",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 45,
+     "content": "Philip found Nathanael, and said to him, “We have found him of whom Moses in the law and also the prophets, wrote: Jesus of Nazareth, the son of Joseph.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 46,
+     "content": "Nathanael said to him, “Can any good thing come out of Nazareth?” Philip said to him, “Come and see.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 47,
+     "content": "Jesus saw Nathanael coming to him, and said about him, “Behold, an Israelite indeed, in whom is no deceit!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 48,
+     "content": "Nathanael said to him, “How do you know me?” Jesus answered him, “Before Philip called you, when you were under the fig tree, I saw you.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 49,
+     "content": "Nathanael answered him, “Rabbi, you are the Son of God! You are King of Israel!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 50,
+     "content": "Jesus answered him, “Because I told you, ‘I saw you underneath the fig tree,’ do you believe? You will see greater things than these!”",
+     "paragraph_start": true
+    },
+    {
+     "book": "JHN",
+     "chapter": 1,
+     "verse": 51,
+     "content": "He said to him, “Most certainly, I tell you all, hereafter you will see heaven opened, and the angels of God ascending and descending on the Son of Man.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Holy, Glorious and Illustrious Apostle Andrew the First-Called",
+   "story": "<p>He was the brother of the Apostle Peter, from Bethsaida on the shore of Lake Gennesaret. Andrew left his fisherman’s trade to become a disciple of St John the Baptist. Soon after the Forerunner had baptized Jesus, he said to Andrew and his other disciple John the Theologian, “Behold the Lamb of God!” At this, both disciples followed after Jesus. After conversing with Christ, Andrew hurried home and told his brother Simon Peter, “We have found the Messiah.” For being the first to recognize Jesus as the Christ, St Andrew is called the First-Called. After Pentecost, Andrew was appointed to preach the Gospel around the Black Sea and in Thrace and Macedonia, traveling as far as Lazica in the Caucasus. According to Slavic tradition his travels took him even further, into the land that was later to be called Russia. In later travels the Apostle preached throughout Asia Minor with St John the Theologian, then traveled to Mesopotamia, then back to Sinope on the Black Sea, and finally to Patras in the Peloponnese, where he soon established a large community of Christians. One of his converts was Maximilla, the wife of Aegeates, the Proconsul of that region. Aegeates was so angered by his wife’s conversion that he had the Apostle arrested and crucified head downwards on a cross in the shape of an “X.” The holy Apostle rejoiced to be allowed to suffer the same death as his Master. The holy relics of St Andrew, after various travels, were returned to Patras in 1964, where they are now venerated. In the West, St Andrew is venerated as the patron of Scotland: in the Middle Ages, more than eight hundred churches in Scotland were dedicated to him.</p>"
+  },
+  {
+   "title": "Our Venerable Father Frumentius, first Bishop of Ethiopia (4th c.)",
+   "story": "<p>During the reign of St Constantine the Great, an explorer named Meropus set out to explore lands along the Red Sea, previously unknown to the Roman world. The expedition’s ship was attacked by pirates and all the company killed except two young men named Frumentius and Edesius. They were sold into slavery in the court of the Ethiopian King of Axum, where they distinguished themselves so well that they became palace stewards and were able to obtain freedom of Christian worship for merchants trading in the Kingdom. Eventually the young men returned to Roman territory, and Frumentius went to St Athanasius the Great of Alexandria to tell him of his travels and of the great thirst of the Ethiopian people for the Gospel of Christ. Saint Athanasius consecrated Frumentius as first Bishop of Abyssinia and sent him back to Axum to establish the Church in that kingdom. Through his apostolic zeal, tireless travels, and miracles and healings, the holy Bishop was able convert many pagans and establish many churches in Ethiopia, though the Kingdom did not become officially Christian until the sixth century. Saint Frumentius reposed in peace in his adopted country, and his relics worked many miracles. The Church of Ethiopia traces its origin to the apostolic work of the Ethiopian eunuch baptized by the Apostle Philip in the Book of Acts, who “went on his way rejoicing” to Ethiopia and first proclaimed the Gospel there. Thus, it seems there was already a Christian presence in the country when Frumentius arrived: this may be the source of the statement in his biography that he found the Ethiopian people thirsty for the Good News.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/11/30/?translation=lxx2012-web"
+}

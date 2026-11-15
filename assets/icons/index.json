@@ -21,7 +21,7 @@
   "is_icon": true
  },
  "Greatmartyr Jacob of Persia": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },
@@ -85,12 +85,12 @@
   "page": null
  },
  "Holy Martyr Mercurius of Smolensk (1238)": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },
  "Holy Martyr Romanus and the holy child who declared for Christ (305)": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },
@@ -103,7 +103,7 @@
   "is_icon": true
  },
  "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },
@@ -129,6 +129,11 @@
  },
  "Holy, Glorious and Great Martyr Demetrius the Outpourer of Myrrh (306)": {
   "checked": "2026-10-25",
+  "file": null,
+  "page": null
+ },
+ "Holy, Glorious and Illustrious Apostle Andrew the First-Called": {
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },
@@ -324,6 +329,14 @@
   "file": null,
   "page": null
  },
+ "Our Venerable Father Frumentius, first Bishop of Ethiopia (4th c.)": {
+  "checked": "2026-11-15",
+  "file": "assets/icons/our-venerable-father-frumentius-first-bishop-of-ethiopia-4th-c.jpg",
+  "page": "https://en.wikipedia.org/wiki/Frumentius",
+  "credit": "Image: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:St_Frumentius.jpg",
+  "is_icon": false
+ },
  "Our Venerable Father John the Dwarf (John the Short) (4th c.)": {
   "checked": "2026-10-25",
   "file": "assets/icons/our-venerable-father-john-the-dwarf-john-the-short-4th-c.jpg",
@@ -362,7 +375,7 @@
   "is_icon": true
  },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },
@@ -464,7 +477,7 @@
   "page": null
  },
  "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-15",
   "file": null,
   "page": null
  },

@@ -329,6 +329,11 @@
   "file": null,
   "page": null
  },
+ "Our Venerable Father Eligius (Eloi), Bishop of Noyon (660)": {
+  "checked": "2026-11-16",
+  "file": null,
+  "page": "https://en.wikipedia.org/wiki/Saint_Eligius"
+ },
  "Our Venerable Father Frumentius, first Bishop of Ethiopia (4th c.)": {
   "checked": "2026-11-15",
   "file": "assets/icons/our-venerable-father-frumentius-first-bishop-of-ethiopia-4th-c.jpg",
@@ -358,6 +363,14 @@
   "file": null,
   "page": null
  },
+ "Prophet Nahum": {
+  "checked": "2026-11-16",
+  "file": "assets/icons/prophet-nahum.jpg",
+  "page": "https://en.wikipedia.org/wiki/Nahum",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Nahum-prophet.jpg",
+  "is_icon": true
+ },
  "Prophet Obadiah": {
   "checked": "2026-11-04",
   "file": "assets/icons/prophet-obadiah.jpg",
@@ -376,6 +389,11 @@
  },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
   "checked": "2026-11-15",
+  "file": null,
+  "page": null
+ },
+ "Saint Philaret the Merciful of Constantinople (762)": {
+  "checked": "2026-11-16",
   "file": null,
   "page": null
  },

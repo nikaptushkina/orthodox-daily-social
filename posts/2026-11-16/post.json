@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-16",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (November 16, New Calendar) the Church remembers the Holy Apostle and Evangelist Matthew.\n\nHe was a Galilean, the son of Alphaeus, and was first named Levi. He was a tax-collector until he met the Lord, who said to him, “Follow me.” From that day he was one of the disciples.\n\nAfter Pentecost he was sent to bring the Gospel to his fellow Jews, for whom, according to the Church’s tradition, he first wrote it down in Aramaic. Later he preached in Parthia and in Hierapolis on the Euphrates.\n\nIn icons he is shown with the likeness of a man, one of the four living creatures of Ezekiel, which St Irenaeus says symbolizes Christ’s Incarnation.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay"
+  }
+ ]
+}

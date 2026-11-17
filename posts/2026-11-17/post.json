@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-17",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today’s Gospel (Tuesday, November 17, New Calendar): Luke 14:25–35, on counting the cost of following Christ.\n\n“Whoever doesn’t bear his own cross and come after me, can’t be my disciple.”\n\nThe Lord speaks of the man who builds a tower and the king who goes out to war: each first sits down to count the cost. He ends with salt that becomes flat and tasteless: “He who has ears to hear, let him hear.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #DailyPrayer #Scripture"
+  }
+ ]
+}

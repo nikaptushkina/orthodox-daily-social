@@ -75,7 +75,7 @@
   "is_icon": false
  },
  "Holy Martyr Barlaam of Antioch (304)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Barlaam"
  },
@@ -86,6 +86,11 @@
  },
  "Holy Martyr Mercurius of Smolensk (1238)": {
   "checked": "2026-11-15",
+  "file": null,
+  "page": null
+ },
+ "Holy Martyr Myrope (Myropea) of Chios (251)": {
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -108,7 +113,7 @@
   "page": null
  },
  "Holy New Martyr George of Chios (1897)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -118,7 +123,12 @@
   "page": "https://en.wikipedia.org/wiki/Helen_of_Sinope"
  },
  "Holy Prince and Passion-Bearer Peter Yaropolk (1086)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
+  "file": null,
+  "page": null
+ },
+ "Holy Prophet Habbakuk (Abbacum) (7th c. BC).": {
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -154,7 +164,7 @@
   "is_icon": true
  },
  "Martyr Paramon and Companions": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -233,7 +243,12 @@
   "page": null
  },
  "Our Holy Father Amphilocus, Bishop of Iconium (395)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
+  "file": null,
+  "page": null
+ },
+ "Our Holy Father Athanasius \"the Resurrected,\" Recluse of the Kiev Caves (1176)": {
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -280,7 +295,7 @@
   "is_icon": false
  },
  "Our Holy Father Pitirim of Egypt (4th c.)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Pitirim_of_Porphyry"
  },
@@ -392,8 +407,18 @@
   "file": null,
   "page": null
  },
+ "Saint (Stephen) Uroš, King of Serbia (1367)": {
+  "checked": "2026-11-17",
+  "file": null,
+  "page": null
+ },
  "Saint Philaret the Merciful of Constantinople (762)": {
   "checked": "2026-11-16",
+  "file": null,
+  "page": null
+ },
+ "Saint Porphyrios of Kavsokalyvia (1991) (Nov. 19 OC)": {
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -411,12 +436,12 @@
   "is_icon": false
  },
  "St Alexander Nevsky (1263)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
  "St Columban, Abbot of Luxeuil (615)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -434,7 +459,7 @@
   "is_icon": true
  },
  "St Gregory the Wonderworker": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -457,12 +482,12 @@
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
  "St Michael, Prince of Tver": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
  "St Nikon Metanoite (\"Repent!\") (ca. 1000)": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
@@ -513,12 +538,12 @@
   "is_icon": true
  },
  "Ven. Barlaam and Joasaph": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },
  "Ven. Gregory Decapolites": {
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "file": null,
   "page": null
  },

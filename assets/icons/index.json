@@ -21,7 +21,7 @@
   "is_icon": true
  },
  "Greatmartyr Jacob of Persia": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },
@@ -85,7 +85,7 @@
   "page": null
  },
  "Holy Martyr Mercurius of Smolensk (1238)": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },
@@ -95,7 +95,7 @@
   "page": null
  },
  "Holy Martyr Romanus and the holy child who declared for Christ (305)": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },
@@ -108,7 +108,7 @@
   "is_icon": true
  },
  "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },
@@ -143,7 +143,7 @@
   "page": null
  },
  "Holy, Glorious and Illustrious Apostle Andrew the First-Called": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },
@@ -365,6 +365,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas_(nave,_vault_over_south-west_bay)_-_John_Kolobos.jpg",
   "is_icon": true
  },
+ "Our Venerable Father John the Silent, Bishop of Colonia (558)": {
+  "checked": "2026-11-18",
+  "file": "assets/icons/our-venerable-father-john-the-silent-bishop-of-colonia-558.jpg",
+  "page": "https://en.wikipedia.org/wiki/John_the_Silent",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:John_the_Silent_of_St._Sabbas%27_Monastery_(Menologion_of_Basil_II).jpg",
+  "is_icon": true
+ },
  "Our Venerable Father Paisius Velichkovsky (1794)": {
   "checked": "2026-10-31",
   "file": "assets/icons/our-venerable-father-paisius-velichkovsky-1794.jpg",
@@ -394,6 +402,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Obadiah_(%D0%9E%D0%B2%D0%B4%D0%B8%D0%B9).jpg",
   "is_icon": true
  },
+ "Prophet Zephaniah": {
+  "checked": "2026-11-18",
+  "file": "assets/icons/prophet-zephaniah.jpg",
+  "page": "https://en.wikipedia.org/wiki/Zephaniah",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Icon_of_Zephaniah_(17th_c.,_North_Russia,_priv._coll.).jpg",
+  "is_icon": true
+ },
  "Rep. St Herman, Archbishop of Kazan": {
   "checked": "2026-10-25",
   "file": "assets/icons/rep-st-herman-archbishop-of-kazan.jpg",
@@ -403,7 +419,7 @@
   "is_icon": true
  },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },
@@ -520,7 +536,7 @@
   "page": null
  },
  "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.": {
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "file": null,
   "page": null
  },

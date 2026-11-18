@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-18",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "A psalm to pray this Wednesday (November 18, New Calendar): Psalm 4, read in full.\n\n“When I called upon him, the God of my righteousness heard me: you have made room for me in tribulation; pity me, and listen to my prayer.”\n\n“Many say, Who will show us good things? the light of your countenance, O Lord, has been manifested towards us.” And the psalm closes: “I will both lie down in peace and sleep: for you, Lord, only have caused me to dwell securely.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Psalms #DailyPrayer #Scripture",
+   "duration": 76.64,
+   "audio": "pending"
+  }
+ ]
+}

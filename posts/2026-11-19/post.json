@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-19",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (November 19, New Calendar) the Church remembers the Holy Prophet Obadiah.\n\nHis is the shortest prophetic book in the Old Testament, and the Scriptures tell us little of where or when he lived. His name means “servant of God.”\n\nSome believe he is the Obadiah who was steward of King Ahab’s household and who, when Jezebel was killing the prophets, hid a hundred of them in a cave and fed them. It is said that he later became a disciple of the Prophet Elijah.\n\nHoly Prophet Obadiah, pray to God for us.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #Scripture"
+  }
+ ]
+}

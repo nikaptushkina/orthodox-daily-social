@@ -58,6 +58,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Stachys,_Amplias,_Urban_(Menologion_of_Basil_II).jpg",
   "is_icon": true
  },
+ "Holy Great Martyr Barbara (290)": {
+  "checked": "2026-11-19",
+  "file": "assets/icons/holy-great-martyr-barbara-290.jpg",
+  "page": "https://en.wikipedia.org/wiki/Saint_Barbara",
+  "credit": "Image: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Wilhelm_Kalteysen_-_Saint_Barbara_Altarpiece_-_Google_Art_Project.jpg",
+  "is_icon": false
+ },
  "Holy Hieromartyr Cyriacus, Bishop of Jerusalem, and his mother Anna (4th c.)": {
   "checked": "2026-10-25",
   "file": "assets/icons/holy-hieromartyr-cyriacus-bishop-of-jerusalem-and-his-mother-anna-4th-c.jpg",
@@ -323,6 +331,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%9C%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_(13899411716).jpg",
   "is_icon": true
  },
+ "Our Righteous Father John of Damascus (760)": {
+  "checked": "2026-11-19",
+  "file": "assets/icons/our-righteous-father-john-of-damascus-760.jpg",
+  "page": "https://en.wikipedia.org/wiki/John_of_Damascus",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Athonite_Fresco_Icon_of_Saint_John_of_Damascus.jpg",
+  "is_icon": true
+ },
  "Our Righteous Father Theodore the Studite (826)": {
   "checked": "2026-10-27",
   "file": "assets/icons/our-righteous-father-theodore-the-studite-826.jpg",
@@ -345,7 +361,7 @@
   "page": null
  },
  "Our Venerable Father Eligius (Eloi), Bishop of Noyon (660)": {
-  "checked": "2026-11-16",
+  "checked": "2026-11-19",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Saint_Eligius"
  },
@@ -428,8 +444,13 @@
   "file": null,
   "page": null
  },
+ "Saint Gennadius, Archbishop of Novgorod (1505)": {
+  "checked": "2026-11-19",
+  "file": null,
+  "page": null
+ },
  "Saint Philaret the Merciful of Constantinople (762)": {
-  "checked": "2026-11-16",
+  "checked": "2026-11-19",
   "file": null,
   "page": null
  },

@@ -1,0 +1,373 @@
+{
+ "pascha_distance": 236,
+ "julian_day_number": 2461379,
+ "year": 2026,
+ "month": 12,
+ "day": 4,
+ "weekday": 5,
+ "tone": 1,
+ "titles": [
+  "Friday of the 27th week after Pentecost"
+ ],
+ "summary_title": "Holy Great Martyr Barbara (290); Our Righteous Father John of Damascus (760); Saint Gennadius, Archbishop of Novgorod (1505)",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs",
+  "wine",
+  "oil"
+ ],
+ "saints": [
+  "Juliana the Martyr of Heliopolis",
+  "Holy Great Martyr Barbara (290)",
+  "Hieromartyr Alexander Hotovitzky, Missionary to America (1937)",
+  "Our Righteous Father John of Damascus (760)",
+  "Saint Gennadius, Archbishop of Novgorod (1505)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  2
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Timothy 1.1-2, 8-18",
+   "short_display": "2 Tim 1.1-2, 8-18",
+   "passage": [
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 1,
+     "content": "Paul, an apostle of Jesus Christ through the will of God, according to the promise of the life which is in Christ Jesus,",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 2,
+     "content": "to Timothy, my beloved child: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 8,
+     "content": "Therefore don’t be ashamed of the testimony of our Lord, nor of me his prisoner; but endure hardship for the Good News according to the power of God,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 9,
+     "content": "who saved us and called us with a holy calling, not according to our works, but according to his own purpose and grace, which was given to us in Christ Jesus before times eternal,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 10,
+     "content": "but has now been revealed by the appearing of our Savior, Christ Jesus, who abolished death, and brought life and immortality to light through the Good News.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 11,
+     "content": "For this I was appointed as a preacher, an apostle, and a teacher of the Gentiles.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 12,
+     "content": "For this cause I also suffer these things. Yet I am not ashamed, for I know him whom I have believed, and I am persuaded that he is able to guard that which I have committed to him against that day.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 13,
+     "content": "Hold the pattern of sound words which you have heard from me, in faith and love which is in Christ Jesus.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 14,
+     "content": "That good thing which was committed to you, guard through the Holy Spirit who dwells in us.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 15,
+     "content": "This you know, that all who are in Asia turned away from me, of whom are Phygelus and Hermogenes.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 16,
+     "content": "May the Lord grant mercy to the house of Onesiphorus, for he often refreshed me, and was not ashamed of my chain,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 17,
+     "content": "but when he was in Rome, he sought me diligently and found me",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 1,
+     "verse": 18,
+     "content": "(the Lord grant to him to find the Lord’s mercy in that day); and in how many things he served at Ephesus, you know very well.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Alexander",
+   "display": "Hebrews 13.7-16",
+   "short_display": "Heb 13.7-16",
+   "passage": [
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 7,
+     "content": "Remember your leaders, men who spoke to you the word of God, and considering the results of their conduct, imitate their faith.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 8,
+     "content": "Jesus Christ is the same yesterday, today, and forever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 9,
+     "content": "Don’t be carried away by various and strange teachings, for it is good that the heart be established by grace, not by foods, through which those who were so occupied were not benefited.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 10,
+     "content": "We have an altar from which those who serve the holy tabernacle have no right to eat.",
+     "paragraph_start": true
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 11,
+     "content": "For the bodies of those animals, whose blood is brought into the holy place by the high priest as an offering for sin, are burned outside of the camp.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 12,
+     "content": "Therefore Jesus also, that he might sanctify the people through his own blood, suffered outside of the gate.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 13,
+     "content": "Let’s therefore go out to him outside of the camp, bearing his reproach.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 14,
+     "content": "For we don’t have here an enduring city, but we seek that which is to come.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 15,
+     "content": "Through him, then, let’s offer up a sacrifice of praise to God continually, that is, the fruit of lips which proclaim allegiance to his name.",
+     "paragraph_start": false
+    },
+    {
+     "book": "HEB",
+     "chapter": 13,
+     "verse": 16,
+     "content": "But don’t forget to be doing good and sharing, for with such sacrifices God is well pleased.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 20.19-26",
+   "short_display": "Luke 20.19-26",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 19,
+     "content": "The chief priests and the scribes sought to lay hands on him that very hour, but they feared the people—for they knew he had spoken this parable against them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 20,
+     "content": "They watched him and sent out spies, who pretended to be righteous, that they might trap him in something he said, so as to deliver him up to the power and authority of the governor.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 21,
+     "content": "They asked him, “Teacher, we know that you say and teach what is right, and aren’t partial to anyone, but truly teach the way of God.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 22,
+     "content": "Is it lawful for us to pay taxes to Caesar, or not?”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 23,
+     "content": "But he perceived their craftiness, and said to them, “Why do you test me?",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 24,
+     "content": "Show me a denarius. Whose image and inscription are on it?” They answered, “Caesar’s.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 25,
+     "content": "He said to them, “Then give to Caesar the things that are Caesar’s, and to God the things that are God’s.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 26,
+     "content": "They weren’t able to trap him in his words before the people. They marveled at his answer and were silent.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "St Alexander",
+   "display": "Luke 12.32-40",
+   "short_display": "Luke 12.32-40",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 32,
+     "content": "“Don’t be afraid, little flock, for it is your Father’s good pleasure to give you the Kingdom.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 33,
+     "content": "Sell what you have and give gifts to the needy. Make for yourselves purses which don’t grow old, a treasure in the heavens that doesn’t fail, where no thief approaches and no moth destroys.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 34,
+     "content": "For where your treasure is, there will your heart be also.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 35,
+     "content": "“Let your waist be dressed and your lamps burning.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 36,
+     "content": "Be like men watching for their lord when he returns from the wedding feast, that when he comes and knocks, they may immediately open to him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 37,
+     "content": "Blessed are those servants whom the lord will find watching when he comes. Most certainly I tell you that he will dress himself, make them recline, and will come and serve them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 38,
+     "content": "They will be blessed if he comes in the second or third watch and finds them so.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 39,
+     "content": "But know this, that if the master of the house had known in what hour the thief was coming, he would have watched and not allowed his house to be broken into.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 40,
+     "content": "Therefore be ready also, for the Son of Man is coming in an hour that you don’t expect him.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Holy Great Martyr Barbara (290)",
+   "story": "<p>‘Saint Barbara was from Heliopolis of Phoenicia and lived during the reign of Maximian. She was the daughter of a certain idolater named Dioscorus. When Barbara came of age, she was enlightened in her pure heart and secretly believed in the Holy Trinity. About this time Dioscorus began building a bath-house; before it was finished he was required to go away to attend to certain matters, and in his absence Barbara directed the workmen to build a third window in addition to the two her father had commanded. She also inscribed the sign of the Cross with her finger upon the marble of the bath-house, leaving the saving sign cut as deeply into the marble as if it had been done with an iron tool. When the <i>Synaxarion </i> of Saint Barbara was written, the marble of the bath-house and the cross inscribed by Saint Barbara were still preserved, and many healings were worked there. When Dioscorus returned, he asked why the third window had been added; Barbara began to declare to him the mystery of the Trinity. Because she refused to renounce her faith, Dioscorus tortured Barbara inhumanly, and after subjecting her to many sufferings he beheaded her with his own hands, in the year 290.’ <i>(Great Horologion)</i></p>"
+  },
+  {
+   "title": "Our Righteous Father John of Damascus (760)",
+   "story": "<p>This divinely-enlightened Harp of the Spirit was at the same time one of the Church’s greatest hymnographers and one of Her greatest theologians and defenders of the Faith.</p>\n<p>The city of Damascus in Syria fell to the Muslims in 635. At the time of the Caliph Abdul-Malik, responsibility for government of the Christian population was given to Sergius Mansur, a prominent Christian of the city. This Sergius strove to govern in a godly way under the many disabilities imposed by the Caliph, and devoted his wealth to almsgiving and to ransoming Christian prisoners. His son John was born in 675, and along with his adoptive brother Cosmas (October 14) was brought up to love and serve Christ.</p>\n<p>John, whose exceptional education included a perfect knowledge of both Greek and Arabic, entered the civil administration and eventually succeeded to his father’s position under the Caliph. When the Emperor Leo the Isaurian began to attack the holy icons, Saint John undertook a spirited defense of the Faith through letters to correspondents throughout the Empire. Normally the Emperor would have killed or exiled the Saint directly, but since he lived in Muslim lands the Emperor could not touch him (an interesting example of Islam unwittingly contributing to the defense of the Christian faith). So the wicked Emperor circulated a forged letter which made it appear that John was plotting against the Caliph. When this letter fell (as planned) into the Caliph’s hands, he was furious, and ordered that the Saint’s right hand be cut off. That evening John placed his severed hand before the icon of the Mother of God and prayed with tears that it might be restored. On awaking he found that his hand had been miraculously restored to him. The miracle convinced the Caliph of his counselor’s innocence, and John was restored to favor; but now John wanted nothing more of worldly honor and wished only to be a monk. Giving up his position, he distributed his fortune among the poor and left for Jerusalem to become a monk at the Monastery of St Sabas.</p>\n<p>The Abbot of the monastery put John under an Elder who ordered him to have nothing to do with philosophy, science, poetry, chanting or reading, but to give himself uncomplainingly to menial tasks so as to advance in humility. This the Saint did. Some time later, however, a monk grieving over his brother’s death persuaded John to write a funeral hymn for his consolation. Out of compassion, John wrote the hymn which is used to this day in the Funeral Service. For his disobedience, John was given the job of cleaning all the latrines of the monastery by hand, which, again, he did without complaint. A few days later the Theotokos appeared to the Elder and told him to allow John to compose hymns and poems, which, she told, him, would surpass the Psalms of David in beauty and grace.</p>\n<p>Thus the monk John began to write the large body of inspired hymns which grace the Church’s services. Among these are the Canon chanted at the Pascha Service, as well as most of the Resurrectional hymns of the <i>Octoechos.</i></p>\n<p>Saint John’s poetical gifts were matched by his gifts for expressing the Church’s theology: he composed a powerful defense of the icons (in print under the title <i>On the Holy Images</i>), a complete exposition of the Orthodox Faith <i>(On the Orthodox Faith),</i> and the first written refutation of Islam, which he had come to understand well while serving in the Caliph’s court.</p>\n<p>In old age, John was ordained a priest by the Patriarch of Jerusalem. He reposed in peace in 760 at the age of eighty-four.</p>"
+  },
+  {
+   "title": "Saint Gennadius, Archbishop of Novgorod (1505)",
+   "story": "<p>He was of noble birth, but entered monastic life at Valaam. He lived as a hermit on the island of Solovki from 1430 until 1447, when he was appointed abbot of the Chudov Monastery in Moscow. In 1484 he became Bishop of Novgorod. He found that the Tatar invasions had so disrupted the Church that a complete text of the Holy Scriptures could hardly be found in all of Russia. He ordered and oversaw the publication of the first printed Slavonic edition of the Holy Scriptures, set up schools for the instruction of the clergy, re-established order in the divine services, and fought various heresies. His devotion earned him enemies, and he resigned his episcopate to withdraw once again to a monastery. He reposed in peace in 1505.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/4/?translation=lxx2012-web"
+}

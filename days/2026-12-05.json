@@ -1,0 +1,568 @@
+{
+ "pascha_distance": 237,
+ "julian_day_number": 2461380,
+ "year": 2026,
+ "month": 12,
+ "day": 5,
+ "weekday": 6,
+ "tone": 1,
+ "titles": [
+  "Saturday of the 27th week after Pentecost"
+ ],
+ "summary_title": "Ven. Sabbas the Sanctified",
+ "feast_level": 4,
+ "feast_level_description": "Red cross (polyeleos typikon symbol)",
+ "feasts": [
+  "Ven. Sabbas the Sanctified"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 2,
+ "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "St Cosmas the Protos of Mount Athos and his companions (ca. 1274)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  4,
+  7
+ ],
+ "readings": [
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Wisdom of Solomon 3.1-9",
+   "short_display": "Wis 3.1-9",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 1,
+     "content": "But the souls of the righteous are in the hand of God, and there shall no torment touch them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 2,
+     "content": "In the sight of the unwise they seemed to die: and their departure is taken for misery,",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 3,
+     "content": "And their going from us to be utter destruction: but they are in peace.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 4,
+     "content": "For though they be punished in the sight of men, yet is their hope full of immortality.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 5,
+     "content": "And having been a little chastised, they shall be greatly rewarded: for God proved them, and found them worthy for himself.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 6,
+     "content": "As gold in the furnace has he tried them, and received them as a burnt offering.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 7,
+     "content": "And in the time of their visitation they shall shine, and run to and fro like sparks among the stubble.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 8,
+     "content": "They shall judge the nations, and have dominion over the people, and their Lord shall reign for ever.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 3,
+     "verse": 9,
+     "content": "They that put their trust in him shall understand the truth: and such as be faithful in love shall abide with him: for grace and mercy is to his saints, and he has care for his elect.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Wisdom of Solomon 5.15-6.3",
+   "short_display": "Wis 5.15-6.3",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 15,
+     "content": "But the righteous live for evermore; their reward also is with the Lord, and the care of them is with the most High.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 16,
+     "content": "Therefore shall they receive a glorious kingdom, and a beautiful crown from the Lord's hand: for with his right hand shall he cover them, and with his arm shall he protect them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 17,
+     "content": "He shall take to him his jealousy for complete armor, and make the creature his weapon for the revenge of his enemies.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 18,
+     "content": "He shall put on righteousness as a breastplate, and true judgment instead of an helmet.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 19,
+     "content": "He shall take holiness for an invincible shield.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 20,
+     "content": "His severe wrath shall he sharpen for a sword, and the world shall fight with him against the unwise.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 21,
+     "content": "Then shall the right aiming thunderbolts go abroad; and from the clouds, as from a well drawn bow, shall they fly to the mark.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 22,
+     "content": "And hailstones full of wrath shall be cast as out of a stone bow, and the water of the sea shall rage against them, and the floods shall cruelly drown them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 5,
+     "verse": 23,
+     "content": "Yes, a mighty wind shall stand up against them, and like a storm shall blow them away: thus iniquity shall lay waste the whole earth, and ill dealing shall overthrow the thrones of the mighty.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 6,
+     "verse": 1,
+     "content": "Hear therefore, O you⌃ kings, and understand; learn, you⌃ that be judges of the ends of the earth.",
+     "paragraph_start": true
+    },
+    {
+     "book": "WIS",
+     "chapter": 6,
+     "verse": 2,
+     "content": "Give ear, you⌃ that rule the people, and glory in the multitude of nations.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 6,
+     "verse": 3,
+     "content": "For power is given you of the Lord, and sovereignty from the Highest, who shall try your works, and search out your counsels.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Vespers",
+   "book": "OT",
+   "description": "",
+   "display": "Wisdom of Solomon 4.7-15",
+   "short_display": "Wis 4.7-15",
+   "passage": [
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 7,
+     "content": "But though the righteous be prevented with death, yet shall he be in rest.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 8,
+     "content": "For honorable age is not that which stands in length of time, nor that is measured by number of years.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 9,
+     "content": "But wisdom is the gray hair to men, and an unspotted life is old age.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 10,
+     "content": "He pleased God, and was beloved of him: so that living among sinners he was translated.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 11,
+     "content": "Yes speedily was he taken away, lest that wickedness should alter his understanding, or deceit decieve his soul.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 12,
+     "content": "For the bewitching of naughtiness does obscure things that are honest; and the wandering of concupiscence does undermine the simple mind.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 13,
+     "content": "He, being made perfect in a short time, fulfilled a long time:",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 14,
+     "content": "For his soul pleased the Lord: therefore hasted he to take him away from among the wicked.",
+     "paragraph_start": false
+    },
+    {
+     "book": "WIS",
+     "chapter": 4,
+     "verse": 15,
+     "content": "This the people saw, and understood it not, neither laid they up this in their minds, That his grace and mercy is with his saints, and that he has respect to his chosen.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Matins Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 6.17-23",
+   "short_display": "Luke 6.17-23",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 17,
+     "content": "He came down with them and stood on a level place, with a crowd of his disciples and a great number of the people from all Judea and Jerusalem and the sea coast of Tyre and Sidon, who came to hear him and to be healed of their diseases,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 18,
+     "content": "as well as those who were troubled by unclean spirits; and they were being healed.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 19,
+     "content": "All the multitude sought to touch him, for power came out of him and healed them all.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 20,
+     "content": "He lifted up his eyes to his disciples, and said: “Blessed are you who are poor, for God’s Kingdom is yours.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 21,
+     "content": "Blessed are you who hunger now, for you will be filled. Blessed are you who weep now, for you will laugh.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 22,
+     "content": "Blessed are you when men hate you, and when they exclude and mock you, and throw out your name as evil, for the Son of Man’s sake.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 6,
+     "verse": 23,
+     "content": "Rejoice in that day and leap for joy, for behold, your reward is great in heaven, for their fathers did the same thing to the prophets.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Galatians 5.22-6.2",
+   "short_display": "Gal 5.22-6.2",
+   "passage": [
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 22,
+     "content": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith,",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 23,
+     "content": "gentleness, and self-control. Against such things there is no law.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 24,
+     "content": "Those who belong to Christ have crucified the flesh with its passions and lusts.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 25,
+     "content": "If we live by the Spirit, let’s also walk by the Spirit.",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 26,
+     "content": "Let’s not become conceited, provoking one another, and envying one another.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 6,
+     "verse": 1,
+     "content": "Brothers, even if a man is caught in some fault, you who are spiritual must restore such a one in a spirit of gentleness, looking to yourself so that you also aren’t tempted.",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 6,
+     "verse": 2,
+     "content": "Bear one another’s burdens, and so fulfill the law of Christ.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Sabbas",
+   "display": "Galatians 5.22-6.2",
+   "short_display": "Gal 5.22-6.2",
+   "passage": [
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 22,
+     "content": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith,",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 23,
+     "content": "gentleness, and self-control. Against such things there is no law.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 24,
+     "content": "Those who belong to Christ have crucified the flesh with its passions and lusts.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 25,
+     "content": "If we live by the Spirit, let’s also walk by the Spirit.",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 5,
+     "verse": 26,
+     "content": "Let’s not become conceited, provoking one another, and envying one another.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 6,
+     "verse": 1,
+     "content": "Brothers, even if a man is caught in some fault, you who are spiritual must restore such a one in a spirit of gentleness, looking to yourself so that you also aren’t tempted.",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 6,
+     "verse": 2,
+     "content": "Bear one another’s burdens, and so fulfill the law of Christ.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 12.32-40",
+   "short_display": "Luke 12.32-40",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 32,
+     "content": "“Don’t be afraid, little flock, for it is your Father’s good pleasure to give you the Kingdom.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 33,
+     "content": "Sell what you have and give gifts to the needy. Make for yourselves purses which don’t grow old, a treasure in the heavens that doesn’t fail, where no thief approaches and no moth destroys.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 34,
+     "content": "For where your treasure is, there will your heart be also.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 35,
+     "content": "“Let your waist be dressed and your lamps burning.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 36,
+     "content": "Be like men watching for their lord when he returns from the wedding feast, that when he comes and knocks, they may immediately open to him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 37,
+     "content": "Blessed are those servants whom the lord will find watching when he comes. Most certainly I tell you that he will dress himself, make them recline, and will come and serve them.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 38,
+     "content": "They will be blessed if he comes in the second or third watch and finds them so.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 39,
+     "content": "But know this, that if the master of the house had known in what hour the thief was coming, he would have watched and not allowed his house to be broken into.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 12,
+     "verse": 40,
+     "content": "Therefore be ready also, for the Son of Man is coming in an hour that you don’t expect him.”",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Matthew",
+   "description": "St Sabas",
+   "display": "Matthew 11.27-30",
+   "short_display": "Matt 11.27-30",
+   "passage": [
+    {
+     "book": "MAT",
+     "chapter": 11,
+     "verse": 27,
+     "content": "All things have been delivered to me by my Father. No one knows the Son, except the Father; neither does anyone know the Father, except the Son and he to whom the Son desires to reveal him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 11,
+     "verse": 28,
+     "content": "“Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+     "paragraph_start": true
+    },
+    {
+     "book": "MAT",
+     "chapter": 11,
+     "verse": 29,
+     "content": "Take my yoke upon you and learn from me, for I am gentle and humble in heart; and you will find rest for your souls.",
+     "paragraph_start": false
+    },
+    {
+     "book": "MAT",
+     "chapter": 11,
+     "verse": 30,
+     "content": "For my yoke is easy, and my burden is light.”",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Our Venerable, Godbearing Father Sabbas the Sanctified (533)",
+   "story": "<p>“This Saint was born in 439 in Moutalaska, a small village of Cappadocia. He entered the arena of the monastic life from childhood and was under that master trainer of monastics, Euthymius the Great, the teacher of the desert. He became the spiritual father of many monks and an instructor for the monasteries in Palestine, and was appointed leader (archimandrite) of the desert-dwellers of Palestine by the Patriarch of Jerusalem. In his old age he went to Constantinople, to the Emperors Anastasius and Saint Justinian the Great, in behalf of the Orthodox Faith and the dogmas of the Council of Chalcedon. Having lived ninety-four years, he reposed in 533. The Typicon for the ecclesiastical services had its beginning in the monastery established by this righteous one.” <i>(Great Horologion)</i></p>"
+  },
+  {
+   "title": "St Cosmas the Protos of Mount Athos and his companions (ca. 1274)",
+   "story": "<p>“Determined to impose the union of the Churches accepted under pressure at the Council of Lyon (1274) to secure Papal support for the Byzantine Empire, Michael VIII Palaeologos sent troops to Mount Athos, the stronghold of Orthodoxy and centre of opposition to his policy, with orders to take sanguinary measures against monks who would not recognize the false union.</p>\n<p>“When the Emperor’s soldiers reached Karyes, the capital of Athos, which was organized as a lavra in those days, they seized the Protos of Athos, who had been an example to all of what a steadfast monk should be. They put him to the sword together with many other fathers there, and in their fury ransacked and fired the Church and monastic buildings, leaving rack and ruin behind them. Emerging from the wild places and thick forests where they had taken refuge, the Orthodox monks buried the holy Martyrs at the entrance to the Church of the Protaton. Through the centuries, generations of monks piously lit the lamp each day above the ‘tomb of the Protos’; but it was not until 5 December 1981 that his relics were solemnly taken from the earth, and that a service was held in his honour in the presence of a great crowd.” <i>(Synaxarion)</i></p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/5/?translation=lxx2012-web"
+}

@@ -4,6 +4,13 @@
  "tradition": "slavic",
  "items": [
   {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
    "id": "reel",
    "type": "REEL",
    "media": [

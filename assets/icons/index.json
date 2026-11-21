@@ -21,7 +21,7 @@
   "is_icon": true
  },
  "Greatmartyr Jacob of Persia": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "file": null,
   "page": null
  },
@@ -93,7 +93,7 @@
   "page": null
  },
  "Holy Martyr Mercurius of Smolensk (1238)": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "file": null,
   "page": null
  },
@@ -151,7 +151,7 @@
   "page": null
  },
  "Holy, Glorious and Illustrious Apostle Andrew the First-Called": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "file": null,
   "page": null
  },
@@ -230,6 +230,11 @@
   "file": null,
   "page": null
  },
+ "New Martyr Nicolas Karamos of Smyrna (1657)": {
+  "checked": "2026-11-21",
+  "file": null,
+  "page": null
+ },
  "Our Father among the Saints John Chrysostom, Archbishop of Constantinople (407)": {
   "checked": "2026-11-11",
   "file": null,
@@ -242,6 +247,11 @@
  },
  "Our Father among the Saints Nectarius (Nektarios), bishop of Pentapolis, Wonderworker, and founder of the Monastery of the Holy Trinity on Aegina (1920).": {
   "checked": "2026-11-09",
+  "file": null,
+  "page": null
+ },
+ "Our Father among the Saints Nicholas the Wonderworker, Archbishop of Myra (345)": {
+  "checked": "2026-11-21",
   "file": null,
   "page": null
  },
@@ -440,7 +450,7 @@
   "is_icon": true
  },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "file": null,
   "page": null
  },
@@ -528,6 +538,11 @@
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
+ "St Maximus, Metropolitan of Kiev & Vladimir (1305)": {
+  "checked": "2026-11-21",
+  "file": null,
+  "page": null
+ },
  "St Michael, Prince of Tver": {
   "checked": "2026-11-20",
   "file": null,
@@ -567,7 +582,7 @@
   "page": null
  },
  "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "file": null,
   "page": null
  },

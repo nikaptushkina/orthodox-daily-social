@@ -4,23 +4,6 @@
  "tradition": "slavic",
  "items": [
   {
-   "id": "story",
-   "type": "STORY",
-   "media": [
-    "story.jpg"
-   ]
-  },
-  {
-   "id": "feed",
-   "type": "CAROUSEL",
-   "media": [
-    "feed-slide-1.jpg",
-    "feed-slide-2.jpg",
-    "feed-slide-3.jpg"
-   ],
-   "caption": "Today is the Great Feast of the Entry of the Most-Holy Theotokos into the Temple (New Calendar).\n\nWhen the holy child Mary was three, her parents, the righteous Joachim and Anna, fulfilled their vow and presented her at the Temple in Jerusalem. The High Priest Zecharias brought her into the Holy of Holies, where under the Law only the High Priest could enter, once a year. She lived in the Temple for the next nine years, devoting herself entirely to prayer.\n\nThe Church calls all the friends of God to enter the temple of their own heart and make ready for the coming of the Lord by silence and prayer. The feast falls within the Nativity Fast; fish, wine and oil are allowed today.\n\n“On the contrary, blessed are those who hear the word of God, and keep it.” (Luke 11:28)\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #Scripture"
-  },
-  {
    "id": "reel",
    "type": "REEL",
    "media": [

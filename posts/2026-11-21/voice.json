@@ -1,0 +1,53 @@
+{
+ "voice": "am_michael",
+ "speed": 0.9,
+ "music": "the-mountain-quiet-documentary.mp3",
+ "total": 99.778,
+ "screens": [
+  {
+   "text": "The reading from the Book of Exodus.",
+   "starts": 1.0,
+   "length": 4.43
+  },
+  {
+   "text": "And the Lord spoke to Moses, saying, On the first day of the first month, at the new moon, you shall set up the tabernacle of witness, and you shall place in it the ark of the testimony, and shall cover the ark with the veil,",
+   "starts": 5.23,
+   "length": 16.689
+  },
+  {
+   "text": "and you shall bring in the table and shall set forth that which is to be set forth on it; and you shall bring in the candlestick and place its lamps on it.",
+   "starts": 21.918,
+   "length": 11.47
+  },
+  {
+   "text": "And you shall place the golden altar, to burn incense before the ark; and you shall put a covering of a veil on the door of the tabernacle of witness.",
+   "starts": 33.389,
+   "length": 11.993
+  },
+  {
+   "text": "And you shall take the anointing oil, and shall anoint the tabernacle, and all things in it; and shall sanctify it, and all its furniture, and it shall be holy.",
+   "starts": 45.381,
+   "length": 12.276
+  },
+  {
+   "text": "And you shall anoint the altar of burnt offerings, and all its furniture; and you shall hallow the altar, and the altar shall be most holy. And Moses did all things whatever the Lord commanded him, so did he.",
+   "starts": 57.658,
+   "length": 16.179
+  },
+  {
+   "text": "And the cloud covered the tabernacle of witness, and the tabernacle was filled with the glory of the Lord.",
+   "starts": 73.836,
+   "length": 8.863
+  },
+  {
+   "text": "And Moses was not able to enter into the tabernacle of testimony, because the cloud overshadowed it, and the tabernacle was filled with the glory of the Lord.",
+   "starts": 82.699,
+   "length": 12.879
+  },
+  {
+   "text": "",
+   "starts": null,
+   "length": 5.0
+  }
+ ]
+}

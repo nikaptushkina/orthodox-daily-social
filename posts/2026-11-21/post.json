@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-21",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "Vespers for the Entry of the Theotokos into the Temple (New Calendar): the first reading, Exodus 40, read aloud.\n\n“And you shall take the anointing oil, and shall anoint the tabernacle, and all things in it; and shall sanctify it, and all its furniture, and it shall be holy.”\n\n“And the cloud covered the tabernacle of witness, and the tabernacle was filled with the glory of the Lord.”\n\nToday the Church keeps the Great Feast of the Entry of the Theotokos into the Temple, within the Nativity Fast.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Scripture #OrthodoxFeasts",
+   "duration": 99.789,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

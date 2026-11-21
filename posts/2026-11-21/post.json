@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-21",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today is the Great Feast of the Entry of the Most-Holy Theotokos into the Temple (New Calendar).\n\nWhen the holy child Mary was three, her parents, the righteous Joachim and Anna, fulfilled their vow and presented her at the Temple in Jerusalem. The High Priest Zecharias brought her into the Holy of Holies, where under the Law only the High Priest could enter, once a year. She lived in the Temple for the next nine years, devoting herself entirely to prayer.\n\nThe Church calls all the friends of God to enter the temple of their own heart and make ready for the coming of the Lord by silence and prayer. The feast falls within the Nativity Fast; fish, wine and oil are allowed today.\n\n“On the contrary, blessed are those who hear the word of God, and keep it.” (Luke 11:28)\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #Scripture"
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "Vespers for the Entry of the Theotokos into the Temple (New Calendar): the first reading, Exodus 40, read aloud.\n\n“And you shall take the anointing oil, and shall anoint the tabernacle, and all things in it; and shall sanctify it, and all its furniture, and it shall be holy.”\n\n“And the cloud covered the tabernacle of witness, and the tabernacle was filled with the glory of the Lord.”\n\nToday the Church keeps the Great Feast of the Entry of the Theotokos into the Temple, within the Nativity Fast.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Scripture #OrthodoxFeasts",
+   "duration": 100.18,
+   "audio": "pending"
+  }
+ ]
+}

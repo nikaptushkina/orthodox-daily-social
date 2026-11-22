@@ -357,6 +357,11 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:Agios_Theodoros_Stoudites_Dionysiou.jpg",
   "is_icon": true
  },
+ "Our Venerable Father Antony of Siya (1556)": {
+  "checked": "2026-11-22",
+  "file": null,
+  "page": null
+ },
  "Our Venerable Father Arsenios of Cappadocia, the Wonderworker (1924)": {
   "checked": "2026-10-26",
   "file": "assets/icons/our-venerable-father-arsenios-of-cappadocia-the-wonderworker-1924.jpg",
@@ -371,7 +376,7 @@
   "page": null
  },
  "Our Venerable Father Eligius (Eloi), Bishop of Noyon (660)": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-22",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Saint_Eligius"
  },
@@ -460,12 +465,12 @@
   "page": null
  },
  "Saint Gennadius, Archbishop of Novgorod (1505)": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-22",
   "file": null,
   "page": null
  },
  "Saint Philaret the Merciful of Constantinople (762)": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-22",
   "file": null,
   "page": null
  },
@@ -491,6 +496,14 @@
   "checked": "2026-11-20",
   "file": null,
   "page": null
+ },
+ "St Ambrose, Bishop of Milan": {
+  "checked": "2026-11-22",
+  "file": "assets/icons/st-ambrose-bishop-of-milan.jpg",
+  "page": "https://en.wikipedia.org/wiki/Ambrose",
+  "credit": "Icon: Wikimedia Commons · CC BY-SA 4.0",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Ambrogio_Cript_in_Basilica_of_Sant%27Ambrogio,_Milan.jpg",
+  "is_icon": true
  },
  "St Columban, Abbot of Luxeuil (615)": {
   "checked": "2026-11-20",
@@ -583,6 +596,11 @@
  },
  "The Entry of the Most Holy Theotokos into the Temple in Jerusalem.": {
   "checked": "2026-11-21",
+  "file": null,
+  "page": null
+ },
+ "The Martyrs of Africa, who suffered during the Vandal persecution (429 and following)": {
+  "checked": "2026-11-22",
   "file": null,
   "page": null
  },

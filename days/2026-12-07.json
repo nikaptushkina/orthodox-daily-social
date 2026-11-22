@@ -1,0 +1,250 @@
+{
+ "pascha_distance": 239,
+ "julian_day_number": 2461382,
+ "year": 2026,
+ "month": 12,
+ "day": 7,
+ "weekday": 1,
+ "tone": 2,
+ "titles": [
+  "Monday of the 28th week after Pentecost"
+ ],
+ "summary_title": "St Ambrose, Bishop of Milan; Ven. Nilus of Stolobensk; The Martyrs of Africa, who suffered during the Vandal persecution (429 and following)",
+ "feast_level": 3,
+ "feast_level_description": "Red squigg (doxology typikon symbol)",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs",
+  "wine",
+  "oil"
+ ],
+ "saints": [
+  "St Ambrose, Bishop of Milan",
+  "Ven. Nilus of Stolobensk",
+  "Athenodoros the Martyr of Mesopotamia",
+  "The Martyrs of Africa, who suffered during the Vandal persecution (429 and following)",
+  "Our Venerable Father Antony of Siya (1556)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Timothy 2.20-26",
+   "short_display": "2 Tim 2.20-26",
+   "passage": [
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 20,
+     "content": "Now in a large house there are not only vessels of gold and of silver, but also of wood and of clay. Some are for honor and some for dishonor.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 21,
+     "content": "If anyone therefore purges himself from these, he will be a vessel for honor, sanctified, and suitable for the master’s use, prepared for every good work.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 22,
+     "content": "Flee from youthful lusts; but pursue righteousness, faith, love, and peace with those who call on the Lord out of a pure heart.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 23,
+     "content": "But refuse foolish and ignorant questionings, knowing that they generate strife.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 24,
+     "content": "The Lord’s servant must not quarrel, but be gentle toward all, able to teach, patient,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 25,
+     "content": "in gentleness correcting those who oppose him. Perhaps God may give them repentance leading to a full knowledge of the truth,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 2,
+     "verse": 26,
+     "content": "and they may recover themselves out of the devil’s snare, having been taken captive by him to do his will.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 20.27-44",
+   "short_display": "Luke 20.27-44",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 27,
+     "content": "Some of the Sadducees came to him, those who deny that there is a resurrection.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 28,
+     "content": "They asked him, “Teacher, Moses wrote to us that if a man’s brother dies having a wife, and he is childless, his brother should take the wife and raise up children for his brother.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 29,
+     "content": "There were therefore seven brothers. The first took a wife, and died childless.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 30,
+     "content": "The second took her as wife, and he died childless.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 31,
+     "content": "The third took her, and likewise the seven all left no children, and died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 32,
+     "content": "Afterward the woman also died.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 33,
+     "content": "Therefore in the resurrection whose wife of them will she be? For the seven had her as a wife.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 34,
+     "content": "Jesus said to them, “The children of this age marry and are given in marriage.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 35,
+     "content": "But those who are considered worthy to attain to that age and the resurrection from the dead neither marry nor are given in marriage.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 36,
+     "content": "For they can’t die any more, for they are like the angels and are children of God, being children of the resurrection.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 37,
+     "content": "But that the dead are raised, even Moses showed at the bush, when he called the Lord ‘The God of Abraham, the God of Isaac, and the God of Jacob.’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 38,
+     "content": "Now he is not the God of the dead, but of the living, for all are alive to him.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 39,
+     "content": "Some of the scribes answered, “Teacher, you speak well.”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 40,
+     "content": "They didn’t dare to ask him any more questions.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 41,
+     "content": "He said to them, “Why do they say that the Christ is David’s son?",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 42,
+     "content": "David himself says in the book of Psalms, ‘The Lord said to my Lord, “Sit at my right hand,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 43,
+     "content": "until I make your enemies the footstool of your feet.”’",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 20,
+     "verse": 44,
+     "content": "“David therefore calls him Lord, so how is he his son?”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "St Ambrose, Bishop of Milan",
+   "story": "<p>This illustrious light of Orthodoxy in the Western Church was born in Gaul in 349, but his widowed mother took the family to Rome while he was still a small child. Brilliant and well-educated, he was made a provincial Governor in 375 and took up residence in Milan. In those days, the Arian heresy was still dividing the Church, despite its repudiation at the Council of Nicaea in 325. When the time came to elect a new Bishop in Milan, the Orthodox and Arian parties were so divided that they could come to no agreement on a new Bishop. When Ambrose came as Governor to try to restore peace and order, a young child, divinely inspired, called out “Ambrose, Bishop!” To Ambrose’s amazement, the people took up the cry, and Ambrose himself was elected, though he tried to refuse, protesting that he was only a catechumen (it was still common in those days to delay Holy Baptism for fear of polluting it by sin). He even attempted to flee, but his horse brought him back to the city. Resigning himself to God’s will, he was baptized and, only a week later, elevated to Bishop. Immediately, he renounced all possessions, distributed all of his money to the poor and gave his estates to the Church. Straightaway, he entered into a spirited defense of Orthodoxy in his preaching and writings to the dismay of the Arians who had supported his election. Soon he persuaded Gratian, Emperor of the West, to call the Council of Aquilea, which brought an end to Arianism in the Western Church. (Arianism, however, continued to prosper among the barbarian nations for many years; see the Martyrs of Africa, also commemorated today).</p>\n<p>Several times the holy Bishop was called upon to defend the Church against domination by the secular powers. Once, putting down an uprising in Thessalonika, the Emperor Theodosius punished the city by ordering the massacre of thousands of its residents. When the Emperor later visited Milan and came to the Cathedral to attend the Liturgy, Saint Ambrose stopped him at the door, condemned his crime before all the people, forbade him entrance to the church and excommunicated him for eight months. The Emperor went away weeping, and submitted in humility to the Church’s discipline. When he returned after long penance to be restored to Communion, he went into the sanctuary along with the clergy, as had been the custom of the Emperors since Constantine the Great. But again the holy Ambrose humbled him in the sight of all the people, saying “Get out and take your place among the laity; the purple does not make priests, but only emperors.” Theodosius left without protest, took his place among the penitents, and never again attempted to enter the sanctuary of a church. (When the Emperor died, it was Bishop Ambrose who preached his funeral eulogy).</p>\n<p>Saint Ambrose, by teaching, preaching and writing, brought countless pagans to the Faith. His most famous convert was St Augustine (June 15), who became his disciple and eventually a bishop. Ambrose’s many theological and catechetical works helped greatly to spread the teaching of the Greek fathers in the Latin world. He wrote many glorious antiphonal hymns which were once some of the gems of the Latin services.</p>\n<p>Saint Ambrose reposed in peace in 397; his relics still rest in the basilica in Milan.</p>"
+  },
+  {
+   "title": "The Martyrs of Africa, who suffered during the Vandal persecution (429 and following)",
+   "story": "<p>In the year 429, eighty thousand Vandals crossed from Spain into Africa and, in the course of ten years of massacre and pillage, gained control of most of the Roman territories of North Africa. Many people picture these barbarians as pagans, but they were in fact Arian heretics, who under their leader Genseric began a fierce persecution of the Church wherever they encountered it. The tortures that many thousands endured in their confession of the Faith are too horrible to describe here; the clergy were singled out for special cruelty.</p>\n<p>Today we especially commemorate the Orthodox faithful whom the Vandals burned to death in their church, who went on singing hymns and praising God until the moment of their death. We also commemorate the three hundred Martyrs in Carthage who died by the sword rather than submit to Arian baptism.</p>\n<p>The death of Genseric in 454 brought little relief, for after a short hiatus his successors Huneric (477-484) and Gonthamund (484-497) continued the persecution as viciously as before. Christian Africa lived under the Vandal yoke for almost 100 years: freedom from persecution was not secure until Justinian’s forces overcame and drove off the Vandals in 523-525. The African Church, once a beacon of Christianity, never recovered its former vitality.</p>"
+  },
+  {
+   "title": "Our Venerable Father Antony of Siya (1556)",
+   "story": "<p>Saint Anthony is one of the holy protectors of iconographers.</p>\n<p>He was born in 1477 in a Russian village near Archangel. From an early age he devoted himself to reading sacred books and making icons. When his parents died, he entered the service of a wealthy lord in Novgorod, and later married the lord’s daughter. But less than a year after his marriage he was widowed. Despairing of earthly consolations, he gave his wealth to the poor and, owning only the clothes that he wore, went to become a monk at the Monastery of St Pachomius. There he excelled in prayer, vigil and ascesis, praying for most of the night, taking on the heaviest work by day, and eating only every second day. After a short time he was ordained to the priesthood.</p>\n<p>Some years later he and two companions, seeking a more secluded life for prayer, traveled to the frigid shores of the White Sea and established a small monastic brotherhood where the River Siya enters Lake Mikhailov. They lived in utter poverty, staying alive by gathering mushrooms and wild berries. Many times they heard the sound of bells, though there was no church or habitation anywhere nearby. In time other brethren were attracted to the site, and a monastery was founded with the help of the Grand Prince of Moscow. When the monastery church burned down, an icon of the Holy Trinity painted by St Antony miraculously survived unscathed, and later worked many miracles. The Saint himself withdrew into the forests, living alone for many years until he was called back by his spiritual children to serve as the monastery’s abbot. Having foreseen his own end, he reposed in peace in 1556. He asked that his body be thrown into the lake, but his disciples, obedient in every other way, did not fulfil his request. His tomb was the source of many miracles in the coming years.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/7/?translation=lxx2012-web"
+}

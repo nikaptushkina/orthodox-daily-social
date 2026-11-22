@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-22",
+  "story": {
+    "date_line": "Sunday · November 22",
+    "title": "25th Sunday after Pentecost",
+    "subtitle": "The Lord's Day · Tone 8",
+    "commemorating": "Apostles Philemon, Archippus, Apphia and Onesimus",
+    "fasting": "Fish allowed",
+    "readings": [
+      {"label": "Readings of the day", "refs": ["Ephesians 4:1–6", "Luke 12:16–21"]}
+    ],
+    "accent": "ordinary"
+  },
+  "feed": {
+    "kind": "week_ahead",
+    "accent": "ordinary",
+    "range_line": "November 22 – 28",
+    "rows": [
+      {"day": "Sun 22", "title": "25th Sunday after Pentecost", "fast": "Fish allowed", "fast_kind": "fish"},
+      {"day": "Mon 23", "title": "Rt. Blv. Great Prince Alexander Nevsky", "fast": "Strict fast", "fast_kind": "fast"},
+      {"day": "Tue 24", "title": "Greatmartyr Catherine of Alexandria", "fast": "Wine and oil allowed", "fast_kind": "fast"},
+      {"day": "Wed 25", "title": "Leavetaking of the Entry", "fast": "Wine and oil allowed", "fast_kind": "fast"},
+      {"day": "Thu 26", "title": "Venerable Alypius the Stylite", "fast": "Wine and oil allowed", "fast_kind": "fast"},
+      {"day": "Fri 27", "title": "Greatmartyr Jacob of Persia", "fast": "Strict fast", "fast_kind": "fast"},
+      {"day": "Sat 28", "title": "Monk Martyr Stephen the New", "fast": "Fish allowed", "fast_kind": "fish"}
+    ],
+    "banner": "Monday: Rt. Blv. Great Prince Alexander Nevsky",
+    "end": {
+      "kicker": "Coming next",
+      "title": "Holy Apostle Andrew the First Called",
+      "date": "Monday, November 30",
+      "line": "The first to recognize Jesus as the Christ, who brought his brother Peter to Him.",
+      "accent": "feast"
+    },
+    "caption": "The week ahead, November 22 – 28 (New Calendar): feasts, saints and fasting at a glance.\n\nWe begin with the 25th Sunday after Pentecost, when we also remember the Apostles Philemon, Archippus, Apphia and Onesimus, disciples of the Apostle Paul, and St Michael, Prince of Tver.\n\nOn Monday the Church keeps the feast of the Holy Prince Alexander Nevsky. Through the week we remember the Greatmartyr Catherine of Alexandria, the Venerable Alypius the Stylite, the Greatmartyr Jacob of Persia and St Stephen the New. Wednesday is the Leavetaking of the Entry of the Theotokos into the Temple. The Nativity Fast continues: fish is allowed on Sunday and Saturday, wine and oil from Tuesday to Thursday, and Monday and Friday are strict fast days.\n\nComing next: the Holy Apostle Andrew the First Called on Monday, November 30.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #OrthodoxFeasts"
+  }
+}

@@ -1,0 +1,164 @@
+{
+ "pascha_distance": 240,
+ "julian_day_number": 2461383,
+ "year": 2026,
+ "month": 12,
+ "day": 8,
+ "weekday": 2,
+ "tone": 2,
+ "titles": [
+  "Tuesday of the 28th week after Pentecost"
+ ],
+ "summary_title": "Ven. Patapius of Thebes; Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 1,
+ "fast_exception_desc": "Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Ven. Patapius of Thebes",
+  "Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Timothy 3.16-4.4",
+   "short_display": "2 Tim 3.16-4.4",
+   "passage": [
+    {
+     "book": "2TI",
+     "chapter": 3,
+     "verse": 16,
+     "content": "Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 3,
+     "verse": 17,
+     "content": "that each person who belongs to God may be complete, thoroughly equipped for every good work.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 1,
+     "content": "I command you therefore before God and the Lord Jesus Christ, who will judge the living and the dead at his appearing and his Kingdom:",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 2,
+     "content": "preach the word; be urgent in season and out of season; reprove, rebuke, and exhort with all patience and teaching.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 3,
+     "content": "For the time will come when they will not listen to the sound doctrine, but having itching ears, will heap up for themselves teachers after their own lusts,",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 4,
+     "content": "and will turn away their ears from the truth, and turn away to fables.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 21.12-19",
+   "short_display": "Luke 21.12-19",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 12,
+     "content": "But before all these things, they will lay their hands on you and will persecute you, delivering you up to synagogues and prisons, bringing you before kings and governors for my name’s sake.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 13,
+     "content": "It will turn out as a testimony for you.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 14,
+     "content": "Settle it therefore in your hearts not to meditate beforehand how to answer,",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 15,
+     "content": "for I will give you a mouth and wisdom which all your adversaries will not be able to withstand or to contradict.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 16,
+     "content": "You will be handed over even by parents, brothers, relatives, and friends. They will cause some of you to be put to death.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 17,
+     "content": "You will be hated by all men for my name’s sake.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 18,
+     "content": "And not a hair of your head will perish.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 19,
+     "content": "“By your endurance you will win your lives.",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Ven. Patapius of Thebes",
+   "story": "<p>He was born at Thebes in Egypt, and at a young age left his pious parents, his inheritance and his acquaintances to dwell in the Egyptian desert, devoting himself to ceaseless prayer. After many years, he reputation spread and, despite his desire for solitude, throngs of pilgrims would seek him out for his prayers and counsel. To escape the attentions of men, he did a surprising thing: he abandoned the desert and moved to Constantinople, settling in the Blachernae district, where, amid the bustle of the city, he was able to pass unnoticed, more secure in his solitude than he had been in the caves of Egypt.</p>\n<p>As he grew in obedience to the commandments of Christ, the grace of working miracles grew in him, and once again he gradually became known. Once a blind man cast himself before Patapius on the street, and the Saint cured him instantly by calling on the name of Christ. Once he healed a man crippled by dropsy, anointing him with the oil from a vigil lamp and signing him with the Cross.</p>\n<p>After blessing the Church for many years with his prayers and miracles, St Patapius fell asleep in peace, and was buried in the church of the Monastery of the Egyptians near Constantinople. In 1904 his precious and incorrupt relics were uncovered in the course of some building at a small monastery near Corinth. From that time the monastery has been dedicated to St Patapius, and many miracles are worked there.</p>"
+  },
+  {
+   "title": "Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar",
+   "story": "<p>All of these Apostles are mentioned in the New Testament. Sosthenes was the ruler of the Synagogue in Corinth, and was converted through the preaching of St Paul. After traveling with St Paul for years, he became Bishop of Colophon near Ephesus. Apollos was a Jew from Alexandria, well educated and with a deep knowledge of the Scriptures. He was brought to the fulness of the Christian faith by Priscilla and Aquila in Ephesus, and went out preaching the Gospel among the pagans. His eloquence was so admired that for awhile the gentile Church divided into two factions, one for Paul and one for Apollos. Saint Apollos later became Bishop of Caesarea.</p>\n<p>(The Synaxarion lists Cephas and Caesar here; but some believe that St Paul’s reference to Cephas in 1 Cor 1:12 refers to the Apostle Peter, not to a separate companion of St Paul; and that “those of Caesar’s household” (Phil. 4:22) refers to Christians in the Emperor’s palace in Rome, not to a Christian named Caesar.)</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/8/?translation=lxx2012-web"
+}

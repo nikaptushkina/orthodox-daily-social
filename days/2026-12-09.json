@@ -1,0 +1,372 @@
+{
+ "pascha_distance": 241,
+ "julian_day_number": 2461384,
+ "year": 2026,
+ "month": 12,
+ "day": 9,
+ "weekday": 3,
+ "tone": 2,
+ "titles": [
+  "Wednesday of the 28th week after Pentecost"
+ ],
+ "summary_title": "Conception by St Anna of the Theotokos",
+ "feast_level": 3,
+ "feast_level_description": "Red squigg (doxology typikon symbol)",
+ "feasts": [
+  "Conception by St Anna of the Theotokos"
+ ],
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 0,
+ "fast_exception_desc": "",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs",
+  "wine",
+  "oil"
+ ],
+ "saints": [
+  "St Hannah (Anna), the Prophetess, the mother of the Prophet Samuel (12th c. BC)",
+  "St Stephen the New Light (Neolampes) of Constantinople (912)"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  1,
+  3
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "2 Timothy 4.9-22",
+   "short_display": "2 Tim 4.9-22",
+   "passage": [
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 9,
+     "content": "Be diligent to come to me soon,",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 10,
+     "content": "for Demas left me, having loved this present world, and went to Thessalonica; Crescens to Galatia; and Titus to Dalmatia.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 11,
+     "content": "Only Luke is with me. Take Mark and bring him with you, for he is useful to me for service.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 12,
+     "content": "But I sent Tychicus to Ephesus.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 13,
+     "content": "Bring the cloak that I left at Troas with Carpus when you come—and the books, especially the parchments.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 14,
+     "content": "Alexander the coppersmith did much evil to me. The Lord will repay him according to his deeds.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 15,
+     "content": "Beware of him, for he greatly opposed our words.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 16,
+     "content": "At my first defense, no one came to help me, but all left me. May it not be held against them.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 17,
+     "content": "But the Lord stood by me and strengthened me, that through me the message might be fully proclaimed, and that all the Gentiles might hear. So I was delivered out of the mouth of the lion.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 18,
+     "content": "And the Lord will deliver me from every evil work and will preserve me for his heavenly Kingdom. To him be the glory forever and ever. Amen.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 19,
+     "content": "Greet Prisca and Aquila, and the house of Onesiphorus.",
+     "paragraph_start": true
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 20,
+     "content": "Erastus remained at Corinth, but I left Trophimus at Miletus sick.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 21,
+     "content": "Be diligent to come before winter. Eubulus salutes you, as do Pudens, Linus, Claudia, and all the brothers.",
+     "paragraph_start": false
+    },
+    {
+     "book": "2TI",
+     "chapter": 4,
+     "verse": 22,
+     "content": "The Lord Jesus Christ be with your spirit. Grace be with you. Amen.",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "St Anna",
+   "display": "Galatians 4.22-31",
+   "short_display": "Gal 4.22-31",
+   "passage": [
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 22,
+     "content": "For it is written that Abraham had two sons, one by the servant, and one by the free woman.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 23,
+     "content": "However, the son by the servant was born according to the flesh, but the son by the free woman was born through promise.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 24,
+     "content": "These things contain an allegory, for these are two covenants. One is from Mount Sinai, bearing children to bondage, which is Hagar.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 25,
+     "content": "For this Hagar is Mount Sinai in Arabia, and answers to the Jerusalem that exists now, for she is in bondage with her children.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 26,
+     "content": "But the Jerusalem that is above is free, which is the mother of us all.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 27,
+     "content": "For it is written, “Rejoice, you barren who don’t bear. Break out and shout, you who don’t travail. For the desolate women have more children than her who has a husband.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 28,
+     "content": "Now we, brothers, as Isaac was, are children of promise.",
+     "paragraph_start": true
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 29,
+     "content": "But as then, he who was born according to the flesh persecuted him who was born according to the Spirit, so also it is now.",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 30,
+     "content": "However, what does the Scripture say? “Throw out the servant and her son, for the son of the servant will not inherit with the son of the free woman.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "GAL",
+     "chapter": 4,
+     "verse": 31,
+     "content": "So then, brothers, we are not children of a servant, but of the free woman.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 21.5-7, 10-11, 20-24",
+   "short_display": "Luke 21.5-7, 10-11, 20-24",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 5,
+     "content": "As some were talking about the temple and how it was decorated with beautiful stones and gifts, he said,",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 6,
+     "content": "“As for these things which you see, the days will come in which there will not be left here one stone on another that will not be thrown down.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 7,
+     "content": "They asked him, “Teacher, so when will these things be? What is the sign that these things are about to happen?”",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 10,
+     "content": "Then he said to them, “Nation will rise against nation, and kingdom against kingdom.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 11,
+     "content": "There will be great earthquakes, famines, and plagues in various places. There will be terrors and great signs from heaven.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 20,
+     "content": "“But when you see Jerusalem surrounded by armies, then know that its desolation is at hand.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 21,
+     "content": "Then let those who are in Judea flee to the mountains. Let those who are in the middle of her depart. Let those who are in the country not enter therein.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 22,
+     "content": "For these are days of vengeance, that all things which are written may be fulfilled.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 23,
+     "content": "Woe to those who are pregnant and to those who nurse infants in those days! For there will be great distress in the land and wrath to this people.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 24,
+     "content": "They will fall by the edge of the sword, and will be led captive into all the nations. Jerusalem will be trampled down by the Gentiles until the times of the Gentiles are fulfilled.",
+     "paragraph_start": false
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "St Anna",
+   "display": "Luke 8.16-21",
+   "short_display": "Luke 8.16-21",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 16,
+     "content": "“No one, when he has lit a lamp, covers it with a container or puts it under a bed; but puts it on a stand, that those who enter in may see the light.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 17,
+     "content": "For nothing is hidden that will not be revealed, nor anything secret that will not be known and come to light.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 18,
+     "content": "Be careful therefore how you hear. For whoever has, to him will be given; and whoever doesn’t have, from him will be taken away even that which he thinks he has.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 19,
+     "content": "His mother and brothers came to him, and they could not come near him for the crowd.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 20,
+     "content": "Some people told him, “Your mother and your brothers stand outside, desiring to see you.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 8,
+     "verse": 21,
+     "content": "But he answered them, “My mother and my brothers are these who hear the word of God and do it.”",
+     "paragraph_start": true
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "The Conception of the Most Holy Mother of God",
+   "story": "<p>“In accordance with the eternal purpose of God, who willed to prepare a most pure habitation for Himself in order to take flesh and dwell among men, Joachim and Anna were prevented from having children for many years. Their barren old age was symbolic of human nature itself, bowed down and dried up under the weight of sin and death, yet they never ceased begging God to take away their reproach. Now when the time of preparation determined by the Lord had been fulfilled, God sent an Angel to Joachim in solitude on a mountain, and to Anna in her affliction weeping in her garden, to tell them that the ancient prophecies were soon to be fulfilled in them: a child would be born to them, who was destined to become the veritable Ark of the new Covenant, the divine Ladder, the unburnt Bush, the living Temple where the Word of God would take up his abode. Through the conception of Saint Anna, the barrenness of human nature itself, separated from God by death, has on this day been brought to an end; and by the wondrous birth-giving of her who had remained childless until the age when women can no longer bear fruit, God announced and testified to the more astonishing miracle of the Conception without seed, and of the immaculate coming to birth of Christ within the heart and the womb of the Most Holy Virgin and Mother of God.</p>\n<p>“Even though the birth of the Blessed Virgin Mary took place through a miraculous action of God, she was conceived by the union of man and woman in accordance with the laws of our human nature, which has fallen through Adam’s transgression and become subject to sin and corruption (cf. Gen. 3:16). As the chosen Vessel and precious Shrine prepared by God since the beginning of time, she is indeed the most pure and the most perfect of mankind, but even so, she has not been set apart from our common inheritance nor from the consequences of the sin of our first parents. Just as it was fitting that Christ, in order to deliver us from death by his own voluntary death (Heb. 2:14), should by His Incarnation be made like to men in all things except sin; so it was meet that His Mother, in whose womb the Word of God would unite with human nature, should be subject to death and corruption like every child of Adam, lest we not be fully included in Salvation and Redemption. The Mother of God has been chosen and preferred among all women, not arbitrarily, but because God foresaw that she would preserve her purity and keep it perfect: conceived and born like all of us, she has been worthy to become the Mother of the Son of God and the mother of us all. So, in her tenderness and compassion, she is able to intercede for us with her Son, that He may have mercy upon us.</p>\n<p>“Just as the Lord Jesus Christ was the fruit of the virginity of the holy Mother of God, so she herself was the fruit of the chastity of Joachim and Anna. And by following the same path of chastity we too, monks and Christian married people, can bring Christ to be born and grow in us.” <i>(Synaxarion)</i></p>\n<p>In the Latin church, this day is called the Feast of the Immaculate Conception, reflecting the erroneous Latin view of the conception of the Holy Theotokos.</p>\n<p>“The doctrine of the Immaculate Conception proclaimed by the Roman Catholics in 1858 is rejected by the Orthodox Church, but without in any way detracting from the dignity of the Mother of God. In fact, according to the Fathers, the inheritance from Adam consists not in a personal responsibility of all men for original sin, but simply in the inheritance of the consequences of sin: death, corruption and the passions (including procreation and fleshly union). Hence the Orthodox have no difficulty in recognizing that the Mother of God was heir, like us, of all the consequences of Adam’s sin — Christ alone was exempt — but at the same time pure and without personal sin, for she freely kept herself from all attraction for the world and for the passions, and she voluntarily co-operated in God’s purpose by obeying His will with docility: <i>Behold the handmaid of the Lord; be it unto me according to thy word, she replied to the Angel Gabriel</i> (Luke 1:38)” <i>(Synaxarion)</i></p>"
+  },
+  {
+   "title": "St Hannah (Anna), the Prophetess, the mother of the Prophet Samuel (12th c. BC)",
+   "story": "<p>Her story opens the First Book of Samuel. Though barren, she kept all the commandments and prayed with fervor that her reproach might be taken from her, vowing that if God granted her a son she would dedicate him to God’s service. When her prayers were answered, she brought her child Samuel to live with Eli the High Priest as soon as he was weaned. Her beautiful song of praise and thanks (1 Sam. 2:1-10) has become the third Biblical Ode of the Matins Canon; today it is only sung in full in monasteries during Lent. Despite her age, God granted her three sons and two daughters. She reposed in peace.</p>"
+  },
+  {
+   "title": "St Stephen the New Light (Neolampes) of Constantinople (912)",
+   "story": "<p>He seems to have lived in Constantinople for his entire life, but lived there as if in the desert, devoting himself entirely to solitude, fasting and prayer. For most of his adult life he ate only a few vegetables without salt once or twice a week; by his prayers many miracles were wrought in the City.</p>\n<p>In time he was made a priest and served in the church of St Antipas, where he lived in seclusion. When the church was destroyed in the earthquake of 879, he withdrew to a dank pit in the ruins where the air was so unwholesome that he lost his hair and teeth and was almost paralyzed. He only emerged from this ascesis after twelve years. Thereafter he served the Divine Liturgy only on Feasts of the Lord, allowing himself some water and fruit after the service; otherwise he spent his time alone in silent prayer. He reposed in peace in 912 at the age of seventy-three.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/9/?translation=lxx2012-web"
+}

@@ -21,7 +21,7 @@
   "is_icon": true
  },
  "Greatmartyr Jacob of Persia": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -98,7 +98,7 @@
   "page": null
  },
  "Holy Martyr Mercurius of Smolensk (1238)": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -156,7 +156,7 @@
   "page": null
  },
  "Holy, Glorious and Illustrious Apostle Andrew the First-Called": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -236,7 +236,7 @@
   "page": null
  },
  "New Martyr Nicolas Karamos of Smyrna (1657)": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -256,7 +256,7 @@
   "page": null
  },
  "Our Father among the Saints Nicholas the Wonderworker, Archbishop of Myra (345)": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -460,7 +460,7 @@
   "is_icon": true
  },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -538,6 +538,14 @@
   "file": null,
   "page": null
  },
+ "St Hannah (Anna), the Prophetess, the mother of the Prophet Samuel (12th c. BC)": {
+  "checked": "2026-11-24",
+  "file": "assets/icons/st-hannah-anna-the-prophetess-the-mother-of-the-prophet-samuel-12th-c-bc.jpg",
+  "page": "https://en.wikipedia.org/wiki/Hannah_(biblical_figure)",
+  "credit": "Image: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Samuel_dedicated_by_Hannah.jpg",
+  "is_icon": false
+ },
  "St Hieron and the Holy 33 Martyrs of Melitene": {
   "checked": "2026-11-06",
   "file": null,
@@ -557,7 +565,7 @@
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
  "St Maximus, Metropolitan of Kiev & Vladimir (1305)": {
-  "checked": "2026-11-21",
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },
@@ -589,6 +597,11 @@
   "file": null,
   "page": null
  },
+ "St Stephen the New Light (Neolampes) of Constantinople (912)": {
+  "checked": "2026-11-24",
+  "file": null,
+  "page": null
+ },
  "St Tabitha of Joppa": {
   "checked": "2026-10-25",
   "file": null,
@@ -596,6 +609,11 @@
  },
  "Synaxis of the Chief Captains of the Heavenly Host, Michael and Gabriel, and of the other Bodiless Powers of Heaven": {
   "checked": "2026-11-06",
+  "file": null,
+  "page": null
+ },
+ "The Conception of the Most Holy Mother of God": {
+  "checked": "2026-11-24",
   "file": null,
   "page": null
  },

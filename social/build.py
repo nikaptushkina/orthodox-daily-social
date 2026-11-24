@@ -42,6 +42,7 @@ def reading_verses(day, index):
     r = readings[index]
     verses = [{"n": v.get("verse"), "c": v.get("chapter"), "t": clean(v.get("content"))}
               for v in (r.get("passage") or [])]
+    verses = [v for v in verses if v["t"]]  # some verses are empty in the WEB (e.g. Luke 17:36)
     if not verses:
         raise SystemExit(f"reading {index} ({r.get('display')}) has no passage text")
     return r, verses

@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-24",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today’s Gospel (Tuesday, November 24, New Calendar): Luke 17:26–37, on the day the Son of Man is revealed.\n\n“As it was in the days of Noah, even so it will also be in the days of the Son of Man.”\n\nThe Lord recalls the days of Noah and of Lot, when people ate, drank, bought and sold until the day came. He warns: “Remember Lot’s wife! Whoever seeks to save his life loses it, but whoever loses his life preserves it.”\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #DailyPrayer #Scripture"
+  }
+ ]
+}

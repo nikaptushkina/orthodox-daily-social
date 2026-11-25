@@ -1,0 +1,195 @@
+{
+ "pascha_distance": 242,
+ "julian_day_number": 2461385,
+ "year": 2026,
+ "month": 12,
+ "day": 10,
+ "weekday": 4,
+ "tone": 2,
+ "titles": [
+  "Thursday of the 28th week after Pentecost"
+ ],
+ "summary_title": "Martyrs Menas, Hermogenes, Eugraphus; Thomas the Righteous of Bithynia",
+ "feast_level": 0,
+ "feast_level_description": "Liturgy",
+ "feasts": null,
+ "fast_level": 5,
+ "fast_level_desc": "Nativity Fast",
+ "fast_exception": 1,
+ "fast_exception_desc": "Wine and Oil are Allowed",
+ "fast_abstentions": [
+  "meat",
+  "fish",
+  "dairy",
+  "eggs"
+ ],
+ "saints": [
+  "Martyrs Menas, Hermogenes, Eugraphus",
+  "Thomas the Righteous of Bithynia"
+ ],
+ "service_notes": null,
+ "abbreviated_reading_indices": [
+  0,
+  1
+ ],
+ "readings": [
+  {
+   "source": "Epistle",
+   "book": "Apostol",
+   "description": "",
+   "display": "Titus 1.5-2.1",
+   "short_display": "Titus 1.5-2.1",
+   "passage": [
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 5,
+     "content": "I left you in Crete for this reason, that you would set in order the things that were lacking and appoint elders in every city, as I directed you—",
+     "paragraph_start": true
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 6,
+     "content": "if anyone is blameless, the husband of one wife, having children who believe, who are not accused of loose or unruly behavior.",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 7,
+     "content": "For the overseer must be blameless, as God’s steward, not self-pleasing, not easily angered, not given to wine, not violent, not greedy for dishonest gain;",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 8,
+     "content": "but given to hospitality, a lover of good, sober minded, fair, holy, self-controlled,",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 9,
+     "content": "holding to the faithful word which is according to the teaching, that he may be able to exhort in the sound doctrine, and to convict those who contradict him.",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 10,
+     "content": "For there are also many unruly men, vain talkers and deceivers, especially those of the circumcision,",
+     "paragraph_start": true
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 11,
+     "content": "whose mouths must be stopped: men who overthrow whole houses, teaching things which they ought not, for dishonest gain’s sake.",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 12,
+     "content": "One of them, a prophet of their own, said, “Cretans are always liars, evil beasts, and idle gluttons.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 13,
+     "content": "This testimony is true. For this cause, reprove them sharply, that they may be sound in the faith,",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 14,
+     "content": "not paying attention to Jewish fables and commandments of men who turn away from the truth.",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 15,
+     "content": "To the pure, all things are pure, but to those who are defiled and unbelieving, nothing is pure; but both their mind and their conscience are defiled.",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 1,
+     "verse": 16,
+     "content": "They profess that they know God, but by their deeds they deny him, being abominable, disobedient, and unfit for any good work.",
+     "paragraph_start": false
+    },
+    {
+     "book": "TIT",
+     "chapter": 2,
+     "verse": 1,
+     "content": "But say the things which fit sound doctrine,",
+     "paragraph_start": true
+    }
+   ]
+  },
+  {
+   "source": "Gospel",
+   "book": "Luke",
+   "description": "",
+   "display": "Luke 21.28-33",
+   "short_display": "Luke 21.28-33",
+   "passage": [
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 28,
+     "content": "But when these things begin to happen, look up and lift up your heads, because your redemption is near.”",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 29,
+     "content": "He told them a parable. “See the fig tree and all the trees.",
+     "paragraph_start": true
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 30,
+     "content": "When they are already budding, you see it and know by your own selves that the summer is already near.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 31,
+     "content": "Even so you also, when you see these things happening, know that God’s Kingdom is near.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 32,
+     "content": "Most certainly I tell you, this generation will not pass away until all things are accomplished.",
+     "paragraph_start": false
+    },
+    {
+     "book": "LUK",
+     "chapter": 21,
+     "verse": 33,
+     "content": "Heaven and earth will pass away, but my words will by no means pass away.",
+     "paragraph_start": false
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "title": "Martyrs Menas, Hermogenes, Eugraphus",
+   "story": "<p>Menas was an Athenian, a courtier of the Emperor Maximinus, and a secret Christian. Once there was an outbreak of civil unrest in Alexandria, brought about by various political factions, and by the increasing success of Christian missionaries in turning the Alexandrian people from the idols. The Emperor sent Menas to reconcile the parties and settle the dispute. On his arrival, Menas quickly resolved the political troubles and restored peace to the city; but instead of putting down Christianity as the Emperor had desired, he did everything in his power to protect the Christians and encourage the spread of the Gospel. When word of this came to the Emperor, he sent another trusted courtier, Hermogenes, to re-establish Imperial authority and to execute Menas if he would not renounce Christ. Hermogenes followed these orders scrupulously: he subjected the godly Menas to various horrid tortures in the public arena. But Menas was miraculously preserved through them all, and when he finally appeared in the arena, flanked by two shining Angels, Hermogenes repented and confessed Christ. He in turn became such a fervent advocate for the Gospel that he was soon made a Bishop (!). Finally the Emperor decided that the only solution was to come to Alexandria himself. There he had both Menas and Hermogenes cruelly tortured to death in secret, lest they perform any public miracles; but when the Emperor presented himself before the people at the arena the following day, the two Saints, miraculously preserved, appeared there also, causing the people to cry out “Christ is the only true God!” At the sight, Menas’ scribe Eugraphus declared himself a Christian, leaped into the arena and publicly demanded the honor of dying with them. All three were beheaded. Their precious relics were later taken to Constantinople, where they worked many miracles.</p>"
+  }
+ ],
+ "_source": "https://orthocal.info/api/slavic/gregorian/2026/12/10/?translation=lxx2012-web"
+}

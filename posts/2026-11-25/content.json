@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-25",
+  "story": {
+    "date_line": "Wednesday · November 25",
+    "title": "Leavetaking of the Entry",
+    "subtitle": "The closing day of the feast of the Entry",
+    "week_line": "Wednesday of the 26th week after Pentecost",
+    "fasting": "Wine and oil allowed",
+    "readings": [
+      {"label": "Readings of the day", "refs": ["1 Timothy 1:18–20, 2:8–15", "Luke 18:15–17, 26–30"]},
+      {"label": "For the Theotokos", "refs": ["Hebrews 9:1–7", "Luke 10:38–42, 11:27–28"]}
+    ],
+    "accent": "theotokos"
+  },
+  "reel": {
+    "kind": "psalm",
+    "mood": "dawn",
+    "psalm": {"name": "Psalm 5", "from": 1, "to": 8},
+    "title": {"kicker": "A psalm to pray · Part 1 of 2", "title": "Psalm 5", "subtitle": "In the morning you shall hear my voice"},
+    "end": {"quote": "But I will enter into your house in the multitude of your mercy: I will worship in your fear toward your holy temple."},
+    "footer": "orthodoxdaily.net · Septuagint (LXX2012)",
+    "caption": "A psalm to pray this Wednesday (November 25, New Calendar): Psalm 5, verses 1–8, the first of two parts.\n\n“Listen to my words, O Lord, attend to my cry. Attend to the voice of my supplication, my King, and my God: for to you, O Lord, will I pray.”\n\n“In the morning you shall hear my voice: in the morning will I wait upon you, and will look up.” And on this Leavetaking of the Entry of the Theotokos into the Temple: “But I will enter into your house in the multitude of your mercy: I will worship in your fear toward your holy temple.”\n\nThe psalm continues next Wednesday.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Psalms #DailyPrayer #Scripture"
+  }
+}

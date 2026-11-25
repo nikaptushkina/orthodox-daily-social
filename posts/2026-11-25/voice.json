@@ -1,0 +1,38 @@
+{
+ "voice": "am_michael",
+ "speed": 0.9,
+ "music": "the-mountain-quiet-documentary.mp3",
+ "total": 74.037,
+ "screens": [
+  {
+   "text": "Psalm 5.",
+   "starts": 1.0,
+   "length": 4.0
+  },
+  {
+   "text": "For the end, a Psalm of David, concerning her that inherits. Listen to my words, O Lord, attend to my cry. Attend to the voice of my supplication, my King, and my God: for to you, O Lord, will I pray.",
+   "starts": 4.8,
+   "length": 17.621
+  },
+  {
+   "text": "In the morning you shall hear my voice: in the morning will I wait upon you, and will look up. For you are not a god that desires iniquity; neither shall the worker of wickedness dwell with you.",
+   "starts": 22.421,
+   "length": 14.642
+  },
+  {
+   "text": "Neither shall the transgressors continue in your sight: you hate, O Lord, all them that work iniquity. You will destroy all that speak falsehood: the Lord abhors the bloody and deceitful man.",
+   "starts": 37.063,
+   "length": 15.718
+  },
+  {
+   "text": "But I will enter into your house in the multitude of your mercy: I will worship in your fear toward your holy temple. Lead me, O Lord, in your righteousness because of my enemies; make my way plain before your face.",
+   "starts": 52.781,
+   "length": 17.055
+  },
+  {
+   "text": "",
+   "starts": null,
+   "length": 5.0
+  }
+ ]
+}

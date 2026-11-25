@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-25",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "A psalm to pray this Wednesday (November 25, New Calendar): Psalm 5, verses 1–8, the first of two parts.\n\n“Listen to my words, O Lord, attend to my cry. Attend to the voice of my supplication, my King, and my God: for to you, O Lord, will I pray.”\n\n“In the morning you shall hear my voice: in the morning will I wait upon you, and will look up.” And on this Leavetaking of the Entry of the Theotokos into the Temple: “But I will enter into your house in the multitude of your mercy: I will worship in your fear toward your holy temple.”\n\nThe psalm continues next Wednesday.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #Psalms #DailyPrayer #Scripture",
+   "duration": 74.037,
+   "audio": "am_michael at 0.9 with music"
+  }
+ ]
+}

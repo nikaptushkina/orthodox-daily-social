@@ -36,9 +36,6 @@ jobs:
   pages:
     if: ${{ github.event_name != 'schedule' }}
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Collect media
@@ -55,13 +52,32 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
+  # Deploying in its own job, not right after the upload in the same job: since
+  # November 23 deploy-pages kept failing with "No artifacts named github-pages were
+  # found", because a just-uploaded artifact is not always visible yet. If it still
+  # isn't, wait a minute and try once more.
+  deploy:
+    needs: pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.retry.outputs.page_url || steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before trying again
+        if: ${{ steps.deployment.outcome == 'failure' }}
+        run: sleep 60
+      - id: retry
+        if: ${{ steps.deployment.outcome == 'failure' }}
         uses: actions/deploy-pages@v4
 
   publish:
-    needs: pages
+    needs: [pages, deploy]
     # Scheduled runs only matter once publishing is switched on.
-    if: ${{ !cancelled() && needs.pages.result != 'failure' && (github.event_name != 'schedule' || vars.PUBLISH_ENABLED == 'true') }}
+    if: ${{ !cancelled() && needs.pages.result != 'failure' && needs.deploy.result != 'failure' && (github.event_name != 'schedule' || vars.PUBLISH_ENABLED == 'true') }}
     runs-on: ubuntu-latest
     timeout-minutes: 355
     # One publisher at a time, so nothing is ever posted twice.

@@ -51,7 +51,7 @@
   "page": null
  },
  "Holy Apostles Sosthenes, Apollos, Tychicus and Epaphroditus, Cephas and Caesar": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -103,7 +103,7 @@
   "page": null
  },
  "Holy Martyr Myrope (Myropea) of Chios (251)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -126,7 +126,7 @@
   "page": null
  },
  "Holy New Martyr George of Chios (1897)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -141,7 +141,7 @@
   "page": null
  },
  "Holy Prophet Habbakuk (Abbacum) (7th c. BC).": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -177,7 +177,7 @@
   "is_icon": true
  },
  "Martyr Paramon and Companions": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -276,7 +276,7 @@
   "page": null
  },
  "Our Holy Father Athanasius \"the Resurrected,\" Recluse of the Kiev Caves (1176)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -323,7 +323,7 @@
   "is_icon": false
  },
  "Our Holy Father Pitirim of Egypt (4th c.)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Pitirim_of_Porphyry"
  },
@@ -414,6 +414,11 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:John_the_Silent_of_St._Sabbas%27_Monastery_(Menologion_of_Basil_II).jpg",
   "is_icon": true
  },
+ "Our Venerable Father Luke the New Stylite (979)": {
+  "checked": "2026-11-26",
+  "file": null,
+  "page": null
+ },
  "Our Venerable Father Paisius Velichkovsky (1794)": {
   "checked": "2026-10-31",
   "file": "assets/icons/our-venerable-father-paisius-velichkovsky-1794.jpg",
@@ -423,7 +428,7 @@
   "is_icon": false
  },
  "Our Venerable, Godbearing Father Sabbas the Sanctified (533)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -470,12 +475,17 @@
   "page": null
  },
  "Saint (Stephen) Uroš, King of Serbia (1367)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
  "Saint Gennadius, Archbishop of Novgorod (1505)": {
   "checked": "2026-11-25",
+  "file": null,
+  "page": null
+ },
+ "Saint Nikon the Dry of the Kiev Caves (1101)": {
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -485,7 +495,7 @@
   "page": null
  },
  "Saint Porphyrios of Kavsokalyvia (1991) (Nov. 19 OC)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -521,7 +531,7 @@
   "page": null
  },
  "St Cosmas the Protos of Mount Athos and his companions (ca. 1274)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -580,7 +590,7 @@
   "page": null
  },
  "St Nikon Metanoite (\"Repent!\") (ca. 1000)": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  },
@@ -650,6 +660,14 @@
   "file": null,
   "page": null
  },
+ "Ven. Daniel the Stylite": {
+  "checked": "2026-11-26",
+  "file": "assets/icons/ven-daniel-the-stylite.jpg",
+  "page": "https://en.wikipedia.org/wiki/Daniel_the_Stylite",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Spas_na_Ilyine_-_Stylite_Daniel.jpg",
+  "is_icon": true
+ },
  "Ven. Gregory Decapolites": {
   "checked": "2026-11-20",
   "file": null,
@@ -669,7 +687,7 @@
   "is_icon": true
  },
  "Ven. Patapius of Thebes": {
-  "checked": "2026-11-23",
+  "checked": "2026-11-26",
   "file": null,
   "page": null
  }

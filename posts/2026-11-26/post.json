@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-26",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Today (November 26, New Calendar) the Church remembers our Venerable Father Alypius the Stylite.\n\nHe was from Adrianopolis in Bithynia and took up the ascetical life at a young age. After many spiritual struggles he went to live on a pillar, where he dwelt for fifty-three years. Crowds came to seek his intercession and counsel, and in time a women’s monastery was founded near the pillar.\n\nHe owned nothing, and once threw his only tunic down to a poor man in need. After a stroke paralyzed half his body, he lived on the pillar for another fourteen years, giving up his soul to God at the age of ninety-nine.\n\nVenerable Father Alypius, pray to God for us.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #SaintOfTheDay #DailyPrayer"
+  }
+ ]
+}

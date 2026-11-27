@@ -21,7 +21,7 @@
   "is_icon": true
  },
  "Greatmartyr Jacob of Persia": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -156,7 +156,7 @@
   "page": null
  },
  "Holy, Glorious and Illustrious Apostle Andrew the First-Called": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -241,7 +241,7 @@
   "page": null
  },
  "New Martyr Nicolas Karamos of Smyrna (1657)": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -261,7 +261,7 @@
   "page": null
  },
  "Our Father among the Saints Nicholas the Wonderworker, Archbishop of Myra (345)": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -470,7 +470,7 @@
   "is_icon": true
  },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -540,6 +540,11 @@
   "file": null,
   "page": null
  },
+ "St Finian of Clonard (549)": {
+  "checked": "2026-11-27",
+  "file": null,
+  "page": null
+ },
  "St Gregory Palamas (1359)": {
   "checked": "2026-10-30",
   "file": "assets/icons/st-gregory-palamas-1359.jpg",
@@ -580,7 +585,7 @@
   "page": "https://en.wikipedia.org/wiki/Joseph_I_of_Constantinople"
  },
  "St Maximus, Metropolitan of Kiev & Vladimir (1305)": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -612,8 +617,16 @@
   "file": null,
   "page": null
  },
+ "St Spyridon the Wonderworker": {
+  "checked": "2026-11-27",
+  "file": "assets/icons/st-spyridon-the-wonderworker.jpg",
+  "page": "https://en.wikipedia.org/wiki/Saint_Spyridon",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Saint_Spyridon_Icon.tif",
+  "is_icon": true
+ },
  "St Stephen the New Light (Neolampes) of Constantinople (912)": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },
@@ -628,7 +641,7 @@
   "page": null
  },
  "The Conception of the Most Holy Mother of God": {
-  "checked": "2026-11-24",
+  "checked": "2026-11-27",
   "file": null,
   "page": null
  },

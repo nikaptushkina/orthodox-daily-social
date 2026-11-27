@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-27",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "feed",
+   "type": "CAROUSEL",
+   "media": [
+    "feed-slide-1.jpg",
+    "feed-slide-2.jpg",
+    "feed-slide-3.jpg"
+   ],
+   "caption": "Coming on Monday, November 30: the feast of the Holy Apostle Andrew the First Called (New Calendar).\n\nAndrew, the brother of the Apostle Peter, was a fisherman from Bethsaida who became a disciple of St John the Baptist. When John pointed to Jesus as the Lamb of God, Andrew followed Him, then hurried home to tell his brother. For being the first to recognize Jesus as the Christ, he is called the First Called.\n\nAfter Pentecost he preached the Gospel around the Black Sea and far beyond. At Patras in the Peloponnese he was crucified head downwards on a cross in the shape of an “X”, rejoicing to suffer the same death as his Master. The feast is kept with a Polyeleos at Matins, within the Nativity Fast.\n\n“We have found the Messiah!” (John 1:41)\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #OrthodoxFeasts #Scripture"
+  }
+ ]
+}

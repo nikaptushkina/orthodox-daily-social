@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-28",
+ "calendar": "New Calendar",
+ "tradition": "slavic",
+ "items": [
+  {
+   "id": "story",
+   "type": "STORY",
+   "media": [
+    "story.jpg"
+   ]
+  },
+  {
+   "id": "reel",
+   "type": "REEL",
+   "media": [
+    "reel.mp4"
+   ],
+   "cover": "reel-cover.jpg",
+   "caption": "The Gospel for Saturday, November 28 (New Calendar): Luke 10:19–21, read aloud.\n\n“Nevertheless, don’t rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven.”\n\n“I thank you, O Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding, and revealed them to little children.”\n\nToday, within the Nativity Fast, we remember the Monk Martyr and Confessor Stephen the New, who suffered for the holy icons, and the Martyr Irenarchus and Seven Women Martyrs at Sebaste.\n\nFull day at the link in our bio.\n\n#OrthodoxChristian #OrthodoxChurch #GospelOfTheDay #Scripture #DailyPrayer",
+   "duration": 51.47,
+   "audio": "pending"
+  }
+ ]
+}

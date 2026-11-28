@@ -1,0 +1,33 @@
+{
+ "voice": "am_michael",
+ "speed": 0.9,
+ "music": "the-mountain-quiet-documentary.mp3",
+ "total": 55.006,
+ "screens": [
+  {
+   "text": "The reading from the Holy Gospel according to Saint Luke.",
+   "starts": 1.0,
+   "length": 5.931
+  },
+  {
+   "text": "Behold, I give you authority to tread on serpents and scorpions, and over all the power of the enemy. Nothing will in any way hurt you.",
+   "starts": 6.731,
+   "length": 11.643
+  },
+  {
+   "text": "Nevertheless, don’t rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven.”",
+   "starts": 18.374,
+   "length": 10.198
+  },
+  {
+   "text": "In that same hour, Jesus rejoiced in the Holy Spirit, and said, “I thank you, O Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding, and revealed them to little children. Yes, Father, for so it was well-pleasing in your sight.”",
+   "starts": 28.572,
+   "length": 20.479
+  },
+  {
+   "text": "Glory to Thee, O Lord, glory to Thee.",
+   "starts": 49.051,
+   "length": 6.755
+  }
+ ]
+}

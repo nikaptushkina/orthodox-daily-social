@@ -25,6 +25,11 @@
   "file": null,
   "page": null
  },
+ "Hieromartyr Juvenaly, Protomartyr of America": {
+  "checked": "2026-11-28",
+  "file": null,
+  "page": "https://en.wikipedia.org/wiki/Juvenaly_of_Alaska"
+ },
  "Hieromartyr Zenobius and His Sister Zenobia": {
   "checked": "2026-10-28",
   "file": null,
@@ -145,6 +150,14 @@
   "file": null,
   "page": null
  },
+ "Holy Virgin Martyr Lucy of Syracuse (304)": {
+  "checked": "2026-11-28",
+  "file": "assets/icons/holy-virgin-martyr-lucy-of-syracuse-304.jpg",
+  "page": "https://en.wikipedia.org/wiki/Saint_Lucy",
+  "credit": "Icon: Wikimedia Commons · CC BY-SA 3.0",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Lucia-13.12.06.jpg",
+  "is_icon": true
+ },
  "Holy Virgin Martyr Winefride of Treffynnon (Holywell), Wales (7th c.)": {
   "checked": "2026-11-03",
   "file": null,
@@ -191,6 +204,11 @@
   "file": null,
   "page": null
  },
+ "Martyrs Eustratius, Auxentius, Eugene, Mardarius, and Orestes at Sebaste": {
+  "checked": "2026-11-28",
+  "file": null,
+  "page": null
+ },
  "Martyrs Galacteon and Wife Epistemis": {
   "checked": "2026-11-03",
   "file": null,
@@ -202,7 +220,7 @@
   "page": null
  },
  "Martyrs Menas, Hermogenes, Eugraphus": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "file": null,
   "page": null
  },
@@ -368,7 +386,7 @@
   "is_icon": true
  },
  "Our Venerable Father Antony of Siya (1556)": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "file": null,
   "page": null
  },
@@ -386,7 +404,7 @@
   "page": null
  },
  "Our Venerable Father Eligius (Eloi), Bishop of Noyon (660)": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "file": null,
   "page": "https://en.wikipedia.org/wiki/Saint_Eligius"
  },
@@ -469,6 +487,14 @@
   "file_page": "https://commons.wikimedia.org/wiki/File:German_of_Kazan.jpg",
   "is_icon": true
  },
+ "Repose Ven. Herman of Alaska, Wonderworker of All America": {
+  "checked": "2026-11-28",
+  "file": "assets/icons/repose-ven-herman-of-alaska-wonderworker-of-all-america.jpg",
+  "page": "https://en.wikipedia.org/wiki/Herman_of_Alaska",
+  "credit": "Icon: Wikimedia Commons · Public domain",
+  "file_page": "https://commons.wikimedia.org/wiki/File:St._Herman_of_Alaska.jpg",
+  "is_icon": true
+ },
  "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)": {
   "checked": "2026-11-27",
   "file": null,
@@ -480,7 +506,7 @@
   "page": null
  },
  "Saint Gennadius, Archbishop of Novgorod (1505)": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "file": null,
   "page": null
  },
@@ -490,7 +516,7 @@
   "page": null
  },
  "Saint Philaret the Merciful of Constantinople (762)": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "file": null,
   "page": null
  },
@@ -651,7 +677,7 @@
   "page": null
  },
  "The Martyrs of Africa, who suffered during the Vandal persecution (429 and following)": {
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "file": null,
   "page": null
  },
